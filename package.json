@@ -1,0 +1,24 @@
+{
+  "name": "infox19",
+  "version": "1.0.0",
+  "description": "INFOX 2019 The official repository for InfoXpression 2019",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techspaceusict/infox19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techspaceusict/infox19/issues"
+  },
+  "homepage": "https://github.com/techspaceusict/infox19#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  }
+}
