@@ -1,0 +1,6 @@
+
+@media screen and (max-width:500px){
+    #logo-text{font-size:4.5vw;text-shadow:0 0 1px #0dafe0,0 0 2vw #0dafe0;}
+    #gx-logo{max-width:100vw;}
+    #eventInfo{font-size:4vw;}
+}

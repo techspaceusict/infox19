@@ -1,141 +1,155 @@
-  #title {background-color:transparent; color:#555; font:normal 1em Arial,sans-serif;color:white;
-  width:50%;position:relative;}
-
-
-  
-  #title{display:flex; align-items:center;transform:translate(50%,50%)}
-  #title svg{width:50vw;}
-  body {
-      padding: 0;margin: 0;
-      overflow: hidden;	
-  }
-  
-  canvas {
-      display: block;
-      position: absolute;	
-  }
-  
-  #smoke{
-      position:absolute;
-      width:100%;
-      height: 100%;
-  }
-
-  #logo{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align :center;
-    animation:slideUp 0.8s ease-in-out 3.3s;
-    animation-fill-mode:forwards;
-  }
-  
-  svg{
-    max-width:500px;
-  }
-  
-  #title{
-    color:white;
-  }
-  
-  #logo-text{
-    font-size:45px;color:white;text-transform:uppercase;
-    position:relative;text-align:center;font-family: 'Fredoka One', cursive;
-    letter-spacing:5px;color:#000000;
-    text-shadow:0 0 1px #0dafe0,0 0 10px #0dafe0;
-    opacity:0;margin-bottom:40px;
-    animation:showLogoText 0.3s ease-in 3s;
-    animation-fill-mode:forwards;
-  }
-
-  @keyframes showLogoText{
-    from {opacity:0}
-    to {opacity:1}
-  }
-
-  #gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
-    
-  #gx-logo {
-      fill:#000000; stroke:#666; stroke-width:5;stroke-linecap:round; stroke-linejoin:bevel;stroke-dasharray: 1800;
-      stroke-dashoffset: 1800;
-      animation: dash 3s ease-in;
-      animation-fill-mode:forwards;fill:blue;
-      width:800px;
-  }
-
-  #gx-logo polygon{
-    animation:colorFill 1s ease-in 2.1s;
-    animation-fill-mode:forwards;
-    filter:drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
-  }
-
-  #eventInfo{
-    color:white;
-    font-family: 'Manjari', sans-serif;
-    font-size:18px;
-  }
-  
-  #eventInfo>div:nth-child(1){animation-delay:4s;}
-  #eventInfo>div:nth-child(2){animation-delay:4.2s;}
-  #eventInfo>div:nth-child(3){animation-delay:4.4s;}
-  #eventInfo>div{
-    margin-top:10px;margin-bottom:10px;opacity:0;
-    transform:translateX(-20px);visibility:hidden;opacity:0;
-    animation:slideAnime 0.3s ease;
-    animation-fill-mode:forwards;z-index:-1;
-    -webkit-animation:slideAnime 0.5s ease;
-    -webkit-animation-fill-mode:forwards;
-  }
-  @keyframes slideAnime{
-    0%{visibility:hidden;transform:translateX(-20px);opacity:0;}
-    10%{visibility:visible;x-index:1;}
-    100%{transform:translateX(0);opacity:1;visibility:visible;}
-  }
-  
-  @keyframes colorFill{
-    from{
-      fill-opacity:0;fill:#ffffff00;
-    }
-    to{
-      fill-opacity:0.5;
-      fill:#0dafe0;
-    }
-  }
-  
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 1800;
-    }
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
-
-  @keyframes slideUp {
-    from{
-      top:55%;
-    }
-    to{
-      top:45%;
-    }
-  }
-
-  @media screen and (max-width:500px){
-    #logo-text{font-size:4.5vw;text-shadow:0 0 1px #0dafe0,0 0 2vw #0dafe0;}
-    #gx-logo{max-width:100vw;}
-    #eventInfo{font-size:4vw;}
-  }
-  
-  #launch{
-    font-size: 40px;
-    word-spacing: 20px;
-      color: #0dafe0;
-      font-family: 'Fredoka One',cursive;
-     /* border: 4px dtted;*/
+body {
+  padding: 0;margin: 0;
+  overflow: hidden;	
 }
+
+#hero{background: black;position: relative;height: 100vh;}
+
+#title {
+  background-color:transparent; color:#555;
+  font:normal 1em Arial,sans-serif;color:white;
+  width:50%;position:relative;
+}
+
+#title{
+  display:flex; align-items:center;
+  transform:translate(50%,50%);
+}
+
+#title svg{width:50vw;}
+
+canvas {
+    display: block;
+    position: absolute;	
+}
+
+#smoke{
+    position:absolute;
+    width:100%;
+    height: 100%;
+}
+
+#logo{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align :center;
+  animation:slideUp 0.8s ease-in-out 3.3s;
+  animation-fill-mode:forwards;
+}
+
+svg{
+  max-width:500px;
+}
+
+#title{
+  color:white;
+}
+
+#logo-text{
+  font-size:32px;color:white;text-transform:uppercase;
+  position:relative;text-align:center;font-family: 'Fredoka One', cursive;
+  letter-spacing:5px;color:#000000;
+  text-shadow:0 0 1px #0dafe0,0 0 10px #0dafe0;
+  opacity:0;margin-bottom:40px;
+  animation:showLogoText 0.3s ease-in 3s;
+  animation-fill-mode:forwards;
+}
+
+@keyframes showLogoText{
+  from {opacity:0}
+  to {opacity:1}
+}
+
+#gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
   
-  #section10 a {
+#gx-logo {
+    fill:#000000; stroke:#666; stroke-width:5;stroke-linecap:round;
+    stroke-linejoin:bevel;stroke-dasharray: 1800;
+    stroke-dashoffset: 1800;
+    animation: dash 3s ease-in;
+    animation-fill-mode:forwards;
+    width:800px;
+}
+
+#gx-logo polygon{
+  animation:colorFill 1s ease-in 2.1s;
+  animation-fill-mode:forwards;
+  filter:drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
+}
+
+#eventInfo{
+  color:white;
+  font-family: 'Manjari', sans-serif;
+  font-size:18px;
+}
+
+#eventInfo>div:nth-child(1){animation-delay:4s;}
+#eventInfo>div:nth-child(2){animation-delay:4.2s;}
+#eventInfo>div:nth-child(3){animation-delay:4.4s;}
+#eventInfo>div{
+  margin-top:10px;margin-bottom:10px;opacity:0;
+  transform:translateX(-20px);visibility:hidden;
+  animation:slideAnimeLtoR 0.3s ease;
+  animation-fill-mode:forwards;z-index:-1;
+  -webkit-animation:slideAnimeLtoR 0.5s ease;
+  -webkit-animation-fill-mode:forwards;
+}
+@keyframes slideAnimeLtoR{
+  0%{visibility:hidden;transform:translateX(-20px);opacity:0;}
+  10%{visibility:visible;x-index:1;}
+  100%{transform:translateX(0);opacity:1;visibility:visible;}
+}
+
+@keyframes slideAnimeBtoT{
+  0%{visibility:hidden;transform:translateY(-20px);opacity:0;}
+  10%{visibility:visible;x-index:1;}
+  100%{transform:translateX(0);opacity:1;visibility:visible;}
+}
+
+@keyframes colorFill{
+  from{
+    fill-opacity:0;fill:#ffffff00;
+  }
+  to{
+    fill-opacity:0.5;
+    fill:#0dafe0;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes slideUp {
+  from{
+    top:55%;
+  }
+  to{
+    top:45%;
+  }
+}
+
+#launch{
+  font-size: 40px;
+  word-spacing: 20px;
+  color: #0dafe0;opacity: 0;
+  visibility: hidden;z-index: -1;
+  font-family: 'Fredoka One',cursive;
+  transform:translateY(-20px);
+  animation:slideAnimeBtoT 0.3s ease 5s;
+  animation-fill-mode:forwards;z-index:-1;
+  -webkit-animation:slideAnimeBtoT 0.5s ease 5s;
+  -webkit-animation-fill-mode:forwards;
+}
+
+#section10 a {
   padding-top: 60px;
 }
 #section10 a span {
@@ -164,41 +178,41 @@
   box-sizing: border-box;
 }
 @-webkit-keyframes sdb10 {
-  0% {
-    -webkit-transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+0% {
+  -webkit-transform: translate(0, 0);
+  opacity: 0;
+}
+40% {
+  opacity: 1;
+}
+80% {
+  -webkit-transform: translate(0, 20px);
+  opacity: 0;
+}
+100% {
+  opacity: 0;
+}
 }
 @keyframes sdb10 {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+0% {
+  transform: translate(0, 0);
+  opacity: 0;
+}
+40% {
+  opacity: 1;
+}
+80% {
+  transform: translate(0, 20px);
+  opacity: 0;
+}
+100% {
+  opacity: 0;
+}
 }
 
 .demo a {
   position: absolute;
- top: 640px;
+  top: 640px;
   left: 50%;
   z-index: 2;
   display: inline-block;
@@ -211,15 +225,13 @@
   transition: opacity .3s;
 }
 .demo a:hover {
-  opacity: .5;
-    
+  opacity: .5;   
 }
 #aboutus {
-     background: white ;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        
-      color:#white;
-    display: block;
-      margin: 0;
-      padding: 0; 
+  background: white ;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:white;
+  display: block;
+  margin: 0;
+  padding: 0; 
 }

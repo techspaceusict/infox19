@@ -450,37 +450,37 @@ function startShoot(val) {
 setTimeout(()=>{startShoot(30);},2800);
     
     
-canvas.addEventListener( 'touchmove', function ( e ) {
+// canvas.addEventListener( 'touchmove', function ( e ) {
 
-    e.preventDefault();
+//     e.preventDefault();
 
-    var touches = e.targetTouches;
+//     var touches = e.targetTouches;
 
-    count++;
+//     count++;
 
-    ( count > 25 ) && (colorArr = [ Math.random() + 0.2, Math.random() + 0.2, Math.random() + 0.2 ], count = 0);
+//     ( count > 25 ) && (colorArr = [ Math.random() + 0.2, Math.random() + 0.2, Math.random() + 0.2 ], count = 0);
 
-    for ( var i = 0, len = touches.length; i < len; i++ ) {
+//     for ( var i = 0, len = touches.length; i < len; i++ ) {
 
-        if ( i >= pointers.length ) pointers.push( new pointerPrototype() );
+//         if ( i >= pointers.length ) pointers.push( new pointerPrototype() );
 
-        pointers[ i ].id    = touches[ i ].identifier;
-        pointers[ i ].down  = true;
-        pointers[ i ].x     = touches[ i ].pageX;
-        pointers[ i ].y     = touches[ i ].pageY;
-        pointers[ i ].color = colorArr;
+//         pointers[ i ].id    = touches[ i ].identifier;
+//         pointers[ i ].down  = true;
+//         pointers[ i ].x     = touches[ i ].pageX;
+//         pointers[ i ].y     = touches[ i ].pageY;
+//         pointers[ i ].color = colorArr;
 
-        var pointer = pointers[ i ];
+//         var pointer = pointers[ i ];
 
-        pointer.moved = pointer.down;
-        pointer.dx    = (touches[ i ].pageX - pointer.x) * 10.0;
-        pointer.dy    = (touches[ i ].pageY - pointer.y) * 10.0;
-        pointer.x     = touches[ i ].pageX;
-        pointer.y     = touches[ i ].pageY;
+//         pointer.moved = pointer.down;
+//         pointer.dx    = (touches[ i ].pageX - pointer.x) * 10.0;
+//         pointer.dy    = (touches[ i ].pageY - pointer.y) * 10.0;
+//         pointer.x     = touches[ i ].pageX;
+//         pointer.y     = touches[ i ].pageY;
 
-    }
+//     }
 
-}, false );
+// }, false );
 
 function m( t ) {
 
