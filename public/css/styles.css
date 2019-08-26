@@ -44,7 +44,7 @@
     position:relative;text-align:center;font-family: 'Fredoka One', cursive;
     letter-spacing:5px;color:#000000;
     text-shadow:0 0 1px #4ec2bc,0 0 10px #4ec2bc;
-    opacity:0;margin-bottom:20px;
+    opacity:0;margin-bottom:40px;
     animation:showLogoText 0.3s ease-in 3s;
     animation-fill-mode:forwards;
   }
