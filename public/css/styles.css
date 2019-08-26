@@ -19,20 +19,39 @@
       width:100%;
       height: 100%;
   }
-  
-  svg{
+
+  #logo{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    max-width: 500px;
-    fill:red
+    width:500px;
+  }
+  
+  svg{
+    max-width:500px;
   }
   
   #title{
     color:white;
   }
   
+  #logo-text{
+    font-size:24px;color:white;text-transform:uppercase;
+    position:relative;text-align:center;font-family: 'Fredoka One', cursive;
+    letter-spacing:5px;color:#000000;
+    text-shadow:0 0 10px #4ec2bc;
+    opacity:0;
+    animation:showLogoText 0.3s ease-in 3.2s;
+    animation-fill-mode:forwards;
+  }
+
+  @keyframes showLogoText{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+
   
   #gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
   
@@ -54,7 +73,8 @@
       fill-opacity:0;fill:#ffffff00;
     }
     to{
-      fill-opacity:1;fill:#4ec2bc;
+      fill-opacity:0.5;
+      fill:#4ec2bc;
     }
   }
   @keyframes dash {
