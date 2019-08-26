@@ -13,7 +13,7 @@
     
 </head>
 <body>
-    
+ <header>
     <canvas id="smoke"></canvas>
     
     
@@ -30,7 +30,7 @@
                 <femergenode in="SourceGraphic"></femergenode>
             </femerge>
         </filter>
-    </defs>
+            </defs></g>
     <g transform="translate(1.000000, 1.000000)" strF00 stroke-width="3">
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="482.6,238.3 657.6,390.9 400.5,617.7 608.7,391.9 482.6,308.7 "/>
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="702.6,432 529,584.5 610.7,584.5 702.6,476 959.8,656.8 "/>
@@ -43,8 +43,45 @@
         <div>OCT 15TH-17TH 2019</div>
         <div>TECHFEST USICT | GGSIPU</div>
         <div>CELEBRATING THE SENSE OF BELONGING</div>
-    </div>            
+    </div>   
+               <p id="launch"></p>
+            
+      <div id="section10" class="demo">
+  <a href="#section1"><span></span></a>
+            </div>
+        </g></svg></div></header>
+            
+    <section id="aboutus">      
+        <div ><h1>Hlo</h1></div></section>
+            
+            
 </body>
+        
+    <script>
+    
+        var countDownDate = new Date ("october 15, 2019 00:00:00").getTime();
+
+        var x = setInterval(function() {
+
+        var now = new Date ().getTime();
+
+        var distance = countDownDate - now;
+
+        var days = Math.floor (distance /(1000*60*60*24));
+         var hours = Math.floor ((distance % (1000*60*60*24)) / (1000*60*60));
+          var minutes = Math.floor ((distance % (1000*60*60)) / (1000*60));
+           var seconds = Math.floor ((distance % (1000*60)) / 1000);
+
+document.getElementById("launch").innerHTML=days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    
+    if (distance < 0) {
+    clearInterval(x);
+    document.getElementById('launch').innerHTML="EXPIRED";
+    }
+            
+}, 1000);
+    
+    </script>
 <script src="public/js/animations/smoke.js"></script>
 
 </html>
