@@ -40,7 +40,7 @@
   }
   
   #logo-text{
-    font-size:24px;color:white;text-transform:uppercase;
+    font-size:45px;color:white;text-transform:uppercase;
     position:relative;text-align:center;font-family: 'Fredoka One', cursive;
     letter-spacing:5px;color:#000000;
     text-shadow:0 0 1px #0dafe0,0 0 10px #0dafe0;
@@ -127,6 +127,99 @@
     #eventInfo{font-size:4vw;}
   }
   
+  #launch{
+    font-size: 40px;
+    word-spacing: 20px;
+      color: #0dafe0;
+      font-family: 'Fredoka One',cursive;
+     /* border: 4px dtted;*/
+}
   
-  
-  
+  #section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.demo a {
+  position: absolute;
+ top: 640px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+    
+}
+#aboutus {
+     background: white ;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        
+      color:#white;
+    display: block;
+      margin: 0;
+      padding: 0; 
+}
