@@ -257,11 +257,15 @@ svg{
   text-align: center;
   padding: 10px 0 0 0;
   color: #0dafe0;
-  font-size: 30px; 
+  font-size: 30px;
+ 
 }
 #ipuLogo > h4{
   padding-top: 40px;
 }
+/* #ipuLogo > img{
+ background-image: radial-gradient(rgba(62, 93, 139, 0.5) 70%, rgba(21, 40, 58, 0), rgba(21, 40, 58, 0));
+} */
 #icons{
   padding: 70px 0 0 0;
   text-align: center;
@@ -273,10 +277,12 @@ svg{
   padding: 30px 20px 0 0;
   font-size: 30px !important;
   border-radius :  50% !important;
-  transition: 0.5s;
+
+  transition: 0.4s;
 }
 #icons > a > i:hover{
   color : #0dafe0;
+  font-size: 50px !important ;
   /* border: 2px solid blue; */
   
 
@@ -284,14 +290,18 @@ svg{
 .quickLinks{
   text-align: left;
   padding-left: 220px;
+  padding-right: 220px;
   
 }
 .quickLinks > ul > a > li{
   color: whitesmoke;
+  transition: 0.5s;
+  line-height: 25px;
 }
 .quickLinks > ul > a > li:hover{
   color: #0dafe0;
-  transition: 0.5s;
+  font-size: 20px !important;
+  
 }
 a:link {
   text-decoration: none !important ;
