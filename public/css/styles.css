@@ -259,7 +259,9 @@ svg{
   color: #0dafe0;
   font-size: 30px; 
 }
-
+#ipuLogo > h4{
+  padding-top: 40px;
+}
 #icons{
   padding: 70px 0 0 0;
   text-align: center;
