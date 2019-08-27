@@ -227,11 +227,4 @@ svg{
 .demo a:hover {
   opacity: .5;   
 }
-#aboutus {
-  background: white ;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color:white;
-  display: block;
-  margin: 0;
-  padding: 0; 
-}
+
