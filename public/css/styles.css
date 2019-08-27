@@ -228,10 +228,46 @@ svg{
   opacity: .5;   
 }
 #aboutus {
-  background: white ;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color:white;
-  display: block;
-  margin: 0;
-  padding: 0; 
+  background: white;
+    height: 100vh;
+    display: flex;
+    padding-top: 20vh; 
+}
+
+.maincontainer{
+  margin-left: 9vw;
+  margin-right: 9vw;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+._2HBuTcS8rtJnceHS3JKFL9 {
+  transform: translateX(-600px);
+  animation: _3JmQHznWq0r19_zzgy2_AF 0.8s ease-out forwards;
+  opacity: 0;
+}
+._1IuUAVovcOThURmr-iCldH {
+  z-index: 30;
+  position: relative;
+  background-image: url(https://www.cognizance.org.in/images/landing-page/play_video.png);
+  font-size: 0;
+  width: 30vw;
+  height: 55vh;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 420px;
+  cursor: pointer;
+}
+.o78WrJM1Qxb3aL4TQC_ZR {
+  display: flex;
+  margin-right: 0;
+  margin-left: 0;
+  flex-direction: column;
+  opacity: 0;
 }
