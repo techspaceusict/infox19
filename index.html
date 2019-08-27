@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>InfoXpression 2k19</title>
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/mobile.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
     </style>
     
 </head>
 <body>
- <header>
-     <div>
+    <div id="hero">
     <canvas id="smoke"></canvas>
-    
-    
     <div id="logo">
     <svg id="gx-logo" class="tronFilter" data-name="gx-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 700">
         <g class="svgWrapper">
@@ -45,19 +43,24 @@
         <div>TECHFEST USICT | GGSIPU</div>
         <div>CELEBRATING THE SENSE OF BELONGING</div>
     </div>   
-               <p id="launch"></p>
+    <p id="launch"></p>
+    </div>
+    </div>
+       
+    <div id="section10" class="demo">
+        <a href="#section1"><span></span></a>
+    </div>
+    <div>
+        cekre;lerekfjejgkejge
+        efkel
+        cecreklcreklre
+        clekrcecr
+        eklcrekcr
+        ekcrlek
+    </div> 
             
-      <div id="section10" class="demo">
-  <a href="#section1"><span></span></a>
-            </div>
-        </g></svg></div></header>
-            
-    <main>
-    <div style="red">section1</div>
-    <div style="color: red">section2</div>
-        <div style="color: red">section3</div>
-    </main></div>
-    <section >Hlo</section>
+   <section id="aboutus">      
+        <div ><h1>Hlo</h1></div></section>
             
 </body>
         
@@ -66,26 +69,25 @@
         var countDownDate = new Date ("october 15, 2019 00:00:00").getTime();
 
         var x = setInterval(function() {
+        setTimeout(()=>{
+            var now = new Date ().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor (distance /(1000*60*60*24));
+            var hours = Math.floor ((distance % (1000*60*60*24)) / (1000*60*60));
+            var minutes = Math.floor ((distance % (1000*60*60)) / (1000*60));
+            var seconds = Math.floor ((distance % (1000*60)) / 1000);
 
-        var now = new Date ().getTime();
-
-        var distance = countDownDate - now;
-
-        var days = Math.floor (distance /(1000*60*60*24));
-         var hours = Math.floor ((distance % (1000*60*60*24)) / (1000*60*60));
-          var minutes = Math.floor ((distance % (1000*60*60)) / (1000*60));
-           var seconds = Math.floor ((distance % (1000*60)) / 1000);
-
-document.getElementById("launch").innerHTML=days + "d " + hours + "h " + minutes + "m " + seconds + "s";
-    
-    if (distance < 0) {
-    clearInterval(x);
-    document.getElementById('launch').innerHTML="EXPIRED";
-    }
-            
+            document.getElementById("launch").innerHTML=days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+            if (distance < 0) {
+            clearInterval(x);
+            document.getElementById('launch').innerHTML="EXPIRED";
+            }
+        },4000)
 }, 1000);
     
     </script>
 <script src="public/js/animations/smoke.js"></script>
+<script src="public/js/home.js"></script>
 
 </html>
+
