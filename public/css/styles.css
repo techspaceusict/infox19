@@ -48,7 +48,7 @@ svg{
 }
 
 #logo-text{
-  font-size:55px;color:white;text-transform:uppercase;
+  font-size:32px;color:white;text-transform:uppercase;
   position:relative;text-align:center;font-family: 'Fredoka One', cursive;
   letter-spacing:5px;color:#000000;
   text-shadow:0 0 1px #0dafe0,0 0 10px #0dafe0;
@@ -227,4 +227,11 @@ svg{
 .demo a:hover {
   opacity: .5;   
 }
-
+#aboutus {
+  background: white ;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color:white;
+  display: block;
+  margin: 0;
+  padding: 0; 
+}
