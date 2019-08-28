@@ -262,6 +262,7 @@ svg{
   text-align: center;
   padding: 10px 0 0 0;
   text-shadow: 0 0 3px rgb(11, 35, 51), 0 0 5px rgb(19, 43, 121);
+  /* color: white; */
   letter-spacing: 2px;
 
 }
@@ -292,11 +293,12 @@ svg{
 #footerLogo{
   padding: 30px 30px 0px 50px;
   color: wheat;
+  text-align: center;
 }
-#footerLogo > img{
-  padding-left: 100px;
+/* #footerLogo > img{
+  padding-left: 60px;
   
-}
+} */
 #ipuLogo{
   text-align: center;
   padding: 10px 0 0 0;
@@ -305,7 +307,7 @@ svg{
  
 }
 #ipuLogo > h4{
-  padding-top: 40px;
+  padding-top: 20px;
 }
 /* #ipuLogo > img{
  background-image: radial-gradient(rgba(62, 93, 139, 0.5) 70%, rgba(21, 40, 58, 0), rgba(21, 40, 58, 0));
@@ -339,12 +341,13 @@ svg{
 }
 .quickLinks > ul > a > li{
   color: whitesmoke;
+  margin-left: -30px;
   transition: 0.5s;
   line-height: 25px;
 }
 .quickLinks > ul > a > li:hover{
   color: #0dafe0;
-  /* font-size: 20px !important; */
+  font-size: 20px !important;
   
 }
 a:link {
