@@ -8,7 +8,12 @@
 @font-face{
   font-family: 'United Kingdom';
   src:url(../assets/fonts/United\ Kingdom.otf) format("opentype");
-}                
+}      
+
+@font-face{
+  font-family: 'Wind';
+  src:url(../assets/fonts/wind.ttf) format("truetype");
+}      
 
 
 body {
@@ -252,12 +257,13 @@ svg{
 
 #aboutus {margin-top:50px;margin-bottom:50px;}
 #aboutus .title{
-  font-size:50px;
+  font-size:58px;
   text-align: center;
   margin-bottom: 20px;
   color: #1c89a9;
   font-weight: bold;
-  text-transform: uppercase
+  text-transform: uppercase;
+  font-family: Wind;
 }
 
 #aboutus .abt_section{
@@ -296,7 +302,10 @@ svg{
   transform: translateX(-50%);
 }
 
-#aboutus .abt_section .about{font-family: 'Manjari', sans-serif;width:80%;border-left: 2px solid #2b9ab9;padding-left: 20px;}
+#aboutus .abt_section .about{
+  font-family: 'Wind';width:80%;font-size: 20px;
+  border-left: 2px solid #2b9ab9;padding-left: 20px;
+}
 
 
 /* LocateUs Section CSS Begins */
