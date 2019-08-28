@@ -4,3 +4,9 @@
     #gx-logo{max-width:100vw;}
     #eventInfo{font-size:4vw;}
 }
+
+@media screen and (max-width:800px){
+    body .abt_section{flex-direction: column;}
+    body #aboutus .abt_section .collage{margin: 0 0 20px 0;}
+    body #aboutus .abt_section .about{width:90%}
+}

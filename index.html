@@ -10,11 +10,22 @@
     <link rel="stylesheet" href="./public/fontawesome/css/all.css">
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Encode+Sans&display=swap');
     </style>
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+        $(document).scrollTop(0);
+    </script>
     
+
 </head>
 <body>
     <div id="hero">
@@ -49,26 +60,37 @@
     <p id="launch"></p>
     </div>
     </div>
-       
-    <div id="section10" class="demo">
-        <a href="#section1"><span></span></a>
-    </div>
-    <div>
-        <div class="aboutus"><div class="maincontainer">
-            <div class="o78WrJM1Qxb3aL4TQC_ZR _1IuUAVovcOThURmr-iCldH _2HBuTcS8rtJnceHS3JKFL9"></div>
-            <div class="o78WrJM1Qxb3aL4TQC_ZR _3IgqNYhb2Lg2zbwb353GY5 _11u1geLC8YEuWbbnfhtsbu">
-                    <div>
-                    <div class="_25CyysKlZYN00Dy700Ke6g">Cognizance</div>
-                    <div class="_1JTfXecVfUtyttkseQnh8h">The Evocative Expedition</div>
-                    <div class="_3lAmcqY4Ro05NPQ9VxFwS3">Get ready to embark upon the journey and experience the exhilarating season of technovations with the plethora of events, workshops and an ocean full of opportunities. Infusing all activities with thrill and excitement, this fest will undoubtedly leave you with an unforgettable 3-day experience.  
-                        <br>
-                        <br>Cognizance has established its brand over the years to acquire an outreach of more than 400,000 students on social media and a whopping 6 million+ hits on our website. </div>
-                        <div class="N2ffKLmy8OEKED-uca7Hl"><div class="_37w45pbzW334AHJ1MT_WrQ"> REGISTER NOW </div></div>
-    </div> 
-            
-   <section id="aboutus">      
-        <div ><h1>Hlo</h1></div>
-    </section>
+    
+    <div id="aboutus">
+        <div class="title">About Us</div>
+        <div class="abt_section">
+            <div class="collage">
+                <div class="item1" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item2" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item3" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item4" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item5" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item6" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item7" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item8" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item9" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item10" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item11" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+                <div class="item12" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
+            </div>
+            <div class="about" data-aos="fade-right" data-aos-delay="500">
+                <p><span style="color:#1c89a9;font-weight:bold">InfoXpression</span> is the annual techno-cultural fest of University school of Information and Communication Technology. 
+                    It is the biggest technical extravaganza held at Guru Gobind Singh Indraprastha University, and involves an 
+                    active participation of students from over 250 colleges of north India.</p>
+                <p>Being more diverse than ever, Infox '19 boasts of a plethora of events, ranging from competitive programming, 
+                    algorithms and application development to upcoming trends like cryptography, machine learning, computer vision 
+                    and cyber security. </p>
+                <p>With problems being of varying difficulty levels, Infoxpression provides the perfect platform for fresh 
+                    enthusiasts, as well as the experienced ones, to code together and compete for ultimate glory.</p>
+            </div>
+        </div>
+    </div>   
+    
     <div class="locateUs">
         <div class="container">
                 <!-- <h2>Locate Us</h2> -->
@@ -132,39 +154,12 @@
     </div>
     
 
-
-    
-     </div></div></div></div>       
   
             
 </body>
-        
-    <script>
-    
-        var countDownDate = new Date ("october 15, 2019 00:00:00").getTime();
 
-        var x = setInterval(function() {
-        setTimeout(()=>{
-            var now = new Date ().getTime();
-            var distance = countDownDate - now;
-            var days = Math.floor (distance /(1000*60*60*24));
-            var hours = Math.floor ((distance % (1000*60*60*24)) / (1000*60*60));
-            var minutes = Math.floor ((distance % (1000*60*60)) / (1000*60));
-            var seconds = Math.floor ((distance % (1000*60)) / 1000);
-
-            document.getElementById("launch").innerHTML=days + "d " + hours + "h " + minutes + "m " + seconds + "s";
-            if (distance < 0) {
-            clearInterval(x);
-            document.getElementById('launch').innerHTML="EXPIRED";
-            }
-        },4000)
-}, 1000);
-
-
-    
-    </script>
 <script src="public/js/animations/smoke.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="public/js/home.js"></script>
-
 </html>
 

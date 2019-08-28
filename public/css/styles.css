@@ -40,7 +40,7 @@ canvas {
 }
 
 svg{
-  max-width:500px;
+  max-width:600px;
 }
 
 #title{
@@ -48,10 +48,12 @@ svg{
 }
 
 #logo-text{
-  font-size:32px;color:white;text-transform:uppercase;
-  position:relative;text-align:center;font-family: 'Fredoka One', cursive;
+  font-size:42px;color:white;text-transform:uppercase;
+  position:relative;text-align:center;
+  font-family: 'Encode Sans', sans-serif;
   letter-spacing:5px;color:#000000;
-  text-shadow:0 0 1px #0dafe0,0 0 10px #0dafe0;
+  font-weight: bold;
+  text-shadow:0 0 1px #1c89a9,0 0 10px #1c89a9;
   opacity:0;margin-bottom:40px;
   animation:showLogoText 0.3s ease-in 3s;
   animation-fill-mode:forwards;
@@ -114,7 +116,7 @@ svg{
   }
   to{
     fill-opacity:0.5;
-    fill:#0dafe0;
+    fill:#1c89a9;
   }
 }
 
@@ -139,9 +141,10 @@ svg{
 #launch{
   font-size: 40px;
   word-spacing: 20px;
-  color: #0dafe0;opacity: 0;
+  color: #1c89a9;opacity: 0;
   visibility: hidden;z-index: -1;
-  font-family: 'Fredoka One',cursive;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: bold;
   transform:translateY(-20px);
   animation:slideAnimeBtoT 0.3s ease 5s;
   animation-fill-mode:forwards;z-index:-1;
@@ -227,15 +230,54 @@ svg{
 .demo a:hover {
   opacity: .5;   
 }
-#aboutus {
-  background: white ;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color:white;
-  display: block;
-  margin: 0;
-  padding: 0; 
+
+#aboutus {margin-top:50px;margin-bottom:50px;}
+#aboutus .title{
+  font-size:50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1c89a9;
+  font-weight: bold;
+  text-transform: uppercase
 }
 
+#aboutus .abt_section{
+  display: flex;width:90%;align-items: center;
+  margin:0 auto;justify-content: space-between;
+}
+
+#aboutus .abt_section .collage{
+  width: 90%;z-index: 1;
+  display: grid;background: white;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows:60px 60px 60px 60px 60px 60px 60px 60px;
+  margin-right: 20px;
+}
+
+#aboutus .abt_section .collage>div{position: relative;overflow: hidden;/* width: 100px; */}
+#aboutus .abt_section .collage .item1{grid-area: 1/1/4/3;}
+#aboutus .abt_section .collage .item2{grid-area: 4/1/7/3;}
+#aboutus .abt_section .collage .item3{grid-area: 7/1/9/3;}
+#aboutus .abt_section .collage .item4{grid-area: 1/3/3/5;}
+#aboutus .abt_section .collage .item5{grid-area: 3/3/6/5;}
+#aboutus .abt_section .collage .item6{grid-area: 6/3/9/5;}
+#aboutus .abt_section .collage .item7{grid-area: 1/5/4/7;}
+#aboutus .abt_section .collage .item8{grid-area: 4/5/7/7;}
+#aboutus .abt_section .collage .item9{grid-area: 7/5/9/7;}
+#aboutus .abt_section .collage .item10{grid-area: 1/7/3/9;}
+#aboutus .abt_section .collage .item11{grid-area: 3/7/6/9;}
+#aboutus .abt_section .collage .item12{grid-area: 6/7/9/9;}
+
+#aboutus .abt_section .collage>div>img{
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#aboutus .abt_section .about{font-family: 'Manjari', sans-serif;width:80%;border-left: 2px solid #2b9ab9;padding-left: 20px;}
 
 
 /* LocateUs Section CSS Begins */
@@ -300,7 +342,7 @@ svg{
 #ipuLogo{
   text-align: center;
   padding: 10px 0 0 0;
-  color: #0dafe0;
+  color: #1c89a9;
   font-size: 30px;
  
 }
@@ -325,7 +367,7 @@ svg{
   transition: 0.4s;
 }
 #icons > a > i:hover{
-  color : #0dafe0;
+  color : #1c89a9;
   /* font-size: 50px !important ; */
   /* border: 2px solid blue; */
   
@@ -343,7 +385,7 @@ svg{
   line-height: 25px;
 }
 .quickLinks > ul > a > li:hover{
-  color: #0dafe0;
+  color: #1c89a9;
   /* font-size: 20px !important; */
   
 }
