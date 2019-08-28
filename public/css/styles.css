@@ -238,6 +238,50 @@ svg{
 
 
 
+/* LocateUs Section CSS Begins */
+.locateUs{
+  background-image:linear-gradient(rgba(161, 138, 138, 0.6) 100%, rgb(60, 85, 151) 0%), url("../img/locate.jpg");
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  padding: 30px 0 20px 0;
+}
+#address > h4{
+  text-shadow: 2px 2px 10px rgb(27, 89, 131);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px 0 0 0;
+}
+#address > p{
+  font-size: 25px;
+  font-weight: 550;
+  text-align: center;
+  padding: 10px 0 0 0;
+  text-shadow: 0 0 3px rgb(11, 35, 51), 0 0 5px rgb(19, 43, 121);
+  letter-spacing: 2px;
+
+}
+#address > hr{
+  border:none;
+  height: 20px;
+ 	width: 30%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 2px solid #666;
+	box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px; 
+}
+#map{
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Locate Us Section CSS Ends */
+
 
 /* Footer Section CSS Begins */
 .footer{
