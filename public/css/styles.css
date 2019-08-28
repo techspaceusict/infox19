@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@font-face{
+  font-family: 'Road Rage';
+  src:url(../assets/fonts/Road_Rage.otf) format("opentype");
+}                
+
+@font-face{
+  font-family: 'United Kingdom';
+  src:url(../assets/fonts/United\ Kingdom.otf) format("opentype");
+}                
+
+
 body {
   padding: 0;margin: 0;
-  overflow: hidden;	
 }
 
-#hero{background: black;position: relative;height: 100vh;}
+#hero{background: #00000029;position: relative;height: 100vh;}
 
 #title {
   background-color:transparent; color:#555;
@@ -48,13 +60,20 @@ svg{
 }
 
 #logo-text{
-  font-size:42px;color:white;text-transform:uppercase;
-  position:relative;text-align:center;
-  font-family: 'Encode Sans', sans-serif;
-  letter-spacing:5px;color:#000000;
+  font-size:42px;
+  color:white;
+  text-transform:uppercase;
+  position:relative;
+  text-align:center;
+  font-family: United Kingdom;
+  letter-spacing:5px;
+  color:#000000;
   font-weight: bold;
-  text-shadow:0 0 1px #1c89a9,0 0 10px #1c89a9;
-  opacity:0;margin-bottom:40px;
+  background: linear-gradient(to right,#1d72a5,#898989);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity:0;
+  margin-bottom:40px;
   animation:showLogoText 0.3s ease-in 3s;
   animation-fill-mode:forwards;
 }
