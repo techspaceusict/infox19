@@ -258,7 +258,7 @@ svg{
 }
 #address > p{
   font-size: 25px;
-  font-weight: 550;
+  font-weight: 500;
   text-align: center;
   padding: 10px 0 0 0;
   text-shadow: 0 0 3px rgb(11, 35, 51), 0 0 5px rgb(19, 43, 121);
@@ -271,7 +271,7 @@ svg{
  	width: 30%;
 	height: 50px;
 	margin-top: 0;
-	border-bottom: 2px solid #666;
+	border-bottom: 2px solid rgb(27, 75, 107);
 	box-shadow: 0 20px 20px -20px #333;
   margin: -50px auto 10px; 
 }
@@ -311,14 +311,14 @@ svg{
  background-image: radial-gradient(rgba(62, 93, 139, 0.5) 70%, rgba(21, 40, 58, 0), rgba(21, 40, 58, 0));
 } */
 #icons{
-  padding: 70px 0 0 0;
+  padding: 70px 0 20px 0;
   text-align: center;
   color: wheat;
 }
 #icons > a >i{
   /* background-image: linear-gradient(to right, red , yellow); */
   color:whitesmoke;
-  padding: 30px 20px 0 0;
+  padding: 0px 10px 0 10px;
   font-size: 30px !important;
   border-radius :  50% !important;
 
@@ -332,9 +332,9 @@ svg{
 
 }
 .quickLinks{
-  text-align: left;
-  padding-left: 220px;
-  padding-right: 220px;
+  text-align: center;
+  /* padding-left: 220px;
+  padding-right: 220px; */
   
 }
 .quickLinks > ul > a > li{
