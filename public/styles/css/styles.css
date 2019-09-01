@@ -2,25 +2,41 @@
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 @font-face{
   font-family: 'Road Rage';
-  src:url(../assets/fonts/Road_Rage.otf) format("opentype");
+  src:url(../../assets/fonts/Road_Rage.otf) format("opentype");
 }                
 
 @font-face{
   font-family: 'United Kingdom';
-  src:url(../assets/fonts/United\ Kingdom.otf) format("opentype");
+  src:url(../../assets/fonts/United\ Kingdom.otf) format("opentype");
 }      
 
 @font-face{
   font-family: 'Wind';
-  src:url(../assets/fonts/wind.ttf) format("truetype");
+  src:url(../../assets/fonts/wind.ttf) format("truetype");
 }      
 
 
-body {
+body,html {
   padding: 0;margin: 0;
+  overflow-x: hidden;
 }
 
-#hero{background: #00000029;position: relative;height: 100vh;}
+#hero{background: black;position: relative;height: 100vh;}
+
+#hero .down-arrow{
+  width: 30px;
+  position: absolute;
+  bottom: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: updownArrow 0.5s ease-in-out alternate infinite;
+}
+
+#hero .down-arrow>img{width: inherit}
+@keyframes updownArrow{
+  from{bottom: 5vh;}
+  to{bottom: 6.5vh;}
+}
 
 #title {
   background-color:transparent; color:#555;
@@ -108,7 +124,7 @@ svg{
 #eventInfo{
   color:white;
   font-family: 'Manjari', sans-serif;
-  font-size:18px;
+  font-size:24px;
 }
 
 #eventInfo>div:nth-child(1){animation-delay:4s;}
@@ -255,62 +271,26 @@ svg{
   opacity: .5;   
 }
 
-#aboutus {margin-top:50px;margin-bottom:50px;}
-#aboutus .title{
-  font-size:58px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #1c89a9;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: Wind;
+.navigation{
+  margin:0;background:black;z-index: 3;
+  font-size:32px;color:white;width: 100vw;
+  position: fixed;top:0;display:flex;
+  justify-content:space-around;height: 50px;;
+  transform:translateY(-50px);opacity: 0;;align-items: center;
+  transition: transform 0.3s,opacity 0.3s;
 }
 
-#aboutus .abt_section{
-  display: flex;width:90%;align-items: center;
-  margin:0 auto;justify-content: space-between;
+.navitem {
+    display: inline-block;
+    text-decoration: none;
+    cursor:pointer;
 }
 
-#aboutus .abt_section .collage{
-  width: 90%;z-index: 1;
-  display: grid;background: white;
-  grid-gap: 5px;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
-  grid-template-rows:60px 60px 60px 60px 60px 60px 60px 60px;
-  margin-right: 20px;
-}
-
-#aboutus .abt_section .collage>div{position: relative;overflow: hidden;/* width: 100px; */}
-#aboutus .abt_section .collage .item1{grid-area: 1/1/4/3;}
-#aboutus .abt_section .collage .item2{grid-area: 4/1/7/3;}
-#aboutus .abt_section .collage .item3{grid-area: 7/1/9/3;}
-#aboutus .abt_section .collage .item4{grid-area: 1/3/3/5;}
-#aboutus .abt_section .collage .item5{grid-area: 3/3/6/5;}
-#aboutus .abt_section .collage .item6{grid-area: 6/3/9/5;}
-#aboutus .abt_section .collage .item7{grid-area: 1/5/4/7;}
-#aboutus .abt_section .collage .item8{grid-area: 4/5/7/7;}
-#aboutus .abt_section .collage .item9{grid-area: 7/5/9/7;}
-#aboutus .abt_section .collage .item10{grid-area: 1/7/3/9;}
-#aboutus .abt_section .collage .item11{grid-area: 3/7/6/9;}
-#aboutus .abt_section .collage .item12{grid-area: 6/7/9/9;}
-
-#aboutus .abt_section .collage>div>img{
-  display: block;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-#aboutus .abt_section .about{
-  font-family: 'Wind';width:80%;font-size: 20px;
-  border-left: 2px solid #2b9ab9;padding-left: 20px;
-}
-
+.revealNav{transform:translateY(0);opacity: 1;}
 
 /* LocateUs Section CSS Begins */
 .locateUs{
-  background-image:linear-gradient(rgba(161, 138, 138, 0.6) 100%, rgb(60, 85, 151) 0%), url("../img/locate.jpg");
+  background-image:linear-gradient(rgba(161, 138, 138, 0.6) 100%, rgb(60, 85, 151) 0%), url("../../img/locate.jpg");
   background-position: center;
   background-size: cover;
   /* background-attachment: fixed; */
