@@ -6,6 +6,12 @@
 }                
 
 @font-face{
+  font-family: 'Modern Edge';
+  src:url(../../assets/fonts/ModernEdge.ttf) format("truetype");
+}                
+
+
+@font-face{
   font-family: 'United Kingdom';
   src:url(../../assets/fonts/United\ Kingdom.otf) format("opentype");
 }      
@@ -14,6 +20,27 @@
   font-family: 'Wind';
   src:url(../../assets/fonts/wind.ttf) format("truetype");
 }      
+
+
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(20, 132, 151);
+}
 
 
 body,html {
@@ -123,8 +150,8 @@ svg{
 
 #eventInfo{
   color:white;
-  font-family: 'Manjari', sans-serif;
-  font-size:24px;
+  font-family: Modern Edge;
+  font-size:24px;letter-spacing: 2px;
 }
 
 #eventInfo>div:nth-child(1){animation-delay:4s;}
@@ -273,11 +300,13 @@ svg{
 
 .navigation{
   margin:0;background:black;z-index: 3;
-  font-size:32px;color:white;width: 100vw;
+  font-size:28px;color:white;width: 100vw;
   position: fixed;top:0;display:flex;
   justify-content:space-around;height: 50px;;
-  transform:translateY(-50px);opacity: 0;;align-items: center;
+  transform:translateY(-50px);opacity: 0;align-items: center;
   transition: transform 0.3s,opacity 0.3s;
+  font-family: Modern Edge;
+  text-transform: uppercase
 }
 
 .navitem {
@@ -286,6 +315,13 @@ svg{
     cursor:pointer;
 }
 
+.navitem span{
+  height:7px;width:0%;display: block;
+  background: linear-gradient(to right,rgba(116, 183, 238, 0.753),rgba(255, 255, 255, 0.788));
+  transform: translate(-5px,-8px);
+  transition: width 0.2s;
+}
+.navitem:hover>span{width:100%;}
 .revealNav{transform:translateY(0);opacity: 1;}
 
 /* LocateUs Section CSS Begins */
@@ -333,78 +369,78 @@ svg{
 
 /* Locate Us Section CSS Ends */
 
+.pages {
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .pages .title {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: #1c89a9;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Wind;
+    letter-spacing: 30px;
+    animation: titleAnime 0.1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s forwards; }
+    .pages .title span {
+      display: block;
+      margin: -10px auto;
+      height: 10px;
+      width: 0;
+      background: linear-gradient(to right, white, #646464, white);
+      animation: underline 0.2s cubic-bezier(0.075, 0.82, 0.165, 1) 1.2s forwards; }
+
+@keyframes titleAnime {
+  from {
+    letter-spacing: 30px; }
+  to {
+    letter-spacing: 1px; } }
+@keyframes underline {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+
 
 /* Footer Section CSS Begins */
+
 .footer{
-  /* background-color: #000000; */
-  background-image: linear-gradient(to top, rgba(7,6,6,1), rgba(21, 40, 58, 1))
+  padding:20px;
+  background: #000000;
+  display: flex;
+  justify-content: space-around;
+  color:white;font-family: Arial, Helvetica, sans-serif;
+}
+.footer>div{width:25%;}
+
+.footer .ft-item1{
+  display: flex;flex-direction: column;
+  justify-content: space-around;
 }
 
-#footerLogo{
-  padding: 30px 30px 0px 50px;
-  color: wheat;
-  text-align: center;
-}
-/* #footerLogo > img{
-  padding-left: 60px;
-  
-} */
-#ipuLogo{
-  text-align: center;
-  padding: 10px 0 0 0;
-  color: #1c89a9;
-  font-size: 30px;
- 
-}
-#ipuLogo > h4{
-  padding-top: 20px;
-}
-/* #ipuLogo > img{
- background-image: radial-gradient(rgba(62, 93, 139, 0.5) 70%, rgba(21, 40, 58, 0), rgba(21, 40, 58, 0));
-} */
-#icons{
-  padding: 70px 0 20px 0;
-  text-align: center;
-  color: wheat;
-}
-#icons > a >i{
-  /* background-image: linear-gradient(to right, red , yellow); */
-  color:whitesmoke;
-  padding: 0px 10px 0 10px;
-  font-size: 30px !important;
-  border-radius :  50% !important;
+.footer .ft-item1>div{transition: color 0.2s;cursor: pointer;}
 
-  transition: 0.4s;
-}
-#icons > a > i:hover{
-  color : #1c89a9;
-  /* font-size: 50px !important ; */
-  /* border: 2px solid blue; */
-  
-
-}
-.quickLinks{
+.footer .ft-item2{
+  width:50%;text-transform: uppercase;
   text-align: center;
-  /* padding-left: 220px;
-  padding-right: 220px; */
-  
 }
-.quickLinks > ul > a > li{
-  color: whitesmoke;
-  margin-left: -30px;
-  transition: 0.5s;
-  line-height: 25px;
+.footer .ft-item2 img{width:150px;}
+
+.footer .ft-item3>div:nth-child(2){
+  width:60%;
+  display: flex;justify-content: space-around
 }
-.quickLinks > ul > a > li:hover{
-  color: #1c89a9;
-  /* font-size: 20px !important; */
-  
+.footer .ft-item3{display: flex;align-items:center}
+.footer .ft-item3>div{
+  display: flex;align-items:center; 
+  width:70%;justify-content: space-around;
+  font-size:24px;
 }
-a:link {
-  text-decoration: none !important ;
-} 
-/* #icons > a >li{
-  color: white !important;
-  
-} */
-/* Footer Section CSS Ends */
+
+.footer .ft-item3>div>i{transition: color .2s;cursor:pointer}
+.footer .ft-item3>div>i:hover,.footer .ft-item1>div:hover{color:rgba(212, 212, 212, 0.596)}

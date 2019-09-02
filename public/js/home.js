@@ -2,6 +2,7 @@
 
 
 $(function(){
+  //new fullpage("#fullpage");
       
   $(".down-arrow").click(()=>{
     location.hash="about";

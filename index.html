@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="./public/fontawesome/css/all.css">
     <link rel="stylesheet" href="public/styles/css/back-anime.css">
     
+    <script src="https://kit.fontawesome.com/51cf6e7c96.js"></script>
     
+    <!-- Full page scroll -->
+    <script src="public/libraries/fullpage/fullpage.min.js"></script>
+    <link rel="stylesheet" href="public/libraries/fullpage/fullpage.css">
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- SVG inject-->
@@ -19,7 +23,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
-<body>
+<body id="fullpage">
     <div id="hero">
     <!-- <canvas id="smoke"></canvas> -->
     
@@ -45,9 +49,9 @@
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="792.6,197.3 876.6,197.3 702.6,352.8 443.5,123.9 703.6,307.8 "/>
     </svg>
     
-    <div id="logo-text">Infoxpression '19</div>
+    <div id="logo-text">Infoxpression</div>
     <div id="eventInfo">
-        <div>OCT 15TH-17TH 2019</div>
+        <div style="color:#b69ee2;font-weight: bold">OCT 15TH-17TH 2019</div>
         <div>TECHFEST USICT | GGSIPU</div>
         <div>CELEBRATING THE SENSE OF BELONGING</div>
     </div>   
@@ -56,83 +60,43 @@
     <div class="down-arrow"><img src="public/img/down-arrow.svg" onload=""/></div>
     </div>
 
-    <nav class="navigation">
-        <div class="navitem" onclick="changeRoute(this)">About</div>
-        <div class="navitem" onclick="changeRoute(this)">Events</div>
-        <div class="navitem" onclick="changeRoute(this)">Home</div>
-        <div class="navitem" onclick="changeRoute(this)">Schedule</div>
-        <div class="navitem" onclick="changeRoute(this)">Sponsors</div>
-    </nav>
-    
-    <div id="routes"></div>
-    
-    <!-- <div class="locateUs">
-        <div class="container">
-                
-            <div class="row">
-                
-                <div class="col-md-6" id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14012.694937846985!2d77.0184304!3d28.5945644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10d270731c930a87!2sGuru%20Gobind%20Singh%20Indraprastha%20University!5e0!3m2!1sen!2sin!4v1566967124611!5m2!1sen!2sin" width="80%" height="250px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div id="main">
+        <nav class="navigation">
+            <div class="navitem" onclick="changeRoute(this)">About<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Events<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Home<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Schedule<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Sponsors<span></span></div>
+        </nav>
+            
+        <div id="routes"></div>
+            
+            
+        <footer class="footer">
+            <div class="ft-item1">
+                <div>Techspace</div>
+                <div>Dev team</div>
+                <div>Register</div>
+                <div>Sponsors</div>
+            </div>
+            <div class="ft-item2">
+                <div>
+                    <img src="public/img/ipu-logo.png">
                 </div>
-                <div class="col-md-6 " id="address">
-                    <h4>Address</h4>
-                    <hr>
-                    <p>Guru Gobind Singh Indraprastha University, Dwarka Sec-16C
-                            New Delhi-110078 </p>
+                <div>University School of information, Communication and Technology</div>
+                <div>guru gobind singh Indraprastha University</div>
+            </div>
+            <div class="ft-item3">
+                <div>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-medium-m"></i>
+                    <i class="fas fa-external-link-alt"></i>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="container-fluid">
+        </footer>
             
-                <div class="row">
-                    <div class="col-md-4" id="footerLogo">
-                        <img src="./public/img/Screenshot from 2019-08-27 14-57-23.png" width="60%">
-                        <p>
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                    </div>
-                    
-                    
-                    <div class="col-md-4" id="ipuLogo">
-                        <img src="./public/img/ipu-logo.png" width="30%">
-                        <h4>University School Of Information, Communication And Technology </h4>
-                    </div>
-                    <div class="col-md-4" id="icons">
-                        <div class="quickLinks">
-                            <h3>Quick Links</h3>
-                            <ul style="list-style-type:none;">
-                                <a href="#"><li>Events</li></a>
-                                <a href="#"><li>Sponsers</li></a>
-                                <a href="#"><li>Teams</li></a>
-                                <a href="#"><li>Contact Us</li></a>
-                                
-                                
-                            </ul>
-                        </div>
-                        
-                        
-                        <a href="#"><i class="fas fa-globe-americas"></i></a>
-                       
-                        <a href="#"><i class="fab fa-medium"></i></a>
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        
-                        
-                    </div>
-
-                </div>
-            
-        </div>
     </div>
-    
-
-   -->
-   <footer class="footer">
-       
-   </footer>
             
 </body>
 <!-- 
