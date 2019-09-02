@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>InfoXpression 2k19</title>
-    <link rel="stylesheet" href="public/css/styles.css">
-    <link rel="stylesheet" href="public/css/mobile.css">
+    <link rel="stylesheet" href="public/styles/css/styles.css">
+    <link rel="stylesheet" href="public/styles/css/mobile.css">
     <link rel="stylesheet" href="./public/fontawesome/css/all.css">
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="public/styles/css/back-anime.css">
     
+    <script src="https://kit.fontawesome.com/51cf6e7c96.js"></script>
+    
+    <!-- Full page scroll -->
+    <script src="public/libraries/fullpage/fullpage.min.js"></script>
+    <link rel="stylesheet" href="public/libraries/fullpage/fullpage.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- SVG inject-->
+    <script src="public/js/svg-inject.min.js"></script>
     <!-- AOS  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script>
-        $(document).scrollTop(0);
-    </script>
-    
 
 </head>
-<body>
+<body id="fullpage">
     <div id="hero">
     <!-- <canvas id="smoke"></canvas> -->
+    
     <div id="logo">
+    <!-- <img src="public/img/logo.svg" /> -->
     <svg id="gx-logo" class="tronFilter" data-name="gx-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 700">
         <g class="svgWrapper">
     <defs>
@@ -40,121 +42,65 @@
             </femerge>
         </filter>
             </defs></g>
-    <g transform="translate(1.000000, 1.000000)" strF00 stroke-width="3">
+    <g transform="translate(1.000000, 1.000000)" strF00="true" stroke-width="3" />
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="482.6,238.3 657.6,390.9 400.5,617.7 608.7,391.9 482.6,308.7 "/>
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="702.6,432 529,584.5 610.7,584.5 702.6,476 959.8,656.8 "/>
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="996,175.8 748.6,391.9 922.6,544.4 922.6,474 794.5,390.9 "/>
     <polygon class="st0" style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2; filter: url(#glow);" points="792.6,197.3 876.6,197.3 702.6,352.8 443.5,123.9 703.6,307.8 "/>
     </svg>
-
-    <div id="logo-text">Infoxpression '19</div>
+    
+    <div id="logo-text">Infoxpression</div>
     <div id="eventInfo">
-        <div>OCT 15TH-17TH 2019</div>
+        <div style="color:#b69ee2;font-weight: bold">OCT 15TH-17TH 2019</div>
         <div>TECHFEST USICT | GGSIPU</div>
         <div>CELEBRATING THE SENSE OF BELONGING</div>
     </div>   
-    <p id="launch"></p>
-    </div>
-    </div>
     
-    <div id="aboutus">
-        <div class="title">About Us</div>
-        <div class="abt_section">
-            <div class="collage">
-                <div class="item1" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item2" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item3" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item4" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item5" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item6" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item7" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item8" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item9" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item10" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item11" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-                <div class="item12" data-aos="zoom-in"><img src="public/img/placeholder.jpg" alt=""></div>
-            </div>
-            <div class="about" data-aos="fade-right" data-aos-delay="500">
-                <p><span style="color:#1c89a9;font-weight:bold">InfoXpression</span> is the annual techno-cultural fest of University school of Information and Communication Technology. 
-                    It is the biggest technical extravaganza held at Guru Gobind Singh Indraprastha University, and involves an 
-                    active participation of students from over 250 colleges of north India.</p>
-                <p>Being more diverse than ever, Infox '19 boasts of a plethora of events, ranging from competitive programming, 
-                    algorithms and application development to upcoming trends like cryptography, machine learning, computer vision 
-                    and cyber security. </p>
-                <p>With problems being of varying difficulty levels, Infoxpression provides the perfect platform for fresh 
-                    enthusiasts, as well as the experienced ones, to code together and compete for ultimate glory.</p>
-            </div>
-        </div>
-    </div>   
-    
-    <div class="locateUs">
-        <div class="container">
-                <!-- <h2>Locate Us</h2> -->
-            <div class="row">
-                
-                <div class="col-md-6" id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14012.694937846985!2d77.0184304!3d28.5945644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10d270731c930a87!2sGuru%20Gobind%20Singh%20Indraprastha%20University!5e0!3m2!1sen!2sin!4v1566967124611!5m2!1sen!2sin" width="80%" height="250px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-                <div class="col-md-6 " id="address">
-                    <h4>Address</h4>
-                    <hr>
-                    <p>Guru Gobind Singh Indraprastha University, Dwarka Sec-16C
-                            New Delhi-110078 </p>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="footer">
-        <div class="container-fluid">
-            
-                <div class="row">
-                    <div class="col-md-4" id="footerLogo">
-                        <img src="./public/img/Screenshot from 2019-08-27 14-57-23.png" width="60%">
-                        <p>
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                    </div>
-                    
-                    
-                    <div class="col-md-4" id="ipuLogo">
-                        <img src="./public/img/ipu-logo.png" width="30%">
-                        <h4>University School Of Information, Communication And Technology </h4>
-                    </div>
-                    <div class="col-md-4" id="icons">
-                        <div class="quickLinks">
-                            <h3>Quick Links</h3>
-                            <ul style="list-style-type:none;">
-                                <a href="#"><li>Events</li></a>
-                                <a href="#"><li>Sponsers</li></a>
-                                <a href="#"><li>Teams</li></a>
-                                <a href="#"><li>Contact Us</li></a>
-                                
-                                
-                            </ul>
-                        </div>
-                        
-                        
-                        <a href="#"><i class="fas fa-globe-americas"></i></a>
-                       
-                        <a href="#"><i class="fab fa-medium"></i></a>
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        
-                        
-                    </div>
+    <div class="down-arrow"><img src="public/img/down-arrow.svg" onload=""/></div>
+    </div>
 
-                </div>
+    <div id="main">
+        <nav class="navigation">
+            <div class="navitem" onclick="changeRoute(this)">About<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Events<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Home<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Schedule<span></span></div>
+            <div class="navitem" onclick="changeRoute(this)">Sponsors<span></span></div>
+        </nav>
             
-        </div>
+        <div id="routes"></div>
+            
+            
+        <footer class="footer">
+            <div class="ft-item1">
+                <div>Techspace</div>
+                <div>Dev team</div>
+                <div>Register</div>
+                <div>Sponsors</div>
+            </div>
+            <div class="ft-item2">
+                <div>
+                    <img src="public/img/ipu-logo.png">
+                </div>
+                <div>University School of information, Communication and Technology</div>
+                <div>guru gobind singh Indraprastha University</div>
+            </div>
+            <div class="ft-item3">
+                <div>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-medium-m"></i>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+            </div>
+        </footer>
+            
     </div>
-    
-
-  
             
 </body>
-
-<script src="public/js/animations/smoke.js"></script>
+<!-- 
+<script src="public/js/animations/smoke.js"></script> -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="public/js/home.js"></script>
 </html>
