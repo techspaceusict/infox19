@@ -1,37 +1,30 @@
 <template>
-  <nav class="navbar navbar-dark justify-content-start" :class="{ 'navbar-admin': isAdmin }">
-    <SidebarToggle @toggle="$emit('sidenavToggle')" />
-
-    <div class="brand">
-      <nuxt-link to="/" class="navbar-brand my-2">{{ eventName }}</nuxt-link>
-    </div>
-
-    <div class="navigation-items">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <nuxt-link to="/network" class="nav-link">Network</nuxt-link>
-        </li>
-        <li class="nav-item">
-          <nuxt-link to="/questions" class="nav-link">Questions</nuxt-link>
-        </li>
-        <li class="nav-item">
-          <nuxt-link to="/polls" class="nav-link">Polls</nuxt-link>
-        </li>
-        <li class="nav-item">
-          <nuxt-link to="/feedback" class="nav-link">Feedback</nuxt-link>
-        </li>
-      </ul>
-    </div>
-
-    <div class="ml-auto profile-dropdown">
-      <b-dropdown size="lg" variant="link" toggle-class="text-decoration-none" no-caret>
-        <div slot="button-content" class="fas fa-user profile card rounded-circle"></div>
-        <b-dropdown-item @click="$router.push('/profile')">Profile</b-dropdown-item>
-        <b-dropdown-divider></b-dropdown-divider>
-        <b-dropdown-item @click="$store.dispatch('event/switchEvent')">Switch Event</b-dropdown-item>
-        <b-dropdown-item v-if="signedIn" @click="$store.dispatch('logout')">Logout</b-dropdown-item>
-      </b-dropdown>
-      <!-- <nuxt-link to="/profile" tag="div" class="profile card rounded-circle"></nuxt-link> -->
+  <nav class="navbar navbar-dark justify-content-start">
+    <SidebarToggle @toggle="show = !show" />
+    <div class="sidenav-container">
+      <div v-if="show" class="sidenav-backdrop" @click="show = false"></div>
+      <transition name="slide-side">
+        <div v-if="show" class="sidenav row m-0">
+          <ul class="nav-list" @click="show = false">
+            <li
+              class="nav-item"
+              v-for="(item, i) in items"
+              :key="item.name"
+              data-aos="sidenav-link"
+              :data-aos-duration="400"
+              :data-aos-delay="50*(i)"
+              data-aos-easing="ease-out"
+              data-aos-anchor=".nav-list"
+            >
+              <router-link :to="item.link" class="nav-link">{{item.name}}</router-link>
+            </li>
+          </ul>
+          <!-- <div class="infoxpressions w-50">
+            <span class="info" data-aos="fade-down" :data-aos-delay="500" :data-aos-duration="600">INFO</span>
+            <span class="xpresisons" data-aos="fade-up" :data-aos-delay="500" :data-aos-duration="600">XPRESSIONS</span>
+          </div> -->
+        </div>
+      </transition>
     </div>
   </nav>
 </template>
@@ -40,80 +33,185 @@
 import SidebarToggle from "./SidebarToggle";
 
 export default {
-  name: "TheNavbar",
-  props: {
-    isAdmin: {
-      type: Boolean,
-      default: false
-    }
-  },
+  name: "Navbar",
   components: {
     SidebarToggle
   },
+  data() {
+    return {
+      show: false,
+      items: [
+        {
+          name: "Home",
+          link: "/"
+        },
+        {
+          name: "About",
+          link: "/about"
+        },
+        {
+          name: "Schedule",
+          link: "/schedule"
+        },
+        {
+          name: "Sponsors",
+          link: "/sponsors"
+        },
+        {
+          name: "Register",
+          link: "/register"
+        }
+      ]
+    };
+  }
 };
 </script>
 
 <style scoped>
 .navbar {
   background: black;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  /* height: 100vh; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25); */
   padding: 0 3px;
   text-align: left;
-  transition: background 1200ms ease-out;
 }
-.navbar-admin {
-  background: linear-gradient(180deg, #311905 0%, #722714 100%);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-}
-.brand {
-  max-width: 190px;
-  font-size: 0.5em;
-  padding-right: 5px;
-  padding-left: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.nav-list {
+  width: 50%;
+  text-decoration: none;
+  list-style-type: none;
 }
 .nav-item {
-  width: fit-content;
-  /* border: 1px solid white; */
-  border-radius: var(--radius);
-  margin: 0 5px;
+  position: relative;
+  padding: 0;
 }
 .nav-link {
+  font-size: 6em;
+  color: rgb(145, 145, 145);
+  transition: transform 200ms ease-out, color 200ms ease-out;
+}
+.nav-link:hover {
   color: white;
-  padding: 12px 25px;
-  border-radius: 0;
-  transition: background-color 200ms ease-out;
+  transform: scale(1.02);
 }
-.nav-link.nuxt-link-active {
-  font-weight: bold;
-  border-bottom: 5px solid white;
-  /* background-color: #591CAF; */
+.nav-link.router-link-exact-active {
+  color: white;
+  transform: scale(1.02);
+  filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.6));
 }
-
-.profile-dropdown {
+/* .nav-link.router-link-active::before, .nav-link.router-link-active::after {
+  content: "";
   position: absolute;
-  right: 0;
+  left: -50px;
+  height: 10px;
+  width: 50px;
+  background-color: white;
+} */
+/* .nav-link.router-link-active::before {
+  top: 40%;
+  transform: rotate(45deg);
 }
-.profile {
-  color: grey;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  z-index: 3;
+.nav-link.router-link-active::after {
+  top: 60%;
+  transform: rotate(-45deg);
+} */
+
+[data-aos="sidenav-link"] {
+  transform: translate(-200px, 0);
+  opacity: 0;
+  /* transition-property: transform; */
 }
-.fa-user {
-  padding-top: 20%;
+[data-aos="sidenav-link"].aos-animate {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
-.navigation-items {
-  display: none;
+.sidenav-container {
+  height: 100%;
+  width: 100%;
+}
+.sidenav-backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.sidenav {
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+  background: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 50%);
+  z-index: 12;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+.sidenav::-webkit-scrollbar {
+  width: 0 !important;
+}
+.sidenav {
+  overflow: -moz-scrollbars-none;
+}
+.sidenav {
+  -ms-overflow-style: none;
 }
 
-@media (min-width: 768px) {
-  .navigation-items {
-    display: block;
+.infoxpressions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: inherit;
+}
+.infoxpressions span {
+  font-size: 5em;
+}
+
+.slide-side-enter-active,
+.slide-side-leave-active {
+  transition: all 0.3s ease-out;
+}
+.slide-side-enter,
+.slide-side-leave-to {
+  transform: translateX(-100%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    font-size: 2em;
   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .nav-link {
+    font-size: 3em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 4em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .nav-link {
+    font-size: 6em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
 </style>
