@@ -2,7 +2,12 @@
   <nav class="navbar navbar-dark justify-content-start">
     <SidebarToggle @toggle="show = !show" />
     <div class="sidenav-container">
-      <div v-if="show" class="sidenav-backdrop" @click="show = false"></div>
+      <div
+        v-if="show"
+        class="sidenav-backdrop"
+        data-aos="fade"
+        @click="show = false"
+      ></div>
       <transition name="slide-side">
         <div v-if="show" class="sidenav row m-0">
           <ul class="nav-list" @click="show = false">
@@ -22,7 +27,7 @@
           <!-- <div class="infoxpressions w-50">
             <span class="info" data-aos="fade-down" :data-aos-delay="500" :data-aos-duration="600">INFO</span>
             <span class="xpresisons" data-aos="fade-up" :data-aos-delay="500" :data-aos-duration="600">XPRESSIONS</span>
-          </div> -->
+          </div>-->
         </div>
       </transition>
     </div>
