@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-dark justify-content-start" :class="{ 'navbar-admin': isAdmin }">
-    <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
+    <SidebarToggle @toggle="$emit('sidenavToggle')" />
 
     <div class="brand">
       <nuxt-link to="/" class="navbar-brand my-2">{{ eventName }}</nuxt-link>
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import TheSideNavToggle from "./TheSideNavToggle";
+import SidebarToggle from "./SidebarToggle";
 
 export default {
   name: "TheNavbar",
@@ -48,7 +48,7 @@ export default {
     }
   },
   components: {
-    TheSideNavToggle
+    SidebarToggle
   },
 };
 </script>
