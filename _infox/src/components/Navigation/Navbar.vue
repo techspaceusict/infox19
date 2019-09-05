@@ -24,10 +24,10 @@
               <router-link :to="item.link" class="nav-link">{{item.name}}</router-link>
             </li>
           </ul>
-          <!-- <div class="infoxpressions w-50">
+          <div class="infoxpressions w-50">
             <span class="info" data-aos="fade-down" :data-aos-delay="500" :data-aos-duration="600">INFO</span>
             <span class="xpresisons" data-aos="fade-up" :data-aos-delay="500" :data-aos-duration="600">XPRESSIONS</span>
-          </div>-->
+          </div>
         </div>
       </transition>
     </div>
@@ -105,7 +105,17 @@ export default {
 .nav-link.router-link-exact-active {
   color: white;
   transform: scale(1.02);
-  filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.6));
+}
+.nav-link.router-link-exact-active::before {
+  background: linear-gradient(90deg, #0575E6 0%,rgba(2, 28, 121, 0) 100%);
+  z-index:-1;
+  content: '';
+  width:100%;
+  height:100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  filter: drop-shadow(0px 0px 10px rgba(5, 118, 230, 1));
 }
 /* .nav-link.router-link-active::before, .nav-link.router-link-active::after {
   content: "";
