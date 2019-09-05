@@ -18,9 +18,5 @@ export default {
 </script>
 
 <style scoped>
-.hero {
-  height: 200vh;
-  border: 1px solid black;
-  margin-bottom: 20px;
-}
+
 </style>
