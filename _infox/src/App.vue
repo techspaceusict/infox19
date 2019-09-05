@@ -1,30 +1,40 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar class="the-navbar" />
     <router-view/>
   </div>
 </template>
 
 <script>
   import Navbar from '@/components/Navigation/Navbar.vue'
-  import Rellax from 'rellax';
+  // import Rellax from 'rellax';
 
   export default {
     name: 'home',
     components: {
       Navbar
     },
-    mounted() {
-      let rellax = new Rellax(".rellax");
-    }
   }
 </script>
 
 <style>
+  /* @import url('@/assets/ModernEdge.tff'); */
+
+  html {
+    font-family: 'Modern Edge' !important;
+  }
+  body {
+    background: #000046 !important;
+  }
+
   *,
   *:before,
   *:after {
     box-sizing: border-box;
     margin: 0;
+  }
+
+  .the-navbar {
+    z-index: 10;
   }
 </style>
