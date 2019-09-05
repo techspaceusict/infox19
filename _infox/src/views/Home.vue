@@ -1,25 +1,26 @@
 <template>
-  <div class="hero">
-    <div class="rellax text-center my-5" data-rellax-speed="-4">
-      <h1>Hello</h1>
-    </div>
-    <div class="rellax text-center my-5" data-rellax-speed="-7">
-      <h1>Hello</h1>
-    </div>
+  <div>
+    <Hero />
+    <About />
   </div>
 </template>
 
 <script>
-
+import Hero from "@/components/Hero.vue";
+import About from "@/components/About.vue";
 export default {
-  name: 'home',
-}
+  name: "home",
+  components: {
+    Hero,
+    About
+  }
+};
 </script>
 
 <style scoped>
-  .hero {
-    height: 200vh;
-    border: 1px solid black;
-    margin-bottom: 20px;
-  }
+.hero {
+  height: 200vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
 </style>
