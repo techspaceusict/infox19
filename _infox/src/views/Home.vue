@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <Hero />
     <About />
   </div>
@@ -11,7 +11,7 @@ import About from "@/components/About.vue";
 export default {
   name: "home",
   components: {
-    Home,
+    Hero,
     About
   }
 };
