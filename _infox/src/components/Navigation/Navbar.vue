@@ -2,6 +2,10 @@
   <nav class="navbar navbar-dark justify-content-start">
     <SidebarToggle @toggle="show = !show" />
     <div class="sidenav-container">
+      <div v-show="show" class="close-cross">
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
       <div
         v-if="show"
         class="sidenav-backdrop"
@@ -17,17 +21,19 @@
               :key="item.name"
               data-aos="sidenav-link"
               :data-aos-duration="400"
-              :data-aos-delay="50*(i)"
+              :data-aos-delay="50 * i"
               data-aos-easing="ease-out"
               data-aos-anchor=".nav-list"
             >
-              <router-link :to="item.link" class="nav-link">{{item.name}}</router-link>
+              <router-link :to="item.link" class="nav-link">{{
+                item.name
+              }}</router-link>
             </li>
           </ul>
-          <div class="infoxpressions w-50">
+          <!-- <div class="infoxpressions w-50">
             <span class="info" data-aos="fade-down" :data-aos-delay="500" :data-aos-duration="600">INFO</span>
             <span class="xpresisons" data-aos="fade-up" :data-aos-delay="500" :data-aos-duration="600">XPRESSIONS</span>
-          </div>
+          </div> -->
         </div>
       </transition>
     </div>
@@ -72,7 +78,22 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.close-cross {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 35px;
+  margin: 10px 5px;
+  cursor: pointer;
+  .bar {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+  }
+}
+
 .navbar {
   background: black;
   width: fit-content;
@@ -107,11 +128,11 @@ export default {
   transform: scale(1.02);
 }
 .nav-link.router-link-exact-active::before {
-  background: linear-gradient(90deg, #0575E6 0%,rgba(2, 28, 121, 0) 100%);
-  z-index:-1;
-  content: '';
-  width:100%;
-  height:100%;
+  background: linear-gradient(90deg, #0575e6 0%, rgba(2, 28, 121, 0) 100%);
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
