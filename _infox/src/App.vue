@@ -7,11 +7,15 @@
 
 <script>
   import Navbar from '@/components/Navigation/Navbar.vue'
+  import Rellax from 'rellax';
 
   export default {
     name: 'home',
     components: {
       Navbar
+    },
+    mounted() {
+      let rellax = new Rellax(".rellax");
     }
   }
 </script>

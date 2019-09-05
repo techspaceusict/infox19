@@ -1,24 +1,24 @@
 <template>
   <div class="hero">
-    <!-- <Navbar /> -->
+    <div class="rellax text-center my-5" data-rellax-speed="-4">
+      <h1>Hello</h1>
+    </div>
+    <div class="rellax text-center my-5" data-rellax-speed="-7">
+      <h1>Hello</h1>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Navbar from '@/components/Navigation/Navbar.vue'
 
 export default {
   name: 'home',
-  components: {
-    Navbar
-  }
 }
 </script>
 
 <style scoped>
   .hero {
-    height: 100vh;
+    height: 200vh;
     border: 1px solid black;
     margin-bottom: 20px;
   }
