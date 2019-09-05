@@ -24,10 +24,10 @@
               <router-link :to="item.link" class="nav-link">{{item.name}}</router-link>
             </li>
           </ul>
-          <div class="infoxpressions w-50">
+          <!-- <div class="infoxpressions w-50">
             <span class="info" data-aos="fade-down" :data-aos-delay="500" :data-aos-duration="600">INFO</span>
             <span class="xpresisons" data-aos="fade-up" :data-aos-delay="500" :data-aos-duration="600">XPRESSIONS</span>
-          </div>
+          </div> -->
         </div>
       </transition>
     </div>

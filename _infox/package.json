@@ -12,6 +12,7 @@
     "core-js": "^2.6.5",
     "rellax": "^1.10.0",
     "vue": "^2.6.10",
+    "vue-rellax": "^0.1.0",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
