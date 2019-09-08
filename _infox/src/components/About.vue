@@ -74,17 +74,6 @@ export default {
         speed: -2
       }
     };
-  },
-  methods: {
-    handleScroll(event) {
-      console.log("scrolling", event);
-    }
-  },
-  created() {
-    document.addEventListener("scroll", this.handleScroll);
-  },
-  destroyed() {
-    document.removeEventListener("scroll", this.handleScroll);
   }
 };
 </script>

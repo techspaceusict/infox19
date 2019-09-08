@@ -72,6 +72,7 @@ export default {};
   height: 100vh;
   width: 100vw;
   background: #020518;
+  z-index: 10;
 }
 #logo {
   position: absolute;
