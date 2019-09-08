@@ -25,9 +25,10 @@
               data-aos-easing="ease-out"
               data-aos-anchor=".nav-list"
             >
-              <router-link :to="item.link" class="nav-link">{{
+              <!-- <router-link :to="item.link" class="nav-link">{{
                 item.name
-              }}</router-link>
+              }}</router-link> -->
+              <a :href="'#' + item.link" class="nav-link"> {{ item.name }} </a>
             </li>
           </ul>
           <!-- <div class="infoxpressions w-50">
@@ -54,25 +55,47 @@ export default {
       items: [
         {
           name: "Home",
-          link: "/"
+          link: "hero"
         },
         {
           name: "About",
-          link: "/about"
+          link: "about"
         },
         {
           name: "Schedule",
-          link: "/schedule"
+          link: "schedule"
         },
         {
           name: "Sponsors",
-          link: "/sponsors"
+          link: "sponsors"
         },
         {
           name: "Register",
-          link: "/register"
+          link: "register"
         }
-      ]
+      ],
+      // items: [
+      //   {
+      //     name: "Home",
+      //     link: "/"
+      //   },
+      //   {
+      //     name: "About",
+      //     link: "/about"
+      //   },
+      //   {
+      //     name: "Schedule",
+      //     link: "/schedule"
+      //   },
+      //   {
+      //     name: "Sponsors",
+      //     link: "/sponsors"
+      //   },
+      //   {
+      //     name: "Register",
+      //     link: "/register"
+      //   }
+      // ]
     };
   }
 };

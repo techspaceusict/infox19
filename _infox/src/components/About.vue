@@ -1,12 +1,7 @@
 <template>
-  <div class="glow">
-    <div
-      class="title text-center"
-      v-rellax="titleRellax"
-      data-aos="title"
-      data-aos-anchor=".info"
-    >
-      <h1 class="display-2 font-weight-bold text-white">About Us</h1>
+  <div id="about">
+    <div class="title text-center" v-rellax="titleRellax" data-aos="title" data-aos-anchor=".info">
+      <h1 class="display-2 font-weight-bold text-white">About</h1>
     </div>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
@@ -94,8 +89,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.glow {
+<style scoped>
+#about {
   height: 200vh;
 }
 .glow h1,
