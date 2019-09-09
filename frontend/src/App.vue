@@ -26,6 +26,7 @@ html {
 body {
   /* background: #000046 !important; */
   background: #000 !important;
+  overflow-x: hidden;
 }
 
 *,
