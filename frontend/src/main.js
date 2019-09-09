@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueRellax from 'vue-rellax'
 
+import AppButton from '@/components/UI/AppButton';
+Vue.component('AppButton', AppButton)
+
 Vue.use(VueRellax)
 Vue.use(BootstrapVue)
 

@@ -1,6 +1,6 @@
 <template>
-  <div id="sponsors" class="sponsors">
-    <Heading anchor=".sponsors" :speed="0">Sponsors</Heading>
+  <div id="sponsors" class="border">
+    <Heading anchor=".sponsors" :speed="-3">Sponsors</Heading>
     <div class="sponsors">
       Sponsorsss
     </div>
@@ -18,4 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#sponsors {
+  height: 200vh;
+}
 </style>

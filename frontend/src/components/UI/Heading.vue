@@ -17,7 +17,7 @@ export default {
     },
     speed: {
       type: Number,
-      default: 0
+      default: -3
     }
   },
   data() {
