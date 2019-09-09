@@ -1,16 +1,21 @@
 <template>
-  <div class="about">
-    <div class="title text-center" v-rellax="titleRellax" data-aos="title" data-aos-anchor=".info">
-      <h1 class="display-2 font-weight-bold text-white">About</h1>
+  <div class="glow">
+    <div
+      class="title text-center"
+      v-rellax="titleRellax"
+      data-aos="title"
+      data-aos-anchor=".info"
+    >
+      <h1 class="display-2 font-weight-bold text-white">About Us</h1>
     </div>
-    <div class="info container">
+    <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
         <div class="col-md-6 text-center">
           <div class="date">
-            Incorporated
+            Incorporated in
             <br />2014
             <br />
-            <br />Maa chudao, gaand marao
+            <br />
           </div>
         </div>
         <div class="col-md-6">
@@ -22,36 +27,47 @@
     <div class="container images">
       <div class="col-sm-12" v-rellax="{ speed: 1 }">
         <div class="row">
-
           <div class="image col-sm-4" v-rellax="{ speed: 1 }"></div>
           <div class="col-sm-8 text-white">
-            <div class="heading text-right">
-              <h2 class="text-white">Lorem ipsum dolor sit, amet</h2>
+            <div class="heading  text-right">
+              <h2 class="text-white">What we do</h2>
             </div>
             <div class="para">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita rerum, sunt inventore ea recusandae doloribus atque, laboriosam nemo molestiae, dolor saepe excepturi fuga earum? Consequuntur ab dolore explicabo odit magnam dolores placeat, nulla earum quos perferendis labore natus doloremque quis tempora inventore illum voluptatibus animi laborum eos. At, molestias suscipit?</p>
+              <p class="right">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Expedita rerum, sunt inventore ea recusandae doloribus atque,
+                laboriosam nemo molestiae, dolor saepe excepturi fuga earum?
+                Consequuntur ab dolore explicabo odit magnam dolores placeat,
+                nulla earum quos perferendis labore natus doloremque quis
+                tempora inventore illum voluptatibus animi laborum eos. At,
+                molestias suscipit?
+              </p>
             </div>
           </div>
-
         </div>
       </div>
       <div class="col-sm-12" v-rellax="{ speed: 1 }">
         <div class="row">
-
           <div class="col-sm-8 text-white">
             <div class="heading">
               <h2 class="text-white">Lorem ipsum dolor sit, amet</h2>
             </div>
             <div class="para text-right">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita rerum, sunt inventore ea recusandae doloribus atque, laboriosam nemo molestiae, dolor saepe excepturi fuga earum? Consequuntur ab dolore explicabo odit magnam dolores placeat, nulla earum quos perferendis labore natus doloremque quis tempora inventore illum voluptatibus animi laborum eos. At, molestias suscipit?</p>
+              <p class="left">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Expedita rerum, sunt inventore ea recusandae doloribus atque,
+                laboriosam nemo molestiae, dolor saepe excepturi fuga earum?
+                Consequuntur ab dolore explicabo odit magnam dolores placeat,
+                nulla earum quos perferendis labore natus doloremque quis
+                tempora inventore illum voluptatibus animi laborum eos. At,
+                molestias suscipit?
+              </p>
             </div>
           </div>
           <div class="image col-sm-4" v-rellax="{ speed: 1 }"></div>
-
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -60,7 +76,7 @@ export default {
   data() {
     return {
       titleRellax: {
-        speed: -3
+        speed: -2
       }
     };
   },
@@ -78,11 +94,12 @@ export default {
 };
 </script>
 
-<style scoped>
-.about {
+<style lang="scss">
+.glow {
   height: 200vh;
 }
-.about h1 {
+.glow h1,
+h2 {
   font-size: 15em;
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
@@ -121,6 +138,12 @@ export default {
 }
 .para p {
   font-size: 1.2em;
+  &.right {
+    text-align: right;
+  }
+  &.left {
+    text-align: left;
+  }
 }
 
 .images {
@@ -130,15 +153,15 @@ export default {
   height: 400px;
   margin-top: 100px;
   /* background: rgb(188, 253, 255); */
-  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.2);
+  box-shadow: 10px 10px 10px rgba(10, 7, 160, 0.507);
 }
 .image:nth-child(1) {
-  background-image: url('../assets/about-image1.jpg');
+  background-image: url("../assets/about-image1.jpg");
   background-size: cover;
   background-position: center;
 }
 .image:nth-child(2) {
-  background-image: url('../assets/about-image2.jpg');
+  background-image: url("../assets/about-image2.jpg");
   background-size: cover;
   background-position: center;
 }
