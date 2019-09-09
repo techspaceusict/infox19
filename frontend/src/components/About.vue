@@ -84,7 +84,7 @@ export default {
 }
 .glow h1,
 h2 {
-  font-size: 15em;
+  // font-size: 15em;
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
 

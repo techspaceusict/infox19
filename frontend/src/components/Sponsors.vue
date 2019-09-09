@@ -75,7 +75,7 @@ export default {
 
 <style lang="scss" scoped>
 #sponsors {
-  // height: 200vh;
+  height: 250vh;
   margin-top: -45%;
 }
 .sponsors {
