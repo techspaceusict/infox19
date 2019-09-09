@@ -83,13 +83,8 @@ export default {
 };
 </script>
 
-<<<<<<< HEAD
-<style scoped>
-#about {
-=======
 <style lang="scss">
 .glow {
->>>>>>> Pulled changes
   height: 200vh;
 }
 .glow h1,
