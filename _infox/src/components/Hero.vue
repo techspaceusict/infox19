@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div id="hero">
     <div id="logo">
       <!-- <img src="public/img/logo.svg" /> -->
       <svg
@@ -68,10 +68,11 @@ export default {};
 </script>
 
 <style>
-.hero {
+#hero {
   height: 100vh;
   width: 100vw;
   background: #020518;
+  z-index: 10;
 }
 #logo {
   position: absolute;
