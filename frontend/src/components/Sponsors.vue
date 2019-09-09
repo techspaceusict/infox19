@@ -64,18 +64,14 @@
 </template>
 
 <script>
-import Heading from "@/components/UI/Heading";
-
 export default {
-  components: {
-    Heading
-  }
+  
 };
 </script>
 
 <style lang="scss" scoped>
 #sponsors {
-  height: 250vh;
+  height: 200vh;
   margin-top: -45%;
 }
 .sponsors {

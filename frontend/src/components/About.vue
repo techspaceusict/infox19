@@ -69,12 +69,8 @@
 </template>
 
 <script>
-import Heading from "@/components/UI/Heading";
-
 export default {
-  components: {
-    Heading
-  }
+
 };
 </script>
 

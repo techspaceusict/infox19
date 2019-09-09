@@ -3,6 +3,7 @@
     <Hero />
     <About />
     <Sponsors />
+    <Glimpses />
     <Footer class="the-footer" />
   </div>
 </template>
@@ -11,6 +12,7 @@
 import Hero from "@/components/Hero.vue";
 import About from "@/components/About.vue";
 import Sponsors from "@/components/Sponsors.vue";
+import Glimpses from "@/components/Glimpses.vue";
 import Footer from "@/components/Navigation/Footer.vue";
 
 export default {
@@ -19,6 +21,7 @@ export default {
     Hero,
     About,
     Sponsors,
+    Glimpses,
     Footer
   }
 };
