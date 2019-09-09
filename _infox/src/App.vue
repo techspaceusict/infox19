@@ -51,7 +51,7 @@
     font-family: 'Modern Edge' !important;
   }
   body {
-    background: #000029 !important;
+    background: #000 !important;
   }
 
   *,
