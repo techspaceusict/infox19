@@ -1,5 +1,5 @@
 <template>
-  <div class="glow">
+  <div id="about" class="glow">
     <Heading anchor=".info" :speed="-3">About Us</Heading>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">

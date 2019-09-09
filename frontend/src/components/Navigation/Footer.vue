@@ -9,16 +9,16 @@
           <div class="row m-0">
             <ul class="links font-sm">
               <li class="list-item mb-2">
-                HOME
+                <a href="#hero">HOME</a>
               </li>
               <li class="list-item mb-2">
-                ABOUT US
+                <a href="#about">ABOUT US</a>
               </li>
               <li class="list-item mb-2">
-                SPONSORS
+                <a href="#sponsors">SPONSORS</a>
               </li>
               <li class="list-item mb-2">
-                GLIMPSES
+                <a href="#glimpses">GLIMPSES</a>
               </li>
             </ul>
           
@@ -86,6 +86,10 @@ export default {
   opacity: 0.5;
   cursor: pointer;
   transition: opacity 100ms ease-out;
+}
+.list-item a {
+  text-decoration: none;
+  color: white;
 }
 .list-item:hover {
   opacity: 1;
