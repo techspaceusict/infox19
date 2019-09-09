@@ -1,13 +1,14 @@
 <template>
   <div class="glow">
-    <div
+    <!-- <div
       class="title text-center"
       v-rellax="titleRellax"
       data-aos="title"
       data-aos-anchor=".info"
     >
       <h1 class="display-2 font-weight-bold text-white">About Us</h1>
-    </div>
+    </div> -->
+    <Heading anchor=".info">About Us</Heading>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
         <div class="col-md-6 text-center">
@@ -76,24 +77,18 @@
 </template>
 
 <script>
+import Heading from '@/components/UI/Heading';
+
 export default {
+  components: {
+    Heading
+  },
   data() {
     return {
       titleRellax: {
         speed: -2
       }
     };
-  },
-  methods: {
-    handleScroll(event) {
-      console.log("scrolling", event);
-    }
-  },
-  created() {
-    document.addEventListener("scroll", this.handleScroll);
-  },
-  destroyed() {
-    document.removeEventListener("scroll", this.handleScroll);
   }
 };
 </script>
@@ -107,16 +102,7 @@ h2 {
   font-size: 15em;
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
-.title {
-  margin-top: 0;
-}
-[data-aos="title"] {
-  opacity: 1;
-  transition-property: opacity;
-}
-[data-aos="title"].aos-animate {
-  opacity: 0.1;
-}
+
 .info {
   margin-top: 100px;
 }
@@ -161,12 +147,12 @@ h2 {
   box-shadow: 10px 10px 10px rgba(10, 7, 160, 0.507);
   // outline: 15px solid #0575e6;
   filter: drop-shadow(0px 0px 10px rgba(4, 117, 229, 0.6));
-  transition: all 0.3s;
+  transition: all 350ms ease-out;
 }
 .image:hover {
   outline-offset: 10px;
-  outline: 10px solid #0575e6;
-  transform: scale(1.2);
+  outline: 5px solid #0575e6;
+  transform: scale(1.1);
 }
 .image:nth-child(1) {
   background-image: url("../assets/about-image1.jpg");
