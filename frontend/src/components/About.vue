@@ -1,13 +1,5 @@
 <template>
   <div class="glow">
-    <!-- <div
-      class="title text-center"
-      v-rellax="titleRellax"
-      data-aos="title"
-      data-aos-anchor=".info"
-    >
-      <h1 class="display-2 font-weight-bold text-white">About Us</h1>
-    </div> -->
     <Heading anchor=".info">About Us</Heading>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
@@ -118,13 +110,6 @@ h2 {
   letter-spacing: -0.07em;
   color: #0575e6;
   filter: drop-shadow(0px 0px 10px rgba(4, 117, 229, 0.6));
-}
-.heading {
-  position: relative;
-  margin-left: 0;
-}
-.heading h2 {
-  font-size: 3em;
 }
 .para p {
   font-size: 1.2em;

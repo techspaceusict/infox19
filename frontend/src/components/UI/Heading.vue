@@ -28,6 +28,9 @@ export default {
 .title {
   margin-top: 0;
 }
+h1 {
+  font-size: 15em;
+}
 [data-aos="title"] {
   opacity: 1;
   transition-property: opacity;
