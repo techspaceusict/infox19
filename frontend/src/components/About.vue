@@ -27,7 +27,9 @@
     <div class="container images">
       <div class="col-sm-12" v-rellax="{ speed: 1 }">
         <div class="row">
-          <div class="image col-sm-4" v-rellax="{ speed: 1 }"></div>
+          <div class=" col-sm-4" v-rellax="{ speed: 1 }">
+            <img src="../assets/about-image1.jpg" alt="" class="image" />
+          </div>
           <div class="col-sm-8 text-white">
             <div class="heading  text-right">
               <h2 class="text-white">What we do</h2>
@@ -64,7 +66,9 @@
               </p>
             </div>
           </div>
-          <div class="image col-sm-4" v-rellax="{ speed: 1 }"></div>
+          <div class="col-sm-4" v-rellax="{ speed: 1 }">
+            <img src="../assets/about-image2.jpg" alt="" class="image" />
+          </div>
         </div>
       </div>
     </div>
@@ -150,19 +154,28 @@ h2 {
   margin-top: 200px;
 }
 .image {
-  height: 400px;
+  height: 300px;
+  width: 150%;
+  overflow: hidden;
   margin-top: 100px;
-  /* background: rgb(188, 253, 255); */
   box-shadow: 10px 10px 10px rgba(10, 7, 160, 0.507);
+  // outline: 15px solid #0575e6;
+  filter: drop-shadow(0px 0px 10px rgba(4, 117, 229, 0.6));
+  transition: all 0.3s;
+}
+.image:hover {
+  outline-offset: 10px;
+  outline: 10px solid #0575e6;
+  transform: scale(1.2);
 }
 .image:nth-child(1) {
   background-image: url("../assets/about-image1.jpg");
   background-size: cover;
   background-position: center;
 }
-.image:nth-child(2) {
-  background-image: url("../assets/about-image2.jpg");
-  background-size: cover;
-  background-position: center;
-}
+// .image:nth-child(2) {
+//   background-image: url("../assets/about-image2.jpg");
+//   background-size: cover;
+//   background-position: center;
+// }
 </style>
