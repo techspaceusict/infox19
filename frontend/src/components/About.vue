@@ -1,6 +1,6 @@
 <template>
   <div class="glow">
-    <Heading anchor=".info">About Us</Heading>
+    <Heading anchor=".info" :speed="-2">Infoxpression</Heading>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
         <div class="col-md-6 text-center">
@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import Heading from '@/components/UI/Heading';
+import Heading from "@/components/UI/Heading";
 
 export default {
   components: {

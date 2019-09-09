@@ -5,23 +5,32 @@
     data-aos="title"
     :data-aos-anchor="anchor"
   >
-    <h1 class="display-2 font-weight-bold text-white"> <slot /> </h1>
+    <h1 class="display-2 font-weight-bold text-white"><slot /></h1>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    anchor: String
+    anchor: {
+      type: String
+    },
+    speed: {
+      type: Number,
+      default: 0
+    }
   },
   data() {
-    return {
-      titleRellax: {
-        speed: -3
-      }
+    return {};
+  },
+  computed: {
+    titleRellax() {
+      return {
+        speed: this.speed
+      };
     }
   }
-}
+};
 </script>
 
 <style scoped>

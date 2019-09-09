@@ -1,6 +1,6 @@
 <template>
   <div id="sponsors" class="sponsors">
-    <Heading anchor=".sponsors">Sponsors</Heading>
+    <Heading anchor=".sponsors" :speed="0">Sponsors</Heading>
     <div class="sponsors">
       Sponsorsss
     </div>
@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import Heading from '@/components/UI/Heading';
+import Heading from "@/components/UI/Heading";
 
 export default {
   components: {
     Heading
-  },
+  }
 };
 </script>
 
