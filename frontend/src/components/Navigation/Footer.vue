@@ -6,29 +6,31 @@
           <h4>InfoXpressions</h4>
         </section>
         <section>
-          <ul class="links">
-            <li class="list-item">
-              HOME
-            </li>
-            <li class="list-item">
-              ABOUT US
-            </li>
-            <li class="list-item">
-              SPONSORS
-            </li>
-            <li class="list-item">
-              GLIMPSES
-            </li>
-          </ul>
-        
-          <ul class="links">
-            <li class="list-item">
-              CONTACT US
-            </li>
-            <li class="list-item">
-              PRIVACY POLICY
-            </li>
-          </ul>
+          <div class="row m-0">
+            <ul class="links">
+              <li class="list-item">
+                HOME
+              </li>
+              <li class="list-item">
+                ABOUT US
+              </li>
+              <li class="list-item">
+                SPONSORS
+              </li>
+              <li class="list-item">
+                GLIMPSES
+              </li>
+            </ul>
+          
+            <ul class="links">
+              <li class="list-item">
+                CONTACT US
+              </li>
+              <li class="list-item">
+                PRIVACY POLICY
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
     </div>
@@ -47,6 +49,7 @@ export default {
   background-color: rgb(9, 0, 32);
   color: white;
   padding: 20px;
+  padding-top: 30px;
 }
 .footer section {
   margin: 0 10px;
@@ -55,6 +58,7 @@ export default {
   list-style-type: none;
   font-weight: bold;
   font-size: 0.8em;
+  margin: 0 10px;
 }
 .list-item {
   opacity: 0.5;

@@ -88,7 +88,7 @@ export default {
 .sponsor-item {
   // border-radius: 50%;
   // margin: 50px 100px;
-  margin: 80px 0;
+  margin: 30px 0;
   // box-shadow: 0px 0px 20px blue;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
   background-size: contain;
@@ -177,15 +177,15 @@ export default {
 
 
 .layer-1 {
-  margin-top: 0;
+  margin-top: 10em;
   z-index: 3;
 }
 .layer-2 {
-  margin-top: -10em;
+  margin-top: 0em;
   z-index: 2;
 }
 .layer-3 {
-  margin-top: -30em;
+  margin-top: -20em;
   z-index: 1;
 }
 
