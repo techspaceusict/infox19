@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .title {
-  margin-top: 0;
+  /* margin-top: -200px; */
 }
 h1 {
   font-size: 15em;

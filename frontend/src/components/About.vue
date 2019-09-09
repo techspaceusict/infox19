@@ -1,6 +1,6 @@
 <template>
   <div class="glow">
-    <Heading anchor=".info" :speed="-3">Infoxpression</Heading>
+    <Heading anchor=".info" :speed="-3">About Us</Heading>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
         <div class="col-md-6 text-center">
