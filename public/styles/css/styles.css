@@ -50,21 +50,6 @@ body,html {
 
 #hero{background: black;position: relative;height: 100vh;}
 
-#hero .down-arrow{
-  width: 30px;
-  position: absolute;
-  bottom: 5vh;
-  left: 50%;
-  transform: translateX(-50%);
-  animation: updownArrow 0.5s ease-in-out alternate infinite;
-}
-
-#hero .down-arrow>img{width: inherit}
-@keyframes updownArrow{
-  from{bottom: 5vh;}
-  to{bottom: 6.5vh;}
-}
-
 #title {
   background-color:transparent; color:#555;
   font:normal 1em Arial,sans-serif;color:white;

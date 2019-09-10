@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Background />
     <Hero />
     <About />
     <Sponsors />
@@ -14,15 +15,17 @@ import About from "@/components/About.vue";
 import Sponsors from "@/components/Sponsors.vue";
 import Glimpses from "@/components/Glimpses.vue";
 import Footer from "@/components/Navigation/Footer.vue";
+import Background from "@/components/Background.vue";
 
 export default {
   name: "home",
   components: {
-    Hero,
+    Hero, 
     About,
     Sponsors,
     Glimpses,
-    Footer
+    Footer,
+    Background
   }
 };
 </script>
