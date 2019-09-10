@@ -34,6 +34,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+#glimpses *{z-index: 2;}
 #glimpses {
   margin-top: 5em;
 }

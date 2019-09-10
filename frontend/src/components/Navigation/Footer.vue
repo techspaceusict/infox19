@@ -57,6 +57,7 @@ export default {
 </script>
 
 <style scoped>
+.footer *{z-index: 2;}
 .footer {
   height: fit-content;
   background: linear-gradient(0deg, rgb(9, 0, 32) 0%, black 100%);
