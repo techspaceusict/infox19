@@ -84,6 +84,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+nav *{z-index: 2;}
 .close-cross {
   display: flex;
   flex-direction: column;
