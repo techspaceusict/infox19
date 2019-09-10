@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="glow">
-    <Heading anchor=".info" wrapper="#about" :speed="-3">About Us</Heading>
+    <Heading anchor=".info" wrapper="#about" :speed="-5">About Us</Heading>
     <div class="info container">
       <div class="row">
         <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
@@ -20,7 +20,25 @@
     </div>
 
     <div class="container images">
-      <div class="col-sm-12 my-5">
+      <section class="image" style="position: relative">
+        <div class="row my-5">
+          <div class="collage1"></div>
+          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image', relativeToWrapper: true}"></div>
+          <div class="text p-5">
+            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, deserunt!</p>
+          </div>
+        </div>
+      </section>
+      <section class="image second" style="position: relative">
+        <div class="row my-5">
+          <div class="text p-5">
+            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, deserunt!</p>
+          </div>
+          <div class="collage1"></div>
+          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image.second', relativeToWrapper: true}"></div>
+        </div>
+      </section>
+      <!-- <div class="col-sm-12 my-5">
         <div class="row">
           <div class="image col-sm-8" data-aos="fade-up" data-aos-duration="1000">
             <img src="../assets/about-image1.jpg" alt="" class="w-100" />
@@ -53,7 +71,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -64,14 +82,14 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="css" scoped>
 #about *{z-index: 2;}
 #about {
   margin-top: -40em;
 }
 .glow h1,
 h2 {
-  // font-size: 15em;
+  /* // font-size: 15em; */
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
 
@@ -88,7 +106,7 @@ h2 {
   color: #0575e6;
   filter: drop-shadow(0px 0px 10px rgba(4, 117, 229, 0.6));
 }
-// .para p {
+/* // .para p {
 //   font-size: 1.2em;
 //   &.right {
 //     text-align: right;
@@ -96,7 +114,7 @@ h2 {
 //   &.left {
 //     text-align: left;
 //   }
-// }
+// } */
 .para p {
   font-size: 1.2em;
   text-align: right;
@@ -109,21 +127,51 @@ h2 {
   z-index: 2;
   width: 40%;
   background: rgb(15, 15, 15);
-  // box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
+  /* // box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); */
   padding: 10px 30px;
 }
+
+/* // .images {
+//   position: relative;
+// } */
 .image {
-  width: 75%;
+  position: relative;
+}
+.collage1 {
+  width: 50%;
+  height: 600px;
+  background: rgb(234, 234, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.collage2 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 50%;
   height: 300px;
-  overflow: hidden;
-  box-shadow: 10px 10px 10px rgba(10, 7, 160, 0.507);
-  // transition: all 550ms ease-out;
+  background: rgb(234, 234, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.image:hover {
-  outline-offset: 10px;
-  outline: 5px solid #0575e6;
-  transform: scale(1.05) !important;
+.image.second .collage2 {
+  left: 10%;
 }
+.text {
+  width: 50%;
+  font-size: 1.5em;
+}
+
+/* // .image {
+//   width: 75%;
+//   height: 300px;
+//   overflow: hidden;
+//   box-shadow: 10px 10px 10px rgba(10, 7, 160, 0.507);
+//   // transition: all 550ms ease-out;
+// }
+// .image:hover {
+//   outline-offset: 10px;
+//   outline: 5px solid #0575e6;
+//   transform: scale(1.05) !important;
+// } */
 
 [data-aos="text-fade-down"] {
   transform: translateY(-30px);
@@ -151,6 +199,18 @@ h2 {
   }
   .info-card {
     position: relative;
+    width: 100%;
+  }
+  .collage1 {
+    width: 75%;
+    height: 600px;
+    background: rgb(234, 234, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .collage2 {
+    left: 40% !important;
+  }
+  .text {
     width: 100%;
   }
 }
