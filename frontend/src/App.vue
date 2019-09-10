@@ -7,12 +7,11 @@
 
 <script>
 import Navbar from "@/components/Navigation/Navbar.vue";
-// import Rellax from 'rellax';
 
 export default {
   name: "home",
   components: {
-    Navbar
+    Navbar,
   }
 };
 </script>
@@ -39,4 +38,7 @@ body {
 .the-navbar {
   z-index: 10;
 }
+/* .particles {
+  height: 300vh;
+} */
 </style>
