@@ -18,49 +18,37 @@
     </div>
 
     <div class="container images">
-      <div class="col-sm-12" v-rellax="{ speed: 1 }">
+      <div class="col-sm-12 my-5">
         <div class="row">
-          <div class=" col-sm-4" v-rellax="{ speed: 1 }">
-            <img src="../assets/about-image1.jpg" alt="" class="image" />
+          <div class="image col-sm-8" data-aos="fade-up" data-aos-duration="1000">
+            <img src="../assets/about-image1.jpg" alt="" class="w-100" />
           </div>
-          <div class="col-sm-8 text-white">
-            <div class="heading  text-right">
-              <h2 class="text-white">What we do</h2>
+          <div class="info-card text-white">
+            <div class="heading text-right" data-aos="text-fade-down">
+              <h2 class="text-white display-4">What we do</h2>
             </div>
-            <div class="para">
+            <div class="para" data-aos="text-fade-down" data-aos-anchor=".heading" data-aos-delay="200">
               <p class="right">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Expedita rerum, sunt inventore ea recusandae doloribus atque,
-                laboriosam nemo molestiae, dolor saepe excepturi fuga earum?
-                Consequuntur ab dolore explicabo odit magnam dolores placeat,
-                nulla earum quos perferendis labore natus doloremque quis
-                tempora inventore illum voluptatibus animi laborum eos. At,
-                molestias suscipit?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam provident est ullam, ipsum recusandae laboriosam?
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-12" v-rellax="{ speed: 1 }">
+      <div class="col-sm-12 my-5 py-5">
         <div class="row">
-          <div class="col-sm-8 text-white">
-            <div class="heading">
-              <h2 class="text-white">Lorem ipsum dolor sit, amet</h2>
+          <div class="info-card text-white">
+            <div class="heading second" data-aos="text-fade-down">
+              <h2 class="text-white display-4">Lorem ipsum dolor sit, amet</h2>
             </div>
-            <div class="para text-right">
+            <div class="para text-right" data-aos="text-fade-down" data-aos-anchor=".heading.second" data-aos-delay="200">
               <p class="left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Expedita rerum, sunt inventore ea recusandae doloribus atque,
-                laboriosam nemo molestiae, dolor saepe excepturi fuga earum?
-                Consequuntur ab dolore explicabo odit magnam dolores placeat,
-                nulla earum quos perferendis labore natus doloremque quis
-                tempora inventore illum voluptatibus animi laborum eos. At,
-                molestias suscipit?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil? Quo omnis sapiente aliquid tempora?
               </p>
             </div>
           </div>
-          <div class="col-sm-4" v-rellax="{ speed: 1 }">
-            <img src="../assets/about-image2.jpg" alt="" class="image" />
+          <div class="image" data-aos="fade-up" data-aos-duration="1000">
+            <img src="../assets/about-image2.jpg" alt="" class="w-100" />
           </div>
         </div>
       </div>
@@ -110,32 +98,46 @@ h2 {
   }
 }
 
-.images {
-  margin-top: 200px;
+.info-card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 40%;
+  background: rgb(15, 15, 15);
+  // box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
+  padding: 10px 30px;
 }
 .image {
+  width: 75%;
   height: 300px;
-  width: 150%;
   overflow: hidden;
-  margin-top: 100px;
   box-shadow: 10px 10px 10px rgba(10, 7, 160, 0.507);
-  // outline: 15px solid #0575e6;
-  filter: drop-shadow(0px 0px 10px rgba(4, 117, 229, 0.6));
-  transition: all 350ms ease-out;
+  // transition: all 550ms ease-out;
 }
 .image:hover {
   outline-offset: 10px;
   outline: 5px solid #0575e6;
-  transform: scale(1.1);
+  transform: scale(1.05) !important;
 }
 .image:nth-child(1) {
   background-image: url("../assets/about-image1.jpg");
   background-size: cover;
   background-position: center;
 }
-// .image:nth-child(2) {
-//   background-image: url("../assets/about-image2.jpg");
-//   background-size: cover;
-//   background-position: center;
-// }
+[data-aos="text-fade-down"] {
+  transform: translateY(-30px);
+  opacity: 0;
+}
+[data-aos="text-fade-down"].aos-animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+[data-aos="image"] {
+  height: 0;
+  transition-property: height;
+}
+[data-aos="image"].aos-animate {
+  height: fit-content;
+}
 </style>
