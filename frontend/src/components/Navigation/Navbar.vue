@@ -61,17 +61,21 @@ export default {
           name: "About Us",
           link: "about"
         },
-        {
-          name: "Schedule",
-          link: "schedule"
-        },
+        // {
+        //   name: "Schedule",
+        //   link: "schedule"
+        // },
         {
           name: "Sponsors",
           link: "sponsors"
         },
         {
-          name: "Register",
-          link: "register"
+          name: "Glimpses",
+          link: "glimpses"
+        },
+        {
+          name: "Contact Us",
+          link: "contact"
         }
       ]
     };

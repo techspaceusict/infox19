@@ -4,7 +4,11 @@
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
         <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
-          <div class="temp">iX5</div>
+          <div class="temp">
+            <span>i</span>
+            <span>X</span>
+            <span>5</span>
+          </div>
         </div>
         <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
           <div class="date">
@@ -161,4 +165,19 @@ h2 {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
+
+
+// #gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
+
+#gx-logo {
+    fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;stroke-dasharray: 1800;
+}
+
+
+#gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
+
+#gx3-logo {
+  fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;stroke-dasharray: 1800;
+}
+
 </style>
