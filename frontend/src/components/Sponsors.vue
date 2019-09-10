@@ -121,8 +121,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#sponsors *{z-index:2;}
 #sponsors {
+  z-index: 1;
   margin-top: -40em;
 } 
 .absoulte {
