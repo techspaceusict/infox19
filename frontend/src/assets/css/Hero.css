@@ -10,7 +10,7 @@
     src:url(../fonts/United\ Kingdom.otf) format("opentype");
 }      
 
-
+#hero *{z-index: 2;}
 #hero{background: black;position: relative;height: 100vh;}
 
 #hero .down-arrow{
