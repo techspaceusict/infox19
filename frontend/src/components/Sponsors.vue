@@ -1,8 +1,8 @@
 <template>
   <div id="sponsors">
-    <Heading anchor=".sponsors" wrapper="#sponsors" :speed="-4">Sponsors</Heading>
+    <Heading anchor=".sponsors" wrapper="#sponsors" :speed="-6">Sponsors</Heading>
     <div class="sponsors">
-      <div class="absoulte layer-1" v-rellax="{ speed: 1, wrapper: '#sponsors', relativeToWrapper: true }">
+      <div class="absoulte layer-1" v-rellax="layer1">
         <div class="container-fluid">
           <div class="row justify-content-around">
             <div class="sponsor-item barista"></div>
@@ -21,12 +21,12 @@
           </div>
         </div>
       </div>
-      <div class="absoulte layer-2" v-rellax="{ speed: -1, wrapper: '#sponsors', relativeToWrapper: true }">
+      <div class="absoulte layer-2" v-rellax="layer2">
         <div class="container-fluid">
           <div class="row justify-content-around">
-            <div class="sponsor-item agro"></div>
             <div class="sponsor-item designcut"></div>
-            <div class="sponsor-item earnings_lab"></div>
+            <div class="sponsor-item earning_labs"></div>
+            <div class="sponsor-item agro"></div>
           </div>
           <div class="row justify-content-around">
             <div class="sponsor-item enactus_igdtu"></div>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="absoulte layer-3" v-rellax="{ speed: -3, wrapper: '#sponsors', relativeToWrapper: true }">
+      <div class="absoulte layer-3" v-rellax="layer3">
         <div class="container-fluid">
           <div class="row justify-content-around">
             <div class="sponsor-item ED"></div>
@@ -65,7 +65,58 @@
 
 <script>
 export default {
-  
+  data() {
+    return {
+      layer1: {
+        speed: 1,
+        wrapper: '#sponsors',
+        relativeToWrapper: true
+      },
+      layer2: {
+        speed: -1,
+        wrapper: '#sponsors',
+        relativeToWrapper: true
+      },
+      layer3: {
+        speed: -3,
+        wrapper: '#sponsors',
+        relativeToWrapper: true
+      },
+    }
+  },
+  mounted() {
+    this.resizeHandler();
+    window.addEventListener("resize", this.resizeHandler);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.resizeHandler);
+  },
+  methods: {
+    resizeHandler(e) {
+      console.log('event');
+      let width = document.body.clientWidth;
+      if(width <= 768) {
+        this.layer1 = false;
+        this.layer2 = false;
+        this.layer3 = false;
+        this.layer1 = {
+          speed: 0,
+          wrapper: '#sponsors',
+          relativeToWrapper: true
+        };
+        this.layer2 = {
+          speed: 0,
+          wrapper: '#sponsors',
+          relativeToWrapper: true
+        };
+        this.layer3 = {
+          speed: 0,
+          wrapper: '#sponsors',
+          relativeToWrapper: true
+        };
+      }
+    }
+  }
 };
 </script>
 
@@ -223,21 +274,30 @@ export default {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-  // .layer-1 .row:nth-child(even) {
-  //   transform: translateX(10px);
-  // }
-  // .layer-2 .row:nth-child(odd) {
-  //   transform: translateX(20px);
-  // }
-  // .layer-2 .row:nth-child(even) {
-  //   transform: translateX(-20px);
-  // }
-  // .layer-3 .row:nth-child(odd) {
-  //   transform: translateX(-30px);
-  // }
-  // .layer-3 .row:nth-child(even) {
-  //   transform: translateX(30px);
-  // }
+  .sponsor-item {
+    width: 6em !important;
+    height: 6em !important;
+    opacity: 1 !important;
+    margin: 20px 0;
+  }
+  .absoulte {
+    position: relative;
+  }
+  .layer-1 .row:nth-child(even) {
+    transform: translateX(0);
+  }
+  .layer-2 .row:nth-child(odd) {
+    transform: translateX(0);
+  }
+  .layer-2 .row:nth-child(even) {
+    transform: translateX(0);
+  }
+  .layer-3 .row:nth-child(odd) {
+    transform: translateX(0);
+  }
+  .layer-3 .row:nth-child(even) {
+    transform: translateX(0);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
