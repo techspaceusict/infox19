@@ -10,7 +10,7 @@
     src:url(../fonts/United\ Kingdom.otf) format("opentype");
 }      
 
-
+#hero *{z-index: 2;}
 #hero{background: black;position: relative;height: 100vh;}
 
 #hero .down-arrow{
@@ -62,9 +62,6 @@ canvas {
   animation-fill-mode:forwards;
 }
 
-svg{
-  max-width:600px;
-}
 
 #title{
   color:white;
@@ -72,13 +69,13 @@ svg{
 
 #logo-text{
   font-size:42px;
-  color:white;
   text-transform:uppercase;
   position:relative;
   text-align:center;
   font-family: United Kingdom;
   letter-spacing:5px;
-  color:#9191915e;
+  color:black;
+  text-shadow: 0 0 10px #007cff;
   font-weight: bold;
   opacity:0;
   margin-bottom:20px;
@@ -100,6 +97,8 @@ svg{
     animation: dash 3s ease-in;
     animation-fill-mode:forwards;
     width:800px;
+    filter: drop-shadow(0 0 8px blue);
+    max-width:600px;
 }
 
 #gx-logo polygon{
@@ -112,6 +111,12 @@ svg{
   color:white;
   font-family: Arial;
   font-size:20px;letter-spacing: 1px;
+}
+
+#eventInfo .date{
+  color:rgb(22, 80, 172);
+  font-weight: bold;
+  font-size:28px;
 }
 
 #eventInfo>div:nth-child(1){animation-delay:4s;}
@@ -142,8 +147,8 @@ svg{
     fill-opacity:0;fill:#ffffff00;
   }
   to{
-    fill-opacity:0.5;
-    fill:#1c89a9;
+    fill-opacity:1;
+    fill:#0575e6;
   }
 }
 
@@ -163,4 +168,14 @@ svg{
   to{
     top:45%;
   }
+}
+
+
+@media screen and (max-width: 576px){
+  #gx-logo{
+    width:120vw;
+  }
+  #logo-text{font-size:7.5vw}
+  #eventInfo{font-size:4vw;}
+  .date{font-size:5.8vw;}
 }

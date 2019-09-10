@@ -22,8 +22,24 @@
     <div class="container images">
       <section class="image" style="position: relative">
         <div class="row my-5">
-          <div class="collage1"></div>
-          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image', relativeToWrapper: true}"></div>
+          <div class="collage1">
+            
+              <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
+              <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
+              <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
+              <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
+              <div class="i5"><img src="../assets/eventImgs/DSC_0199.webp"/></div>
+              <div class="i6"><img src="../assets/eventImgs/DSC_0272.webp"/></div>
+              <div class="i7"><img src="../assets/eventImgs/DSC_0288.webp"/></div>
+              <div class="i8"><img src="../assets/eventImgs/DSC_0389.webp"/></div>
+            
+          </div>
+          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image', relativeToWrapper: true}">
+              <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
+              <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
+              <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
+              <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
+          </div>
           <div class="text p-5">
             <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, deserunt!</p>
           </div>
@@ -34,8 +50,24 @@
           <div class="text p-5">
             <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, deserunt!</p>
           </div>
-          <div class="collage1"></div>
-          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image.second', relativeToWrapper: true}"></div>
+          <div class="collage1">
+            
+              <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
+              <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
+              <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
+              <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
+              <div class="i5"><img src="../assets/eventImgs/DSC_0199.webp"/></div>
+              <div class="i6"><img src="../assets/eventImgs/DSC_0272.webp"/></div>
+              <div class="i7"><img src="../assets/eventImgs/DSC_0288.webp"/></div>
+              <div class="i8"><img src="../assets/eventImgs/DSC_0389.webp"/></div>
+
+          </div>
+          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image.second', relativeToWrapper: true}">
+            <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
+            <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
+            <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
+            <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
+          </div>
         </div>
       </section>
       <!-- <div class="col-sm-12 my-5">
@@ -142,7 +174,41 @@ h2 {
   height: 600px;
   background: rgb(234, 234, 255);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display:grid;
+  grid-template-rows:auto auto auto auto;
+  grid-template-columns:auto auto auto auto;
+  grid-gap:10px;
+  background:transparent;
 }
+
+.collage1>div{position:relative;overflow:hidden;box-shadow:0 0 5px gray;}
+.collage1>div>img{
+  position:absolute;
+  top:50%;left:50%;
+  transform:scale(1) translate(-50%,-50%);
+  /* transition: transform 0.2s ease-in-out;  */
+}
+
+
+.collage1 .i1{grid-area:1/1/3/3;}
+.collage1 .i1>img{height:100%;}
+.collage1 .i2{grid-area:1/3/2/4;}
+.collage1 .i2>img{height:100%;}
+.collage1 .i3{grid-area:1/4/2/5;}
+.collage1 .i3>img{height:100%;}
+.collage1 .i4{grid-area:2/3/3/5;}
+.collage1 .i4>img{width:100%;}
+.collage1 .i5{grid-area:3/1/4/3;}
+.collage1 .i5>img{width:100%;}
+.collage1 .i6{grid-area:4/1/5/2;}
+.collage1 .i6>img{height:100%;}
+.collage1 .i7{grid-area:4/2/5/3;}
+.collage1 .i7>img{height:100%;}
+.collage1 .i8{grid-area:3/3/5/5;}
+.collage1 .i8>img{height:100%;}
+/* 
+.collage1 img:hover{transform:scale(1.2) translate(-50%,-50%);} */
+
 .collage2 {
   position: absolute;
   top: 30%;
@@ -151,7 +217,29 @@ h2 {
   height: 300px;
   background: rgb(234, 234, 255);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-template-rows:auto auto auto;
+  grid-gap:10px;
+  background:transparent;
 }
+
+.collage2>div{position:relative;overflow:hidden;box-shadow:0 0 10px black;}
+.collage2>div>img{
+  position:absolute;
+  top:50%;left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.collage2 .i1{grid-area:1/1/3/2;}
+.collage2 .i1>img{height:100%;}
+.collage2 .i2{grid-area:3/1/4/2;}
+.collage2 .i2>img{width:100%;}
+.collage2 .i3{grid-area:1/2/2/3;}
+.collage2 .i3>img{width:100%;}
+.collage2 .i4{grid-area:2/2/4/3;}
+.collage2 .i4>img{height:100%;}
+
 .image.second .collage2 {
   left: 10%;
 }

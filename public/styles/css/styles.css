@@ -139,6 +139,12 @@ svg{
   font-size:24px;letter-spacing: 2px;
 }
 
+#eventInfo .date{
+  color:rgb(22, 80, 172);
+  font-weight: bold;
+  font-weight:28px;
+}
+
 #eventInfo>div:nth-child(1){animation-delay:4s;}
 #eventInfo>div:nth-child(2){animation-delay:4.2s;}
 #eventInfo>div:nth-child(3){animation-delay:4.4s;}
