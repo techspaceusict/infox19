@@ -65,6 +65,7 @@ export default {
 </script>
 
 <style lang="scss">
+#about *{z-index: 2;}
 #about {
   margin-top: -40em;
 }

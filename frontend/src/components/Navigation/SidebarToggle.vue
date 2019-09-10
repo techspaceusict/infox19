@@ -7,6 +7,7 @@
 </template>
 
 <style scoped>
+.drawer-toggle *{z-index: 2;}
 .drawer-toggle {
   display: flex;
   flex-direction: column;
