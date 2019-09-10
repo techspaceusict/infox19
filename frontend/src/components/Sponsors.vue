@@ -96,11 +96,25 @@ export default {
       console.log('event');
       let width = document.body.clientWidth;
       if(width <= 768) {
-        this.layer1.speed = 0;
-        this.layer2.speed = 0;
-        this.layer3.speed = 0;
+        this.layer1 = false;
+        this.layer2 = false;
+        this.layer3 = false;
+        this.layer1 = {
+          speed: 0,
+          wrapper: '#sponsors',
+          relativeToWrapper: true
+        };
+        this.layer2 = {
+          speed: 0,
+          wrapper: '#sponsors',
+          relativeToWrapper: true
+        };
+        this.layer3 = {
+          speed: 0,
+          wrapper: '#sponsors',
+          relativeToWrapper: true
+        };
       }
-      console.log(this.layer1.speed, this.layer2.speed, this.layer3.speed);
     }
   }
 };
