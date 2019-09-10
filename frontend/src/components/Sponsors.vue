@@ -1,8 +1,8 @@
 <template>
   <div id="sponsors">
-    <Heading anchor=".sponsors" :speed="-4">Sponsors</Heading>
+    <Heading anchor=".sponsors" wrapper="#sponsors" :speed="-4">Sponsors</Heading>
     <div class="sponsors">
-      <div class="absoulte layer-1" v-rellax="{speed: 1}">
+      <div class="absoulte layer-1" v-rellax="{ speed: 1, wrapper: '#sponsors', relativeToWrapper: true }">
         <div class="container-fluid">
           <div class="row justify-content-around">
             <div class="sponsor-item barista"></div>
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="absoulte layer-2" v-rellax="{speed: -1}">
+      <div class="absoulte layer-2" v-rellax="{ speed: -1, wrapper: '#sponsors', relativeToWrapper: true }">
         <div class="container-fluid">
           <div class="row justify-content-around">
             <div class="sponsor-item agro"></div>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="absoulte layer-3" v-rellax="{speed: -3}">
+      <div class="absoulte layer-3" v-rellax="{ speed: -3, wrapper: '#sponsors', relativeToWrapper: true }">
         <div class="container-fluid">
           <div class="row justify-content-around">
             <div class="sponsor-item ED"></div>
@@ -71,18 +71,8 @@ export default {
 
 <style lang="scss" scoped>
 #sponsors {
-  height: 200vh;
-  margin-top: -50%;
-  // margin-top: -50vw;
-  // margin-top: calc(-0.5 * 100vw);
-}
-.sponsors {
-  position: absolute;
-  width: 100%;
-  margin-top: 45%;
-  // margin-top: 45vw;
-  // margin-top: calc(150em - 100vw);
-}
+  margin-top: -40em;
+} 
 .absoulte {
   position: absolute;
   width: 100%;
@@ -181,15 +171,15 @@ export default {
 
 
 .layer-1 {
-  margin-top: 10em;
+  // margin-top: 10em;
   z-index: 3;
 }
 .layer-2 {
-  margin-top: 0em;
+  // margin-top: 0em;
   z-index: 2;
 }
 .layer-3 {
-  margin-top: -20em;
+  // margin-top: -20em;
   z-index: 1;
 }
 

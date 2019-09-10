@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="glow">
-    <Heading anchor=".info" :speed="-3">About Us</Heading>
-    <div v-rellax="{ speed: 1 }" class="info container">
+    <Heading anchor=".info" wrapper="#about" :speed="-3">About Us</Heading>
+    <div class="info container">
       <div class="row">
         <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
           <div class="temp">
@@ -65,8 +65,8 @@ export default {
 </script>
 
 <style lang="scss">
-.glow {
-  height: 200vh;
+#about {
+  margin-top: -40em;
 }
 .glow h1,
 h2 {
@@ -74,9 +74,6 @@ h2 {
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
 
-.info {
-  margin-top: 100px;
-}
 .date {
   font-size: 48px;
   font-weight: 600;
@@ -164,20 +161,6 @@ h2 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-}
-
-
-// #gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
-
-#gx-logo {
-    fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;stroke-dasharray: 1800;
-}
-
-
-#gx {background-size:contain; padding:10% 0; text-align:center; width:100%; height:auto;}
-
-#gx3-logo {
-  fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;stroke-dasharray: 1800;
 }
 
 </style>

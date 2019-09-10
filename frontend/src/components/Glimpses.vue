@@ -1,6 +1,6 @@
 <template>
   <div id="glimpses">
-    <Heading anchor=".glimpses" :speed="-3">Glimpses</Heading>
+    <Heading anchor=".glimpses" wrapper="#glimpses" :speed="-3">Glimpses</Heading>
     <div class="glimpses">
       <div class="container">
         <div class="row m-0 mx-auto justify-content-around text-center">
@@ -35,11 +35,10 @@ export default {};
 
 <style lang="scss" scoped>
 #glimpses {
-  height: 250vh;
-  margin-top: -40%;
+  margin-top: 5em;
 }
 .glimpses {
-  margin-top: 60%;
+  // margin-top: 60%;
   color: white;
 }
 .number {

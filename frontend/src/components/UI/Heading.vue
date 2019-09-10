@@ -15,6 +15,9 @@ export default {
     anchor: {
       type: String
     },
+    wrapper: {
+      type: String
+    },
     speed: {
       type: Number,
       default: -3
@@ -26,7 +29,9 @@ export default {
   computed: {
     titleRellax() {
       return {
-        speed: this.speed
+        speed: this.speed,
+        wrapper: this.wrapper,
+        relativeToWrapper: true
       };
     }
   }
@@ -35,7 +40,7 @@ export default {
 
 <style scoped>
 .title {
-
+  padding-top: 40em;
 }
 h1 {
   font-size: 15em;
