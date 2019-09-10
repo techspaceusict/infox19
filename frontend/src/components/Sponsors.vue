@@ -72,19 +72,25 @@ export default {
 <style lang="scss" scoped>
 #sponsors {
   height: 200vh;
-  margin-top: -45%;
+  margin-top: -50%;
+  // margin-top: -50vw;
+  // margin-top: calc(-0.5 * 100vw);
 }
 .sponsors {
   position: absolute;
   width: 100%;
   margin-top: 45%;
+  // margin-top: 45vw;
+  // margin-top: calc(150em - 100vw);
 }
 .absoulte {
   position: absolute;
   width: 100%;
 }
+.container-fluid {
+  overflow: hidden;
+}
 .sponsor-item {
-  // border-radius: 50%;
   // margin: 50px 100px;
   margin: 30px 0;
   // box-shadow: 0px 0px 20px blue;
@@ -226,7 +232,21 @@ export default {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+  // .layer-1 .row:nth-child(even) {
+  //   transform: translateX(10px);
+  // }
+  // .layer-2 .row:nth-child(odd) {
+  //   transform: translateX(20px);
+  // }
+  // .layer-2 .row:nth-child(even) {
+  //   transform: translateX(-20px);
+  // }
+  // .layer-3 .row:nth-child(odd) {
+  //   transform: translateX(-30px);
+  // }
+  // .layer-3 .row:nth-child(even) {
+  //   transform: translateX(30px);
+  // }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
