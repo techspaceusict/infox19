@@ -75,6 +75,8 @@ export default {
   margin-top: -45%;
 }
 .sponsors {
+  position: absolute;
+  width: 100%;
   margin-top: 45%;
 }
 .absoulte {
@@ -217,8 +219,19 @@ export default {
   transform: translateX(120px);
 }
 
-// .sponsor-item:nth-child(1) {
-//   background-image: url('../assets/sponsors/barista.jpg');
-//   background-size: cover;
-// }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
 </style>

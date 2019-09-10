@@ -37,8 +37,11 @@
       </div>
       <div class="col-sm-12 my-5 py-5">
         <div class="row">
+          <div class="image" data-aos="fade-up" data-aos-duration="1000">
+            <img src="../assets/about-image2.jpg" alt="" class="w-100" />
+          </div>
           <div class="info-card text-white">
-            <div class="heading second" data-aos="text-fade-down">
+            <div class="heading text-right second" data-aos="text-fade-down">
               <h2 class="text-white display-4">Lorem ipsum dolor sit, amet</h2>
             </div>
             <div class="para text-right" data-aos="text-fade-down" data-aos-anchor=".heading.second" data-aos-delay="200">
@@ -46,9 +49,6 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil? Quo omnis sapiente aliquid tempora?
               </p>
             </div>
-          </div>
-          <div class="image" data-aos="fade-up" data-aos-duration="1000">
-            <img src="../assets/about-image2.jpg" alt="" class="w-100" />
           </div>
         </div>
       </div>
@@ -88,14 +88,18 @@ h2 {
   color: #0575e6;
   filter: drop-shadow(0px 0px 10px rgba(4, 117, 229, 0.6));
 }
+// .para p {
+//   font-size: 1.2em;
+//   &.right {
+//     text-align: right;
+//   }
+//   &.left {
+//     text-align: left;
+//   }
+// }
 .para p {
   font-size: 1.2em;
-  &.right {
-    text-align: right;
-  }
-  &.left {
-    text-align: left;
-  }
+  text-align: right;
 }
 
 .info-card {
@@ -120,11 +124,7 @@ h2 {
   outline: 5px solid #0575e6;
   transform: scale(1.05) !important;
 }
-.image:nth-child(1) {
-  background-image: url("../assets/about-image1.jpg");
-  background-size: cover;
-  background-position: center;
-}
+
 [data-aos="text-fade-down"] {
   transform: translateY(-30px);
   opacity: 0;
@@ -139,5 +139,28 @@ h2 {
 }
 [data-aos="image"].aos-animate {
   height: fit-content;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .display-4 {
+    font-size: 2em !important;
+  }
+  .image {
+    width: 100%;
+  }
+  .info-card {
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
 </style>
