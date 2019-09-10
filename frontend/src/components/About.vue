@@ -3,16 +3,14 @@
     <Heading anchor=".info" :speed="-3">About Us</Heading>
     <div v-rellax="{ speed: 1 }" class="info container">
       <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
+          <div class="temp">iX5</div>
+        </div>
+        <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
           <div class="date">
             Incorporated in
             <br />2014
-            <br />
-            <br />
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="temp text-center">iX5</div>
         </div>
       </div>
     </div>
