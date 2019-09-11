@@ -177,5 +177,5 @@ canvas {
   }
   #logo-text{font-size:7.5vw}
   #eventInfo{font-size:4vw;}
-  .date{font-size:5.8vw;}
+  body #eventInfo .date{font-size:5.8vw;}
 }

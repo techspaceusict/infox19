@@ -49,4 +49,10 @@ export default {};
 .text {
   font-size: 2.5em;
 }
+
+
+@media only screen and (max-width:576px){
+  #glimpses .text{font-size:1.5em}
+}
+
 </style>
