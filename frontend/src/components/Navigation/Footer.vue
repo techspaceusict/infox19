@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row m-0 mx-auto justify-content-around">
         <section>
-          <h4>InfoXpressions</h4>
+          <h4>InfoXpression</h4>
         </section>
         <section class="list">
           <div class="row m-0">

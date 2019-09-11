@@ -179,6 +179,7 @@ h2 {
   grid-template-columns:auto auto auto auto;
   grid-gap:10px;
   background:transparent;
+  
 }
 
 .collage1>div{position:relative;overflow:hidden;box-shadow:0 0 5px gray;}
@@ -278,6 +279,38 @@ h2 {
 }
 
 
+@media only screen and (max-width:576px){
+  .temp{font-size:150px} 
+  #about .date{font-size:32px;}
+  /* .collage1 .i5,.collage1 .i6,
+  .collage1 .i7,.collage1 .i8,
+  .collage2 .i5,.collage2 .i6,
+  .collage2 .i7,.collage2 .i8{
+    display:none;
+  } */
+
+  .collage2{display:none;}
+  .collage1 {margin:0 auto;}
+
+
+  .collage1 .i1{grid-area:1/1/2/5;}
+  .collage1 .i1>img{width:100%;height:auto;}
+  .collage1 .i2{grid-area:2/1/3/3;}
+  .collage1 .i2>img{height:100%;}
+  .collage1 .i3{grid-area:2/3/3/5;}
+  .collage1 .i3>img{height:100%;}
+  .collage1 .i4{grid-area:3/1/4/5;}
+  .collage1 .i4>img{width:100%;}
+  .collage1 .i5{grid-area:4/1/5/3;}
+  .collage1 .i5>img{height:100%;width:auto}
+  .collage1 .i6{grid-area:4/3/5/5;}
+  .collage1 .i6>img{height:100%;}
+  .collage1 .i7{grid-area:4/2/5/3;display:none;}
+  .collage1 .i7>img{height:100%;}
+  .collage1 .i8{grid-area:3/3/5/5;display:none;}
+  .collage1 .i8>img{height:100%;}
+}
+
 @media only screen and (max-width: 768px) {
   .display-4 {
     font-size: 2em !important;
@@ -292,7 +325,7 @@ h2 {
   .collage1 {
     width: 75%;
     height: 600px;
-    background: rgb(234, 234, 255);
+    background: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   .collage2 {
