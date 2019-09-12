@@ -6,7 +6,7 @@
     <About />
     <Sponsors />
     <Glimpses />
-    <!-- <Contact /> -->
+    <Contact />
     <Footer class="the-footer" />
   </div>
 </template>
