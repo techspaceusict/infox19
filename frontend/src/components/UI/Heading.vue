@@ -21,6 +21,10 @@ export default {
     speed: {
       type: Number,
       default: -3
+    },
+    subHeading: {
+      type: String,
+      default: ""
     }
   },
   data() {
@@ -41,6 +45,8 @@ export default {
 <style scoped>
 .title {
   padding-top: 40em;
+  padding-bottom: 2.5em;
+  filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
 }
 h1 {
   font-size: 15em;

@@ -21,7 +21,7 @@
                 <a href="#glimpses">GLIMPSES</a>
               </li>
             </ul>
-          
+
             <ul class="links font-sm">
               <li class="list-item mb-2">
                 CONTACT US
@@ -34,8 +34,10 @@
         </section>
         <section>
           <p class="font-weight-bold font-sm mb-2">ADDRESS</p>
-          <p class="font-sm">Guru Gobind Singh Indraprastha University <br> 
-            Sector 16 C, Dwarka, New Delhi - 110078</p>
+          <p class="font-sm">
+            Guru Gobind Singh Indraprastha University <br />
+            Sector 16 C, Dwarka, New Delhi - 110078
+          </p>
         </section>
         <section class="tex-center">
           <p class="font-weight-bold font-sm mb-2">FOLLOW US</p>
@@ -51,16 +53,16 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {};
 </script>
 
 <style scoped>
-.footer *{z-index: 2;}
+.footer * {
+  z-index: 2;
+}
 .footer {
   height: fit-content;
-  background: linear-gradient(0deg, rgb(9, 0, 32) 0%, black 100%);
+  background: linear-gradient(0deg, #0576e696 0%, black 100%);
   color: white;
   padding: 20px;
   padding-top: 50px;
@@ -114,5 +116,4 @@ export default {
     text-align: left;
   }
 }
-
 </style>

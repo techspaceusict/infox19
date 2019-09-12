@@ -28,7 +28,9 @@
               <!-- <router-link :to="item.link" class="nav-link">{{
                 item.name
               }}</router-link> -->
-              <a :href="'#' + item.link" class="nav-link">{{ item.name }}</a>
+              <a href="#" @click="scrollMeTo(item.link)" class="nav-link">{{
+                item.name
+              }}</a>
             </li>
           </ul>
           <!-- <div class="infoxpressions w-50">
@@ -48,6 +50,13 @@ export default {
   name: "Navbar",
   components: {
     SidebarToggle
+  },
+  methods: {
+    scrollMeTo(refName) {
+      var element = document.getElementById(refName);
+      var top = element.offsetTop;
+      window.scrollTo(0, top);
+    }
   },
   data() {
     return {
@@ -84,7 +93,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-nav *{z-index: 2;}
+nav * {
+  z-index: 2;
+}
 .close-cross {
   display: flex;
   flex-direction: column;
@@ -128,6 +139,17 @@ nav *{z-index: 2;}
 .nav-link:hover {
   color: white;
   transform: scale(1.02);
+}
+.nav-link:hover::before {
+  background: linear-gradient(90deg, #0575e6 0%, rgba(2, 28, 121, 0) 100%);
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  filter: drop-shadow(0px 0px 10px rgba(5, 118, 230, 1));
 }
 .nav-link.router-link-exact-active {
   color: white;
@@ -188,7 +210,7 @@ nav *{z-index: 2;}
   height: 100%;
   width: 100%;
   padding-top: 30px;
-  background: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 50%);
+  background: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 100%);
   z-index: 12;
   position: fixed;
   top: 0;
