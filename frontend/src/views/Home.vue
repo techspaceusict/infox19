@@ -2,11 +2,18 @@
   <div>
     <Background />
     <Hero />
-    <!-- <Gap :height="'100vh'" /> -->
+    <Gap :height="'20vh'" />
     <About />
+    <Gap :height="'20vh'" />
     <Sponsors />
+    <Gap :height="'20vh'" />
     <Glimpses />
+<<<<<<< HEAD
     <Contact />
+=======
+    <Gap :height="'20vh'" />
+    <!-- <Contact /> -->
+>>>>>>> 9dcdfe404f75e6cd2b77804cd10f22ccec769815
     <Footer class="the-footer" />
   </div>
 </template>

@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div id="contact" class="contact">
     <div class="container">
 	<div class="row">
@@ -40,6 +41,10 @@
   </form>
 </div>
 
+=======
+  <div ref="contact" id="contact" class="contact">
+    Contact us
+>>>>>>> 9dcdfe404f75e6cd2b77804cd10f22ccec769815
   </div>
 </template>
 <script>

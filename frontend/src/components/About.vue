@@ -1,16 +1,22 @@
 <template>
-  <div id="about" class="glow">
-    <Heading anchor=".info" wrapper="#about" :speed="-5">About Us</Heading>
+  <div ref="ref" id="about" class="glow">
+    <Heading anchor=".images" wrapper="#about" :speed="-5"
+      >Infoxpression</Heading
+    >
     <div class="info container">
       <div class="row">
-        <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
+        <div
+          class="col-md-6 text-center d-flex justify-content-center align-items-center"
+        >
           <div class="temp">
             <span>i</span>
             <span>X</span>
             <span>5</span>
           </div>
         </div>
-        <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
+        <div
+          class="col-md-6 text-center d-flex justify-content-center align-items-center"
+        >
           <div class="date">
             Incorporated in
             <br />2014
@@ -23,50 +29,110 @@
       <section class="image" style="position: relative">
         <div class="row my-5">
           <div class="collage1">
-            
-              <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
-              <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
-              <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
-              <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
-              <div class="i5"><img src="../assets/eventImgs/DSC_0199.webp"/></div>
-              <div class="i6"><img src="../assets/eventImgs/DSC_0272.webp"/></div>
-              <div class="i7"><img src="../assets/eventImgs/DSC_0288.webp"/></div>
-              <div class="i8"><img src="../assets/eventImgs/DSC_0389.webp"/></div>
-            
+            <div class="i1">
+              <img src="../assets/eventImgs/DSC_0080.webp" />
+            </div>
+            <div class="i2">
+              <img src="../assets/eventImgs/DSC_0017.webp" />
+            </div>
+            <div class="i3">
+              <img src="../assets/eventImgs/DSC_0175.webp" />
+            </div>
+            <div class="i4">
+              <img src="../assets/eventImgs/DSC_0189.webp" />
+            </div>
+            <div class="i5">
+              <img src="../assets/eventImgs/DSC_0199.webp" />
+            </div>
+            <div class="i6">
+              <img src="../assets/eventImgs/DSC_0272.webp" />
+            </div>
+            <div class="i7">
+              <img src="../assets/eventImgs/DSC_0288.webp" />
+            </div>
+            <div class="i8">
+              <img src="../assets/eventImgs/DSC_0389.webp" />
+            </div>
           </div>
-          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image', relativeToWrapper: true}">
-              <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
-              <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
-              <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
-              <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
+          <div
+            class="collage2"
+            v-rellax="{ speed: 2, wrapper: '.image', relativeToWrapper: true }"
+          >
+            <!-- <div class="i1">
+              <img src="../assets/eventImgs/DSC_0080.webp" />
+            </div>
+            <div class="i2">
+              <img src="../assets/eventImgs/DSC_0017.webp" />
+            </div>
+            <div class="i3">
+              <img src="../assets/eventImgs/DSC_0175.webp" />
+            </div>
+            <div class="i4">
+              <img src="../assets/eventImgs/DSC_0189.webp" />
+            </div> -->
           </div>
           <div class="text p-5">
-            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, deserunt!</p>
+            <p class="text-white">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              deserunt!
+            </p>
           </div>
         </div>
       </section>
       <section class="image second" style="position: relative">
         <div class="row my-5">
           <div class="text p-5">
-            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, deserunt!</p>
+            <p class="text-white">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              deserunt!
+            </p>
           </div>
           <div class="collage1">
-            
-              <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
-              <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
-              <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
-              <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
-              <div class="i5"><img src="../assets/eventImgs/DSC_0199.webp"/></div>
-              <div class="i6"><img src="../assets/eventImgs/DSC_0272.webp"/></div>
-              <div class="i7"><img src="../assets/eventImgs/DSC_0288.webp"/></div>
-              <div class="i8"><img src="../assets/eventImgs/DSC_0389.webp"/></div>
-
+            <div class="i1">
+              <img src="../assets/eventImgs/DSC_0080.webp" />
+            </div>
+            <div class="i2">
+              <img src="../assets/eventImgs/DSC_0017.webp" />
+            </div>
+            <div class="i3">
+              <img src="../assets/eventImgs/DSC_0175.webp" />
+            </div>
+            <div class="i4">
+              <img src="../assets/eventImgs/DSC_0189.webp" />
+            </div>
+            <div class="i5">
+              <img src="../assets/eventImgs/DSC_0199.webp" />
+            </div>
+            <div class="i6">
+              <img src="../assets/eventImgs/DSC_0272.webp" />
+            </div>
+            <div class="i7">
+              <img src="../assets/eventImgs/DSC_0288.webp" />
+            </div>
+            <div class="i8">
+              <img src="../assets/eventImgs/DSC_0389.webp" />
+            </div>
           </div>
-          <div class="collage2" v-rellax="{speed: 2, wrapper: '.image.second', relativeToWrapper: true}">
-            <div class="i1"><img src="../assets/eventImgs/DSC_0080.webp"/> </div>
-            <div class="i2"><img src="../assets/eventImgs/DSC_0017.webp"/></div>
-            <div class="i3"><img src="../assets/eventImgs/DSC_0175.webp"/></div>
-            <div class="i4"><img src="../assets/eventImgs/DSC_0189.webp"/></div>
+          <div
+            class="collage2"
+            v-rellax="{
+              speed: 2,
+              wrapper: '.image.second',
+              relativeToWrapper: true
+            }"
+          >
+            <div class="i1">
+              <img src="../assets/eventImgs/DSC_0080.webp" />
+            </div>
+            <div class="i2">
+              <img src="../assets/eventImgs/DSC_0017.webp" />
+            </div>
+            <div class="i3">
+              <img src="../assets/eventImgs/DSC_0175.webp" />
+            </div>
+            <div class="i4">
+              <img src="../assets/eventImgs/DSC_0189.webp" />
+            </div>
           </div>
         </div>
       </section>
@@ -109,13 +175,13 @@
 </template>
 
 <script>
-export default {
-
-};
+export default {};
 </script>
 
 <style lang="css" scoped>
-#about *{z-index: 2;}
+#about * {
+  z-index: 2;
+}
 #about {
   margin-top: -40em;
 }
@@ -174,39 +240,74 @@ h2 {
   height: 600px;
   background: rgb(234, 234, 255);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display:grid;
-  grid-template-rows:auto auto auto auto;
-  grid-template-columns:auto auto auto auto;
-  grid-gap:10px;
-  background:transparent;
-  
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background: transparent;
 }
 
-.collage1>div{position:relative;overflow:hidden;box-shadow:0 0 5px gray;}
-.collage1>div>img{
-  position:absolute;
-  top:50%;left:50%;
-  transform:scale(1) translate(-50%,-50%);
+.collage1 > div {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 5px gray;
+}
+.collage1 > div > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(1) translate(-50%, -50%);
   /* transition: transform 0.2s ease-in-out;  */
 }
 
-
-.collage1 .i1{grid-area:1/1/3/3;}
-.collage1 .i1>img{height:100%;}
-.collage1 .i2{grid-area:1/3/2/4;}
-.collage1 .i2>img{height:100%;}
-.collage1 .i3{grid-area:1/4/2/5;}
-.collage1 .i3>img{height:100%;}
-.collage1 .i4{grid-area:2/3/3/5;}
-.collage1 .i4>img{width:100%;}
-.collage1 .i5{grid-area:3/1/4/3;}
-.collage1 .i5>img{width:100%;}
-.collage1 .i6{grid-area:4/1/5/2;}
-.collage1 .i6>img{height:100%;}
-.collage1 .i7{grid-area:4/2/5/3;}
-.collage1 .i7>img{height:100%;}
-.collage1 .i8{grid-area:3/3/5/5;}
-.collage1 .i8>img{height:100%;}
+.collage1 .i1 {
+  grid-area: 1/1/3/3;
+}
+.collage1 .i1 > img {
+  height: 100%;
+}
+.collage1 .i2 {
+  grid-area: 1/3/2/4;
+}
+.collage1 .i2 > img {
+  height: 100%;
+}
+.collage1 .i3 {
+  grid-area: 1/4/2/5;
+}
+.collage1 .i3 > img {
+  height: 100%;
+}
+.collage1 .i4 {
+  grid-area: 2/3/3/5;
+}
+.collage1 .i4 > img {
+  width: 100%;
+}
+.collage1 .i5 {
+  grid-area: 3/1/4/3;
+}
+.collage1 .i5 > img {
+  width: 100%;
+}
+.collage1 .i6 {
+  grid-area: 4/1/5/2;
+}
+.collage1 .i6 > img {
+  height: 100%;
+}
+.collage1 .i7 {
+  grid-area: 4/2/5/3;
+}
+.collage1 .i7 > img {
+  height: 100%;
+}
+.collage1 .i8 {
+  grid-area: 3/3/5/5;
+}
+.collage1 .i8 > img {
+  height: 100%;
+}
 /* 
 .collage1 img:hover{transform:scale(1.2) translate(-50%,-50%);} */
 
@@ -216,30 +317,53 @@ h2 {
   left: 40%;
   width: 50%;
   height: 300px;
-  background: rgb(234, 234, 255);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display:grid;
-  grid-template-columns:auto auto;
-  grid-template-rows:auto auto auto;
-  grid-gap:10px;
-  background:transparent;
+  border-radius: 10px;
+  box-shadow: 15px 15px 50px #1767b8a6;
+  background: linear-gradient(#0575e6, #044483);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  /* display: grid; */
+  /* grid-template-columns: auto auto; */
+  /* grid-template-rows: auto auto auto; */
+  /* grid-gap: 10px; */
+  /* background: transparent; */
 }
 
-.collage2>div{position:relative;overflow:hidden;box-shadow:0 0 10px black;}
-.collage2>div>img{
-  position:absolute;
-  top:50%;left:50%;
-  transform:translate(-50%,-50%);
+.collage2 > div {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+}
+.collage2 > div > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.collage2 .i1{grid-area:1/1/3/2;}
-.collage2 .i1>img{height:100%;}
-.collage2 .i2{grid-area:3/1/4/2;}
-.collage2 .i2>img{width:100%;}
-.collage2 .i3{grid-area:1/2/2/3;}
-.collage2 .i3>img{width:100%;}
-.collage2 .i4{grid-area:2/2/4/3;}
-.collage2 .i4>img{height:100%;}
+.collage2 .i1 {
+  grid-area: 1/1/3/2;
+}
+.collage2 .i1 > img {
+  height: 100%;
+}
+.collage2 .i2 {
+  grid-area: 3/1/4/2;
+}
+.collage2 .i2 > img {
+  width: 100%;
+}
+.collage2 .i3 {
+  grid-area: 1/2/2/3;
+}
+.collage2 .i3 > img {
+  width: 100%;
+}
+.collage2 .i4 {
+  grid-area: 2/2/4/3;
+}
+.collage2 .i4 > img {
+  height: 100%;
+}
 
 .image.second .collage2 {
   left: 10%;
@@ -278,10 +402,13 @@ h2 {
   height: fit-content;
 }
 
-
-@media only screen and (max-width:576px){
-  .temp{font-size:150px} 
-  #about .date{font-size:32px;}
+@media only screen and (max-width: 576px) {
+  .temp {
+    font-size: 150px;
+  }
+  #about .date {
+    font-size: 32px;
+  }
   /* .collage1 .i5,.collage1 .i6,
   .collage1 .i7,.collage1 .i8,
   .collage2 .i5,.collage2 .i6,
@@ -289,26 +416,65 @@ h2 {
     display:none;
   } */
 
-  .collage2{display:none;}
-  .collage1 {margin:0 auto;}
+  .collage2 {
+    display: none;
+  }
+  .collage1 {
+    margin: 0 auto;
+  }
 
-
-  .collage1 .i1{grid-area:1/1/2/5;}
-  .collage1 .i1>img{width:100%;height:auto;}
-  .collage1 .i2{grid-area:2/1/3/3;}
-  .collage1 .i2>img{height:100%;}
-  .collage1 .i3{grid-area:2/3/3/5;}
-  .collage1 .i3>img{height:100%;}
-  .collage1 .i4{grid-area:3/1/4/5;}
-  .collage1 .i4>img{width:100%;}
-  .collage1 .i5{grid-area:4/1/5/3;}
-  .collage1 .i5>img{height:100%;width:auto}
-  .collage1 .i6{grid-area:4/3/5/5;}
-  .collage1 .i6>img{height:100%;}
-  .collage1 .i7{grid-area:4/2/5/3;display:none;}
-  .collage1 .i7>img{height:100%;}
-  .collage1 .i8{grid-area:3/3/5/5;display:none;}
-  .collage1 .i8>img{height:100%;}
+  .collage1 .i1 {
+    grid-area: 1/1/2/5;
+  }
+  .collage1 .i1 > img {
+    width: 100%;
+    height: auto;
+  }
+  .collage1 .i2 {
+    grid-area: 2/1/3/3;
+  }
+  .collage1 .i2 > img {
+    height: 100%;
+  }
+  .collage1 .i3 {
+    grid-area: 2/3/3/5;
+  }
+  .collage1 .i3 > img {
+    height: 100%;
+  }
+  .collage1 .i4 {
+    grid-area: 3/1/4/5;
+  }
+  .collage1 .i4 > img {
+    width: 100%;
+  }
+  .collage1 .i5 {
+    grid-area: 4/1/5/3;
+  }
+  .collage1 .i5 > img {
+    height: 100%;
+    width: auto;
+  }
+  .collage1 .i6 {
+    grid-area: 4/3/5/5;
+  }
+  .collage1 .i6 > img {
+    height: 100%;
+  }
+  .collage1 .i7 {
+    grid-area: 4/2/5/3;
+    display: none;
+  }
+  .collage1 .i7 > img {
+    height: 100%;
+  }
+  .collage1 .i8 {
+    grid-area: 3/3/5/5;
+    display: none;
+  }
+  .collage1 .i8 > img {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -338,11 +504,9 @@ h2 {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
-
 </style>

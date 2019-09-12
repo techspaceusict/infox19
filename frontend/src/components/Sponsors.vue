@@ -1,6 +1,12 @@
 <template>
-  <div id="sponsors">
-    <Heading anchor=".sponsors" wrapper="#sponsors" :speed="-6">Sponsors</Heading>
+  <div ref="sponsors" id="sponsors">
+    <Heading
+      :subHeading="'Previous'"
+      anchor=".sponsors"
+      wrapper="#sponsors"
+      :speed="-6"
+      >Sponsors</Heading
+    >
     <div class="sponsors">
       <div class="absoulte layer-1" v-rellax="layer1">
         <div class="container-fluid">
@@ -69,20 +75,20 @@ export default {
     return {
       layer1: {
         speed: 1,
-        wrapper: '#sponsors',
+        wrapper: "#sponsors",
         relativeToWrapper: true
       },
       layer2: {
         speed: -1,
-        wrapper: '#sponsors',
+        wrapper: "#sponsors",
         relativeToWrapper: true
       },
       layer3: {
         speed: -3,
-        wrapper: '#sponsors',
+        wrapper: "#sponsors",
         relativeToWrapper: true
-      },
-    }
+      }
+    };
   },
   mounted() {
     this.resizeHandler();
@@ -93,25 +99,25 @@ export default {
   },
   methods: {
     resizeHandler(e) {
-      console.log('event');
+      console.log("event");
       let width = document.body.clientWidth;
-      if(width <= 768) {
+      if (width <= 768) {
         this.layer1 = false;
         this.layer2 = false;
         this.layer3 = false;
         this.layer1 = {
           speed: 0,
-          wrapper: '#sponsors',
+          wrapper: "#sponsors",
           relativeToWrapper: true
         };
         this.layer2 = {
           speed: 0,
-          wrapper: '#sponsors',
+          wrapper: "#sponsors",
           relativeToWrapper: true
         };
         this.layer3 = {
           speed: 0,
-          wrapper: '#sponsors',
+          wrapper: "#sponsors",
           relativeToWrapper: true
         };
       }
@@ -121,10 +127,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#sponsors *{z-index:2;}
+#sponsors * {
+  z-index: 2;
+}
 #sponsors {
   margin-top: -40em;
-} 
+}
 .absoulte {
   position: absolute;
   width: 100%;
@@ -143,84 +151,83 @@ export default {
 }
 
 .barista {
-  background-image: url('../assets/sponsors/barista.jpg');
+  background-image: url("../assets/sponsors/barista.jpg");
 }
 .agro {
-  background-image: url('../assets/sponsors/agro.jpg');
+  background-image: url("../assets/sponsors/agro.jpg");
 }
 .blogx {
-  background-image: url('../assets/sponsors/blogx.jpg');
+  background-image: url("../assets/sponsors/blogx.jpg");
 }
 .codeStreet {
-  background-image: url('../assets/sponsors/codeStreet.png');
+  background-image: url("../assets/sponsors/codeStreet.png");
 }
 .codingBlock {
-  background-image: url('../assets/sponsors/codingBlock.png');
+  background-image: url("../assets/sponsors/codingBlock.png");
 }
 .codingNinja {
-  background-image: url('../assets/sponsors/codingNinja.svg');
+  background-image: url("../assets/sponsors/codingNinja.svg");
 }
 .designcut {
-  background-image: url('../assets/sponsors/designcut.png');
+  background-image: url("../assets/sponsors/designcut.png");
 }
 .domainX {
-  background-image: url('../assets/sponsors/domainX.png');
+  background-image: url("../assets/sponsors/domainX.png");
 }
 .earning_labs {
-  background-image: url('../assets/sponsors/earning_labs.png');
+  background-image: url("../assets/sponsors/earning_labs.png");
 }
 .ED {
-  background-image: url('../assets/sponsors/ED.png');
+  background-image: url("../assets/sponsors/ED.png");
 }
 .enactus_igdtu {
-  background-image: url('../assets/sponsors/enactus_igdtu.png');
+  background-image: url("../assets/sponsors/enactus_igdtu.png");
 }
 .gamex {
-  background-image: url('../assets/sponsors/gamex.jpg');
+  background-image: url("../assets/sponsors/gamex.jpg");
 }
 .gaming {
-  background-image: url('../assets/sponsors/gaming.jpg');
+  background-image: url("../assets/sponsors/gaming.jpg");
 }
 .Hidden_Hour {
-  background-image: url('../assets/sponsors/Hidden_Hour.png');
+  background-image: url("../assets/sponsors/Hidden_Hour.png");
 }
 .HouseOfAmigos {
-  background-image: url('../assets/sponsors/HouseOfAmigos.png');
+  background-image: url("../assets/sponsors/HouseOfAmigos.png");
 }
 .incubateind {
-  background-image: url('../assets/sponsors/incubateind.png');
+  background-image: url("../assets/sponsors/incubateind.png");
 }
 .josh-logo-square {
-  background-image: url('../assets/sponsors/josh-logo-square.png');
+  background-image: url("../assets/sponsors/josh-logo-square.png");
 }
 .microHost {
-  background-image: url('../assets/sponsors/microHost.png');
+  background-image: url("../assets/sponsors/microHost.png");
 }
 .Paytm {
-  background-image: url('../assets/sponsors/Paytm.png');
+  background-image: url("../assets/sponsors/Paytm.png");
 }
 .Podio {
-  background-image: url('../assets/sponsors/Podio.png');
+  background-image: url("../assets/sponsors/Podio.png");
 }
 .reappoint {
-  background-image: url('../assets/sponsors/reappoint.jpg');
+  background-image: url("../assets/sponsors/reappoint.jpg");
 }
 .redbull {
-  background-image: url('../assets/sponsors/redbull.png');
+  background-image: url("../assets/sponsors/redbull.png");
 }
 .redwolf {
-  background-image: url('../assets/sponsors/redwolf.png');
+  background-image: url("../assets/sponsors/redwolf.png");
 }
 .reliance {
-  background-image: url('../assets/sponsors/reliance.png');
+  background-image: url("../assets/sponsors/reliance.png");
 }
 .streetHack {
-  background-image: url('../assets/sponsors/streetHack.jpg');
+  background-image: url("../assets/sponsors/streetHack.jpg");
 }
 .wall {
-  background-image: url('../assets/sponsors/wall.png');
+  background-image: url("../assets/sponsors/wall.png");
 }
-
 
 .layer-1 {
   // margin-top: 10em;
@@ -269,7 +276,6 @@ export default {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -302,7 +308,5 @@ export default {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
 }
-
 </style>
