@@ -9,6 +9,7 @@
           class="col-md-6 text-center d-flex justify-content-center align-items-center"
         >
           <div class="temp">
+            <span>#</span>
             <span>i</span>
             <span>X</span>
             <span>5</span>
@@ -18,17 +19,17 @@
           class="col-md-6 text-center d-flex justify-content-center align-items-center"
         >
           <div class="date">
-            Incorporated in
-            <br />2014
+            Coming Back in
+            <br />{{ days }} Days...
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container images">
+    <div style="margin:3vh;" class="container-fluid images">
       <section class="image" style="position: relative">
         <div class="row my-5">
-          <div class="collage1">
+          <div class="col-md-8 col-sm-12 collage1">
             <div class="i1">
               <img src="../assets/eventImgs/DSC_0080.webp" />
             </div>
@@ -55,7 +56,7 @@
             </div>
           </div>
           <div
-            class="collage2"
+            class="collageDescription col-md-4 col-sm-12"
             v-rellax="{ speed: 2, wrapper: '.image', relativeToWrapper: true }"
           >
             <!-- <div class="i1">
@@ -72,110 +73,51 @@
             </div> -->
           </div>
           <div class="text p-5">
-            <p class="text-white">
+            <!-- <p class="text-white">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
               deserunt!
-            </p>
+            </p> -->
           </div>
         </div>
       </section>
-      <section class="image second" style="position: relative">
-        <div class="row my-5">
-          <div class="text p-5">
-            <p class="text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-              deserunt!
-            </p>
-          </div>
-          <div class="collage1">
-            <div class="i1">
-              <img src="../assets/eventImgs/DSC_0080.webp" />
-            </div>
-            <div class="i2">
-              <img src="../assets/eventImgs/DSC_0017.webp" />
-            </div>
-            <div class="i3">
-              <img src="../assets/eventImgs/DSC_0175.webp" />
-            </div>
-            <div class="i4">
-              <img src="../assets/eventImgs/DSC_0189.webp" />
-            </div>
-            <div class="i5">
-              <img src="../assets/eventImgs/DSC_0199.webp" />
-            </div>
-            <div class="i6">
-              <img src="../assets/eventImgs/DSC_0272.webp" />
-            </div>
-            <div class="i7">
-              <img src="../assets/eventImgs/DSC_0288.webp" />
-            </div>
-            <div class="i8">
-              <img src="../assets/eventImgs/DSC_0389.webp" />
-            </div>
-          </div>
-          <div
-            class="collage2"
-            v-rellax="{
-              speed: 2,
-              wrapper: '.image.second',
-              relativeToWrapper: true
-            }"
-          >
-            <div class="i1">
-              <img src="../assets/eventImgs/DSC_0080.webp" />
-            </div>
-            <div class="i2">
-              <img src="../assets/eventImgs/DSC_0017.webp" />
-            </div>
-            <div class="i3">
-              <img src="../assets/eventImgs/DSC_0175.webp" />
-            </div>
-            <div class="i4">
-              <img src="../assets/eventImgs/DSC_0189.webp" />
-            </div>
-          </div>
+      <section class="videoPlayer">
+        <div class="container embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/ZzRyoSbLKCw"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+            allowfullscreen
+          ></iframe>
         </div>
+        <!-- <iframe
+          style="overflow: hidden; height: 80vh;width:auto;"
+          src="https://www.youtube.com/embed/ZzRyoSbLKCw"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe> -->
       </section>
-      <!-- <div class="col-sm-12 my-5">
-        <div class="row">
-          <div class="image col-sm-8" data-aos="fade-up" data-aos-duration="1000">
-            <img src="../assets/about-image1.jpg" alt="" class="w-100" />
-          </div>
-          <div class="info-card text-white">
-            <div class="heading text-right" data-aos="text-fade-down">
-              <h2 class="text-white display-4">What we do</h2>
-            </div>
-            <div class="para" data-aos="text-fade-down" data-aos-anchor=".heading" data-aos-delay="200">
-              <p class="right">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam provident est ullam, ipsum recusandae laboriosam?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 my-5 py-5">
-        <div class="row">
-          <div class="image" data-aos="fade-up" data-aos-duration="1000">
-            <img src="../assets/about-image2.jpg" alt="" class="w-100" />
-          </div>
-          <div class="info-card text-white">
-            <div class="heading text-right second" data-aos="text-fade-down">
-              <h2 class="text-white display-4">Lorem ipsum dolor sit, amet</h2>
-            </div>
-            <div class="para text-right" data-aos="text-fade-down" data-aos-anchor=".heading.second" data-aos-delay="200">
-              <p class="left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil? Quo omnis sapiente aliquid tempora?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      days: 0
+    };
+  },
+  mounted() {
+    setInterval(() => {
+      var today = new Date().getTime();
+      var date = new Date("Oct 11, 2019 00:00:00").getTime();
+      var dist = date - today;
+      this.days = Math.floor(dist / (1000 * 60 * 60 * 24));
+    }, 1000);
+  }
+};
 </script>
 
 <style lang="css" scoped>
@@ -311,12 +253,13 @@ h2 {
 /* 
 .collage1 img:hover{transform:scale(1.2) translate(-50%,-50%);} */
 
-.collage2 {
-  position: absolute;
-  top: 30%;
-  left: 40%;
-  width: 50%;
-  height: 300px;
+.collageDescription {
+  /* position: relative; */
+  /* top: 30%; */
+  left: -10%;
+  /* width: 50%; */
+
+  height: 70vh;
   border-radius: 10px;
   box-shadow: 15px 15px 50px #1767b8a6;
   background: linear-gradient(#0575e6, #044483);
@@ -328,44 +271,44 @@ h2 {
   /* background: transparent; */
 }
 
-.collage2 > div {
+.collageDescription > div {
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 10px black;
 }
-.collage2 > div > img {
+.collageDescription > div > img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.collage2 .i1 {
+.collageDescription .i1 {
   grid-area: 1/1/3/2;
 }
-.collage2 .i1 > img {
+.collageDescription .i1 > img {
   height: 100%;
 }
-.collage2 .i2 {
+.collageDescription .i2 {
   grid-area: 3/1/4/2;
 }
-.collage2 .i2 > img {
+.collageDescription .i2 > img {
   width: 100%;
 }
-.collage2 .i3 {
+.collageDescription .i3 {
   grid-area: 1/2/2/3;
 }
-.collage2 .i3 > img {
+.collageDescription .i3 > img {
   width: 100%;
 }
-.collage2 .i4 {
+.collageDescription .i4 {
   grid-area: 2/2/4/3;
 }
-.collage2 .i4 > img {
+.collageDescription .i4 > img {
   height: 100%;
 }
 
-.image.second .collage2 {
+.image.second .collageDescription {
   left: 10%;
 }
 .text {
@@ -411,13 +354,13 @@ h2 {
   }
   /* .collage1 .i5,.collage1 .i6,
   .collage1 .i7,.collage1 .i8,
-  .collage2 .i5,.collage2 .i6,
-  .collage2 .i7,.collage2 .i8{
+  .collageDescription .i5,.collageDescription .i6,
+  .collageDescription .i7,.collageDescription .i8{
     display:none;
   } */
 
-  .collage2 {
-    display: none;
+  .collageDescription {
+    /* display: none; */
   }
   .collage1 {
     margin: 0 auto;
@@ -494,7 +437,7 @@ h2 {
     background: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-  .collage2 {
+  .collageDescription {
     left: 40% !important;
   }
   .text {
