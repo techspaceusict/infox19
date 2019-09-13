@@ -73,7 +73,7 @@
         <span>n</span>
       </div>
       <!-- <div id="eventInfo">
-        <div class="date">OCT 13TH-15TH 2019</div>
+        <div class="date">OCT 11TH-13TH 2019</div>
         <div>TECHFEST USICT | GGSIPU</div>
         <div>CELEBRATING THE SENSE OF BELONGING</div>
       </div> -->
