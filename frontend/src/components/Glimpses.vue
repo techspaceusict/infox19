@@ -25,11 +25,22 @@
             </div>
           </div>
         </div>
+        <div class="gdata">
         <p class="text my-5 p-5 text-center">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
-          tempora quo pariatur nulla consequuntur ratione quia esse?
-          Repellendus, natus officiis.
+         With a footfall of over <b>7000+</b> our last year's event was a huge success. 
+           
         </p>
+        <p class="text my-5 p-3 text-center">
+          This year the crowd expectancy has increased to over <b>9000</b>.
+        </p>
+        <p class="text my-5 p-2 text-center">
+          A major breakthrough is the <b>30,000</b> students in affiliated colleges of GGSIPU.
+        </p>
+        <p class="text my-5 p-2 text-center">
+          We have over <b>8000+</b> registrations 
+         expected on the website this year for 25+ events lined up for all kinds of audience.
+        </p>
+        </div>
       </div>
     </div>
   </div>
@@ -74,11 +85,24 @@ export default {};
 }
 .text {
   font-size: 2.5em;
+  margin:0;
+}
+
+@media only screen and (max-width: 992px){
+  .glimpse-card{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   #glimpses .text {
     font-size: 1.5em;
+  }
+
+  .glimpse-card{
+    margin-top:20px;
+    margin-bottom:20px;
   }
 }
 </style>

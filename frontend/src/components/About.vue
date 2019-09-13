@@ -27,8 +27,8 @@
 
     <div style="margin:3vh;" class="container-fluid images">
       <section class="image" style="position: relative">
-        <div class="row my-5">
-          <div class="col-md-8 col-sm-12 collage1">
+        <div class="row my-5 aboutInfox">
+          <div class="collage1">
             <div class="i1">
               <img src="../assets/eventImgs/DSC_0080.webp" />
             </div>
@@ -55,28 +55,24 @@
             </div>
           </div>
           <div
-            class="collageDescription col-md-4 col-sm-12"
-            v-rellax="{ speed: 2, wrapper: '.image', relativeToWrapper: true }"
-          >
-            <!-- <div class="i1">
-              <img src="../assets/eventImgs/DSC_0080.webp" />
-            </div>
-            <div class="i2">
-              <img src="../assets/eventImgs/DSC_0017.webp" />
-            </div>
-            <div class="i3">
-              <img src="../assets/eventImgs/DSC_0175.webp" />
-            </div>
-            <div class="i4">
-              <img src="../assets/eventImgs/DSC_0189.webp" />
-            </div> -->
+            class="collageDescription"
+            v-rellax="{ speed: 3, wrapper: '.image', relativeToWrapper: true }">
+           <p>
+             After 15 successful and enjoyable techfests, we are here presenting our <b>16th Grand 
+            Tech Event <u>InfoXpression</u> </b>.</p>
+           <p>InfoX is the annual annual technical festival of <b>Guru Gobind 
+            Singh Indraprastha University (GGSIPU)</b> organised by <b>University School of Information, 
+            Communication and Technology (USICT)</b>. </p> 
+           <p> Events of all genres and levels are held along 
+            with workshops for special interest groups. Several technical events are held in the 
+            field of electronics, robotics etc as well.</p>
+           
           </div>
-          <div class="text p-5">
-            <!-- <p class="text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-              deserunt!
-            </p> -->
-          </div>
+          <!-- <div class="text p-5">
+            
+
+
+          </div> -->
         </div>
       </section>
       <section class="videoPlayer">
@@ -132,6 +128,12 @@ h2 {
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
 
+.aboutInfox{
+  justify-content: center;;
+  width:97%;
+  margin-left: auto;margin-right: auto;
+}
+
 .date {
   font-size: 48px;
   font-weight: 600;
@@ -177,7 +179,7 @@ h2 {
   position: relative;
 }
 .collage1 {
-  width: 50%;
+  width: 60%;
   height: 600px;
   background: rgb(234, 234, 255);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -255,13 +257,21 @@ h2 {
 .collageDescription {
   /* position: relative; */
   /* top: 30%; */
-  left: -10%;
+  position: relative;
+  left: -5%;
   /* width: 50%; */
-
   height: 70vh;
   border-radius: 10px;
-  box-shadow: 15px 15px 50px rgba(23, 104, 184, 0.3);
-  background: linear-gradient(#0575e6, #044483);
+  box-shadow: 15px 15px 30px #1767b8a6;
+  background: linear-gradient(#0576e6ee, #04325f);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  width:500px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   /* display: grid; */
   /* grid-template-columns: auto auto; */
@@ -270,49 +280,22 @@ h2 {
   /* background: transparent; */
 }
 
-.collageDescription > div {
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 10px black;
-}
-.collageDescription > div > img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.collageDescription .i1 {
-  grid-area: 1/1/3/2;
-}
-.collageDescription .i1 > img {
-  height: 100%;
-}
-.collageDescription .i2 {
-  grid-area: 3/1/4/2;
-}
-.collageDescription .i2 > img {
-  width: 100%;
-}
-.collageDescription .i3 {
-  grid-area: 1/2/2/3;
-}
-.collageDescription .i3 > img {
-  width: 100%;
-}
-.collageDescription .i4 {
-  grid-area: 2/2/4/3;
-}
-.collageDescription .i4 > img {
-  height: 100%;
-}
+/* .collageDescription>p::first-letter{
+  color:blue;
+  font-size:28px;
+} */
 
 .image.second .collageDescription {
-  left: 10%;
+  /* left: 10%; */
 }
 .text {
   width: 50%;
   font-size: 1.5em;
+}
+
+.videoPlayer{margin-top:150px;}
+.videoPlayer>div{
+  box-shadow: 0 0 30px 15px #0e66bed3;
 }
 
 /* // .image {
@@ -344,6 +327,8 @@ h2 {
   height: fit-content;
 }
 
+
+
 @media only screen and (max-width: 576px) {
   .temp {
     font-size: 150px;
@@ -358,9 +343,6 @@ h2 {
     display:none;
   } */
 
-  .collageDescription {
-    /* display: none; */
-  }
   .collage1 {
     margin: 0 auto;
   }
@@ -426,18 +408,27 @@ h2 {
   .image {
     width: 100%;
   }
+
+  
+  .collageDescription {
+    left:0%;width:85vw;
+    font-size:18px;
+  }
+
   .info-card {
     position: relative;
     width: 100%;
   }
   .collage1 {
-    width: 75%;
+    width: 100%;
     height: 600px;
     background: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   .collageDescription {
-    left: 40% !important;
+    margin-left: auto;
+    margin-right:auto;
+    height:auto;
   }
   .text {
     width: 100%;
@@ -448,7 +439,21 @@ h2 {
 @media only screen and (min-width: 992px) {
 }
 
+@media only screen and (max-width:1078px) {
+  .aboutInfox{
+    /* flex-direction: column; */
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1267px) {
+  .collage1{
+    width:100%;
+  }
+
+  .collageDescription{
+    width:80%;
+    height:auto;;
+  }
 }
 </style>

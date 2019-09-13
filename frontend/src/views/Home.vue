@@ -8,9 +8,9 @@
     <Sponsors />
     <Gap :height="'20vh'" />
     <Glimpses />
-    <Contact />
-    <Gap :height="'20vh'" />
     <!-- <Contact /> -->
+    <Gap :height="'20vh'" />
+    <Contact />
     <Footer class="the-footer" />
   </div>
 </template>
