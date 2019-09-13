@@ -124,9 +124,7 @@
   z-index: 1;
   max-width: none;
   opacity: 0;
-  animation-name: fadeInLights;
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
+  animation: fadeInLights 1s forwards 4s;
 }
 
 @keyframes fadeInLights {

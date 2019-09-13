@@ -105,11 +105,11 @@ export default {
     let text = document.getElementById('logo-text');
 
     hero.addEventListener('mousemove', (event) => {
-      let part = 40;
-      let xLogo = (hero.clientWidth/2 - event.offsetX)/(part*2);
-      let yLogo = (hero.clientHeight/2 - event.offsetY)/(part*2);
-      let xText = (hero.clientWidth/2 - event.offsetX)/part;
-      let yText = (hero.clientHeight/2 - event.offsetY)/part;
+      let part = 20;
+      let xLogo = (hero.clientWidth/2 - event.clientX)/(part*2);
+      let yLogo = (hero.clientHeight/2 - event.clientY)/(part*2);
+      let xText = (hero.clientWidth/2 - event.clientX)/part;
+      let yText = (hero.clientHeight/2 - event.clientY)/part;
       logo.style.transform = `translate(${xLogo}px, ${yLogo}px)`;
       text.style.transform = `translate(${xText}px, ${yText}px)`;
     });
