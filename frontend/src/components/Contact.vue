@@ -1,12 +1,7 @@
 <template>
-
-  
-  <div ref="contact" id="contact" class="contact">
-    
-    
-    <div class="container">
-      <Heading anchor=".contact" wrapper="#contact" :speed="3">Contact Us</Heading>
-    
+  <div ref="contact" id="contact">
+    <Heading anchor=".contact" wrapper="#contact" :speed="-3">Contact Us</Heading>
+    <div class="contact container">
       <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div>
@@ -47,13 +42,17 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {};
 </script>
+
 <style lang="scss" scoped>
 
 $theme-color:#0575e6;
-
+#contact {
+  margin-top: -40em;
+}
 #contact *{
   z-index: 2;
 }
