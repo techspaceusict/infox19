@@ -1,9 +1,16 @@
 <template>
+
+  
   <div id="contact" class="contact">
+    
+    
     <div class="container">
-      <div class="row">
-        <h1>Contact us</h1>
-      </div>
+      <Heading
+        anchor=".contact"
+        wrapper="#contact"
+        :speed="-6"
+        >Contact Us</Heading>
+    
       <div class="row">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div>
@@ -48,6 +55,17 @@
 export default {};
 </script>
 <style lang="scss" scoped>
+
+$theme-color:#0575e6;
+
+#contact *{
+  z-index: 2;
+}
+
+input:focus,textarea:focus{
+  border:2px solid $theme-color;
+}
+
 h1 {
   font-family: "Poppins", sans-serif, "arial";
   font-weight: 600;
@@ -123,7 +141,6 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  border: 2px solid #0575e6;
   box-shadow: 2px 2px 10px #0575e6;
   // background-color: #2d2d2d;
   background-color: #99999945;

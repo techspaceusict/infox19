@@ -57,27 +57,23 @@
           </div>
           <div
             class="collageDescription col-md-4 col-sm-12"
-            v-rellax="{ speed: 2, wrapper: '.image', relativeToWrapper: true }"
-          >
-            <!-- <div class="i1">
-              <img src="../assets/eventImgs/DSC_0080.webp" />
-            </div>
-            <div class="i2">
-              <img src="../assets/eventImgs/DSC_0017.webp" />
-            </div>
-            <div class="i3">
-              <img src="../assets/eventImgs/DSC_0175.webp" />
-            </div>
-            <div class="i4">
-              <img src="../assets/eventImgs/DSC_0189.webp" />
-            </div> -->
+            v-rellax="{ speed: 3, wrapper: '.image', relativeToWrapper: true }">
+           <p>
+             After 15 successful and enjoyable techfests, we are here presenting our <b>16th Grand 
+            Tech Event <u>InfoXpression</u> </b>.</p>
+           <p>InfoX is the annual annual technical festival of <b>Guru Gobind 
+            Singh Indraprastha University (GGSIPU)</b> organised by <b>University School of Information, 
+            Communication and Technology (USICT)</b>. </p> 
+           <p> Events of all genres and levels are held along 
+            with workshops for special interest groups. Several technical events are held in the 
+            field of electronics, robotics etc as well.</p>
+           
           </div>
-          <div class="text p-5">
-            <!-- <p class="text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-              deserunt!
-            </p> -->
-          </div>
+          <!-- <div class="text p-5">
+            
+
+
+          </div> -->
         </div>
       </section>
       <section class="videoPlayer">
@@ -259,10 +255,16 @@ h2 {
   left: -10%;
   /* width: 50%; */
 
-  height: 70vh;
   border-radius: 10px;
-  box-shadow: 15px 15px 50px #1767b8a6;
-  background: linear-gradient(#0575e6, #044483);
+  box-shadow: 15px 15px 30px #1767b8a6;
+  background: linear-gradient(#0576e6ee, #04325f);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.8);
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   /* display: grid; */
   /* grid-template-columns: auto auto; */
@@ -271,49 +273,22 @@ h2 {
   /* background: transparent; */
 }
 
-.collageDescription > div {
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 10px black;
-}
-.collageDescription > div > img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.collageDescription .i1 {
-  grid-area: 1/1/3/2;
-}
-.collageDescription .i1 > img {
-  height: 100%;
-}
-.collageDescription .i2 {
-  grid-area: 3/1/4/2;
-}
-.collageDescription .i2 > img {
-  width: 100%;
-}
-.collageDescription .i3 {
-  grid-area: 1/2/2/3;
-}
-.collageDescription .i3 > img {
-  width: 100%;
-}
-.collageDescription .i4 {
-  grid-area: 2/2/4/3;
-}
-.collageDescription .i4 > img {
-  height: 100%;
-}
+/* .collageDescription>p::first-letter{
+  color:blue;
+  font-size:28px;
+} */
 
 .image.second .collageDescription {
-  left: 10%;
+  /* left: 10%; */
 }
 .text {
   width: 50%;
   font-size: 1.5em;
+}
+
+.videoPlayer{margin-top:150px;}
+.videoPlayer>div{
+  box-shadow: 0 0 30px 15px #0e66bed3;
 }
 
 /* // .image {
@@ -345,6 +320,8 @@ h2 {
   height: fit-content;
 }
 
+
+
 @media only screen and (max-width: 576px) {
   .temp {
     font-size: 150px;
@@ -360,7 +337,8 @@ h2 {
   } */
 
   .collageDescription {
-    /* display: none; */
+    left:0%;width:85vw;
+    font-size:18px;
   }
   .collage1 {
     margin: 0 auto;
@@ -432,13 +410,15 @@ h2 {
     width: 100%;
   }
   .collage1 {
-    width: 75%;
+    width: 100%;
     height: 600px;
     background: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   .collageDescription {
-    left: 40% !important;
+    margin-left: auto;
+    margin-right:auto;
+    height:auto;
   }
   .text {
     width: 100%;
