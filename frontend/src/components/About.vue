@@ -261,7 +261,7 @@ h2 {
 
   height: 70vh;
   border-radius: 10px;
-  box-shadow: 15px 15px 50px #1767b8a6;
+  box-shadow: 15px 15px 50px rgba(23, 104, 184, 0.3);
   background: linear-gradient(#0575e6, #044483);
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   /* display: grid; */
