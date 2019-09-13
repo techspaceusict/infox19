@@ -1,10 +1,11 @@
 <template>
   <div ref="contact" id="contact">
     <Heading anchor=".contact" wrapper="#contact" :speed="-3">Contact Us</Heading>
-    <div class="contact container">
+    <div class="row">
       <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div>
+      <div class="column">
       <form action="#">
         <div class="row input-container">
           <div class="col-xs-12">
@@ -39,6 +40,10 @@
           </div>
         </div>
       </form>
+      </div>
+      <div class="column">
+        
+      </div>
     </div>
   </div>
 </template>
@@ -77,6 +82,14 @@ h4 {
   color: #9b9b9b;
   line-height: 1.5;
   padding-left: 340px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%
 }
 
 /* ///// inputs /////*/
