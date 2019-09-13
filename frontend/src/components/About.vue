@@ -1,8 +1,7 @@
 <template>
   <div ref="ref" id="about" class="glow">
     <Heading anchor=".images" wrapper="#about" :speed="-5"
-      >Infoxpression</Heading
-    >
+      >Coming soon</Heading>
     <div class="info container">
       <div class="row">
         <div

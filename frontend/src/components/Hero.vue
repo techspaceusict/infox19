@@ -57,18 +57,84 @@
         />
       </svg>
 
-      <div id="logo-text">Infoxpression</div>
-      <div id="eventInfo">
-        <div class="date">OCT 13TH-15TH 2019</div>
+      <div id="logo-text"> 
+        <span class="flicker-on">I</span>
+        <span>n</span>
+        <span>f</span>
+        <span>o</span>
+        <span>x</span>
+        <span>p</span>
+        <span>r</span>
+        <span>e</span>
+        <span>s</span>
+        <span>s</span>
+        <span>i</span>
+        <span>o</span>
+        <span>n</span>
+      </div>
+      <!-- <div id="eventInfo">
+        <div class="date">OCT 11TH-13TH 2019</div>
         <div>TECHFEST USICT | GGSIPU</div>
         <div>CELEBRATING THE SENSE OF BELONGING</div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    let logoText = document.getElementById('logo-text').childNodes;
+    let indices = [], i;
+    for(i=0; i<logoText.length; i++) {
+      indices.push(i);
+    }
+    indices = this.shuffle(indices);
+
+    i = 0;
+    const interval = setInterval(() => {
+      if(i == 13) {
+        clearInterval(interval);
+      }
+      logoText[indices[i]].classList.add('flicker-on');
+      i++;
+    }, 100);
+    
+    let hero = document.getElementById('hero');
+    let logo = document.getElementById('gx-logo');
+    let text = document.getElementById('logo-text');
+
+    hero.addEventListener('mousemove', (event) => {
+      let part = 20;
+      let xLogo = (hero.clientWidth/2 - event.clientX)/(part*2);
+      let yLogo = (hero.clientHeight/2 - event.clientY)/(part*2);
+      let xText = (hero.clientWidth/2 - event.clientX)/part;
+      let yText = (hero.clientHeight/2 - event.clientY)/part;
+      logo.style.transform = `translate(${xLogo}px, ${yLogo}px)`;
+      text.style.transform = `translate(${xText}px, ${yText}px)`;
+    });
+  },
+  methods: {
+    shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex;
+
+      // While there remain elements to shuffle...
+      while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+
+      return array;
+    }
+  }
+};
 </script>
 
 <style>

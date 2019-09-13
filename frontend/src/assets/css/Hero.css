@@ -69,12 +69,14 @@ canvas {
 }
 
 #logo {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  animation: slideUp 0.8s ease-in-out 3.3s;
+  height: 100%;
+  /* margin-top: 50%; */
+  /* animation: slideUp 0.8s ease-in-out 3.3s; */
   animation-fill-mode: forwards;
 }
 
@@ -83,19 +85,39 @@ canvas {
 }
 
 #logo-text {
-  font-size: 42px;
-  text-transform: uppercase;
+  font-size: 10em;
+  /* text-transform: uppercase; */
   position: relative;
   text-align: center;
-  /* font-family: ; */
+  /* font-family: 'Bahnschrift Condensed'; */
   letter-spacing: 5px;
-  color: #007cff;
-  text-shadow: 0 0 10px #007cff;
+  color: black;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.125);
   font-weight: bold;
-  opacity: 0;
-  margin-bottom: 20px;
-  animation: showLogoText 0.3s ease-in 3s;
+  opacity: 1;
+  padding: 50px auto;
+  /* animation: showLogoText 0.3s ease-in 3s; */
   animation-fill-mode: forwards;
+  transition: transform 100ms;
+}
+
+.flicker-on {
+  animation: flickerOn 1s ease-out forwards;
+}
+
+@keyframes flickerOn {
+  20%, 22%, 35.999%, 64%, 65%, 69.999% {
+    color: white;
+    text-shadow: 0 0 50px #ffffff50;
+	}
+	0%, 19.999%, 21.999%, 36%, 64.999%, 70%, 99.999% {
+    color: black;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.125);
+  }
+  100% {
+    color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
 }
 
 @keyframes showLogoText {
@@ -116,6 +138,9 @@ canvas {
 }
 
 #gx-logo {
+  position: absolute;
+  top: -30px;
+  left: 0;
   fill: #000000;
   stroke: #666;
   stroke-width: 5;
@@ -123,16 +148,17 @@ canvas {
   stroke-linejoin: bevel;
   stroke-dasharray: 1800;
   stroke-dashoffset: 1800;
-  animation: dash 3s ease-in;
+  animation: dash 4s ease-in;
   animation-fill-mode: forwards;
-  width: 800px;
-  filter: drop-shadow(0 0 8px blue);
-  max-width: 600px;
+  width: 100%;
+  /* max-width: 600px; */
+  filter: drop-shadow(0 0 50px rgba(0, 0, 255, 0.507));
+  transition: transform 100ms;
 }
 
 #gx-logo polygon {
-  animation: colorFill 1s ease-in 2.1s;
-  animation-fill-mode: forwards;
+  animation: colorFill 0.8s ease-out 3s forwards;
+  /* animation-fill-mode: forwards; */
   filter: drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
 }
 
@@ -211,7 +237,7 @@ canvas {
   }
   to {
     fill-opacity: 1;
-    fill: #0575e6;
+    fill: #0576e6;
   }
 }
 
