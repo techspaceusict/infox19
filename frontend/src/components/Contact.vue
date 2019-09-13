@@ -119,7 +119,7 @@ textarea:valid ~ label {
   color: #999;
   padding: 1.3rem 30px 1rem 30px;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 0;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -133,7 +133,7 @@ textarea:valid ~ label {
 
 input,
 textarea {
-  padding: 30px;
+  padding: 25px;
   border: 0;
   width: 100%;
   font-size: 1rem;
@@ -141,7 +141,7 @@ textarea {
   // background-color: #2d2d2d;
   background-color: #99999945;
   color: white;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 input:focus,
