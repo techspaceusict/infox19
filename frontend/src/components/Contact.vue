@@ -41,7 +41,7 @@
         </div>
       </form>
       </div>
-      <div class="column">
+      <div class="column column1">
         
       </div>
     </div>
@@ -90,6 +90,29 @@ h4 {
 
 .column {
   flex: 50%
+}
+
+.column1{
+  background: url("../assets/about-image1.jpg")
+}
+
+.background {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 /* ///// inputs /////*/
