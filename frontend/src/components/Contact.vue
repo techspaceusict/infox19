@@ -1,17 +1,13 @@
 <template>
 
   
-  <div id="contact" class="contact">
+  <div ref="contact" id="contact" class="contact">
     
     
     <div class="container">
-      <Heading
-        anchor=".contact"
-        wrapper="#contact"
-        :speed="-6"
-        >Contact Us</Heading>
+      <Heading anchor=".contact" wrapper="#contact" :speed="3">Contact Us</Heading>
     
-      <div class="row">
+      <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div>
       <form action="#">

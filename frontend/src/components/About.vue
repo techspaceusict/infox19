@@ -28,8 +28,8 @@
 
     <div style="margin:3vh;" class="container-fluid images">
       <section class="image" style="position: relative">
-        <div class="row my-5">
-          <div class="col-md-8 col-sm-12 collage1">
+        <div class="row my-5 aboutInfox">
+          <div class="collage1">
             <div class="i1">
               <img src="../assets/eventImgs/DSC_0080.webp" />
             </div>
@@ -56,7 +56,7 @@
             </div>
           </div>
           <div
-            class="collageDescription col-md-4 col-sm-12"
+            class="collageDescription"
             v-rellax="{ speed: 3, wrapper: '.image', relativeToWrapper: true }">
            <p>
              After 15 successful and enjoyable techfests, we are here presenting our <b>16th Grand 
@@ -129,6 +129,12 @@ h2 {
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
 
+.aboutInfox{
+  justify-content: center;;
+  width:97%;
+  margin-left: auto;margin-right: auto;
+}
+
 .date {
   font-size: 48px;
   font-weight: 600;
@@ -174,7 +180,7 @@ h2 {
   position: relative;
 }
 .collage1 {
-  width: 50%;
+  width: 60%;
   height: 600px;
   background: rgb(234, 234, 255);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -252,9 +258,10 @@ h2 {
 .collageDescription {
   /* position: relative; */
   /* top: 30%; */
-  left: -10%;
+  position: relative;
+  left: -5%;
   /* width: 50%; */
-
+  height: 70vh;
   border-radius: 10px;
   box-shadow: 15px 15px 30px #1767b8a6;
   background: linear-gradient(#0576e6ee, #04325f);
@@ -265,6 +272,7 @@ h2 {
   font-size: 22px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.8);
+  width:500px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   /* display: grid; */
   /* grid-template-columns: auto auto; */
@@ -336,10 +344,6 @@ h2 {
     display:none;
   } */
 
-  .collageDescription {
-    left:0%;width:85vw;
-    font-size:18px;
-  }
   .collage1 {
     margin: 0 auto;
   }
@@ -405,6 +409,13 @@ h2 {
   .image {
     width: 100%;
   }
+
+  
+  .collageDescription {
+    left:0%;width:85vw;
+    font-size:18px;
+  }
+
   .info-card {
     position: relative;
     width: 100%;
@@ -429,7 +440,21 @@ h2 {
 @media only screen and (min-width: 992px) {
 }
 
+@media only screen and (max-width:1078px) {
+  .aboutInfox{
+    /* flex-direction: column; */
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1267px) {
+  .collage1{
+    width:100%;
+  }
+
+  .collageDescription{
+    width:80%;
+    height:auto;;
+  }
 }
 </style>

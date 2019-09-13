@@ -25,20 +25,22 @@
             </div>
           </div>
         </div>
+        <div class="gdata">
         <p class="text my-5 p-5 text-center">
          With a footfall of over <b>7000+</b> our last year's event was a huge success. 
            
         </p>
-        <p class="text my-5 p-5 text-center">
+        <p class="text my-5 p-3 text-center">
           This year the crowd expectancy has increased to over <b>9000</b>.
         </p>
-        <p class="text my-5 p-5 text-center">
+        <p class="text my-5 p-2 text-center">
           A major breakthrough is the <b>30,000</b> students in affiliated colleges of GGSIPU.
         </p>
-        <p class="text my-5 p-5 text-center">
+        <p class="text my-5 p-2 text-center">
           We have over <b>8000+</b> registrations 
          expected on the website this year for 25+ events lined up for all kinds of audience.
         </p>
+        </div>
       </div>
     </div>
   </div>
