@@ -75,6 +75,7 @@ canvas {
   align-items: center;
   text-align: center;
   height: 100%;
+  perspective: 40px;
   /* margin-top: 50%; */
   /* animation: slideUp 0.8s ease-in-out 3.3s; */
   animation-fill-mode: forwards;
@@ -98,7 +99,7 @@ canvas {
   padding: 50px auto;
   /* animation: showLogoText 0.3s ease-in 3s; */
   animation-fill-mode: forwards;
-  transition: transform 100ms;
+  transition: transform 200ms;
 }
 
 .flicker-on {
@@ -121,7 +122,7 @@ canvas {
   }
 }
 
-/* .flicker-on::before {
+.flicker-on::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -130,10 +131,11 @@ canvas {
   width: 200px;
   height: 80vh;
   background: rgb(17, 0, 255);
+  /* background: white; */
   filter: blur(100px);
   animation: flickerOnShadow 1s ease-out forwards;
   z-index: -10;
-} */
+}
 @keyframes flickerOnShadow {
   20%, 22%, 35.999%, 64%, 65%, 69.999% {
     opacity: 0.4;
@@ -179,13 +181,13 @@ canvas {
   width: 100%;
   /* max-width: 600px; */
   filter: drop-shadow(0 0 50px rgba(0, 0, 255, 0.507));
-  transition: transform 100ms;
+  transition: transform 200ms;
 }
 
 #gx-logo polygon {
   animation: colorFill 0.8s ease-out 2.5s forwards, beating 1.75s ease-in infinite;
   /* animation-fill-mode: forwards; */
-  filter: drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 255, 1));
 }
 
 #eventInfo {
@@ -193,6 +195,8 @@ canvas {
   font-family: Arial;
   font-size: 20px;
   letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 #eventInfo .date {
