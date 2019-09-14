@@ -65,12 +65,12 @@ export default {};
   // padding: 10%;
   padding: 2vw 5vh;
   &.blue {
-    box-shadow: 15px 15px 50px #1767b8a6;
+    box-shadow: 8px 8px 50px #1768b86c;
     background: linear-gradient(#0575e6, #044483);
     color: white;
   }
   &.white {
-    box-shadow: 15px 15px 50px #bbbbbba6;
+    box-shadow: 8px 8px 50px #bbbbbb6c;
     background: linear-gradient(#dddddd, #bdbdbd);
     color: #0575e6;
   }

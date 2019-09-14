@@ -281,7 +281,7 @@ h2 {
   height: 70vh;
   border-radius: 10px;
   // border: 1px solid #0576e6;
-  box-shadow: 15px 15px 30px #1767b8a6;
+  box-shadow: 7px 7px 30px #1768b86b;
   background: linear-gradient(#0576e6d2, #04325f);
   padding: 20px;
   color: rgb(1, 2, 7);
@@ -316,7 +316,7 @@ h2 {
   margin-top: 150px;
 }
 .videoPlayer > div {
-  box-shadow: 0 0 30px 15px #0e66bed3;
+  box-shadow: 0 0 50px #0e66be6e;
 }
 
 /* // .image {
