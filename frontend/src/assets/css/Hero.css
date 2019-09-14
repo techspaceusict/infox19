@@ -102,9 +102,10 @@ canvas {
 }
 
 .flicker-on {
+  position: relative;
   animation: flickerOn 1s ease-out forwards;
+  z-index: 1;
 }
-
 @keyframes flickerOn {
   20%, 22%, 35.999%, 64%, 65%, 69.999% {
     color: white;
@@ -117,6 +118,31 @@ canvas {
   100% {
     color: white;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* .flicker-on::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 200px;
+  height: 80vh;
+  background: rgb(17, 0, 255);
+  filter: blur(100px);
+  animation: flickerOnShadow 1s ease-out forwards;
+  z-index: -10;
+} */
+@keyframes flickerOnShadow {
+  20%, 22%, 35.999%, 64%, 65%, 69.999% {
+    opacity: 0.4;
+	}
+	0%, 19.999%, 21.999%, 36%, 64.999% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -148,7 +174,7 @@ canvas {
   stroke-linejoin: bevel;
   stroke-dasharray: 1800;
   stroke-dashoffset: 1800;
-  animation: dash 4s ease-in;
+  animation: dash 3s ease-in;
   animation-fill-mode: forwards;
   width: 100%;
   /* max-width: 600px; */
@@ -157,7 +183,7 @@ canvas {
 }
 
 #gx-logo polygon {
-  animation: colorFill 0.8s ease-out 3s forwards;
+  animation: colorFill 0.8s ease-out 2.5s forwards, beating 1.75s ease-in infinite;
   /* animation-fill-mode: forwards; */
   filter: drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
 }
@@ -236,8 +262,19 @@ canvas {
     fill: #ffffff00;
   }
   to {
-    fill-opacity: 1;
+    fill-opacity: 0.4;
     fill: #0576e6;
+  }
+}
+
+@keyframes beating {
+  0%, 20%, 35%, 60%, 100%{
+    fill-opacity: 0.4;
+    transform: scale(1);
+  }
+  25%, 40% {
+    fill-opacity: 0.6;
+    transform: scale(1.005);
   }
 }
 

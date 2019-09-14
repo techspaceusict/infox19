@@ -7,7 +7,7 @@
 
       <svg
         id="gx-logo"
-        class="tronFilter"
+        class="tronFilter beating"
         data-name="gx-logo"
         xmlns:svg="http://www.w3.org/2000/svg"
         xmlns="http://www.w3.org/2000/svg"
