@@ -4,7 +4,6 @@
     <div class="row">
       <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
-        <!-- <img src="../assets/eventImgs/techspace-logo.png" alt=""> -->
       </div>
       <div class="column">
       <form action="#">
@@ -36,16 +35,25 @@
               <label>Message</label>
             </div>
           </div>
-          <button class="button">
+          <button type="button" class="btn btn-outline-primary btn-lg">
         	<span class="submit">Submit</span>
-        	<span class="loading"><i class="fa fa-refresh"></i></span>
-	        <span class="check"><i class="fa fa-check"></i></span>
+        	<!-- <span class="loading"><i class="fa fa-refresh"></i></span>
+	        <span class="check"><i class="fa fa-check"></i></span> -->
           </button>
         </div>
       </form>
       </div>
-      <div class="column">
-        
+      <div class="column2">
+        <img src="../assets/eventImgs/TECHSPACE.png" class="image" alt="">
+        <div class="reachUs">
+           <div class="col-md-12">
+            <p>For Any Queries : 8950723937</p>
+          </div>
+          <div class="col-md-12">
+            <p>Mail Us : infox@ipu.ac.in</p>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   </div>
@@ -100,6 +108,7 @@ h4 {
   color: #9b9b9b;
   line-height: 1.5;
   padding-left: 340px;
+  padding-top: 30px;
 }
 
 .row {
@@ -218,7 +227,7 @@ input[type="checkbox"]:checked + label {
   width: 12.5rem;
   margin: 0;
   padding: 1.5rem 3.125rem;
-  background-color: #3498db;
+  background-color: #0575e6;
   border: none;
   border-radius: 0.3125rem;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
@@ -318,5 +327,25 @@ input[type="checkbox"]:checked + label {
     transform: scale(1);
   }
 }
-
+.column2{
+  // transform: translateX(150px);
+  transform: translateY(-530px);
+  // float: right;
+}
+.image{
+  margin-left: 300px;
+  height: 400px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
+}
+.reachUs{
+  // display: flex;
+  color: white;
+  margin-left: 300px;
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+  text-align: center;
+}
 </style>
