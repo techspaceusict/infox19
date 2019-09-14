@@ -1,6 +1,8 @@
 <template>
   <div ref="contact" id="contact">
-    <Heading anchor=".ts-contact" wrapper="#contact" :speed="-3">Contact Us</Heading>
+    <Heading anchor=".ts-contact" wrapper="#contact" :speed="-3"
+      >Contact Us</Heading
+    >
     <div class="contactForm">
       <!-- <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
@@ -13,7 +15,7 @@
           <div class="c4">infox@ipu.ac.in</div>
         </div>
       </div>
-      
+
       <div class="formContainer">
         <div>
           <div class="styled-input wide">
@@ -22,20 +24,18 @@
           </div>
         </div>
         <div class="emailPhone">
-        <div>
-          <div class="styled-input">
-            <input type="text" required />
-            <label>Email</label>
+          <div>
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
           </div>
-        </div>
-        <div>
-          <div
-            class="styled-input"
-          >
-            <input type="text" required />
-            <label>Phone</label>
+          <div>
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Phone</label>
+            </div>
           </div>
-        </div>
         </div>
         <div>
           <div class="styled-input wide">
@@ -44,14 +44,11 @@
           </div>
         </div>
         <button type="button" class="btn btn-outline-primary btn-lg">
-        <span class="submit">Leave Message</span>
-        <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
+          <span class="submit">Leave Message</span>
+          <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
         <span class="check"><i class="fa fa-check"></i></span> -->
         </button>
       </div>
-    
-     
-      
     </div>
   </div>
 </template>
@@ -84,17 +81,17 @@ $theme-color: #0575e6;
   display: flex;
 }
 
-.contactForm>div{
-  width:50%;
+.contactForm > div {
+  width: 50%;
 }
 
-.emailPhone{
+.emailPhone {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.emailPhone>div{
-  width:48%;
+.emailPhone > div {
+  width: 48%;
 }
 
 #contact {
@@ -148,28 +145,28 @@ h4 {
   font-size: 1.5em;
   position: relative;
   text-shadow: 0 0 10px #6200ff;
-  color:#dc1f52;
-  top:-10px;
+  color: #0018f3;
+  top: -10px;
 }
 
-.ts-contact .c2{
+.ts-contact .c2 {
   font-size: 1.2em;
-  font-weight: bold
+  font-weight: bold;
 }
 
-.formContainer{
+.formContainer {
   display: flex;
   flex-direction: column;
 }
 
-.ts-contact::after{
+.ts-contact::after {
   content: "";
   background: url("../assets/TECHSPACE.png");
   background-repeat: no-repeat;
   background-position: center;
   //background-blend-mode: multiply;
   background-size: 75%;
-  
+
   opacity: 0.3;
   top: -40px;
   left: 0px;
@@ -218,16 +215,22 @@ textarea:valid ~ label {
   }
 }
 
-@media screen and (max-width:500px) {
-  .ts-contact>div {
-    >div{font-size:0.7em;}
-    .c2{font-size:0.9em;}
-    .c1{font-size: 1.2em;}
+@media screen and (max-width: 500px) {
+  .ts-contact > div {
+    > div {
+      font-size: 0.7em;
+    }
+    .c2 {
+      font-size: 0.9em;
+    }
+    .c1 {
+      font-size: 1.2em;
+    }
   }
 
-  .ts-contact::after{
-    top:-40px;
-    height:250px;
+  .ts-contact::after {
+    top: -40px;
+    height: 250px;
   }
 }
 
@@ -243,7 +246,7 @@ textarea:valid ~ label {
 }
 
 .styled-input.wide {
-  width:100%;
+  width: 100%;
 }
 
 input,
@@ -383,35 +386,35 @@ input[type="checkbox"]:checked + label {
   transform-origin: center center;
 }
 
-
-@media screen and (max-width: 768px){
-  .contactForm{
+@media screen and (max-width: 768px) {
+  .contactForm {
     flex-direction: column;
-    >div{
-      width:100%;
+    > div {
+      width: 100%;
     }
-    .ts-contact::after{
-        transform: translateY(-80px);
-        background-size: 70%;
-        height:400px;
-      }
+    .ts-contact::after {
+      transform: translateY(-80px);
+      background-size: 70%;
+      height: 400px;
+    }
   }
 }
 
- @media screen and (max-width:400px) {
-      .emailPhone{
-        flex-direction: column;
-        >div{width:100%}
-      }
-      body .ts-contact::after{
-        background-size: 100%;
-      }
-    
-
-    .ts-contact::after{
-      height:400px;
+@media screen and (max-width: 400px) {
+  .emailPhone {
+    flex-direction: column;
+    > div {
+      width: 100%;
     }
- }
+  }
+  body .ts-contact::after {
+    background-size: 100%;
+  }
+
+  .ts-contact::after {
+    height: 400px;
+  }
+}
 @keyframes loading {
   100% {
     transform: rotate(360deg);
