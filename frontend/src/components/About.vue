@@ -1,7 +1,6 @@
 <template>
   <div ref="ref" id="about" class="glow">
-    <Heading anchor=".images" wrapper="#about" :speed="-5"
-      >Coming soon</Heading>
+    <Heading anchor=".images" wrapper="#about" :speed="-5">Coming soon</Heading>
     <div class="info container">
       <div class="row">
         <div
@@ -25,7 +24,7 @@
       </div>
     </div>
 
-    <div style="margin:3vh;" class="container-fluid images">
+    <div class="container-fluid images">
       <section class="image" style="position: relative">
         <div class="row my-5 aboutInfox">
           <div class="collage1">
@@ -56,17 +55,26 @@
           </div>
           <div
             class="collageDescription"
-            v-rellax="{ speed: 3, wrapper: '.image', relativeToWrapper: true }">
-           <p>
-             After 15 successful and enjoyable techfests, we are here presenting our <b>16th Grand 
-            Tech Event <u>InfoXpression</u> </b>.</p>
-           <p>InfoX is the annual annual technical festival of <b>Guru Gobind 
-            Singh Indraprastha University (GGSIPU)</b> organised by <b>University School of Information, 
-            Communication and Technology (USICT)</b>. </p> 
-           <p> Events of all genres and levels are held along 
-            with workshops for special interest groups. Several technical events are held in the 
-            field of electronics, robotics etc as well.</p>
-           
+            v-rellax="{ speed: 3, wrapper: '.image', relativeToWrapper: true }"
+          >
+            <p>
+              After 15 successful and enjoyable techfests, we are here
+              presenting our <b>16th Grand Tech Event <u>InfoXpression</u> </b>.
+            </p>
+            <p>
+              InfoX is the annual annual technical festival of
+              <b>Guru Gobind Singh Indraprastha University (GGSIPU)</b>
+              organised by
+              <b
+                >University School of Information, Communication and Technology
+                (USICT)</b
+              >.
+            </p>
+            <p>
+              Events of all genres and levels are held along with workshops for
+              special interest groups. Several technical events are held in the
+              field of electronics, robotics etc as well.
+            </p>
           </div>
           <!-- <div class="text p-5">
             
@@ -115,7 +123,7 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 #about * {
   z-index: 2;
 }
@@ -128,10 +136,11 @@ h2 {
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
 }
 
-.aboutInfox{
-  justify-content: center;;
-  width:97%;
-  margin-left: auto;margin-right: auto;
+.aboutInfox {
+  justify-content: center;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .date {
@@ -194,15 +203,24 @@ h2 {
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 5px gray;
+  transition: all 0.2s ease-in-out;
 }
 .collage1 > div > img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: scale(1) translate(-50%, -50%);
-  /* transition: transform 0.2s ease-in-out;  */
+  transition: all 0.2s ease-in-out;
 }
-
+.collage1 > div:hover {
+  outline: 10px solid #0575e6;
+  transform: scale(1.1);
+  z-index: 99999;
+  outline-offset: 10px;
+  img {
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+}
 .collage1 .i1 {
   grid-area: 1/1/3/3;
 }
@@ -262,16 +280,17 @@ h2 {
   /* width: 50%; */
   height: 70vh;
   border-radius: 10px;
+  // border: 1px solid #0576e6;
   box-shadow: 15px 15px 30px #1767b8a6;
-  background: linear-gradient(#0576e6ee, #04325f);
+  background: linear-gradient(#0576e6d2, #04325f);
   padding: 20px;
-  color: white;
+  color: rgb(1, 2, 7);
   display: flex;
   flex-direction: column;
   font-size: 22px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  width:500px;
+  // border: 1px solid rgba(255, 255, 255, 0.8);
+  width: 500px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   /* display: grid; */
   /* grid-template-columns: auto auto; */
@@ -293,8 +312,10 @@ h2 {
   font-size: 1.5em;
 }
 
-.videoPlayer{margin-top:150px;}
-.videoPlayer>div{
+.videoPlayer {
+  margin-top: 150px;
+}
+.videoPlayer > div {
   box-shadow: 0 0 30px 15px #0e66bed3;
 }
 
@@ -326,8 +347,6 @@ h2 {
 [data-aos="image"].aos-animate {
   height: fit-content;
 }
-
-
 
 @media only screen and (max-width: 576px) {
   .temp {
@@ -409,10 +428,10 @@ h2 {
     width: 100%;
   }
 
-  
   .collageDescription {
-    left:0%;width:85vw;
-    font-size:18px;
+    left: 0%;
+    width: 85vw;
+    font-size: 16px;
   }
 
   .info-card {
@@ -427,8 +446,8 @@ h2 {
   }
   .collageDescription {
     margin-left: auto;
-    margin-right:auto;
-    height:auto;
+    margin-right: auto;
+    height: auto;
   }
   .text {
     width: 100%;
@@ -439,21 +458,21 @@ h2 {
 @media only screen and (min-width: 992px) {
 }
 
-@media only screen and (max-width:1078px) {
-  .aboutInfox{
+@media only screen and (max-width: 1078px) {
+  .aboutInfox {
     /* flex-direction: column; */
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1267px) {
-  .collage1{
-    width:100%;
+  .collage1 {
+    width: 100%;
   }
 
-  .collageDescription{
-    width:95%;
-    height:auto;;
+  .collageDescription {
+    width: 95%;
+    height: auto;
   }
 }
 </style>

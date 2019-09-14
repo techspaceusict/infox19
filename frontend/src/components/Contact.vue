@@ -3,57 +3,51 @@
     <Heading anchor=".ts-contact" wrapper="#contact" :speed="-3"
       >Contact Us</Heading
     >
-    <div class="row contactForm">
+    <div class="contactForm">
       <!-- <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div> -->
       <div class="col-sm-12 col-md-5 ts-contact">
         <div>
           <div class="c1">Get in touch</div>
+          <div class="c2">TECHSPACE</div>
           <div class="c3">+91 96435 69434</div>
           <div class="c4">infox@ipu.ac.in</div>
         </div>
       </div>
-      <div class="column">
-        <form action="#">
-          <div class="row input-container">
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <input type="text" required class="text-color" />
-                <label>Name</label>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input" style="transform: translateX(-11px)">
-                <input type="text" required />
-                <label>Email</label>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div
-                class="styled-input"
-                style="float:right;transform: translateX(10px)"
-              >
-                <input type="text" required />
-                <label>Phone Number</label>
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <textarea required></textarea>
-                <label>Message</label>
-              </div>
-            </div>
-            <button
-              type="button"
-              class="text-align-right btn btn-outline-primary btn-lg"
-            >
-              <span class="submit">Submit</span>
-              <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
-	        <span class="check"><i class="fa fa-check"></i></span> -->
-            </button>
+
+      <div class="formContainer">
+        <div>
+          <div class="styled-input wide">
+            <input type="text" required class="text-color" />
+            <label>Name</label>
           </div>
-        </form>
+        </div>
+        <div class="emailPhone">
+          <div>
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
+          </div>
+          <div>
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Phone</label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary btn-lg">
+          <span class="submit">Leave Message</span>
+          <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
+        <span class="check"><i class="fa fa-check"></i></span> -->
+        </button>
       </div>
     </div>
   </div>
@@ -81,9 +75,23 @@ export default {};
 $theme-color: #0575e6;
 
 .contactForm {
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+
+.contactForm > div {
+  width: 50%;
+}
+
+.emailPhone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailPhone > div {
+  width: 48%;
 }
 
 #contact {
@@ -116,10 +124,6 @@ h4 {
   padding-top: 30px;
 }
 
-.row {
-  display: flex;
-}
-
 .column {
   flex: 50%;
 }
@@ -127,7 +131,7 @@ h4 {
 .ts-contact {
   display: block;
   position: relative;
-  color: rgba(214, 45, 16, 0.8);
+  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -140,7 +144,21 @@ h4 {
   font-weight: bold;
   font-size: 1.5em;
   position: relative;
+  text-shadow: 0 0 10px #6200ff;
+  color: #0018f3;
+  top: -10px;
 }
+
+.ts-contact .c2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .ts-contact::after {
   content: "";
   background: url("../assets/TECHSPACE.png");
@@ -148,6 +166,7 @@ h4 {
   background-position: center;
   //background-blend-mode: multiply;
   background-size: 75%;
+
   opacity: 0.3;
   top: -40px;
   left: 0px;
@@ -178,9 +197,6 @@ textarea:valid ~ label {
 }
 
 .styled-input {
-  z-index: 999;
-  float: left;
-  width: 308px;
   margin: 1rem 0;
   // margin-right: -2px;
   // margin-left: -5px;
@@ -199,6 +215,25 @@ textarea:valid ~ label {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .ts-contact > div {
+    > div {
+      font-size: 0.7em;
+    }
+    .c2 {
+      font-size: 0.9em;
+    }
+    .c1 {
+      font-size: 1.2em;
+    }
+  }
+
+  .ts-contact::after {
+    top: -40px;
+    height: 250px;
+  }
+}
+
 .styled-input label {
   color: #999;
   padding: 1.3rem 30px 1rem 30px;
@@ -211,8 +246,7 @@ textarea:valid ~ label {
 }
 
 .styled-input.wide {
-  width: 650px;
-  max-width: 100%;
+  width: 100%;
 }
 
 input,
@@ -223,7 +257,7 @@ textarea {
   font-size: 1rem;
   box-shadow: 2px 2px 10px #0575e6;
   // background-color: #2d2d2d;
-  background-color: #272727;
+  background-color: #4b4949b0;
   color: white;
   border-radius: 5px;
 }
@@ -352,6 +386,35 @@ input[type="checkbox"]:checked + label {
   transform-origin: center center;
 }
 
+@media screen and (max-width: 768px) {
+  .contactForm {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+    .ts-contact::after {
+      transform: translateY(-80px);
+      background-size: 70%;
+      height: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .emailPhone {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+  }
+  body .ts-contact::after {
+    background-size: 100%;
+  }
+
+  .ts-contact::after {
+    height: 400px;
+  }
+}
 @keyframes loading {
   100% {
     transform: rotate(360deg);
