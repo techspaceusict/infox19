@@ -38,7 +38,7 @@
         </p>
         <p class="text my-5 p-2 text-center">
           We have over <b>8000+</b> registrations 
-         expected on the website this year for 25+ events lined up for all kinds of audience.
+         expected on the website this year for <b>25+ events</b> lined up for all kinds of audience.
         </p>
         </div>
       </div>

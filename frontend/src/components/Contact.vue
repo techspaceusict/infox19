@@ -1,9 +1,17 @@
 <template>
   <div ref="contact" id="contact">
     <Heading anchor=".contact" wrapper="#contact" :speed="-3">Contact Us</Heading>
-    <div class="row">
-      <div class="row contact">
+    <div class="row contactForm">
+      <!-- <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
+      </div> -->
+      <div class="column ts-contact">
+        <div>
+          <div class="c1">Get in touch</div>
+          <div class="c2">Divyansh Tripathi<br/> (President, TECHSPACE)</div>
+          <div class="c3">+91 96435 69434</div>
+          <div class="c4">infox@ipu.ac.in</div>
+        </div>
       </div>
       <div class="column">
       <form action="#">
@@ -41,9 +49,7 @@
         </div>
       </form>
       </div>
-      <div class="column column1">
-        
-      </div>
+      
     </div>
   </div>
 </template>
@@ -55,6 +61,13 @@ export default {};
 <style lang="scss" scoped>
 
 $theme-color:#0575e6;
+
+.contactForm{
+  width:90%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
 #contact {
   margin-top: -40em;
 }
@@ -62,9 +75,9 @@ $theme-color:#0575e6;
   z-index: 2;
 }
 
-input:focus,textarea:focus{
-  border:2px solid $theme-color;
-}
+// input:focus,textarea:focus{
+//   border:2px solid $theme-color;
+// }
 
 h1 {
   font-family: "Poppins", sans-serif, "arial";
@@ -92,8 +105,37 @@ h4 {
   flex: 50%
 }
 
-.column1{
-  background: url("../assets/about-image1.jpg")
+.ts-contact{
+  display: block;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.ts-contact .c1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:1.5em;  
+  position: relative;
+  
+}
+.ts-contact::after{
+  content: "";
+  background: url("../assets/TECHSPACE.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  //background-blend-mode: multiply;
+  background-size: 75%;
+  opacity: 0.3;
+  top: -40px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
 }
 
 .background {
@@ -103,17 +145,6 @@ h4 {
   position: relative;
 }
 
-div::after {
-  content: "";
-  background: url(image.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
-}
 
 /* ///// inputs /////*/
 
@@ -174,7 +205,7 @@ textarea {
   font-size: 1rem;
   box-shadow: 2px 2px 10px #0575e6;
   // background-color: #2d2d2d;
-  background-color: #99999945;
+  background-color: #272727;
   color: white;
   border-radius: 5px;
 }
