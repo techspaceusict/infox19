@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-  </div>
+  
 </template>
 
 <script>
@@ -178,7 +178,7 @@ textarea {
   font-size: 1rem;
   box-shadow: 2px 2px 10px #0575e6;
   // background-color: #2d2d2d;
-  background-color: #99999945;
+  background-color: #2b2a2a;
   color: white;
   border-radius: 5px;
 }

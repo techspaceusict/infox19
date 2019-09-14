@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div style="margin:3vh;" class="container-fluid images">
+    <div class="container-fluid images">
       <section class="image" style="position: relative">
         <div class="row my-5 aboutInfox">
           <div class="collage1">
@@ -412,7 +412,7 @@ h2 {
   
   .collageDescription {
     left:0%;width:85vw;
-    font-size:18px;
+    font-size:16px;
   }
 
   .info-card {
@@ -452,7 +452,7 @@ h2 {
   }
 
   .collageDescription{
-    width:80%;
+    width:95%;
     height:auto;;
   }
 }

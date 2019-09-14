@@ -1,6 +1,6 @@
 <template>
   <div ref="glimpses" id="glimpses">
-    <Heading anchor=".glimpses" wrapper="#glimpses" :speed="-3"
+    <Heading anchor=".glimpses" wrapper="#glimpses" :speed="-2"
       >Glimpses</Heading
     >
     <div class="glimpses">
