@@ -49,6 +49,8 @@ export default {
   filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
 }
 h1 {
+  /* padding-bottom: 2em; */
+  margin-bottom: 0.5em;
   font-size: 15em;
 }
 [data-aos="title"] {
