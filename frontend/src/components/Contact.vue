@@ -1,6 +1,6 @@
 <template>
   <div ref="contact" id="contact">
-    <Heading anchor=".contact" wrapper="#contact" :speed="-3"
+    <Heading anchor=".ts-contact" wrapper="#contact" :speed="-3"
       >Contact Us</Heading
     >
     <div class="row contactForm">
