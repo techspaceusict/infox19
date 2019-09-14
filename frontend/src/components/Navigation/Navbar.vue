@@ -28,7 +28,7 @@
               <!-- <router-link :to="item.link" class="nav-link">{{
                 item.name
               }}</router-link> -->
-              <a href="#" @click="scrollMeTo(item.link)" class="nav-link">{{
+              <a :href="'#' + item.link" @click="scrollMeTo(item.link)" class="nav-link">{{
                 item.name
               }}</a>
             </li>

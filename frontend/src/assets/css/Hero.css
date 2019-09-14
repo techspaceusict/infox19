@@ -196,6 +196,7 @@ canvas {
   font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
+  margin-top: -135px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
@@ -301,9 +302,9 @@ canvas {
 }
 
 @media screen and (max-width: 576px) {
-  #gx-logo {
+  /* #gx-logo {
     width: 120vw;
-  }
+  } */
   #logo-text {
     font-size: 7.5vw;
   }
