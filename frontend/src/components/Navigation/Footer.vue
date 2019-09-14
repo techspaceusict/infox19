@@ -67,6 +67,7 @@ export default {};
   padding: 20px;
   padding-top: 50px;
   text-align: center;
+  margin-top:50px;
 }
 .footer section {
   margin: 10px 20px;

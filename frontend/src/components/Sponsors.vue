@@ -10,11 +10,11 @@
     <div class="sponsors">
       <div class="absoulte layer-1" v-rellax="layer1">
         <div class="container-fluid">
-          <div class="row justify-content-around">
+          <ediv class="row justify-content-around">
             <div class="sponsor-item barista"></div>
             <div class="sponsor-item codingBlock"></div>
             <div class="sponsor-item codingNinja"></div>
-          </div>
+          </ediv>
           <div class="row justify-content-around">
             <div class="sponsor-item Paytm"></div>
             <div class="sponsor-item redbull"></div>

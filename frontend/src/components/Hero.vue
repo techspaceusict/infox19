@@ -4,7 +4,7 @@
 
     <div id="logo">
       <!-- <img src="public/img/logo.svg" /> -->
-<!-- 
+
       <svg
         id="gx-logo"
         class="tronFilter"
@@ -55,7 +55,7 @@
           style="fill-opacity: 0; stroke-width: 2; stroke: #0abcf2;"
           points="792.6,197.3 876.6,197.3 702.6,352.8 443.5,123.9 703.6,307.8 "
         />
-      </svg> -->
+      </svg>
 
       <div id="logo-text"> 
         <span class="flicker-on">I</span>
