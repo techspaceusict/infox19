@@ -30,7 +30,7 @@
         <div class="row my-5 aboutInfox">
           <div class="collage1">
             <div class="i1">
-              <img src="../assets/eventImgs/DSC_0080.webp" />
+              <img src="../assets/eventImgs/DSC_0180.webp" />
             </div>
             <div class="i2">
               <img src="../assets/eventImgs/DSC_0017.webp" />
