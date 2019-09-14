@@ -5,10 +5,10 @@
       <!-- <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div> -->
-      <div class="column ts-contact">
+      <div class="col-sm-12 col-md-5 ts-contact">
         <div>
           <div class="c1">Get in touch</div>
-          <div class="c2">Divyansh Tripathi<br/> (President, TECHSPACE)</div>
+          <div class="c2">TECHSPACE</div>
           <div class="c3">+91 96435 69434</div>
           <div class="c4">infox@ipu.ac.in</div>
         </div>
@@ -75,12 +75,11 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+$theme-color: #0575e6;
 
-$theme-color:#0575e6;
-
-.contactForm{
-  width:90%;
-  margin-left:auto;
+.contactForm {
+  width: 95%;
+  margin-left: auto;
   margin-right: auto;
   display: flex;
 }
@@ -100,9 +99,8 @@ $theme-color:#0575e6;
 
 #contact {
   margin-top: -40em;
-  
 }
-#contact *{
+#contact * {
   z-index: 2;
 }
 
@@ -130,27 +128,33 @@ h4 {
 }
 
 .column {
-  flex: 50%
+  flex: 50%;
 }
 
-.ts-contact{
+.ts-contact {
   display: block;
   position: relative;
   color: white;
   text-align: center;
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 32px;
 }
 
-.ts-contact .c1{
+.ts-contact .c1 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size:1.5em;  
+  font-size: 1.5em;
   position: relative;
-  text-shadow: 0 0 20px #2884a0;
-  color:#1e9ddc;
-  
+  text-shadow: 0 0 10px #6200ff;
+  color:#dc1f52;
+  top:-10px;
+}
+
+.ts-contact .c2{
+  font-size: 1.2em;
+  font-weight: bold
 }
 
 .formContainer{
@@ -165,13 +169,14 @@ h4 {
   background-position: center;
   //background-blend-mode: multiply;
   background-size: 75%;
+  
   opacity: 0.3;
   top: -40px;
   left: 0px;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;  
+  z-index: -1;
 }
 
 .background {
@@ -180,7 +185,6 @@ h4 {
   display: block;
   position: relative;
 }
-
 
 /* ///// inputs /////*/
 
@@ -216,8 +220,9 @@ textarea:valid ~ label {
 
 @media screen and (max-width:500px) {
   .ts-contact>div {
-    >div{font-size:0.8em;}
-    .c1{font-size: 1em;}
+    >div{font-size:0.7em;}
+    .c2{font-size:0.9em;}
+    .c1{font-size: 1.2em;}
   }
 
   .ts-contact::after{
@@ -285,7 +290,9 @@ input[type="checkbox"]:checked + label {
   color: #f00;
   font-style: normal;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   outline: none;
 }
@@ -309,7 +316,7 @@ input[type="checkbox"]:checked + label {
 }
 .button:before {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0;
   left: 0;
   width: 0%;
@@ -384,26 +391,27 @@ input[type="checkbox"]:checked + label {
       width:100%;
     }
     .ts-contact::after{
-        transform: translateY(-20px);
+        transform: translateY(-80px);
+        background-size: 70%;
+        height:400px;
       }
   }
+}
 
-    @media screen and (max-width:400px) {
+ @media screen and (max-width:400px) {
       .emailPhone{
         flex-direction: column;
         >div{width:100%}
       }
-      .ts-contact::after{
-        background-size: 95%;
+      body .ts-contact::after{
+        background-size: 100%;
       }
-    }
+    
 
     .ts-contact::after{
       height:400px;
-      top:-90px;
     }
-}
-
+ }
 @keyframes loading {
   100% {
     transform: rotate(360deg);
@@ -426,17 +434,17 @@ input[type="checkbox"]:checked + label {
     transform: scale(1);
   }
 }
-.column2{
+.column2 {
   // transform: translateX(150px);
   transform: translateY(-530px);
   // float: right;
 }
-.image{
+.image {
   margin-left: 300px;
   height: 400px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
 }
-.reachUs{
+.reachUs {
   // display: flex;
   color: white;
   margin-left: 300px;

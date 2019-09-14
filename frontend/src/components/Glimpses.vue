@@ -8,20 +8,20 @@
         <div class="row m-0 mx-auto justify-content-around text-center">
           <div class="glimpse-card blue col-md-12 col-lg-3">
             <div class="stat">
-              <p class="number m-0">10,000</p>
-              <p>Stat 1</p>
+              <p class="number m-0">6000+</p>
+              <p>Students in Campus</p>
             </div>
           </div>
           <div class="glimpse-card white col-md-12 col-lg-3">
             <div class="stat">
-              <p class="number m-0">5,000</p>
-              <p>Stat 2</p>
+              <p class="number m-0">116</p>
+              <p>Affiliated Colleges</p>
             </div>
           </div>
           <div class="glimpse-card blue col-md-12 col-lg-3">
             <div class="stat">
-              <p class="number m-0">4,000</p>
-              <p>Stat 3</p>
+              <p class="number m-0">25+</p>
+              <p>Events</p>
             </div>
           </div>
         </div>

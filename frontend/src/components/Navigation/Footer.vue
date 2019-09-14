@@ -43,7 +43,9 @@
           <p class="font-weight-bold font-sm mb-2">FOLLOW US</p>
           <div class="social-row row m-0 py-2">
             <i class="fab fa-facebook-square fa-lg"></i>
+            <i></i>
             <i class="fab fa-instagram fa-lg"></i>
+            <i></i>
             <i class="fab fa-medium-m fa-lg"></i>
           </div>
         </section>
