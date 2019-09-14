@@ -104,7 +104,7 @@ export default {
     let text = document.getElementById('logo-text');
 
     let counter = 0;
-    let updateRate = 5;
+    let updateRate = 1;
     hero.addEventListener('mousemove', (event) => {
       const isTimeToUpdate = function() {
         return counter++ % updateRate === 0;

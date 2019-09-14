@@ -28,7 +28,12 @@
               <!-- <router-link :to="item.link" class="nav-link">{{
                 item.name
               }}</router-link> -->
-              <a :href="'#' + item.link" @click="scrollMeTo(item.link)" class="nav-link">{{
+              <a href="#" 
+                  v-scroll-to="{
+                    el: '#' + item.link,
+                    offset: item.link == 'hero' ? 0 : 900
+                  }" 
+                  @click="scrollMeTo(item.link)" class="nav-link">{{
                 item.name
               }}</a>
             </li>
@@ -64,7 +69,7 @@ export default {
       items: [
         {
           name: "Home",
-          link: ""
+          link: "hero"
         },
         {
           name: "About Us",
