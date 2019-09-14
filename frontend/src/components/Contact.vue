@@ -4,7 +4,7 @@
     <div class="row">
       <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
-        <img src="../assets/eventImgs/techspace-logo.png" alt="">
+        <!-- <img src="../assets/eventImgs/techspace-logo.png" alt=""> -->
       </div>
       <div class="column">
       <form action="#">
