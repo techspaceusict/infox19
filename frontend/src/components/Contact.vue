@@ -11,8 +11,8 @@
         <div>
           <div class="c1">Get in touch</div>
           <div class="c2">TECHSPACE</div>
-          <div class="c3">+91 96435 69434</div>
-          <div class="c4">infox@ipu.ac.in</div>
+          <div class="c3"><a href="tel:+91 96435 69434">+91 96435 69434</a></div>
+          <div class="c4"><a href="mailto:infox@ipu.ac.in">infox@ipu.ac.in</a></div>
         </div>
       </div>
 
@@ -139,6 +139,11 @@ h4 {
   font-size: 32px;
 }
 
+.ts-contact a {
+  text-decoration: none;
+  color: white;
+}
+
 .ts-contact .c1 {
   text-transform: uppercase;
   font-weight: bold;
@@ -167,7 +172,7 @@ h4 {
   //background-blend-mode: multiply;
   background-size: 75%;
 
-  opacity: 0.3;
+  opacity: 0.2;
   top: -40px;
   left: 0px;
   bottom: 0;
@@ -255,9 +260,9 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  box-shadow: 2px 2px 10px #0575e6;
+  box-shadow: 2px 2px 20px #0576e66e;
   // background-color: #2d2d2d;
-  background-color: #4b4949b0;
+  background-color: #0c0c0cd7;
   color: white;
   border-radius: 5px;
 }
