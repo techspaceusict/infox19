@@ -1,11 +1,20 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+//Bootstrap
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+//Rellax
 import VueRellax from 'vue-rellax'
+//AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+//Font Awesome
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
 
+//UI components
 import AppButton from '@/components/UI/AppButton';
 import Heading from '@/components/UI/Heading';
 Vue.component('AppButton', AppButton)
@@ -18,5 +27,8 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
+  created() {
+    AOS.init();
+  },
   render: h => h(App)
 }).$mount('#app')
