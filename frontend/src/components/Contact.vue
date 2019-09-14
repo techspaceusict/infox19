@@ -1,59 +1,59 @@
 <template>
   <div ref="contact" id="contact">
-    <Heading anchor=".contact" wrapper="#contact" :speed="-3">Contact Us</Heading>
-    <div class="row">
-      <div class="row contact">
+    <Heading anchor=".ts-contact" wrapper="#contact" :speed="-3"
+      >Contact Us</Heading
+    >
+    <div class="row contactForm">
+      <!-- <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
+      </div> -->
+      <div class="col-sm-12 col-md-5 ts-contact">
+        <div>
+          <div class="c1">Get in touch</div>
+          <div class="c3">+91 96435 69434</div>
+          <div class="c4">infox@ipu.ac.in</div>
+        </div>
       </div>
       <div class="column">
-      <form action="#">
-        <div class="row input-container">
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <input type="text" required class="text-color" />
-              <label>Name</label>
+        <form action="#">
+          <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="text" required class="text-color" />
+                <label>Name</label>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="styled-input" style="transform: translateX(-11px)">
-              <input type="text" required />
-              <label>Email</label>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="transform: translateX(-11px)">
+                <input type="text" required />
+                <label>Email</label>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div
-              class="styled-input"
-              style="float:right;transform: translateX(10px)"
+            <div class="col-md-6 col-sm-12">
+              <div
+                class="styled-input"
+                style="float:right;transform: translateX(10px)"
+              >
+                <input type="text" required />
+                <label>Phone Number</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="text-align-right btn btn-outline-primary btn-lg"
             >
-              <input type="text" required />
-              <label>Phone Number</label>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <textarea required></textarea>
-              <label>Message</label>
-            </div>
-          </div>
-          <button type="button" class="btn btn-outline-primary btn-lg">
-        	<span class="submit">Submit</span>
-        	<!-- <span class="loading"><i class="fa fa-refresh"></i></span>
+              <span class="submit">Submit</span>
+              <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
 	        <span class="check"><i class="fa fa-check"></i></span> -->
-          </button>
-        </div>
-      </form>
-      </div>
-      <div class="column2">
-        <img src="../assets/eventImgs/TECHSPACE.png" class="image" alt="">
-        <div class="reachUs">
-           <div class="col-md-12">
-            <p>For Any Queries : 8950723937</p>
+            </button>
           </div>
-          <div class="col-md-12">
-            <p>Mail Us : infox@ipu.ac.in</p>
-          </div>
-        </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>
@@ -78,19 +78,24 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+$theme-color: #0575e6;
 
-$theme-color:#0575e6;
+.contactForm {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #contact {
   margin-top: -40em;
-  
 }
-#contact *{
+#contact * {
   z-index: 2;
 }
 
-input:focus,textarea:focus{
-  border:2px solid $theme-color;
-}
+// input:focus,textarea:focus{
+//   border:2px solid $theme-color;
+// }
 
 h1 {
   font-family: "Poppins", sans-serif, "arial";
@@ -116,7 +121,47 @@ h4 {
 }
 
 .column {
-  flex: 50%
+  flex: 50%;
+}
+
+.ts-contact {
+  display: block;
+  position: relative;
+  color: rgba(214, 45, 16, 0.8);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.ts-contact .c1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+}
+.ts-contact::after {
+  content: "";
+  background: url("../assets/TECHSPACE.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  //background-blend-mode: multiply;
+  background-size: 75%;
+  opacity: 0.3;
+  top: -40px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.background {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
 }
 
 /* ///// inputs /////*/
@@ -178,7 +223,7 @@ textarea {
   font-size: 1rem;
   box-shadow: 2px 2px 10px #0575e6;
   // background-color: #2d2d2d;
-  background-color: #99999945;
+  background-color: #272727;
   color: white;
   border-radius: 5px;
 }
@@ -214,7 +259,9 @@ input[type="checkbox"]:checked + label {
   color: #f00;
   font-style: normal;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   outline: none;
 }
@@ -238,7 +285,7 @@ input[type="checkbox"]:checked + label {
 }
 .button:before {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0;
   left: 0;
   width: 0%;
@@ -327,17 +374,17 @@ input[type="checkbox"]:checked + label {
     transform: scale(1);
   }
 }
-.column2{
+.column2 {
   // transform: translateX(150px);
   transform: translateY(-530px);
   // float: right;
 }
-.image{
+.image {
   margin-left: 300px;
   height: 400px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
 }
-.reachUs{
+.reachUs {
   // display: flex;
   color: white;
   margin-left: 300px;
