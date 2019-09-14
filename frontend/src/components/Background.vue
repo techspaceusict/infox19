@@ -124,7 +124,7 @@
   z-index: 1;
   max-width: none;
   opacity: 0;
-  animation: fadeInLights 1s forwards 4s;
+  animation: fadeInLights 1s forwards 7s;
 }
 
 @keyframes fadeInLights {

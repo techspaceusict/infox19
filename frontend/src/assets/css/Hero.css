@@ -176,7 +176,7 @@ canvas {
   stroke-linejoin: bevel;
   stroke-dasharray: 1800;
   stroke-dashoffset: 1800;
-  animation: dash 3s ease-in;
+  animation: dash 3s ease-in 3s;
   animation-fill-mode: forwards;
   width: 100%;
   /* max-width: 600px; */
@@ -185,7 +185,7 @@ canvas {
 }
 
 #gx-logo polygon {
-  animation: colorFill 0.8s ease-out 2.5s forwards, beating 1.75s ease-in infinite;
+  animation: colorFill 0.8s ease-out 5.5s forwards, beating 1.75s ease-in infinite;
   /* animation-fill-mode: forwards; */
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 255, 1));
 }
@@ -207,13 +207,13 @@ canvas {
 }
 
 #eventInfo > div:nth-child(1) {
-  animation-delay: 4s;
+  animation-delay: 6s;
 }
 #eventInfo > div:nth-child(2) {
-  animation-delay: 4.2s;
+  animation-delay: 6.2s;
 }
 #eventInfo > div:nth-child(3) {
-  animation-delay: 4.4s;
+  animation-delay: 6.4s;
 }
 #eventInfo > div {
   margin-top: 10px;
@@ -263,11 +263,11 @@ canvas {
 
 @keyframes colorFill {
   from {
-    fill-opacity: 0;
+    /* fill-opacity: 0; */
     fill: #ffffff00;
   }
   to {
-    fill-opacity: 0.4;
+    /* fill-opacity: 0.4; */
     fill: #0576e6;
   }
 }
