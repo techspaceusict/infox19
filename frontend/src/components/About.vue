@@ -452,7 +452,7 @@ h2 {
   }
 
   .collageDescription{
-    width:80%;
+    width:95%;
     height:auto;;
   }
 }
