@@ -6,6 +6,8 @@
             <div>Programming</div>
             <div>Development</div>
             <div>Electronics</div>
+            <div>Cyber Security</div>
+            <div>ML/AI</div>
             <div>Hackathons</div>
             <div>Meetups</div>
             <div>Corporate</div>

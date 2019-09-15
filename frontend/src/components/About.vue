@@ -112,6 +112,7 @@ export default {
       days: 0
     };
   },
+  
   mounted() {
     setInterval(() => {
       var today = new Date().getTime();
