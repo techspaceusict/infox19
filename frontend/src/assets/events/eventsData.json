@@ -3,7 +3,7 @@
         "name":"Clash of Companies",
         "date":"11 October 2019",
         "time":"1pm-3pm",
-        "image":"Clash of Companies.png",
+        "image":"Clash_of_companies.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -20,7 +20,7 @@
         "name":"Codexpress",
         "date":"11 October 2019",
         "time":"1pm-3pm",
-        "image":"Codexpress.png",
+        "image":"CODEXPRESS.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -173,7 +173,7 @@
         "name":"Express InfoX",
         "date":"11 October 2019",
         "time":"1pm-3pm",
-        "image":"P!xelHubEvent_PosterColor.png",
+        "image":"PixelHubEvent_PosterColor.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",

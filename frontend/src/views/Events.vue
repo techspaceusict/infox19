@@ -14,8 +14,8 @@
             <div>Fun & Literary</div>
         </div>
         <div class="eventsPosters">
-            <div v-for="event in events">
-                <img :src="getImgUrl(event.image)">
+            <div v-for="(event, i) in events" :key="i">
+                <img :src="getImgUrl(event.image)" class="poster">
                 <div>{{event.name}}</div>
             </div>
         </div>
@@ -36,9 +36,8 @@ export default {
     }
     ,
     methods:{
-        getImgUrl:(img)=>{
-            //var images = require.context('../assets/', false, /\.png$/)
-            return require('../assets/events/imgs/'+img);
+        getImgUrl(img) {
+            return require('../assets/events/imgs/' + img);
         }
     }
 }
@@ -81,5 +80,8 @@ export default {
 
     }
    
+}
+.poster {
+    width: 500px;
 }
 </style>
