@@ -26,7 +26,7 @@
 
     <div class="container-fluid images">
       <section class="image" style="position: relative">
-        <div class="row my-5 aboutInfox">
+        <div class="row mt-5 aboutInfox">
           <div class="collage1">
             <div class="i1">
               <img src="../assets/eventImgs/DSC_0180.webp" />
@@ -128,7 +128,7 @@ export default {
   z-index: 2;
 }
 #about {
-  margin-top: -40em;
+  margin-top: -30em;
 }
 .glow h1,
 h2 {
@@ -449,8 +449,15 @@ h2 {
     margin-right: auto;
     height: auto;
   }
+
   .text {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #about {
+    margin-top: -40em;
   }
 }
 
@@ -473,6 +480,9 @@ h2 {
   .collageDescription {
     width: 95%;
     height: auto;
+  }
+  .videoPlayer {
+    margin-top: -40px;
   }
 }
 </style>

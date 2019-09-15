@@ -95,7 +95,7 @@ $theme-color: #0575e6;
 }
 
 #contact {
-  margin-top: -40em;
+  margin-top: -30em;
 }
 #contact * {
   z-index: 2;
@@ -220,7 +220,10 @@ textarea:valid ~ label {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
+  #contact {
+    margin-top: -40em;
+  }
   .ts-contact > div {
     > div {
       font-size: 0.7em;

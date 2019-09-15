@@ -25,17 +25,19 @@
               data-aos-easing="ease-out"
               data-aos-anchor=".nav-list"
             >
-              <!-- <router-link :to="item.link" class="nav-link">{{
-                item.name
-              }}</router-link> -->
-              <a href="#" 
+              <div class="nav-link" @click="navTo(item.link)">{{ item.name }}</div>
+              <!-- <router-link :to="item.link" v-if="item.link.startsWith('/')" class="nav-link">
+              {{ item.name }}
+              </router-link>
+              <a href="./" 
+                  v-else
                   v-scroll-to="{
-                    el: '#' + item.link,
+                    el: item.link,
                     offset: item.link == 'hero' ? 0 : 900
                   }" 
-                  @click="scrollMeTo(item.link)" class="nav-link">{{
-                item.name
-              }}</a>
+                  @click="scrollMeTo(item.link)" class="nav-link">
+                {{item.name}}
+              </a> -->
             </li>
           </ul>
           <!-- <div class="infoxpressions w-50">
@@ -69,11 +71,15 @@ export default {
       items: [
         {
           name: "Home",
-          link: "hero"
+          link: "/"
+        },
+        {
+          name: "Events",
+          link: "/events"
         },
         {
           name: "About Us",
-          link: "about"
+          link: "#about"
         },
         // {
         //   name: "Schedule",
@@ -81,18 +87,30 @@ export default {
         // },
         {
           name: "Sponsors",
-          link: "sponsors"
+          link: "#sponsors"
         },
         {
           name: "Glimpses",
-          link: "glimpses"
+          link: "#glimpses"
         },
         {
           name: "Contact Us",
-          link: "contact"
+          link: "#contact"
         }
       ]
     };
+  },
+  methods: {
+    navTo(link) {
+      if(link.startsWith('/')) {
+        this.$router.push(link);
+      } else {
+        this.$router.push('/');
+        this.$scrollTo(link, 1000, {
+          offset: link == '#hero' ? 0 : 900
+        });
+      }
+    }
   }
 };
 </script>
@@ -139,6 +157,7 @@ nav * {
 .nav-link {
   font-size: 6em;
   color: rgb(145, 145, 145);
+  cursor: pointer;
   transition: transform 200ms ease-out, color 200ms ease-out;
 }
 .nav-link:hover {

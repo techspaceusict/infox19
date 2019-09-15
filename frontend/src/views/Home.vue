@@ -2,13 +2,13 @@
   <div>
     <Background />
     <Hero />
-    <Gap :height="'20vh'" />
+    <!-- <Gap :height="'20vh'" /> -->
     <About />
-    <Gap :height="'20vh'" />
+    <!-- <Gap :height="'20vh'" /> -->
     <Sponsors />
-    <Gap :height="'20vh'" />
+    <!-- <Gap :height="'20vh'" /> -->
     <Glimpses />
-    <Gap :height="'20vh'" />
+    <!-- <Gap :height="'20vh'" /> -->
     <Contact />
     <Footer class="the-footer" />
   </div>

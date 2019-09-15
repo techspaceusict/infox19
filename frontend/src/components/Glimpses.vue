@@ -1,6 +1,6 @@
 <template>
   <div ref="glimpses" id="glimpses">
-    <Heading anchor=".glimpses" wrapper="#glimpses" :speed="-2"
+    <Heading anchor=".glimpses" wrapper="#glimpses" :speed="-3"
       >Glimpses</Heading
     >
     <div class="glimpses">
@@ -55,7 +55,7 @@ export default {};
   z-index: 2;
 }
 #glimpses {
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
 .glimpse-card {
@@ -92,6 +92,12 @@ export default {};
   .glimpse-card{
     margin-top:20px;
     margin-bottom:20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #glimpses {
+    margin-top: -40em;
   }
 }
 

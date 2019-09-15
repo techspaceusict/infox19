@@ -61,10 +61,15 @@ h1 {
   opacity: 0.1;
 }
 
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 3em;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 }
 
