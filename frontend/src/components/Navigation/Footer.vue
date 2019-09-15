@@ -9,22 +9,47 @@
           <div class="row m-0">
             <ul class="links font-sm">
               <li class="list-item mb-2">
-                <a href="#hero">HOME</a>
+                <a href="#hero" 
+                  v-scroll-to="{
+                    el: '#hero',
+                    offset: 0
+                  }"
+                    >HOME</a>
               </li>
               <li class="list-item mb-2">
-                <a href="#about">ABOUT US</a>
+                <a href="#about"
+                  v-scroll-to="{
+                    el: '#about',
+                    offset: 900
+                  }"
+                  >ABOUT US</a>
               </li>
               <li class="list-item mb-2">
-                <a href="#sponsors">SPONSORS</a>
+                <a href="#sponsors"
+                  v-scroll-to="{
+                    el: '#sponsors',
+                    offset: 900
+                  }"
+                  >SPONSORS</a>
               </li>
               <li class="list-item mb-2">
-                <a href="#glimpses">GLIMPSES</a>
+                <a href="#glimpses"
+                  v-scroll-to="{
+                    el: '#glimpses',
+                    offset: 900
+                  }"
+                  >GLIMPSES</a>
               </li>
             </ul>
 
             <ul class="links font-sm">
               <li class="list-item mb-2">
-                CONTACT US
+                <a href="#contact"
+                  v-scroll-to="{
+                    el: '#contact',
+                    offset: 900
+                  }"
+                  >CONTACT US</a>
               </li>
               <li class="list-item mb-2">
                 PRIVACY POLICY

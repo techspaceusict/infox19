@@ -38,7 +38,4 @@ body {
 .the-navbar {
   z-index: 10;
 }
-/* .particles {
-  height: 300vh;
-} */
 </style>
