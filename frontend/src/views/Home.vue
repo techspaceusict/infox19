@@ -7,6 +7,8 @@
     <Gap :height="'20vh'" />
     <Sponsors />
     <Gap :height="'20vh'" />
+    <Events/>
+    <Gap :height="'20vh'" />
     <Glimpses />
     <Gap :height="'20vh'" />
     <Contact />
@@ -22,6 +24,7 @@ import Glimpses from "@/components/Glimpses.vue";
 import Footer from "@/components/Navigation/Footer.vue";
 import Background from "@/components/Background.vue";
 import Contact from "@/components/Contact.vue";
+import Events from "@/components/Events.vue"
 
 import Gap from "@/components/Gap.vue";
 
@@ -35,7 +38,8 @@ export default {
     Footer,
     Background,
     Contact,
-    Gap
+    Gap,
+    Events
   }
 };
 </script>

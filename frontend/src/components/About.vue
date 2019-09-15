@@ -125,7 +125,7 @@ export default {
 
 <style lang="scss" scoped>
 #about * {
-  z-index: 2;
+  z-index: 1;
 }
 #about {
   margin-top: -40em;
@@ -203,24 +203,33 @@ h2 {
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 5px gray;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .collage1 > div > img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: scale(1) translate(-50%, -50%);
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .collage1 > div:hover {
+  
   outline: 10px solid #0575e6;
   transform: scale(1.1);
-  z-index: 99999;
   outline-offset: 10px;
   img {
     transform: scale(1.2) translate(-50%, -50%);
   }
+
+
 }
+
+.collage1>div>img:hover {
+  transform: scale(1.2) translate(-50%, -50%);
+  z-index: 5;
+}
+
+
 .collage1 .i1 {
   grid-area: 1/1/3/3;
 }
