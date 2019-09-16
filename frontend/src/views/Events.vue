@@ -1,6 +1,7 @@
 <template>
     <div>
     <h1 class="text-center text-white">Events</h1>
+    <CardDesign />
     <div class="eventsSection">
         <div class="eventNavs">
             <div>Programming</div>
@@ -27,14 +28,17 @@
 
 <script>
 import events from '../assets/events/eventsData.json';
+import CardDesign from '@/components/CardDesign'
 
 export default {
+    components: {
+        CardDesign
+    },
     data(){
         return{
             events
         }
-    }
-    ,
+    },
     methods:{
         getImgUrl(img) {
             return require('../assets/events/imgs/' + img);
