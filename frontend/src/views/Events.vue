@@ -104,7 +104,7 @@ export default {
                 color: #249bf3cc;
                 font-weight: bold;
                 text-align: right;
-                font-size: 24px;
+                font-size: 21px;
                 text-shadow: 0 0 2px #9a9a9a;
                 padding: 10px;
                 position: absolute;
