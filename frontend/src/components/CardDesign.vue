@@ -59,6 +59,7 @@ export default {
       if(path == 'poster') {
         return require('../assets/events/posters/' + img);
       } else if(path == 'display') {
+        console.log(img);
         return require('../assets/events/posters/' + img);
       }
     }
@@ -95,7 +96,6 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  /* background-image: url('../assets/image.jpg'); */
   background-position: center;
   background-size: cover;
 }

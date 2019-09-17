@@ -1,10 +1,14 @@
 <template>
-    <div>
+    <div id="events">
     <h1 class="text-center text-white">Events</h1>
-    <div class="d-flex" v-for="(event,i) in events" :key="i">
-        <CardDesign :event="event" />
-    </div>
+    
+    
     <div class="eventsSection">
+        <div class="d-flex" v-for="(event,i) in events" :key="i">
+            <CardDesign :event="event" />
+        </div>
+    </div>
+    <!-- <div class="eventsSection">
         <div class="eventNavs">
             <div>Programming</div>
             <div>Development</div>
@@ -22,7 +26,7 @@
                 <div>{{event.name}}</div>
             </div>
         </div>
-    </div>
+    </div> -->
     
     
     </div>
@@ -57,6 +61,7 @@ export default {
     margin-right: auto;
     .eventsSection{
         display: flex;
+        flex-wrap: wrap;
         .eventNavs{
             display: flex;
             text-align: center;

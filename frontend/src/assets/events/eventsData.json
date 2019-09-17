@@ -107,23 +107,6 @@
         "teamSize":"3-4 members"
     },
 
-    {
-        "name":"Data quest",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
-        "image":"dataquest_turingAI.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
-        },
-        {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
-        }],
-        "type":"cyber security",
-        "teamSize":"3-4 members"
-    },
 
     {
         "name":"Hackerman Exit",
@@ -165,7 +148,7 @@
         "name":"Open Source Meetup",
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
-        "image":"OSLC Meetup (2).png",
+        "image":"OSLCMeetup.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -201,7 +184,7 @@
         "name":"Clash On LAN",
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
-        "image":"rendered space 2.png",
+        "image":"rendered_space_2.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -219,7 +202,7 @@
         "name":"Play our Games",
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
-        "image":"rendered space 3.png",
+        "image":"rendered_space_3.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -238,7 +221,7 @@
         "name":"Game Jam",
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
-        "image":"rendered Space.png",
+        "image":"rendered_Space.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
