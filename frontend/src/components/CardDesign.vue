@@ -1,26 +1,26 @@
 <template>
     <div class="card border-0 m-3" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
-      <div class="card-image"></div>
+      <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
-        <div class="title">EVENT NAME</div>
+        <div class="title">{{ event.name.toUpperCase() }}</div>
         <div class="footer">
           <transition name="slide-right">
             <div class="extra" v-if="hover || full">
-              <p class="m-0">Team-size: 3</p>
-              <p class="m-0">Time: 12PM - 3PM</p>
+              <p class="m-0">Team-size: {{ event.teamSize }}</p>
+              <p class="m-0">Time: {{ event.time }}</p>
             </div>
           </transition>
-          <p class="date">Oct 11</p>
+          <p class="date">{{ event.date.split(',')[0] }}</p>
         </div>
         <transition name="slide-left">
           <div class="info row m-0" v-if="full">
             <div class="col-sm-12 col-md-8 px-0">
               <h4>Description</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam recusandae, incidunt et id velit consequuntur exercitationem nulla sed provident minima.</p>
+              <p>{{ event.description }}</p>
               <AppButton class="register my-4">Register</AppButton>
             </div>
             <div class="poster ml-auto">
-              <img src="" alt="" class="w-100 h-100">
+              <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
             </div>
           </div>
         </transition>
@@ -31,7 +31,7 @@
 <script>
 export default {
   props: {
-    
+    event: Object
   },
   data() {
     return {
@@ -46,8 +46,15 @@ export default {
     goToEvent() {
       this.full = true;
       setTimeout(() => {
-        this.$router.push('/events/hahaha');
+        this.$router.push('/events/' + this.event.name);
       }, 700);
+    },
+    getImgUrl(img, path) {
+      if(path == 'poster') {
+        return require('../assets/events/posters/' + img);
+      } else if(path == 'display') {
+        return require('../assets/events/posters/' + img);
+      }
     }
   }
 }
@@ -82,7 +89,7 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background-image: url('../assets/image.jpg');
+  /* background-image: url('../assets/image.jpg'); */
   background-position: center;
   background-size: cover;
 }
@@ -158,6 +165,7 @@ export default {
   width: 100vw;
   box-shadow: 0 0 0px rgba(255, 255, 255, 0.45);
   border-radius: 0;
+  z-index: 10;
   transition: all 500ms ease;
 }
 .card.full .card-image::after {
@@ -186,7 +194,7 @@ export default {
 }
 .poster {
   width: 400px;
-  height: 500px;
+  height: fit-content;
   border: 1px solid white;
   margin: 0 30px;
   margin-top: -200px;

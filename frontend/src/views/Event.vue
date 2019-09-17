@@ -1,30 +1,30 @@
 <template>
   <div class="row m-0 justify-content-center">
-    <div class="card full border-0 m-3">
-      <div class="card-image"></div>
+    <div class="card border-0 m-3" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
+      <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
-        <div class="row m-0 justify-content-end">
-          <div class="cross" @click="goBack">&#10006;</div>
-        </div>
-        <div class="title">EVENT NAME</div>
+
+        <div class="close-btn mx-2">&#10006;</div>
+
+        <div class="title">{{ event.name.toUpperCase() }}</div>
         <div class="footer">
           <transition name="slide-right">
             <div class="extra" v-if="hover || full">
-              <p class="m-0">Team-size: 3</p>
-              <p class="m-0">Time: 12PM - 3PM</p>
+              <p class="m-0">Team-size: {{ event.teamSize }}</p>
+              <p class="m-0">Time: {{ event.time }}</p>
             </div>
           </transition>
-          <p class="date">Oct 11</p>
+          <p class="date">{{ event.date.split(',')[0] }}</p>
         </div>
         <transition name="slide-left">
           <div class="info row m-0" v-if="full">
             <div class="col-sm-12 col-md-8 px-0">
               <h4>Description</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam recusandae, incidunt et id velit consequuntur exercitationem nulla sed provident minima.</p>
+              <p>{{ event.description }}</p>
               <AppButton class="register my-4">Register</AppButton>
             </div>
             <div class="poster ml-auto">
-              <img src="" alt="" class="w-100 h-100">
+              <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
             </div>
           </div>
         </transition>
@@ -34,10 +34,35 @@
 </template>
 
 <script>
+import events from '../assets/events/eventsData.json';
+
 export default {
   data() {
     return {
       full: true,
+    }
+  },
+  computed: {
+    event() {
+      let event = events.find(e => e.name == this.$route.params.eventName);
+      console.log(event);
+      if(event) {
+        return event;
+      } else {
+        return {}
+      }
+    }
+  },
+  methods: {
+    goBack() {
+
+    },
+    getImgUrl(img, path) {
+      if(path == 'poster') {
+        return require('../assets/events/posters/' + img);
+      } else if(path == 'display') {
+        return require('../assets/events/posters/' + img);
+      }
     }
   }
 }
@@ -166,5 +191,11 @@ export default {
   border: 1px solid white;
   margin: 0 30px;
   margin-top: -200px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 30px;
 }
 </style>

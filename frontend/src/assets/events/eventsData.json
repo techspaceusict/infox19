@@ -1,8 +1,9 @@
 [
     {
         "name":"Clash of Companies",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
+        "teamSize": "3",
         "image":"Clash_of_companies.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -18,8 +19,8 @@
 
     {
         "name":"Codexpress",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"CODEXPRESS.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -35,8 +36,8 @@
 
     {
         "name":"Coding Event-Women's Special",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"coding-we-connect.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -52,8 +53,8 @@
 
     {
         "name":"Codocrux",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"codocrux.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -69,8 +70,8 @@
 
     {
         "name":"ProtoXperience",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"Cogitans-ProtoXperience.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -86,8 +87,8 @@
 
     {
         "name":"Data quest",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"dataquest_turingAI.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -103,8 +104,8 @@
 
     {
         "name":"Data quest",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"dataquest_turingAI.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -120,8 +121,8 @@
 
     {
         "name":"Hackerman Exit",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"Hackermanexit.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -137,8 +138,8 @@
 
     {
         "name":"Machine Learning Workshop",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"machinelearningworkshop.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -154,8 +155,8 @@
 
     {
         "name":"Open Source Meetup",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"OSLC Meetup (2).png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -171,8 +172,8 @@
 
     {
         "name":"Express InfoX",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"PixelHubEvent_PosterColor.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -188,8 +189,8 @@
 
     {
         "name":"Clash On LAN",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"rendered space 2.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -205,8 +206,8 @@
 
     {
         "name":"Play our Games",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"rendered space 3.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -223,8 +224,8 @@
 
     {
         "name":"Game Jam",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"rendered Space.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -240,8 +241,8 @@
 
     {
         "name":"Capture The Flag",
-        "date":"11 October 2019",
-        "time":"1pm-3pm",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
         "image":"Rooters_CTF.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{

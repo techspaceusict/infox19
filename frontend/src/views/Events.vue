@@ -1,7 +1,9 @@
 <template>
     <div>
     <h1 class="text-center text-white">Events</h1>
-    <CardDesign />
+    <div class="d-flex" v-for="(event,i) in events" :key="i">
+        <CardDesign :event="event" />
+    </div>
     <div class="eventsSection">
         <div class="eventNavs">
             <div>Programming</div>
