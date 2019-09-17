@@ -5,7 +5,7 @@
     
     <div class="eventsSection">
         <div class="d-flex" v-for="(event,i) in events" :key="i">
-            <CardDesign :event="event" />
+            <CardDesign class="card-event" :event="event" />
         </div>
     </div>
     <!-- <div class="eventsSection">
@@ -54,7 +54,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#events *{z-index: 2;}
+// #events *{z-index: 2;}
 #events{
     width:90%;
     margin-left: auto;
@@ -92,7 +92,7 @@ export default {
     }
    
 }
-.poster {
-    width: 500px;
+.card-event {
+    // margin: 20px;
 }
 </style>

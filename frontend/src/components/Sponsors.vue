@@ -127,7 +127,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#sponsors * {
+#sponsors {
   z-index: 2;
 }
 #sponsors {
