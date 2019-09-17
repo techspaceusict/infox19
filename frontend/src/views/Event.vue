@@ -1,7 +1,11 @@
 <template>
-    <div class="card border-0 m-3" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
+  <div class="row m-0 justify-content-center">
+    <div class="card full border-0 m-3">
       <div class="card-image"></div>
       <div class="card-body">
+        <div class="row m-0 justify-content-end">
+          <div class="cross" @click="goBack">&#10006;</div>
+        </div>
         <div class="title">EVENT NAME</div>
         <div class="footer">
           <transition name="slide-right">
@@ -26,28 +30,14 @@
         </transition>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-  props: {
-    
-  },
   data() {
     return {
-      full: false,
-      hover: false
-    }
-  },
-  created() {
-    console.log(this.$route.query);
-  },
-  methods: {
-    goToEvent() {
-      this.full = true;
-      setTimeout(() => {
-        this.$router.push('/events/hahaha');
-      }, 700);
+      full: true,
     }
   }
 }
@@ -60,21 +50,6 @@ export default {
   width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
-  cursor: pointer;
-  transition: all 300ms ease-out;
-}
-.card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.45);
-}
-.card:hover .title {
-  font-size: 1.6em;
-}
-.card:hover .title::after {
-  bottom: -20px;
-}
-.card:hover .date {
-  font-size: 1.6em;
 }
 
 .card-image {
@@ -106,7 +81,7 @@ export default {
 .title {
   position: relative;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin-top: 30px;
   transition: all 100ms ease-out;
 }
@@ -115,7 +90,7 @@ export default {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -30px;
+  bottom: -20px;
   width: 20%;
   height: 3px;
   background: yellow;
@@ -132,7 +107,7 @@ export default {
   font-size: 1em;
 }
 .date {
-  font-size: 1.2em;
+  font-size: 1.6em;
   transition: font-size 200ms ease-out;
 }
 
@@ -156,6 +131,7 @@ export default {
   top: 0;
   height: 100vh;
   width: 100vw;
+  transform: scale(1.02);
   box-shadow: 0 0 0px rgba(255, 255, 255, 0.45);
   border-radius: 0;
   transition: all 500ms ease;
