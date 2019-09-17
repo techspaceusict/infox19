@@ -29,6 +29,11 @@
 </template>
 
 <script>
+
+// document.getElementsByClassName("close-btn")[0].addEventListener("click",function(){
+//   history.back();
+// })
+
 export default {
   props: {
     event: Object
@@ -64,12 +69,13 @@ export default {
 <style scoped>
 .card {
   position: relative;
-  height: 400px;
+  height: 400px;  
   width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   cursor: pointer;
   transition: all 300ms ease-out;
+  transform: rotate(-3deg);
 }
 .card:hover {
   transform: scale(1.02);
