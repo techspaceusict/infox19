@@ -1,15 +1,15 @@
 <template>
   <div class="row m-0 justify-content-center">
-    <div class="card border-0 m-3" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
+    <div class="card border-0" :class="{ 'full': full }">
       <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
 
-        <div class="close-btn mx-2">&#10006;</div>
+        <div class="close-btn mx-2" @click="goBack">&#10006;</div>
 
         <div class="title">{{ event.name.toUpperCase() }}</div>
         <div class="footer">
           <transition name="slide-right">
-            <div class="extra" v-if="hover || full">
+            <div class="extra" v-if="full">
               <p class="m-0">Team-size: {{ event.teamSize }}</p>
               <p class="m-0">Time: {{ event.time }}</p>
             </div>
@@ -55,7 +55,8 @@ export default {
   },
   methods: {
     goBack() {
-
+      console.log(this.event.name);
+      this.$router.push({ path: '/events', query: { from: this.event.name }});
     },
     getImgUrl(img, path) {
       if(path == 'poster') {
@@ -152,14 +153,19 @@ export default {
 }
 
 .card.full {
-  position: fixed;
+  position: absolute;
   top: 0;
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
   width: 100vw;
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
   box-shadow: 0 0 0px rgba(255, 255, 255, 0.45);
   border-radius: 0;
+  z-index: 10;
   transition: all 500ms ease;
+}
+.card.full .card-image, .card.full .card-image::after {
+  border-radius: 0;
 }
 .card.full .card-image::after {
   background: rgba(0, 0, 0, 0.95);
@@ -187,7 +193,7 @@ export default {
 }
 .poster {
   width: 400px;
-  height: 500px;
+  height: fit-content;
   border: 1px solid white;
   margin: 0 30px;
   margin-top: -200px;
@@ -197,5 +203,8 @@ export default {
   position: absolute;
   top: 10px;
   right: 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.384);
 }
 </style>

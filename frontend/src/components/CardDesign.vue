@@ -1,5 +1,5 @@
 <template>
-    <div class="card border-0 m-3" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
+    <div class="card border-0" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
       <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
         <div class="title">{{ event.name.toUpperCase() }}</div>
@@ -40,10 +40,16 @@ export default {
     }
   },
   created() {
-    console.log(this.$route.query);
+    if(this.event.name == this.$route.query.from) {
+      this.full = true;
+      setTimeout(() => {
+        this.full = false;
+      }, 10)
+    }
   },
   methods: {
     goToEvent() {
+      // this.full = !this.full;
       this.full = true;
       setTimeout(() => {
         this.$router.push('/events/' + this.event.name);
@@ -68,7 +74,7 @@ export default {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   cursor: pointer;
-  transition: all 300ms ease-out;
+  transition: all 500ms ease-out;
 }
 .card:hover {
   transform: scale(1.02);
@@ -100,7 +106,7 @@ export default {
   height: 100%;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.6);
-  transition: all 300ms ease-out;
+  transition: all 800ms ease-out;
 }
 
 .card-body {
@@ -166,7 +172,14 @@ export default {
   box-shadow: 0 0 0px rgba(255, 255, 255, 0.45);
   border-radius: 0;
   z-index: 10;
-  transition: all 500ms ease;
+  transition: all 800ms ease;
+}
+.card.full:hover {
+  transform: scale(1);
+  box-shadow: 0 0 0 white;
+}
+.card.full .card-image, .card.full .card-image::after {
+  border-radius: 0;
 }
 .card.full .card-image::after {
   background: rgba(0, 0, 0, 0.95);
