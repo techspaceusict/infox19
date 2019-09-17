@@ -2,7 +2,7 @@
     <div class="card border-0" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
       <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
-        <div class="title">{{ event.name.toUpperCase() }}</div>
+        <!-- <div class="title">{{ event.name.toUpperCase() }}</div> -->
         <div class="footer">
           <transition name="slide-right">
             <div class="extra" v-if="hover || full">
@@ -29,6 +29,11 @@
 </template>
 
 <script>
+
+// document.getElementsByClassName("close-btn")[0].addEventListener("click",function(){
+//   history.back();
+// })
+
 export default {
   props: {
     event: Object
@@ -70,13 +75,14 @@ export default {
 <style scoped>
 .card {
   position: relative;
-  height: 400px;
+  height: 400px;  
   width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   margin: 20px;
   cursor: pointer;
-  transition: all 500ms ease-out;
+  transition: all 300ms ease-out;
+  transform: rotate(-3deg);
 }
 .card:hover {
   transform: scale(1.02);
@@ -90,6 +96,7 @@ export default {
 }
 .card:hover .date {
   font-size: 1.6em;
+  opacity: 1;
 }
 
 .card-image {
@@ -111,10 +118,11 @@ export default {
 }
 
 .card-body {
-  color: yellow;
+  color: rgba(252, 253, 253, 0.692);
+  font-weight: bold;
   padding: 30px;
   text-align: center;
-  text-shadow: 0 0 10px yellow;
+  text-shadow: 0 0 5px rgb(0, 255, 221);
   z-index: 2;
 }
 .title {
@@ -147,6 +155,7 @@ export default {
 }
 .date {
   font-size: 1.2em;
+  opacity: 0;
   transition: font-size 200ms ease-out;
 }
 
