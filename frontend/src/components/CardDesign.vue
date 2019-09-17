@@ -1,8 +1,8 @@
 <template>
-    <div class="card border-0 m-3" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
+    <div class="card border-0" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
       <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
-        <div class="title">{{ event.name.toUpperCase() }}</div>
+        <!-- <div class="title">{{ event.name.toUpperCase() }}</div> -->
         <div class="footer">
           <transition name="slide-right">
             <div class="extra" v-if="hover || full">
@@ -45,10 +45,16 @@ export default {
     }
   },
   created() {
-    console.log(this.$route.query);
+    if(this.event.name == this.$route.query.from) {
+      this.full = true;
+      setTimeout(() => {
+        this.full = false;
+      }, 10)
+    }
   },
   methods: {
     goToEvent() {
+      // this.full = !this.full;
       this.full = true;
       setTimeout(() => {
         this.$router.push('/events/' + this.event.name);
@@ -73,6 +79,7 @@ export default {
   width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
+  margin: 20px;
   cursor: pointer;
   transition: all 300ms ease-out;
   transform: rotate(-3deg);
@@ -89,6 +96,7 @@ export default {
 }
 .card:hover .date {
   font-size: 1.6em;
+  opacity: 1;
 }
 
 .card-image {
@@ -106,14 +114,15 @@ export default {
   height: 100%;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.6);
-  transition: all 300ms ease-out;
+  transition: all 800ms ease-out;
 }
 
 .card-body {
-  color: yellow;
+  color: rgba(252, 253, 253, 0.692);
+  font-weight: bold;
   padding: 30px;
   text-align: center;
-  text-shadow: 0 0 10px yellow;
+  text-shadow: 0 0 5px rgb(0, 255, 221);
   z-index: 2;
 }
 .title {
@@ -146,6 +155,7 @@ export default {
 }
 .date {
   font-size: 1.2em;
+  opacity: 0;
   transition: font-size 200ms ease-out;
 }
 
@@ -167,12 +177,21 @@ export default {
 .card.full {
   position: fixed;
   top: 0;
+  left: 0;
   height: 100vh;
   width: 100vw;
   box-shadow: 0 0 0px rgba(255, 255, 255, 0.45);
   border-radius: 0;
+  margin: 0;
   z-index: 10;
-  transition: all 500ms ease;
+  transition: all 800ms ease;
+}
+.card.full:hover {
+  transform: scale(1);
+  box-shadow: 0 0 0 white;
+}
+.card.full .card-image, .card.full .card-image::after {
+  border-radius: 0;
 }
 .card.full .card-image::after {
   background: rgba(0, 0, 0, 0.95);

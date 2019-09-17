@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#events *{z-index: 2;}
+// #events *{z-index: 2;}
 #events{
     width:90%;
     margin-left: auto;
@@ -93,17 +93,33 @@ export default {
         }
 
         .d-flex{
-            background: #272727c7;
+            background: #27272773;
             width: 350px;
-            margin: 10px;
+            height: 500px;
+            margin: 30px;
             display: flex;
             flex-direction: column;
-            .eventName{text-align: right}
+            position: relative;
+            .eventName{
+                color: #249bf3cc;
+                font-weight: bold;
+                text-align: right;
+                font-size: 24px;
+                text-shadow: 0 0 2px #9a9a9a;
+                padding: 10px;
+                position: absolute;
+                bottom: 10px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                right: 0;
+
+            }
         }
     }
    
 }
-.poster {
-    width: 500px;
+.card-event {
+    // margin: 20px;
 }
 </style>
