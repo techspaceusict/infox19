@@ -49,6 +49,8 @@ export default {
   filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
 }
 h1 {
+  /* padding-bottom: 2em; */
+  margin-bottom: 0.5em;
   font-size: 15em;
 }
 [data-aos="title"] {
@@ -59,10 +61,15 @@ h1 {
   opacity: 0.1;
 }
 
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 3em;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 }
 

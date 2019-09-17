@@ -1,77 +1,103 @@
 <template>
   <div ref="contact" id="contact">
-    <Heading anchor=".contact" wrapper="#contact" :speed="-3">Contact Us</Heading>
-    <div class="row contactForm">
+    <Heading anchor=".ts-contact" wrapper="#contact" :speed="-3"
+      >Contact Us</Heading
+    >
+    <div class="contactForm">
       <!-- <div class="row contact">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
       </div> -->
-      <div class="column ts-contact">
+      <div class="col-sm-12 col-md-5 ts-contact">
         <div>
           <div class="c1">Get in touch</div>
-          <div class="c2">Divyansh Tripathi<br/> (President, TECHSPACE)</div>
-          <div class="c3">+91 96435 69434</div>
-          <div class="c4">infox@ipu.ac.in</div>
+          <div class="c2">TECHSPACE</div>
+          <div class="c3"><a href="tel:+91 96435 69434">+91 96435 69434</a></div>
+          <div class="c4"><a href="mailto:infox@ipu.ac.in">infox@ipu.ac.in</a></div>
         </div>
       </div>
-      <div class="column">
-      <form action="#">
-        <div class="row input-container">
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <input type="text" required class="text-color" />
-              <label>Name</label>
-            </div>
+
+      <div class="formContainer">
+        <div>
+          <div class="styled-input wide">
+            <input type="text" required class="text-color" />
+            <label>Name</label>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="styled-input" style="transform: translateX(-11px)">
+        </div>
+        <div class="emailPhone">
+          <div>
+            <div class="styled-input">
               <input type="text" required />
               <label>Email</label>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div
-              class="styled-input"
-              style="float:right;transform: translateX(10px)"
-            >
+          <div>
+            <div class="styled-input">
               <input type="text" required />
-              <label>Phone Number</label>
+              <label>Phone</label>
             </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="styled-input wide">
-              <textarea required></textarea>
-              <label>Message</label>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="btn-lrg submit-btn">Send Message</div>
           </div>
         </div>
-      </form>
+        <div>
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary btn-lg">
+          <span class="submit">Leave Message</span>
+          <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
+        <span class="check"><i class="fa fa-check"></i></span> -->
+        </button>
       </div>
-      
     </div>
   </div>
 </template>
 
 <script>
 export default {};
+// const button = document.querySelector('.button');
+// const submit = document.querySelector('.submit');
+
+// function toggleClass() {
+// 	this.classList.toggle('active');
+// }
+
+// function addClass() {
+// 	this.classList.add('finished');
+// }
+
+// button.addEventListener('click', toggleClass);
+// button.addEventListener('transitionend', toggleClass);
+// button.addEventListener('transitionend', addClass);
 </script>
 
 <style lang="scss" scoped>
+$theme-color: #0575e6;
 
-$theme-color:#0575e6;
-
-.contactForm{
-  width:90%;
-  margin-left:auto;
+.contactForm {
+  width: 95%;
+  margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+
+.contactForm > div {
+  width: 50%;
+}
+
+.emailPhone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailPhone > div {
+  width: 48%;
 }
 
 #contact {
-  margin-top: -40em;
+  margin-top: -30em;
 }
-#contact *{
+#contact * {
   z-index: 2;
 }
 
@@ -95,47 +121,64 @@ h4 {
   color: #9b9b9b;
   line-height: 1.5;
   padding-left: 340px;
-}
-
-.row {
-  display: flex;
+  padding-top: 30px;
 }
 
 .column {
-  flex: 50%
+  flex: 50%;
 }
 
-.ts-contact{
+.ts-contact {
   display: block;
   position: relative;
   color: white;
   text-align: center;
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 32px;
 }
 
-.ts-contact .c1{
+.ts-contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.ts-contact .c1 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size:1.5em;  
+  font-size: 1.5em;
   position: relative;
-  
+  text-shadow: 0 0 10px #6200ff;
+  color: #0018f3;
+  top: -10px;
 }
-.ts-contact::after{
+
+.ts-contact .c2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ts-contact::after {
   content: "";
   background: url("../assets/TECHSPACE.png");
   background-repeat: no-repeat;
   background-position: center;
   //background-blend-mode: multiply;
   background-size: 75%;
-  opacity: 0.3;
+
+  opacity: 0.2;
   top: -40px;
   left: 0px;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;  
+  z-index: -1;
 }
 
 .background {
@@ -144,7 +187,6 @@ h4 {
   display: block;
   position: relative;
 }
-
 
 /* ///// inputs /////*/
 
@@ -160,9 +202,6 @@ textarea:valid ~ label {
 }
 
 .styled-input {
-  z-index: 999;
-  float: left;
-  width: 308px;
   margin: 1rem 0;
   // margin-right: -2px;
   // margin-left: -5px;
@@ -181,6 +220,28 @@ textarea:valid ~ label {
   }
 }
 
+@media screen and (max-width: 576px) {
+  #contact {
+    margin-top: -40em;
+  }
+  .ts-contact > div {
+    > div {
+      font-size: 0.7em;
+    }
+    .c2 {
+      font-size: 0.9em;
+    }
+    .c1 {
+      font-size: 1.2em;
+    }
+  }
+
+  .ts-contact::after {
+    top: -40px;
+    height: 250px;
+  }
+}
+
 .styled-input label {
   color: #999;
   padding: 1.3rem 30px 1rem 30px;
@@ -193,8 +254,7 @@ textarea:valid ~ label {
 }
 
 .styled-input.wide {
-  width: 650px;
-  max-width: 100%;
+  width: 100%;
 }
 
 input,
@@ -203,9 +263,9 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  box-shadow: 2px 2px 10px #0575e6;
+  box-shadow: 2px 2px 20px #0576e66e;
   // background-color: #2d2d2d;
-  background-color: #272727;
+  background-color: #0c0c0cd7;
   color: white;
   border-radius: 5px;
 }
@@ -232,34 +292,6 @@ textarea {
   max-width: 100%;
   margin: 20px auto 25px auto;
 }
-
-.submit-btn {
-  float: right;
-  padding: 7px 35px;
-  border-radius: 60px;
-  display: inline-block;
-  background-color: #4b8cfb;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-.submit-btn:hover {
-  transform: translateY(1px);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
-}
-
-@media (max-width: 768px) {
-  .submit-btn {
-    width: 100%;
-    float: none;
-    text-align: center;
-  }
-}
-
 input[type="checkbox"] + label {
   color: #ccc;
   font-style: italic;
@@ -268,5 +300,170 @@ input[type="checkbox"] + label {
 input[type="checkbox"]:checked + label {
   color: #f00;
   font-style: normal;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12.5rem;
+  margin: 0;
+  padding: 1.5rem 3.125rem;
+  background-color: #0575e6;
+  border: none;
+  border-radius: 0.3125rem;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.button:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #54d98c;
+}
+.button span {
+  position: absolute;
+  line-height: 0;
+}
+.button span i {
+  transform-origin: center center;
+}
+.button span:nth-of-type(1) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.button span:nth-of-type(2) {
+  top: 100%;
+  transform: translateY(0%);
+  font-size: 24px;
+}
+.button span:nth-of-type(3) {
+  display: none;
+}
+
+.active {
+  background-color: #2ecc71;
+}
+.active:before {
+  width: 100%;
+  transition: width 3s linear;
+}
+.active span:nth-of-type(1) {
+  top: -100%;
+  transform: translateY(-50%);
+}
+.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.active span:nth-of-type(2) i {
+  animation: loading 500ms linear infinite;
+}
+.active span:nth-of-type(3) {
+  display: none;
+}
+
+.finished {
+  background-color: #54d98c;
+}
+.finished .submit {
+  display: none;
+}
+.finished .loading {
+  display: none;
+}
+.finished .check {
+  display: block !important;
+  font-size: 24px;
+  animation: scale 0.5s linear;
+}
+.finished .check i {
+  transform-origin: center center;
+}
+
+@media screen and (max-width: 768px) {
+  .contactForm {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+    .ts-contact::after {
+      transform: translateY(-80px);
+      background-size: 70%;
+      height: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .emailPhone {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+  }
+  body .ts-contact::after {
+    background-size: 100%;
+  }
+
+  .ts-contact::after {
+    height: 400px;
+  }
+}
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(10);
+  }
+  50% {
+    transform: scale(0.2);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  90% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.column2 {
+  // transform: translateX(150px);
+  transform: translateY(-530px);
+  // float: right;
+}
+.image {
+  margin-left: 300px;
+  height: 400px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
+}
+.reachUs {
+  // display: flex;
+  color: white;
+  margin-left: 300px;
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+  text-align: center;
 }
 </style>

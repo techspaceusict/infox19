@@ -75,6 +75,7 @@ canvas {
   align-items: center;
   text-align: center;
   height: 100%;
+  perspective: 40px;
   /* margin-top: 50%; */
   /* animation: slideUp 0.8s ease-in-out 3.3s; */
   animation-fill-mode: forwards;
@@ -98,13 +99,14 @@ canvas {
   padding: 50px auto;
   /* animation: showLogoText 0.3s ease-in 3s; */
   animation-fill-mode: forwards;
-  transition: transform 100ms;
+  transition: transform 200ms;
 }
 
 .flicker-on {
+  position: relative;
   animation: flickerOn 1s ease-out forwards;
+  z-index: 1;
 }
-
 @keyframes flickerOn {
   20%, 22%, 35.999%, 64%, 65%, 69.999% {
     color: white;
@@ -117,6 +119,32 @@ canvas {
   100% {
     color: white;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.flicker-on::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 200px;
+  height: 80vh;
+  background: rgb(17, 0, 255);
+  /* background: white; */
+  filter: blur(100px);
+  animation: flickerOnShadow 1s ease-out forwards;
+  z-index: -10;
+}
+@keyframes flickerOnShadow {
+  20%, 22%, 35.999%, 64%, 65%, 69.999% {
+    opacity: 0.4;
+	}
+	0%, 19.999%, 21.999%, 36%, 64.999% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -139,7 +167,8 @@ canvas {
 
 #gx-logo {
   position: absolute;
-  top: -30px;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
   left: 0;
   fill: #000000;
   stroke: #666;
@@ -148,18 +177,18 @@ canvas {
   stroke-linejoin: bevel;
   stroke-dasharray: 1800;
   stroke-dashoffset: 1800;
-  animation: dash 4s ease-in;
+  animation: dash 3s ease-in 3s;
   animation-fill-mode: forwards;
   width: 100%;
   /* max-width: 600px; */
   filter: drop-shadow(0 0 50px rgba(0, 0, 255, 0.507));
-  transition: transform 100ms;
+  transition: transform 200ms;
 }
 
 #gx-logo polygon {
-  animation: colorFill 0.8s ease-out 3s forwards;
+  animation: colorFill 0.8s ease-out 5.5s forwards, beating 1.75s ease-in infinite;
   /* animation-fill-mode: forwards; */
-  filter: drop-shadow(6px 0 2px hsla(0, 0%, 0%, 0.2));
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 255, 1));
 }
 
 #eventInfo {
@@ -167,6 +196,9 @@ canvas {
   font-family: Arial;
   font-size: 20px;
   letter-spacing: 1px;
+  text-align: center;
+  margin-top: -135px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 #eventInfo .date {
@@ -176,13 +208,13 @@ canvas {
 }
 
 #eventInfo > div:nth-child(1) {
-  animation-delay: 4s;
+  animation-delay: 6s;
 }
 #eventInfo > div:nth-child(2) {
-  animation-delay: 4.2s;
+  animation-delay: 6.2s;
 }
 #eventInfo > div:nth-child(3) {
-  animation-delay: 4.4s;
+  animation-delay: 6.4s;
 }
 #eventInfo > div {
   margin-top: 10px;
@@ -232,12 +264,23 @@ canvas {
 
 @keyframes colorFill {
   from {
-    fill-opacity: 0;
+    /* fill-opacity: 0; */
     fill: #ffffff00;
   }
   to {
-    fill-opacity: 1;
+    /* fill-opacity: 0.4; */
     fill: #0576e6;
+  }
+}
+
+@keyframes beating {
+  0%, 20%, 35%, 60%, 100%{
+    fill-opacity: 0.4;
+    transform: scale(1);
+  }
+  25%, 40% {
+    fill-opacity: 0.6;
+    transform: scale(1.005);
   }
 }
 
@@ -259,12 +302,26 @@ canvas {
   }
 }
 
-@media screen and (max-width: 576px) {
-  #gx-logo {
-    width: 120vw;
+@media only screen and (max-width: 992px) {
+  #logo-text {
+    font-size: 6em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flicker-on::before {
+    display: none;
   }
   #logo-text {
-    font-size: 7.5vw;
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 576px) {
+  #gx-logo {
+    top: 50%;
+    transform: translateY(-100%);
+  }
+  #logo-text {
+    font-size: 10vw;
   }
   #eventInfo {
     font-size: 4vw;

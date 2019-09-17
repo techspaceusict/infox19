@@ -1,10 +1,9 @@
 <template>
   <div ref="hero" id="hero">
-    <!-- <canvas id="smoke"></canvas> -->
+    <!-- <canvas></canvas> -->
 
     <div id="logo">
       <!-- <img src="public/img/logo.svg" /> -->
-
       <svg
         id="gx-logo"
         class="tronFilter"
@@ -72,11 +71,11 @@
         <span>o</span>
         <span>n</span>
       </div>
-      <!-- <div id="eventInfo">
-        <div class="date">OCT 11TH-13TH 2019</div>
-        <div>TECHFEST USICT | GGSIPU</div>
-        <div>CELEBRATING THE SENSE OF BELONGING</div>
-      </div> -->
+    </div>
+    <div id="eventInfo">
+      <div class="date">OCTOBER 11<sup>th</sup> - 13<sup>th</sup> 2019</div>
+      <div>TECHFEST USICT | GGSIPU</div>
+      <div>CELEBRATING THE SENSE OF BELONGING</div>
     </div>
   </div>
 </template>
@@ -104,15 +103,27 @@ export default {
     let logo = document.getElementById('gx-logo');
     let text = document.getElementById('logo-text');
 
+    let counter = 0;
+    let updateRate = 1;
     hero.addEventListener('mousemove', (event) => {
-      let part = 20;
-      let xLogo = (hero.clientWidth/2 - event.clientX)/(part*2);
-      let yLogo = (hero.clientHeight/2 - event.clientY)/(part*2);
-      let xText = (hero.clientWidth/2 - event.clientX)/part;
-      let yText = (hero.clientHeight/2 - event.clientY)/part;
-      logo.style.transform = `translate(${xLogo}px, ${yLogo}px)`;
-      text.style.transform = `translate(${xText}px, ${yText}px)`;
+      const isTimeToUpdate = function() {
+        return counter++ % updateRate === 0;
+      }
+      if(isTimeToUpdate()) {
+        let part = 60;
+        let xLogo = (hero.clientWidth/2 - event.clientX)/(part*2);
+        let yLogo = (hero.clientHeight/2 - event.clientY)/(part*2);
+        let xText = (hero.clientWidth/2 - event.clientX)/part;
+        let yText = (hero.clientHeight/2 - event.clientY)/part;
+        let xDeg = (hero.clientWidth/2 - event.clientX)/(part*50);
+        let yDeg = (hero.clientHeight/2 - event.clientY)/(part*20);
+        logo.style.transform = `translate(${xLogo}px, ${yLogo}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
+        text.style.transform = `translate(${xText}px, ${yText}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
+        // logo.style.transform = `rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
+        // text.style.transform = `rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
+      }
     });
+
   },
   methods: {
     shuffle(array) {

@@ -131,7 +131,7 @@ export default {
   z-index: 2;
 }
 #sponsors {
-  margin-top: -40em;
+  margin-top: -30em;
 }
 .absoulte {
   position: absolute;
@@ -274,10 +274,12 @@ export default {
   transform: translateX(120px);
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-}
 
+@media only screen and (max-width: 576px) {
+  #sponsors {
+    margin-top: -40em;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   .sponsor-item {

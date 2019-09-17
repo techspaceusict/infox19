@@ -56,4 +56,18 @@ export default {
   background-color: #111111;
 }
 
+.register {
+  border-radius: 5px;
+  padding: 15px 50px;
+  background: transparent;
+  border: 1px solid blue;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
+.register:hover {
+  border-radius: 5px;
+  padding: 15px 50px;
+  background: blue;
+  border: 1px solid blue;
+}
+
 </style>
