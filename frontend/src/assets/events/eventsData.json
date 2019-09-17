@@ -13,7 +13,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"corporate"
+        "type":"corporate",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -30,7 +31,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"programming"
+        "type":"programming",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -47,7 +49,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"programming"
+        "type":"programming",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -64,7 +67,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"programming"
+        "type":"programming",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -81,7 +85,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"development"
+        "type":"development",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -98,7 +103,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"ml/ai"
+        "type":"ml/ai",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -115,7 +121,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"cyber security"
+        "type":"cyber security",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -132,7 +139,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"cyber security"
+        "type":"cyber security",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -149,7 +157,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"ml/ai"
+        "type":"ml/ai",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -166,7 +175,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"meetups"
+        "type":"meetups",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -183,7 +193,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary"
+        "type":"fun & literary",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -200,7 +211,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary"
+        "type":"fun & literary",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -217,7 +229,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary"
+        "type":"fun & literary",
+        "teamSize":"3-4 members"
     },
     
 
@@ -235,7 +248,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary"
+        "type":"fun & literary",
+        "teamSize":"3-4 members"
     },
 
     {
@@ -252,7 +266,8 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"cyber security"
+        "type":"cyber security",
+        "teamSize":"3-4 members"
     }
 
 
