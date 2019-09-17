@@ -88,6 +88,9 @@ export default {
   transform: scale(1.02);
   box-shadow: 0 0 40px rgba(255, 255, 255, 0.45);
 }
+.card:hover .card-image::after {
+  background: rgba(0, 0, 0, 0.6);
+}
 .card:hover .title {
   font-size: 1.6em;
 }
@@ -113,8 +116,8 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background: rgba(0, 0, 0, 0.6);
-  transition: all 800ms ease-out;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
 }
 
 .card-body {
@@ -184,6 +187,7 @@ export default {
   border-radius: 0;
   margin: 0;
   z-index: 10;
+  transform: rotate(0deg);
   transition: all 800ms ease;
 }
 .card.full:hover {
