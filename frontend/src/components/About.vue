@@ -10,7 +10,7 @@
             <span>#</span>
             <span>i</span>
             <span>X</span>
-            <span>5</span>
+            <span>16</span>
           </div>
         </div>
         <div
@@ -125,8 +125,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#about * {
-  z-index: 1;
+#about {
+  z-index: 2;
 }
 #about {
   margin-top: -30em;
@@ -182,9 +182,6 @@ h2 {
   padding: 10px 30px;
 }
 
-/* // .images {
-//   position: relative;
-// } */
 .image {
   position: relative;
 }
