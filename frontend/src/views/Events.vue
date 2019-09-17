@@ -41,7 +41,7 @@ export default {
     },
     methods:{
         getImgUrl(img) {
-            return require('../assets/events/imgs/' + img);
+            return require('../assets/events/posters/' + img);
         }
     }
 }
