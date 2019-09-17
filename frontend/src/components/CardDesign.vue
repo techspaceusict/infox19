@@ -74,6 +74,7 @@ export default {
   width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
+  margin: 20px;
   cursor: pointer;
   transition: all 500ms ease-out;
 }
@@ -167,10 +168,12 @@ export default {
 .card.full {
   position: fixed;
   top: 0;
+  left: 0;
   height: 100vh;
   width: 100vw;
   box-shadow: 0 0 0px rgba(255, 255, 255, 0.45);
   border-radius: 0;
+  margin: 0;
   z-index: 10;
   transition: all 800ms ease;
 }
