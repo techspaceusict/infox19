@@ -5,7 +5,8 @@
     
     <div class="eventsSection">
         <div class="d-flex" v-for="(event,i) in events" :key="i">
-            <CardDesign class="card-event" :event="event" />
+            <CardDesign :event="event" />
+            <div class="eventName">{{ event.name.toUpperCase() }}</div>
         </div>
     </div>
     <!-- <div class="eventsSection">
@@ -62,6 +63,7 @@ export default {
     .eventsSection{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
         .eventNavs{
             display: flex;
             text-align: center;
@@ -73,6 +75,7 @@ export default {
             position:sticky;
             top:10px;
             align-content: center;
+            
             >div{
                 margin-top:20px;margin-bottom: 20px;
                 transition: color 0.3s,text-shadow 0.3s,transform 0.3s;
@@ -89,6 +92,30 @@ export default {
             color:white;
         }
 
+        .d-flex{
+            background: #27272773;
+            width: 350px;
+            height: 500px;
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .eventName{
+                color: #249bf3cc;
+                font-weight: bold;
+                text-align: right;
+                font-size: 24px;
+                text-shadow: 0 0 2px #9a9a9a;
+                padding: 10px;
+                position: absolute;
+                bottom: 10px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                right: 0;
+
+            }
+        }
     }
    
 }
