@@ -93,7 +93,7 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   transition: all 300ms ease-out;
 }
 
@@ -168,7 +168,7 @@ export default {
   border-radius: 0;
 }
 .card.full .card-image::after {
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.9);
 }
 .card.full .card-body {
   text-align: left;

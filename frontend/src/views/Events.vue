@@ -89,11 +89,8 @@ template{
 
 .context {
     width: 100%;
-    
     top:50vh;
-    
     background-attachment: fixed;
-    
 }
 
 .area{
@@ -290,6 +287,8 @@ template{
     width:90%;
     margin-left: auto;
     margin-right: auto;
+    
+    .eventsSection *{z-index: 2}
     .eventsSection{
         display: flex;
         flex-wrap: wrap;
@@ -323,7 +322,7 @@ template{
         }
 
         .d-flex{
-            background: #27272773;
+            background: #272727a6;;
             width: 350px;
             height: 500px;
             margin: 30px;
