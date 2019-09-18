@@ -6,28 +6,37 @@
 
         <div class="close-btn mx-2" @click="goBack">&#10006;</div>
 
-        <div class="title">{{ event.name.toUpperCase() }}</div>
-        <div class="footer">
-          <transition name="slide-right">
-            <div class="extra" v-if="full">
-              <p class="m-0">Team-size: {{ event.teamSize }}</p>
-              <p class="m-0">Time: {{ event.time }}</p>
+        <div class="eventContainer">
+        <div class="eventBody">
+          <!-- <transition name="slide-left"> -->
+            <div class="title">{{ event.name.toUpperCase() }}</div>
+
+            <div class="info row m-0" v-if="full">
+              <div>
+                <p>{{ event.description }}</p> 
+              </div>
             </div>
-          </transition>
-          <p class="date">{{ event.date.split(',')[0] }}</p>
-        </div>
-        <transition name="slide-left">
-          <div class="info row m-0" v-if="full">
-            <div class="col-sm-12 col-md-8 px-0">
-              <h4>Description</h4>
-              <p>{{ event.description }}</p>
+
+            <div class="footer">
+            <!-- <transition name="slide-right"> -->
+              <div class="extra" v-if="full">
+                <p class="m-0"><img src='../assets/calendar.svg'/>{{ event.date.split(',')[0] }}</p>
+                <p class="m-0"><img src='../assets/team.svg'/> {{ event.teamSize }}</p>
+                <p class="m-0"><img src='../assets/clock.svg'/> {{ event.time }}</p>
+              </div>
+            <!-- </transition> -->
               <AppButton class="register my-4">Register</AppButton>
-            </div>
-            <div class="poster ml-auto">
-              <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
-            </div>
+              <!-- <button>Register</button> -->
           </div>
-        </transition>
+            
+          <!-- </transition> -->
+          
+        </div>
+
+        <div class="poster ml-auto">
+          <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
+        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -69,7 +78,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
+.eventContainer{
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  .eventBody{
+    width:50%;
+    margin-left:50px;
+  }
+  align-items: center;
+  .row{margin: 0;}
+}
 .card {
   position: relative;
   height: 400px;
@@ -98,39 +119,49 @@ export default {
 }
 
 .card-body {
-  color: yellow;
-  padding: 30px;
+  padding:0;
   text-align: center;
-  text-shadow: 0 0 10px yellow;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
 .title {
   position: relative;
   font-weight: 500;
-  font-size: 1.6em;
+  font-size: 2.5em;
   margin-top: 30px;
   transition: all 100ms ease-out;
+  color: white;
+  text-shadow: 0 0 20px #05c5ff;
+  border-bottom: 3px solid #05c5ff;
+  padding-bottom:10px;
+  margin-bottom: 10px;
 }
-.title::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-  width: 20%;
-  height: 3px;
-  background: yellow;
-  transition: all 100ms ease-out;
-}
+// .title::after {
+//   content: '';
+//   position: absolute;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   bottom: -20px;
+//   width: 20%;
+//   height: 3px;
+//   background: #05c5ff;
+//   transition: all 100ms ease-out;
+// }
 .footer {
   position: absolute;
   bottom: 20px;
   background: transparent;
   text-align: left;
+  color:white;
 }
 .extra {
   margin: 20px 0;
   font-size: 1em;
+  p{display: flex;align-items: center;}
+  img{width:30px;margin-right:10px;}
+  display: flex;
+  justify-content: space-between
 }
 .date {
   font-size: 1.6em;
@@ -190,13 +221,17 @@ export default {
 
 .info {
   color: white;
+  margin-top:100px;
 }
 .poster {
   width: 400px;
   height: fit-content;
   border: 1px solid white;
-  margin: 0 30px;
-  margin-top: -200px;
+  margin:0 auto;
+}
+
+.ml-auto{
+  margin-left:0;
 }
 
 .close-btn {

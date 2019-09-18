@@ -1,7 +1,9 @@
-<template><div class="context" >
-      <ul class="circles">
+<template>
+    <div class="context" >
+    <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading>
+    
+    <ul class="circles">
     <div id="events">
-    <h1 class="text-center text-white">Events</h1>
     
     
     <div class="eventsSection">
@@ -61,7 +63,8 @@
 
 <script>
 import events from '../assets/events/eventsData.json';
-import CardDesign from '@/components/CardDesign'
+import CardDesign from '@/components/CardDesign';
+// import Heading from '@/../UI/Heading';
 
 export default {
     components: {
@@ -91,6 +94,10 @@ template{
     width: 100%;
     top:50vh;
     background-attachment: fixed;
+    .title{
+        padding-top:0;
+    }
+
 }
 
 .area{
@@ -106,14 +113,13 @@ template{
 
 
 
-
 .circles li{
     position: absolute;
     display: block;
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.301);
+    background: rgba(255, 255, 255, 0.16);;
     animation: animate 25s linear infinite;
     bottom: -150px;
     position: fixed;

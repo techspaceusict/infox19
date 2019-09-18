@@ -140,9 +140,11 @@ export default {
 .title {
   position: relative;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-top: 30px;
   transition: all 100ms ease-out;
+  color: white;
+  text-shadow: 0 0 20px #05c5ff;
 }
 .title::after {
   content: '';
@@ -152,7 +154,7 @@ export default {
   bottom: -30px;
   width: 20%;
   height: 3px;
-  background: yellow;
+  background: #05c5ff;
   transition: all 100ms ease-out;
 }
 .footer {
