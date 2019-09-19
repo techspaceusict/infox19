@@ -85,13 +85,11 @@
       </section>
       <section class="videoPlayer">
         <div class="container embed-responsive embed-responsive-16by9">
-          <iframe
-            class="embed-responsive-item"
-            src="https://www.youtube.com/embed/ZzRyoSbLKCw"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-            allowfullscreen
-          ></iframe>
+          <iframe  
+          src="https://www.youtube.com/embed/LM3CIIz149c" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
         </div>
         <!-- <iframe
           style="overflow: hidden; height: 80vh;width:auto;"

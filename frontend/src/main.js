@@ -37,5 +37,14 @@ new Vue({
   created() {
     AOS.init();
   },
-  render: h => h(App)
+  render: h => h(App),
+    onSuccess(googleUser) {
+        console.log(googleUser);
+ 
+        // This only gets the user information: id, name, imageUrl and email
+        console.log(googleUser.getBasicProfile());
+    },
+    onFailure(err){
+      console.log(err)
+    }
 }).$mount('#app')

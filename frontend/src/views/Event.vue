@@ -25,7 +25,10 @@
                 <p class="m-0"><img src='../assets/clock.svg'/> {{ event.time }}</p>
               </div>
             <!-- </transition> -->
-              <AppButton class="register my-4">Register</AppButton>
+              <div>Register</div>
+              <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div>
+              <!-- <button class="Gsignin" @click="GsignIn">Google</button>
+              <button class="Fsignin" @click="FsignIn">Facebook</button> -->
               <!-- <button>Register</button> -->
           </div>
             
@@ -45,10 +48,17 @@
 <script>
 import events from '../assets/events/eventsData.json';
 
+
 export default {
+  mounted() {
+    gapi.signin2.render('google-signin-button', {
+      onsuccess: this.onSuccess,
+      onfailure:this.onFailure
+    })
+  },
   data() {
     return {
-      full: true,
+      full: true
     }
   },
   computed: {
@@ -62,6 +72,8 @@ export default {
       }
     }
   },
+    
+
   methods: {
     goBack() {
       console.log(this.event.name);
@@ -73,6 +85,15 @@ export default {
       } else if(path == 'display') {
         return require('../assets/events/posters/' + img);
       }
+    },
+    onSuccess(googleUser) {
+        console.log(googleUser);
+ 
+        // This only gets the user information: id, name, imageUrl and email
+        console.log(googleUser.getBasicProfile());
+    },
+    onFailure(err){
+      console.log(err)
     }
   }
 }
