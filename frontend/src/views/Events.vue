@@ -368,6 +368,7 @@ template{
             font-weight: bold;
             letter-spacing: 1.5px;
             text-shadow: 0 0 20px #00b2ff;
+            text-align: center;
         }
 
         .d-flex{
