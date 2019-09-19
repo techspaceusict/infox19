@@ -13,7 +13,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"corporate",
+        "type":{"name":"entrepreneurial","priority":6},
         "teamSize":"3-4 members"
     },
 
@@ -31,7 +31,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"programming",
+        "type":{"name":"programming","priority":1},
         "teamSize":"3-4 members"
     },
 
@@ -49,7 +49,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"programming",
+        "type":{"name":"programming","priority":1},
         "teamSize":"3-4 members"
     },
 
@@ -67,7 +67,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"programming",
+        "type":{"name":"programming","priority":1},
         "teamSize":"3-4 members"
     },
 
@@ -85,7 +85,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"development",
+        "type":{"name":"development","priority":2},
         "teamSize":"3-4 members"
     },
 
@@ -103,7 +103,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"ml/ai",
+        "type":{"name":"ml/ai","priority":3},
         "teamSize":"3-4 members"
     },
 
@@ -122,7 +122,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"cyber security",
+        "type":{"name":"programming","priority":1},
         "teamSize":"3-4 members"
     },
 
@@ -140,7 +140,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"ml/ai",
+        "type":{"name":"ml/ai","priority":3},
         "teamSize":"3-4 members"
     },
 
@@ -158,7 +158,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"meetups",
+        "type":{"name":"meetups","priority":4},
         "teamSize":"3-4 members"
     },
 
@@ -176,7 +176,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary",
+        "type":{"name":"fun & literary","priority":7},
         "teamSize":"3-4 members"
     },
 
@@ -194,7 +194,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary",
+        "type":{"name":"fun & literary","priority":6},
         "teamSize":"3-4 members"
     },
 
@@ -212,7 +212,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary",
+        "type":{"name":"fun & literary","priority":6},
         "teamSize":"3-4 members"
     },
     
@@ -231,7 +231,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"fun & literary",
+        "type":{"name":"fun & literary","priority":6},
         "teamSize":"3-4 members"
     },
 
@@ -249,7 +249,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"cyber security",
+        "type":{"name":"cyber security","priority":4},
         "teamSize":"3-4 members"
     },
 
@@ -267,7 +267,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"electronics",
+        "type":{"name":"electronics","priority":5},
         "teamSize":"3-4 members"
     },
 
@@ -285,7 +285,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"electronics",
+        "type":{"name":"electronics","priority":5},
         "teamSize":"3-4 members"
     },
 
@@ -303,7 +303,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"electronics",
+        "type":{"name":"electronics","priority":5},
         "teamSize":"3-4 members"
     },
 
@@ -321,7 +321,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"electronics",
+        "type":{"name":"electronics","priority":5},
         "teamSize":"3-4 members"
     },
 
@@ -339,7 +339,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"electronics",
+        "type":{"name":"electronics","priority":5},
         "teamSize":"3-4 members"
     },
 
@@ -357,7 +357,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":"electronics",
+        "type":{"name":"electronics","priority":5},
         "teamSize":"3-4 members"
     }
 

@@ -5,11 +5,17 @@
     <ul class="circles">
     <div id="events">
     
-    
+   
+
     <div class="eventsSection">
-        <div class="d-flex" v-for="(event,i) in events" :key="i">
+        <div class="eventsFlex" v-for="(type,i) in eventFilters" :key="i">
+            <div class="eventType">{{type}}</div>
+            <div class="eventsInfo">
+            <div class="d-flex" v-for="(event,i) in filterEvents(events,type)" :key="i">
             <CardDesign :event="event" />
             <div class="eventName">{{ event.name.toUpperCase() }}</div>
+            </div>
+        </div>
         </div>
     </div>
     <!-- <div class="eventsSection">
@@ -66,20 +72,39 @@ import events from '../assets/events/eventsData.json';
 import CardDesign from '@/components/CardDesign';
 // import Heading from '@/../UI/Heading';
 
+events.sort((event1,event2)=>{
+    return Number(event1.type.priority)-Number(event2.type.priority)
+})
+var eventTypeSet=events.map(({type})=>{
+    return type.name;
+})
+var set=new Set(eventTypeSet);
+
+console.log(set);
+
 export default {
     components: {
         CardDesign
     },
     data(){
         return{
-            events
+            events,
+            eventFilters:set
         }
     },
     methods:{
         getImgUrl(img) {
             return require('../assets/events/posters/' + img);
-        }
-    }
+        },
+        filterEvents:(events,type)=>{
+            return events.filter((event)=>{
+                let regexPatt=new RegExp(type,'g');
+                return event.type.name.match(regexPatt);
+            })
+        },
+        
+    },
+    
 }
 </script>
 
@@ -100,6 +125,10 @@ template{
 
 }
 
+
+.eventFilters{
+    color:white;
+}
 .area{
     background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
@@ -301,7 +330,7 @@ template{
     .eventsSection{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
         .eventNavs{
             display: flex;
             text-align: center;
@@ -325,9 +354,20 @@ template{
                 cursor: pointer;
             }
         }
-
+        .eventsFlex{width:100%;margin-bottom: 100px}
+        .eventsInfo{display: flex;justify-content: space-between;flex-wrap: wrap;}
         .eventPosters{
             color:white;
+        }
+
+        
+        .eventType{
+            color: #dcf2f0;
+            text-transform: uppercase;
+            font-size: 2.5em;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            text-shadow: 0 0 20px #00b2ff;
         }
 
         .d-flex{

@@ -101,6 +101,19 @@ export default {
 
 <style lang="scss" scoped>
 
+
+.abcRioButton{
+  background:transparent;
+}
+
+.abcRioButtonIconImage>svg{
+  width: 40px !important;
+  height: 40px !important;
+}
+.abcRioButtonContents{
+  display:none;
+}
+
 .eventContainer{
   display: flex;
   height: 100vh;
