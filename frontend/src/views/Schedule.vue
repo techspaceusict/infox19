@@ -20,25 +20,11 @@
                 <div class="item6_1 normal time_cell">2-3</div>
                 <div class="item7_1 normal time_cell">3-4</div>
                 <div class="item8_1 normal time_cell">4-5</div>
-                <!-- <div class="item9_1 normal time_cell">5-6</div> -->
-                <!-- <div class="item10_1 normal time_cell">Till Next Day</div> -->
                 <div class="place1_1 normal place_cell"><p>D-Audi</p></div>
                 <div class="place2_1 normal place_cell"><p>E-Labs</p></div>
                 <div class="place3_1 normal place_cell"><p>D-Labs</p></div>
                 <div class="place4_1 normal place_cell"><p>E-Audi</p></div>
                 <div class="place5_1 normal place_cell"><p>Central<br> Arena</p></div>
-                <!-- <div class="place6_1 normal place_cell">E-410</div>
-                <div class="place7_1 normal place_cell">E-501</div>
-                <div class="place8_1 normal place_cell">D-217</div>
-                <div class="place9_1 normal place_cell">E-217</div>
-                <div class="place10_1 normal place_cell">D-505</div>
-                <div class="place11_1 normal place_cell">E-Audi</div>
-                <div class="place12_1 normal place_cell">D-Audi</div>
-                <div class="place13_1 normal place_cell">C-Audi</div>
-                <div class="place14_1 normal place_cell">E-315</div>
-                <div class="place15_1 normal place_cell">E-111</div>
-                <div class="place16_1 normal place_cell">E-109</div> -->
-                <!-- <div class="place17_1 normal">Central Area</div> -->
                 <div class="empty1_1"></div>
                 <div class="empty2_1"></div>
                 <div class="empty3_1"></div>
@@ -155,31 +141,20 @@
             <!-- </div> -->
             <div class="grid_container_3">
                 <div class="item1_3 normal infox_cell">Info<span style="color:red;">X</span></div>
-                <div class="item2_3 normal time_cell">10-11</div>
-                <div class="item3_3 normal time_cell">11-12</div>
-                <div class="item4_3 normal time_cell">12-1</div>
-                <div class="item5_3 normal time_cell">1-2</div>
-                <div class="item6_3 normal time_cell">2-3</div>
-                <div class="item7_3 normal time_cell">3-4</div>
-                <div class="item8_3 normal time_cell">4-5</div>
-                <div class="item9_3 normal time_cell">5-6</div>
-                <div class="place1_3 normal place_cell">E-313</div>
-                <div class="place2_3 normal place_cell">E-318</div>
-                <div class="place3_3 normal place_cell">D-317</div>
-                <div class="place4_3 normal place_cell">E-213</div>
-                <div class="place5_3 normal place_cell">E-504</div>
-                <div class="place6_3 normal place_cell">E-410</div>
-                <div class="place7_3 normal place_cell">E-501</div>
-                <div class="place8_3 normal place_cell">D-217</div>
-                <div class="place9_3 normal place_cell">E-217</div>
-                <div class="place10_3 normal place_cell">D-505</div>
-                <div class="place11_3 normal place_cell">E-Audi</div>
-                <div class="place12_3 normal place_cell">D-Audi</div>
-                <div class="place13_3 normal place_cell">C-Audi</div>
-                <div class="place14_3 normal place_cell">E-315</div>
-                <div class="place15_3 normal place_cell">E-111</div>
-                <div class="place16_3 normal place_cell">E-109</div>
-                <div class="place17_3 normal place_cell">Central Area</div>
+                <div class="item2_3 normal time_cell">10:30-12</div>
+                <div class="item3_3 normal time_cell">12-1</div>
+                <div class="item4_3 normal time_cell">1-2</div>
+                <div class="item5_3 normal time_cell">2-3</div>
+                <div class="item6_3 normal time_cell">3-4</div>
+                <div class="item7_3 normal time_cell">4-5</div>
+                <div class="item8_3 normal time_cell">5+</div>
+                <div class="place1_3 normal place_cell"><p>D-Audi</p></div>
+                <div class="place2_3 normal place_cell"><p>E-Labs</p></div>
+                <div class="place3_3 normal place_cell"><p>Electronics<br> Lab</p></div>
+                <div class="place4_3 normal place_cell"><p>E-Audi</p></div>
+                <div class="place5_3 normal place_cell"><p>Central<br>Arena</p></div>
+                <div class="place6_3 normal place_cell"><p>D-Labs</p></div>`
+                <div class="place7_3 normal place_cell"><p>Central <br>Arena</p></div>`
                 <div class="empty1_3"></div>
                 <div class="empty2_3"></div>
                 <div class="empty3_3"></div>
@@ -191,24 +166,23 @@
                 <div class="empty10_3"></div>
                 <div class="empty11_3"></div>
                 <div class="empty12_3"></div>
-                <div class="mindthelang_3">
-                    <p>Mind <br> The <br> Language</p>
+                <div class="val_3">
+                    <p>Validatory <br> Ceremony </p>
                 </div>
                 <div class="codewar_3">
                     <p>CodeWars</p>
                 </div>
-                <div class="webmstr_3">
-                    <p>WebMasters</p>
+                <div class="uh_3">
+                    <p>U-Hack <br>Finishes</p>
                 </div>
-                <div class="gen_3">Genesis</div>
-                <div class="pubg_3">Pubg</div>
-                <div class="gam_3">Gaming Event</div>
-                <div class="coc_3">Clash Of Companies</div>
-                <div class="meetup_3">Meetup</div>
-                <div class="gsg_3">Get Set Go</div>
-                <div class="robwar_3">Robo Wars</div>
-                <div class="mcube_3">Magic Cubing</div>
-                <div class="hunt_3">Treasure Hunt</div>
+                <div class="coc_3"><p>Clash Of Companies</p></div>
+                <div class="col_3"><p>Clash On Lan</p></div>
+                <div class="gizmo_3"><p>Gizmo<br>Clenz</p></div>
+                <div class="getsetgo_3"><p>Get Set Go</p></div>
+                <div class="maze_3"><p>Maze<br> Runner</p></div>
+                <div class="bug_3"><p>Bug<br>Debug</p></div>
+                <div class="data_3"><p>Data<br>Quest </p></div>
+                <div class="hunt_3"><p>Treasure <br>Hunt<br>Finals</p></div>
 
             </div>
         </div>
@@ -631,7 +605,7 @@ export default {
   width: 85vw;
 
   font-size: 1.6vw !important;
-   height: 90vh;   
+  //  height: 90vh;   
   grid-template-areas:
     "infox_one t1_1 t2_1 t3_1 t4_1 t5_1 t6_1 t7_1"
     "p1_1 inaug_1 inaug_1 josh_1 josh_1 osic_1 osic_1 osic_1"
@@ -915,7 +889,7 @@ export default {
   display: grid !important;
   width: 86vw;
   font-size: 1.6vw !important;
-   height: 100vh; 
+  //  height: 100vh; 
   grid-template-areas:
     "infox_two t1_2 t2_2 t3_2 t4_2 t5_2 t6_2"
     "p1_2 marvelworld_2 marvelworld_2 marvel_world_2 ml_workshop_2 ml_workshop_2 ml_workshop_2"
@@ -944,8 +918,8 @@ export default {
 }
 
 .grid_container_2 p {
-  // padding: 10% 0;
-  padding-top: 2%;
+  padding: 3% 0;
+  // padding-top: 2%;
 }
 
 /* ================================== */
@@ -1085,13 +1059,13 @@ export default {
   grid-area: e12_3;
 }
 
-.mindthelang_3 {
+.coc_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(224, 12, 12, 0.85),
     rgba(117, 6, 6, 0.85)
   );
-  grid-area: mtl_3;
+  grid-area: coc_3;
 }
 
 .codewar_3 {
@@ -1103,120 +1077,101 @@ export default {
   grid-area: cw_3;
 }
 
-.webmstr_3 {
+.val_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(19, 224, 12, 0.85),
     rgba(6, 117, 21, 0.85)
   );
-  grid-area: wm_3;
+  grid-area: val_3;
 }
 
-.gen_3 {
+.uh_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(12, 26, 224, 0.85),
     rgba(26, 6, 117, 0.85)
   );
-  grid-area: gen_3;
+  grid-area: uh_3;
 }
 
-.pubg_3 {
+.gizmo_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(125, 224, 12, 0.85),
     rgba(78, 117, 6, 0.85)
   );
-  grid-area: pg_3;
+  grid-area: gizmo_3;
 }
 
-.gam_3 {
+.col_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(224, 12, 12, 0.85),
     rgba(117, 6, 6, 0.85)
   );
-  grid-area: gam_3;
+  grid-area: col_3;
 }
 
-.coc_3 {
+.getsetgo_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(12, 146, 224, 0.85),
     rgba(6, 13, 117, 0.85)
   );
-  grid-area: coc_3;
+  grid-area: get_3;
 }
 
-.meetup_3 {
+.maze_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(224, 12, 12, 0.85),
     rgba(117, 6, 6, 0.85)
   );
-  grid-area: m_3;
+  grid-area: maze_3;
 }
 
-.gsg_3 {
+.bug_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(209, 16, 151, 0.85),
     rgba(117, 6, 99, 0.85)
   );
-  grid-area: gsg_3;
+  grid-area: bug_3;
 }
 
-.robwar_3 {
+.data_3 {
   background-image: linear-gradient(
     to right bottom,
     rgba(164, 12, 224, 0.85),
     rgba(95, 6, 117, 0.85)
   );
-  grid-area: rwr_3;
-}
-
-.mcube_3 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(12, 139, 224, 0.85),
-    rgba(6, 100, 117, 0.85)
-  );
-  grid-area: mc_3;
+  grid-area: data_3;
 }
 
 .hunt_3 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(79, 224, 12, 0.85),
-    rgba(6, 117, 49, 0.85)
+    rgba(12, 139, 224, 0.85),
+    rgba(6, 100, 117, 0.85)
   );
   grid-area: hunt_3;
 }
+
 
 .grid_container_3 {
   display: grid !important;
   width: 90vw;
   font-size: 1.6vw !important;
   grid-template-areas:
-    "infox_three t1_3 t2_3 t3_3 t4_3 t5_3 t6_3 t7_3 t8_3"
-    "p1_3  mtl_3 e1_3 e1_3 e1_3 cw_3 cw_3 cw_3 cw_3"
-    "p2_3  mtl_3 e1_3 e1_3 e1_3 cw_3 cw_3 cw_3 cw_3"
-    "p3_3  mtl_3 e1_3 e1_3 e1_3 cw_3 cw_3 cw_3 cw_3"
-    "p4_3  e2_3 e2_3 e2_3 e2_3 wm_3 wm_3 wm_3 wm_3"
-    "p5_3  e2_3 e2_3 e2_3 e2_3 wm_3 wm_3 wm_3 wm_3"
-    "p6_3  e2_3 e2_3 e2_3 e2_3 wm_3 wm_3 wm_3 wm_3"
-    "p7_3  e2_3 e2_3 e2_3 e2_3 e3_3 e3_3 e3_3 e3_3"
-    "p8_3  e2_3 e2_3 e2_3 e2_3 gen_3 gen_3 gen_3 gen_3"
-    "p9_3  e2_3 e2_3 e2_3 e2_3 gen_3 gen_3 gen_3 gen_3"
-    "p10_3  e2_3 e2_3 e2_3 e2_3 e4_3 e4_3 e4_3 e4_3"
-    "p11_3  pg_3 pg_3 pg_3 gam_3 gam_3 gam_3 gam_3 gam_3"
-    "p12_3  e5_3 e5_3 e5_3 coc_3 coc_3 coc_3 coc_3 coc_3"
-    "p13_3  e5_3 e5_3 e5_3 m_3 m_3 m_3 e7_3 e7_3 "
-    "p14_3  e6_3 e6_3 e6_3 e6_3 e6_3 e6_3 e6_3 e6_3"
-    "p15_3  e6_3 e6_3 e6_3 e6_3 e6_3 e6_3 e6_3 e6_3"
-    "p16_3  e6_3 e6_3 e6_3 e6_3 e6_3 e6_3 e6_3 e6_3"
-    "p17_3  e10_3 gsg_3 gsg_3 gsg_3 rwr_3 rwr_3 rwr_3 e12_3"
-    "p17_3  mc_3 mc_3 e11_3 e11_3 e11_3 hunt_3 hunt_3 hunt_3";
+    "infox_three t1_3 t2_3 t3_3 t4_3 t5_3 t6_3 t7_3"
+    "p1_3  e1_3 e1_3 coc_3 coc_3 coc_3 coc_3 val_3"
+    "p2_3  uh_3 uh_3 uh_3 cw_3 cw_3 cw_3 e2_3"
+    "p3_3  e3_3 e3_3 e3_3 gizmo_3 gizmo_3 gizmo_3 e2_3"
+    "p4_3  col_3 col_3 col_3 col_3 col_3 col_3 e2_3"
+    "p5_3  get_3 get_3 get_3 maze_3 maze_3 maze_3 e2_3"
+    "p6_3  bug_3 bug_3 e5_3 data_3 data_3 data_3 e2_3"
+    "p7_3  hunt_3 hunt_3 e4_3 e4_3 e4_3 e4_3 e4_3";
 
   grid-gap: 5px;
   padding: 2px;
@@ -1233,7 +1188,7 @@ export default {
 }
 
 .grid_container_3 p {
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 .about-content {
