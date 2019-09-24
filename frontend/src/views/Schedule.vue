@@ -1,280 +1,342 @@
 <template>
-    <div class="contact-parent-wrapper" style="align-items: center; margin-top:7vh">
+  <div
+    class="contact-parent-wrapper"
+    style="align-items: center; margin-top:7vh"
+  >
     <div class="title-section">
-        <h1 class="overlay-section">Schedule</h1>
-        <h1 class="subtitle-section" style="margin-top:5vh">Find your events..</h1>
+      <h1 class="overlay-section">Schedule</h1>
+      <h1 class="subtitle-section" style="margin-top:5vh">
+        Find your events..
+      </h1>
     </div>
     <div class="parent_div" style="position: relative; top: -10vh;">
+      <div class="day_1 wow bounceInLeft">
+        <h1 class="about-content" style="font-weight: 400; font-size:4rem; ">
+          Day 1
+        </h1>
 
-        
-        <div class="day_1 wow bounceInLeft">
-            <h1 class="about-content" style="font-weight: 400; font-size:4rem; ">Day 1</h1>
+        <!-- </div> -->
+        <div class="grid_container_1">
+          <div class="item1_1 normal infox_cell">
+            Info<span style="color:red;">X</span>
+          </div>
+          <div class="item2_1 normal time_cell">10-10:30</div>
+          <div class="item3_1 normal time_cell">10:30-12</div>
+          <div class="item4_1 normal time_cell">12-1</div>
+          <div class="item5_1 normal time_cell">1-2</div>
+          <div class="item6_1 normal time_cell">2-3</div>
+          <div class="item7_1 normal time_cell">3-4</div>
+          <div class="item8_1 normal time_cell">4-5</div>
+          <div class="place1_1 normal place_cell"><p>D-Audi</p></div>
+          <div class="place2_1 normal place_cell"><p>E-Labs</p></div>
+          <div class="place3_1 normal place_cell"><p>D-Labs</p></div>
+          <div class="place4_1 normal place_cell"><p>E-Audi</p></div>
+          <div class="place5_1 normal place_cell">
+            <p>
+              Central<br />
+              Arena
+            </p>
+          </div>
+          <!-- <div class="empty1_1"></div>
+          <div class="empty2_1"></div>
+          <div class="empty3_1"></div>
+          <div class="empty4_1"></div>
+          <div class="empty5_1"></div>
+          <div class="empty6_1"></div>
+          <div class="empty7_1"></div>
+          <div class="empty8_1"></div>
+          <div class="empty9_1"></div>
+          <div class="empty10_1"></div>
+          <div class="empty11_1"></div>
+          <div class="empty12_1"></div>
+          <div class="empty13_1"></div>
+          <div class="empty14_1"></div>
+          <div class="empty15_1"></div> -->
+          <div class="inaug_1"><p>Inaugration</p></div>
+          <div class="josh_1">
+            <p>
+              Josh <br />
+              Talks
+            </p>
+          </div>
+          <div class="osic_1">
+            <p>Osic Meetup</p>
+          </div>
+          <div class="codester_1">
+            <p>Codester</p>
+          </div>
+          <div class="jigsaw_1">
+            <p>Jigsaw</p>
+          </div>
+          <div class="codexpress_1">
+            <p>Codexpress</p>
+          </div>
 
-            <!-- </div> -->
-            <div class="grid_container_1">
-                <div class="item1_1 normal infox_cell">Info<span style="color:red;">X</span></div>
-                <div class="item2_1 normal time_cell">10-10:30</div>
-                <div class="item3_1 normal time_cell">10:30-12</div>
-                <div class="item4_1 normal time_cell">12-1</div>
-                <div class="item5_1 normal time_cell">1-2</div>
-                <div class="item6_1 normal time_cell">2-3</div>
-                <div class="item7_1 normal time_cell">3-4</div>
-                <div class="item8_1 normal time_cell">4-5</div>
-                <div class="place1_1 normal place_cell"><p>D-Audi</p></div>
-                <div class="place2_1 normal place_cell"><p>E-Labs</p></div>
-                <div class="place3_1 normal place_cell"><p>D-Labs</p></div>
-                <div class="place4_1 normal place_cell"><p>E-Audi</p></div>
-                <div class="place5_1 normal place_cell"><p>Central<br> Arena</p></div>
-                <div class="empty1_1"></div>
-                <div class="empty2_1"></div>
-                <div class="empty3_1"></div>
-                <div class="empty4_1"></div>
-                <div class="empty5_1"></div>
-                <div class="empty6_1"></div>
-                <div class="empty7_1"></div>
-                <div class="empty8_1"></div>
-                <div class="empty9_1"></div>
-                <div class="empty10_1"></div>
-                <div class="empty11_1"></div>
-                <div class="empty12_1"></div>
-                <div class="empty13_1"></div>
-                <div class="empty14_1"></div>
-                <div class="empty15_1"></div>
-                <div class="inaug_1"><p>Inaugration</p></div>
-                <div class="josh_1">
-                    <p>Josh <br> Talks</p>
-                </div>
-                <div class="osic_1">
-                    <p>Osic Meetup</p>
-                </div>
-                <div class="codester_1">
-                    <p>Codester</p>
-                </div>
-                <div class="jigsaw_1">
-                    <p>Jigsaw</p>
-                </div>
-                <div class="codexpress_1">
-                    <p>Codexpress</p>
-                </div>
-                
-                <div class="lrdline_1"><p>Lord Of the Line</p></div>
-                <div class="hackerman_1"><p>Hackerman Exit</p></div>
-                <div class="clashonlan_1">Clash On Lan</div>
-                
-                
-                <div class="roboliga_1"><p>Robo Liga</p></div>
-                <div class="robowars_1"><p>Robo Wars</p></div>
-                
-            </div>
+          <div class="lrdline_1"><p>Lord Of the Line</p></div>
+          <div class="hackerman_1"><p>Hackerman Exit</p></div>
+          <div class="clashonlan_1">Clash On Lan</div>
+
+          <div class="roboliga_1"><p>Robo Liga</p></div>
+          <div class="robowars_1"><p>Robo Wars</p></div>
         </div>
+      </div>
 
-        <div class="day_2 wow bounceInLeft">
+      <div class="day_2 wow bounceInLeft">
+        <h1
+          class="about-content"
+          style=" font-weight: 400; font-size:4rem; margin-top:5vh"
+        >
+          Day 2
+        </h1>
 
-            <h1 class="about-content" style=" font-weight: 400; font-size:4rem; margin-top:5vh">Day 2</h1>
+        <div class="grid_container_2">
+          <div class="item1_2 normal infox_cell">
+            Info<span style="color:red;">X</span>
+          </div>
+          <div class="item2_2 normal time_cell">10:30-12</div>
+          <div class="item3_2 normal time_cell">12-1</div>
+          <div class="item4_2 normal time_cell">1-2</div>
+          <div class="item5_2 normal time_cell">2-3</div>
+          <div class="item6_2 normal time_cell">3-4</div>
+          <div class="item7_2 normal time_cell">4-5</div>
+          <div class="place1_2 normal place_cell">C-Audi</div>
+          <!-- <div class="empty2"></div> -->
+          <div class="place2_2 normal place_cell"><p>E-Labs</p></div>
+          <div class="place3_2 normal place_cell"><p>D-Audi</p></div>
+          <div class="place4_2 normal place_cell"><p>E-Audi</p></div>
+          <div class="place5_2 normal place_cell">
+            <p>Central <br />Arena</p>
+          </div>
+          <div class="place6_2 normal place_cell"><p>D-Labs</p></div>
 
-            <div class="grid_container_2">
-                <div class="item1_2 normal infox_cell">Info<span style="color:red;">X</span></div>
-                <div class="item2_2 normal time_cell">10:30-12</div>
-                <div class="item3_2 normal time_cell">12-1</div>
-                <div class="item4_2 normal time_cell">1-2</div>
-                <div class="item5_2 normal time_cell">2-3</div>
-                <div class="item6_2 normal time_cell">3-4</div>
-                <div class="item7_2 normal time_cell">4-5</div>
-                <div class="place1_2 normal place_cell">C-Audi</div>
-                <!-- <div class="empty2"></div> -->
-                <div class="place2_2 normal place_cell"><p>E-Labs</p></div>
-                <div class="place3_2 normal place_cell"><p>D-Audi</p></div>
-                <div class="place4_2 normal place_cell"><p>E-Audi</p></div>
-                <div class="place5_2 normal place_cell"><p>Central <br>Arena</p></div>
-                <div class="place6_2 normal place_cell"><p>D-Labs</p></div>
-
-                <div class="empty1_2"></div>
-                <div class="empty2_2"></div>
-                <div class="empty3_2"></div>
-                <div class="empty4_2"></div>
-                <div class="empty5_2"></div>
-                <div class="empty6_2"></div>
-                <div class="empty7_2"></div>
-                <div class="empty8_2"></div>
-                <div class="empty9_2"></div>
-                <div class="empty10_2"></div>
-                <div class="empty11_2"></div>
-                <div class="empty12_2"></div>
-                <div class="empty13_2"></div>
-                <div class="empty14_2"></div>
-                <div class="empty15_2"></div>
-                <!-- <div class="empty16_2"></div>
+          <!-- <div class="empty1_2"></div>
+          <div class="empty2_2"></div>
+          <div class="empty3_2"></div>
+          <div class="empty4_2"></div>
+          <div class="empty5_2"></div>
+          <div class="empty6_2"></div>
+          <div class="empty7_2"></div>
+          <div class="empty8_2"></div>
+          <div class="empty9_2"></div>
+          <div class="empty10_2"></div>
+          <div class="empty11_2"></div>
+          <div class="empty12_2"></div>
+          <div class="empty13_2"></div>
+          <div class="empty14_2"></div>
+          <div class="empty15_2"></div> -->
+          <!-- <div class="empty16_2"></div>
             <div class="empty17_2"></div> -->
-                <div class="marvel_world_2">
-                    <p>Marvel <br> World</p>
-                </div>
-                <div class="ml_workshop_2">
-                    <p>ML <br> Workshop</p>
-                </div>
-                <div class="infox_women_2">
-                    <p>Infox <br> Women <br> Special</p>
-                </div>
-                
-                <div class="uh_2">
-                    <p>UHACK Starts</p>
-                </div>
-                <div class="spacejam_2">
-                    <p>Space Jam</p>
-                </div>
-                <div class="clashonlan_2">
-                    <p>Clash <br> On<br>Lan</p>
-                </div>
-                <div class="treasurehunt_2">
-                    <p>Treasure <br>Hunt<br>Elimination</p>
-                </div>
-                <div class="protoxprience_2">
-                    <p>Protoxprience </p>
-                </div>
-               
+          <div class="marvel_world_2">
+            <p>
+              Marvel <br />
+              World
+            </p>
+          </div>
+          <div class="ml_workshop_2">
+            <p>
+              ML <br />
+              Workshop
+            </p>
+          </div>
+          <div class="infox_women_2">
+            <p>
+              Infox <br />
+              Women <br />
+              Special
+            </p>
+          </div>
 
-            </div>
+          <div class="uh_2">
+            <p>UHACK Starts</p>
+          </div>
+          <div class="spacejam_2">
+            <p>Space Jam</p>
+          </div>
+          <div class="clashonlan_2">
+            <p>
+              Clash <br />
+              On<br />Lan
+            </p>
+          </div>
+          <div class="treasurehunt_2">
+            <p>Treasure <br />Hunt<br />Elimination</p>
+          </div>
+          <div class="protoxprience_2">
+            <p>Protoxprience</p>
+          </div>
         </div>
+      </div>
 
-        <div class="day_3 wow bounceInLeft">
-            <h1 class="about-content" style="font-weight: 400; font-size:4rem; margin-top:5vh">Day 3</h1>
+      <div class="day_3 wow bounceInLeft">
+        <h1
+          class="about-content"
+          style="font-weight: 400; font-size:4rem; margin-top:5vh"
+        >
+          Day 3
+        </h1>
 
-            <!-- </div> -->
-            <div class="grid_container_3">
-                <div class="item1_3 normal infox_cell">Info<span style="color:red;">X</span></div>
-                <div class="item2_3 normal time_cell">10:30-12</div>
-                <div class="item3_3 normal time_cell">12-1</div>
-                <div class="item4_3 normal time_cell">1-2</div>
-                <div class="item5_3 normal time_cell">2-3</div>
-                <div class="item6_3 normal time_cell">3-4</div>
-                <div class="item7_3 normal time_cell">4-5</div>
-                <div class="item8_3 normal time_cell">5+</div>
-                <div class="place1_3 normal place_cell"><p>D-Audi</p></div>
-                <div class="place2_3 normal place_cell"><p>E-Labs</p></div>
-                <div class="place3_3 normal place_cell"><p>Electronics<br> Lab</p></div>
-                <div class="place4_3 normal place_cell"><p>E-Audi</p></div>
-                <div class="place5_3 normal place_cell"><p>Central<br>Arena</p></div>
-                <div class="place6_3 normal place_cell"><p>D-Labs</p></div>`
-                <div class="place7_3 normal place_cell"><p>Central <br>Arena</p></div>`
-                <div class="empty1_3"></div>
-                <div class="empty2_3"></div>
-                <div class="empty3_3"></div>
-                <div class="empty4_3"></div>
-                <div class="empty5_3"></div>
-                <div class="empty6_3"></div>
-                <div class="empty7_3"></div>
-                <div class="empty8_3"></div>
-                <div class="empty10_3"></div>
-                <div class="empty11_3"></div>
-                <div class="empty12_3"></div>
-                <div class="val_3">
-                    <p>Validatory <br> Ceremony </p>
-                </div>
-                <div class="codewar_3">
-                    <p>CodeWars</p>
-                </div>
-                <div class="uh_3">
-                    <p>U-Hack <br>Finishes</p>
-                </div>
-                <div class="coc_3"><p>Clash Of Companies</p></div>
-                <div class="col_3"><p>Clash On Lan</p></div>
-                <div class="gizmo_3"><p>Gizmo<br>Clenz</p></div>
-                <div class="getsetgo_3"><p>Get Set Go</p></div>
-                <div class="maze_3"><p>Maze<br> Runner</p></div>
-                <div class="bug_3"><p>Bug<br>Debug</p></div>
-                <div class="data_3"><p>Data<br>Quest </p></div>
-                <div class="hunt_3"><p>Treasure <br>Hunt<br>Finals</p></div>
+        <!-- </div> -->
+        <div class="grid_container_3">
+          <div class="item1_3 normal infox_cell">
+            Info<span style="color:red;">X</span>
+          </div>
+          <div class="item2_3 normal time_cell">10:30-12</div>
+          <div class="item3_3 normal time_cell">12-1</div>
+          <div class="item4_3 normal time_cell">1-2</div>
+          <div class="item5_3 normal time_cell">2-3</div>
+          <div class="item6_3 normal time_cell">3-4</div>
+          <div class="item7_3 normal time_cell">4-5</div>
+          <div class="item8_3 normal time_cell">5+</div>
+          <div class="place1_3 normal place_cell"><p>D-Audi</p></div>
+          <div class="place2_3 normal place_cell"><p>E-Labs</p></div>
+          <div class="place3_3 normal place_cell">
+            <p>
+              Electronics<br />
+              Lab
+            </p>
+          </div>
+          <div class="place4_3 normal place_cell"><p>E-Audi</p></div>
+          <div class="place5_3 normal place_cell">
+            <p>Central<br />Arena</p>
+          </div>
+          <div class="place6_3 normal place_cell"><p>D-Labs</p></div>
 
-            </div>
+          <div class="place7_3 normal place_cell">
+            <p>Central <br />Arena</p>
+          </div>
+
+          <div class="empty1_3"></div>
+          <div class="empty2_3"></div>
+          <div class="empty3_3"></div>
+          <div class="empty4_3"></div>
+          <div class="empty5_3"></div>
+          <div class="empty6_3"></div>
+          <div class="empty7_3"></div>
+          <div class="empty8_3"></div>
+          <div class="empty10_3"></div>
+          <div class="empty11_3"></div>
+          <div class="empty12_3"></div>
+          <div class="val_3">
+            <p>
+              Validatory <br />
+              Ceremony
+            </p>
+          </div>
+          <div class="codewar_3">
+            <p>CodeWars</p>
+          </div>
+          <div class="uh_3">
+            <p>U-Hack <br />Finishes</p>
+          </div>
+          <div class="coc_3"><p>Clash Of Companies</p></div>
+          <div class="col_3"><p>Clash On Lan</p></div>
+          <div class="gizmo_3">
+            <p>Gizmo<br />Clenz</p>
+          </div>
+          <div class="getsetgo_3"><p>Get Set Go</p></div>
+          <div class="maze_3">
+            <p>
+              Maze<br />
+              Runner
+            </p>
+          </div>
+          <div class="bug_3">
+            <p>Bug<br />Debug</p>
+          </div>
+          <div class="data_3">
+            <p>Data<br />Quest</p>
+          </div>
+          <div class="hunt_3">
+            <p>Treasure <br />Hunt<br />Finals</p>
+          </div>
         </div>
-
+      </div>
     </div>
-</div>
-
-    
-    
+  </div>
 </template>
 
 <script>
-import events from '../assets/events/eventsData.json';
-import CardDesign from '@/components/CardDesign';
+import events from "../assets/events/eventsData.json";
+import CardDesign from "@/components/CardDesign";
 // import Heading from '@/../UI/Heading';
 
-events.sort((event1,event2)=>{
-    return Number(event1.type.priority)-Number(event2.type.priority)
-})
-var eventTypeSet=events.map(({type})=>{
-    return type.name;
-})
-var set=new Set(eventTypeSet);
+events.sort((event1, event2) => {
+  return Number(event1.type.priority) - Number(event2.type.priority);
+});
+var eventTypeSet = events.map(({ type }) => {
+  return type.name;
+});
+var set = new Set(eventTypeSet);
 
 console.log(set);
 
 export default {
-    components: {
-        CardDesign
+  components: {
+    CardDesign
+  },
+  data() {
+    return {
+      events,
+      eventFilters: set
+    };
+  },
+  methods: {
+    getImgUrl(img) {
+      return require("../assets/events/posters/" + img);
     },
-    data(){
-        return{
-            events,
-            eventFilters:set
-        }
-    },
-    methods:{
-        getImgUrl(img) {
-            return require('../assets/events/posters/' + img);
-        },
-        filterEvents:(events,type)=>{
-            return events.filter((event)=>{
-                let regexPatt=new RegExp(type,'g');
-                return event.type.name.match(regexPatt);
-            })
-        },
-        
-    },
-    
-}
+    filterEvents: (events, type) => {
+      return events.filter(event => {
+        let regexPatt = new RegExp(type, "g");
+        return event.type.name.match(regexPatt);
+      });
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-
-.overlay-section{
-    color: gray!important;
-    font-weight: 800;
-    font-size: 7rem;
-    text-align: center;
-    letter-spacing: 2px;
+.overlay-section {
+  color: white !important;
+  filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
+  font-weight: 800;
+  font-size: 7rem;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
-
-.contact-parent-wrapper{
-    color: white;
-    // text-transform: uppercase;
-    // text-align: center;
-    font-weight: 300 !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+.contact-parent-wrapper {
+  color: white;
+  // text-transform: uppercase;
+  // text-align: center;
+  font-weight: 300 !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
 }
-.subtitle-section{
-    color: #f10b0b !important;
-    text-align: center;
-    font-weight: 600;
-    font-size: 2rem;
+.subtitle-section {
+  color: #f10b0b !important;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 // #events *{z-index: 2;}
 .grid_container_1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: 300 !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
 }
 .grid_container_2 {
-    text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: 300 !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
 }
 .grid_container_3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: 300 !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
 }
 
 .place_cell {
@@ -605,7 +667,7 @@ export default {
   width: 85vw;
 
   font-size: 1.6vw !important;
-  //  height: 90vh;   
+  //  height: 90vh;
   grid-template-areas:
     "infox_one t1_1 t2_1 t3_1 t4_1 t5_1 t6_1 t7_1"
     "p1_1 inaug_1 inaug_1 josh_1 josh_1 osic_1 osic_1 osic_1"
@@ -613,17 +675,17 @@ export default {
     "p3_1 e1_1 lrdline_1 lrdline_1 lrdline_1 hackerman_1 hackerman_1 hackerman_1"
     "p4_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1"
     "p5_1 e3_1 roboliga_1 roboliga_1 roboliga_1 robowars_1 robowars_1 robowars_1";
-    // "p6_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
-    // "p7_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
-    // "p8_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
-    // "p9_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1  "
-    // "p10_1 e1_1 e1_1 e4_1 giz_1 giz_1 lrdline_1 lrdline_1 lrdline_1 e8_1"
-    // "p11_1 e1_1 e1_1 pubg_1 pubg_1 gam_1 gam_1 gam_1 gam_1 e8_1"
-    // "p12_1 e1_1 e1_1 e5_1 potter_1 potter_1 potter_1 potter_1 potter_1 e8_1"
-    // "p13_1 inaug_1 inaug_1 meet1_1 meet1_1 e9_1 meet2_1 meet2_1 meet2_1 e8_1"
-    // "p14_1 e10_1 e10_1 e10_1 e10_1 ucntrl_1 ucntrl_1 ucntrl_1 ucntrl_1 ucntrl_1 "
-    // "p15_1 e11_1 e11_1 giz2_1 e13_1 e13_1 e13_1 e13_1 e13_1 e13_1 "
-    // "p16_1 e11_1 e11_1 e12_1 uh_inaug_1 e14_1 cube_1 cube_1 e15_1 e15_1";
+  // "p6_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
+  // "p7_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
+  // "p8_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
+  // "p9_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1  "
+  // "p10_1 e1_1 e1_1 e4_1 giz_1 giz_1 lrdline_1 lrdline_1 lrdline_1 e8_1"
+  // "p11_1 e1_1 e1_1 pubg_1 pubg_1 gam_1 gam_1 gam_1 gam_1 e8_1"
+  // "p12_1 e1_1 e1_1 e5_1 potter_1 potter_1 potter_1 potter_1 potter_1 e8_1"
+  // "p13_1 inaug_1 inaug_1 meet1_1 meet1_1 e9_1 meet2_1 meet2_1 meet2_1 e8_1"
+  // "p14_1 e10_1 e10_1 e10_1 e10_1 ucntrl_1 ucntrl_1 ucntrl_1 ucntrl_1 ucntrl_1 "
+  // "p15_1 e11_1 e11_1 giz2_1 e13_1 e13_1 e13_1 e13_1 e13_1 e13_1 "
+  // "p16_1 e11_1 e11_1 e12_1 uh_inaug_1 e14_1 cube_1 cube_1 e15_1 e15_1";
   /* "p17_1 e_1 e_1 e_1 e_1 e_1 e_1 e_1 e_1 "
     "p17_1 e_1 e_1 e_1 e_1 e_1 e_1 e_1 e_1 "; */
 
@@ -889,7 +951,7 @@ export default {
   display: grid !important;
   width: 86vw;
   font-size: 1.6vw !important;
-  //  height: 100vh; 
+  //  height: 100vh;
   grid-template-areas:
     "infox_two t1_2 t2_2 t3_2 t4_2 t5_2 t6_2"
     "p1_2 marvelworld_2 marvelworld_2 marvel_world_2 ml_workshop_2 ml_workshop_2 ml_workshop_2"
@@ -1158,7 +1220,6 @@ export default {
   grid-area: hunt_3;
 }
 
-
 .grid_container_3 {
   display: grid !important;
   width: 90vw;
@@ -1218,11 +1279,14 @@ export default {
     margin-bottom: 3vh;
     /* margin-top: 6vh; */
   }
+  .day_1 {
+    margin: 0 auto;
+  }
   .day_2 {
-    margin: 10vh 0;
+    margin: 10vh auto;
   }
   .day_3 {
-    margin: 10vh 0;
+    margin: 10vh auto;
   }
   .parent_div {
     top: 0vh;
@@ -1246,6 +1310,4 @@ export default {
     /* margin-top: 3vh; */
   }
 }
-
-
 </style>
