@@ -77,8 +77,16 @@ canvas {
   height: 100%;
   perspective: 40px;
   /* margin-top: 50%; */
-  /* animation: slideUp 0.8s ease-in-out 3.3s; */
-  animation-fill-mode: forwards;
+  /* animation: slideUp 0.8s ease-in-out 3.3s forwards; */
+  /* animation: backgroundFlicker 2s ease-out forwards; */
+}
+@keyframes backgroundFlicker {
+  1%, 9.999%, 45%, 54.999%, 60%, 64.999%, 70% {
+    background: rgb(17, 0, 255);
+	}
+	0%, 0.999%, 10%, 44.999%, 55%, 59.999%, 65%, 69.999%, 100% {
+    background: black;
+  }
 }
 
 #title {
@@ -128,14 +136,23 @@ canvas {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 200px;
-  height: 80vh;
-  background: rgb(17, 0, 255);
+  width: 50px;
+  height: 50vh;
+  background: rgba(17, 0, 255, 0.7);
   /* background: white; */
-  filter: blur(100px);
+  /* filter: blur(100px); */
+  box-shadow: 0 0 300px 100px rgb(17, 0, 255);
   animation: flickerOnShadow 1s ease-out forwards;
   z-index: -10;
 }
+/* @keyframes flickerOnShadow {
+  20%, 35.999%, 45%, 49.999% {
+    opacity: 0.4;
+	}
+	0%, 19.999%, 36%, 44.999%, 100% {
+    opacity: 0;
+  }
+} */
 @keyframes flickerOnShadow {
   20%, 22%, 35.999%, 64%, 65%, 69.999% {
     opacity: 0.4;
@@ -181,14 +198,14 @@ canvas {
   animation-fill-mode: forwards;
   width: 100%;
   /* max-width: 600px; */
-  filter: drop-shadow(0 0 50px rgba(0, 0, 255, 0.507));
+  filter: drop-shadow(0 0 20px rgba(0, 0, 255, 0.8));
   transition: transform 200ms;
 }
 
 #gx-logo polygon {
-  animation: colorFill 0.8s ease-out 5.5s forwards, beating 1.75s ease-in infinite;
+  animation: colorFill 0.8s ease-out 5.5s forwards, beating 1.75s ease-in 6s infinite;
   /* animation-fill-mode: forwards; */
-  filter: drop-shadow(0px 0px 20px rgba(0, 0, 255, 1));
+  /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 1)); */
 }
 
 #eventInfo {
@@ -264,11 +281,11 @@ canvas {
 
 @keyframes colorFill {
   from {
-    /* fill-opacity: 0; */
-    fill: #ffffff00;
+    fill-opacity: 0;
+    fill: #ffffff;
   }
   to {
-    /* fill-opacity: 0.4; */
+    fill-opacity: 0.4;
     fill: #0576e6;
   }
 }
@@ -279,7 +296,7 @@ canvas {
     transform: scale(1);
   }
   25%, 40% {
-    fill-opacity: 0.6;
+    fill-opacity: 1;
     transform: scale(1.005);
   }
 }
