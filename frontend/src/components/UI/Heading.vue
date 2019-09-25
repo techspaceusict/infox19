@@ -46,7 +46,8 @@ export default {
 .title {
   padding-top: 40em;
   /* padding-bottom: 2.5em; */
-  filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
+  text-shadow: 0px 0px 20px rgba(253, 253, 253, 0.6);
+  /* filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6)); */
 }
 h1 {
   /* padding-bottom: 2em; */
