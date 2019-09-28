@@ -1,78 +1,37 @@
 <template>
   <div ref="sponsors" id="sponsors">
-    <Heading
-      :subHeading="'Previous'"
-      anchor=".sponsors"
-      wrapper="#sponsors"
-      :speed="-6"
-      >Sponsors</Heading
-    >
+    <Heading :subHeading="'Previous'" anchor=".sponsors" wrapper="#sponsors" :speed="-6">Sponsors</Heading>
     <div class="sponsors">
-      <div class="absoulte layer-1" v-rellax="layer1">
+      <div
+        v-for="(sponsorLayer, i) in sponsors"
+        :key="i"
+        class="absoulte"
+        :class="i"
+        v-rellax="i == 'layer-1' ? layer1 : i == 'layer-2' ? layer2 : layer3"
+      >
         <div class="container-fluid">
-          <ediv class="row justify-content-around">
-            <div class="sponsor-item barista"></div>
-            <div class="sponsor-item codingBlock"></div>
-            <div class="sponsor-item codingNinja"></div>
-          </ediv>
-          <div class="row justify-content-around">
-            <div class="sponsor-item Paytm"></div>
-            <div class="sponsor-item redbull"></div>
-            <div class="sponsor-item reliance"></div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="sponsor-item incubateind"></div>
-            <div class="sponsor-item redwolf"></div>
-            <div class="sponsor-item codeStreet"></div>
-          </div>
-        </div>
-      </div>
-      <div class="absoulte layer-2" v-rellax="layer2">
-        <div class="container-fluid">
-          <div class="row justify-content-around">
-            <div class="sponsor-item designcut"></div>
-            <div class="sponsor-item earning_labs"></div>
-            <div class="sponsor-item agro"></div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="sponsor-item enactus_igdtu"></div>
-            <div class="sponsor-item domainX"></div>
-            <div class="sponsor-item blogx"></div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="sponsor-item gamex"></div>
-            <div class="sponsor-item gaming"></div>
-            <div class="sponsor-item Hidden_Hour"></div>
-          </div>
-        </div>
-      </div>
-      <div class="absoulte layer-3" v-rellax="layer3">
-        <div class="container-fluid">
-          <div class="row justify-content-around">
-            <div class="sponsor-item ED"></div>
-            <div class="sponsor-item HouseOfAmigos"></div>
-            <div class="sponsor-item josh-logo-square"></div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="sponsor-item microHost"></div>
-            <div class="sponsor-item Podio"></div>
-            <div class="sponsor-item reappoint"></div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="sponsor-item streetHack"></div>
-            <div class="sponsor-item wall"></div>
-            <div class="sponsor-item"></div>
+          <div class="row justify-content-around" v-for="(sponsorRow, j) in sponsorLayer" :key="j">
+            <div
+              class="sponsor-item"
+              v-for="(sponsor, k) in sponsorRow"
+              :key="k"
+              :style="{ 'background-image': 'url(' + getImgUrl(sponsor) + ')' }"
+            ></div>
           </div>
         </div>
       </div>
     </div>
+    <!-- <p class="text-white" v-for="(sponsor,i) in sponsors" :key="i">{{ sponsor }}</p> -->
   </div>
 </template>
 
 <script>
+import sponsors from "@/assets/sponsors/sponsors.json";
+
 export default {
   data() {
     return {
+      sponsors: sponsors,
       layer1: {
         speed: 1,
         wrapper: "#sponsors",
@@ -121,6 +80,9 @@ export default {
           relativeToWrapper: true
         };
       }
+    },
+    getImgUrl(img) {
+      return require("../assets/sponsors/" + img);
     }
   }
 };
@@ -142,7 +104,7 @@ export default {
 }
 .sponsor-item {
   // margin: 50px 100px;
-  margin: 30px 0;
+  margin: 30px 8vw;
   // box-shadow: 0px 0px 20px blue;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
   background-size: contain;
@@ -274,7 +236,6 @@ export default {
   transform: translateX(120px);
 }
 
-
 @media only screen and (max-width: 576px) {
   #sponsors {
     margin-top: -40em;
@@ -286,7 +247,7 @@ export default {
     width: 6em !important;
     height: 6em !important;
     opacity: 1 !important;
-    margin: 20px 0;
+    margin: 20px 4vw;
   }
   .absoulte {
     position: relative;
