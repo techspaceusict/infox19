@@ -125,7 +125,7 @@ export default {
   background-image: url("../assets/sponsors/codeStreet.png");
 }
 .codingBlock {
-  background-image: url("../assets/sponsors/codingBlock.png");
+  background-image: url("../assets/sponsors/codingNinja.svg");
 }
 .codingNinja {
   background-image: url("../assets/sponsors/codingNinja.svg");

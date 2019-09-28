@@ -1,31 +1,31 @@
 {
   "layer-1": {
     "row1": [
-      "barista.jpg",
-      "agro.jpg",
-      "blogx.jpg"
-    ],
-    "row2": [
-      "codeStreet.png",
-      "codingBlock.png",
+      "devfolio.png",
+      "mozillapng.png",
       "codingNinja.svg"
     ],
+    "row2": [
+      "smaashpng.png",
+      "aceengineering.png",
+      "domainX.png"
+    ],
     "row3": [
-      "designcut.png",
-      "earning_labs.png",
-      "ED.png"
+      "tribeone.png",
+      "ultrahack.png",
+      "pubgfoodcity.jpg"
     ]
   },
   "layer-2": {
     "row1": [
-      "Hidden_Hour.png",
-      "HouseOfAmigos.png",
-      "incubateind.png"
+      "gamex.jpg",
+      "github.jpg",
+      "microHost.png"
     ],
     "row2": [
-      "enactus_igdtu.png",
-      "gamex.jpg",
-      "gaming.jpg"
+      "dsc.png",
+      "msp.png",
+      "aceengineering.png"
     ],
     "row3": [
       "josh-logo-square.png",
@@ -35,17 +35,17 @@
   },
   "layer-3": {
     "row1": [
-      "Podio.png",
-      "reappoint.jpg",
-      "redbull.png"
+      "pubgfoodcity.jpg",
+      "Smaash.jpg",
+      "casio.png"
     ],
     "row2": [
-      "redwolf.png",
-      "reliance.png",
+      "ultrahack.png",
+      "balasmiq.png",
       "streetHack.jpg"
     ],
     "row3": [
-      "wall.png"
+      "casio.png"
     ]
   }
 }
