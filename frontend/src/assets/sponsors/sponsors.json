@@ -10,10 +10,10 @@
       "domainX.png"
     ],
     "row3": [
-      "tribeone.png",
+      "tribeone.png"
      
-    git add.
     
+
     ]
   },
   "layer-2": {
@@ -24,8 +24,8 @@
     ],
     "row2": [
       "dsc.png",
-      "msp.png",
-      "aceengineering.png"
+      "msp.png"
+      
     ]
     
   },
@@ -39,7 +39,7 @@
       "ultrahack.png",
       "balasmiq.png",
       "streetHack.jpg"
-    ],
+    ]
   
   }
 }
