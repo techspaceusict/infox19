@@ -4,15 +4,16 @@
     style="align-items: center; margin-top:7vh"
   >
     <div class="title-section">
-      <h1 class="overlay-section">Schedule</h1>
+      <Heading anchor=".grid_container_2" wrapper=".contact-parent-wrapper" :speed="0" onPage
+      >Schedule</Heading>
       <h1 class="subtitle-section" style="margin-top:5vh">
-        Find your events..
+        Find your events
       </h1>
     </div>
     <div class="parent_div" style="position: relative; top: -10vh;">
       <div class="day_1 wow bounceInLeft">
         <h1 class="about-content" style="font-weight: 400; font-size:4rem; ">
-          Day 1
+          Day 1 (Oct 11)
         </h1>
 
         <!-- </div> -->
@@ -86,7 +87,7 @@
           class="about-content"
           style=" font-weight: 400; font-size:4rem; margin-top:5vh"
         >
-          Day 2
+          Day 2  (Oct 12)
         </h1>
 
         <div class="grid_container_2">
@@ -172,7 +173,7 @@
           class="about-content"
           style="font-weight: 400; font-size:4rem; margin-top:5vh"
         >
-          Day 3
+          Day 3 (Oct 13)
         </h1>
 
         <!-- </div> -->
@@ -258,7 +259,6 @@
 <script>
 import events from "../assets/events/eventsData.json";
 import CardDesign from "@/components/CardDesign";
-// import Heading from '@/../UI/Heading';
 
 events.sort((event1, event2) => {
   return Number(event1.type.priority) - Number(event2.type.priority);
@@ -1259,7 +1259,7 @@ export default {
   /* justify-content: center; */
   display: block !important;
   position: relative;
-  left: 45vw;
+  text-align: center;
   padding: 10vh 0;
   /* flex-direction: column; */
   height: 100%;

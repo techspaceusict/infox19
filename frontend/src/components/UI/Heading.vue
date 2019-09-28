@@ -1,6 +1,7 @@
 <template>
   <div
     class="title text-center"
+    :class="{ 'on-page': onPage }"
     v-rellax="titleRellax"
     data-aos="title"
     :data-aos-anchor="anchor"
@@ -21,6 +22,10 @@ export default {
     speed: {
       type: Number,
       default: -3
+    },
+    onPage: {
+      type: Boolean,
+      default: false
     },
     subHeading: {
       type: String,
@@ -48,6 +53,9 @@ export default {
   /* padding-bottom: 2.5em; */
   text-shadow: 0px 0px 20px rgba(253, 253, 253, 0.6);
   /* filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6)); */
+}
+.on-page {
+  padding-top: 0;
 }
 h1 {
   /* padding-bottom: 2em; */
