@@ -130,6 +130,10 @@ template {
   background-attachment: fixed;
 }
 
+.circles{
+  padding: 0;
+}
+
 .circles li {
   position: absolute;
   display: block;
@@ -140,6 +144,7 @@ template {
   animation: animate 25s linear infinite;
   bottom: -150px;
   position: fixed;
+  
 }
 
 .circles li:nth-child(1) {
@@ -392,6 +397,27 @@ template {
         display: -ms-flexbox;
         display: flex;
         right: 0;
+      }
+    }
+
+    @media screen and (max-width:1020px){
+      .d-flex{
+        width: 275px;
+        height: 350px;
+        >div:nth-child(1){
+          height: 275px;
+          width: 240px;
+        }
+      }
+
+      .eventsInfo{
+        justify-content: center;
+      }
+    }
+
+    @media screen and (max-width:400px){
+      .eventType{
+        font-size: 8vw;
       }
     }
   }
