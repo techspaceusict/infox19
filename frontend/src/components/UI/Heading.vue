@@ -3,7 +3,7 @@
     class="title text-center"
     :class="{ 'on-page': onPage }"
     v-rellax="titleRellax"
-    data-aos="title"
+    :data-aos="onPage ? '' : 'title'"
     :data-aos-anchor="anchor"
   >
     <h1 class="display-2 font-weight-bold text-white"><slot /></h1>

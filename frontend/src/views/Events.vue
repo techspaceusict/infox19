@@ -1,6 +1,6 @@
 <template>
   <div class="context">
-    <Heading anchor=".eventsSection" wrapper=".context" :speed="-2">Events</Heading>
+    <Heading anchor="" wrapper=".context" :speed="0" onPage>Events</Heading>
 
     <ul class="circles">
       <div style="z-index:100;" id="events">
