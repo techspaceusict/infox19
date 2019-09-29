@@ -1,7 +1,7 @@
 <template>
   <div class="context">
-    <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading>
-
+    <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading> 
+    
     <ul class="circles">
       <div id="events">
         <div class="eventsSection">
@@ -130,6 +130,17 @@ template {
   background-attachment: fixed;
 }
 
+.circles{
+  padding: 0;
+}
+.contact-parent-wrapper {
+  color: white;
+  // text-transform: uppercase;
+  // text-align: center;
+  font-weight: 300 !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
 .circles li {
   position: absolute;
   display: block;
@@ -140,6 +151,7 @@ template {
   animation: animate 25s linear infinite;
   bottom: -150px;
   position: fixed;
+  
 }
 
 .circles li:nth-child(1) {
@@ -285,6 +297,8 @@ template {
   animation-duration: 15s;
 }
 
+
+
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);
@@ -361,11 +375,13 @@ template {
 
     .d-flex {
       &:nth-child(even) {
-        background: white;
+        background: linear-gradient(to left,#9cecfb,#65c7f7,#0052d4);
         box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.24);
-      }
+        .eventName {
+          color: white !important;
+      }}
       &:nth-child(odd) {
-        background: linear-gradient(#0575e6, #0a55a1);
+        background: linear-gradient(to left,#9cecfb,#65c7f7,#0052d4);
         box-shadow: 10px 10px 100px #0576e65b;
         .eventName {
           color: white !important;
@@ -392,6 +408,27 @@ template {
         display: -ms-flexbox;
         display: flex;
         right: 0;
+      }
+    }
+
+    @media screen and (max-width:1020px){
+      .d-flex{
+        width: 275px;
+        height: 350px;
+        >div:nth-child(1){
+          height: 275px;
+          width: 240px;
+        }
+      }
+
+      .eventsInfo{
+        justify-content: center;
+      }
+    }
+
+    @media screen and (max-width:400px){
+      .eventType{
+        font-size: 8vw;
       }
     }
   }
