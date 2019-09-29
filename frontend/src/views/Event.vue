@@ -4,7 +4,7 @@
       <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
 
-        <div class="close-btn mx-2" @click="goBack">&#10006;</div>
+        <div class="text-white close-btn mx-2" @click="goBack">&#10006;</div>
 
         <div class="eventContainer">
         <div class="eventBody">
@@ -314,7 +314,7 @@ margin-bottom: 5px;
 
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
   .card-body{
     .eventContainer{
       margin-top:20px;
@@ -323,8 +323,12 @@ margin-bottom: 5px;
         width:90%;
         margin-left:0;
       }
+      .extra {
+        font-size: 0.8em;
+      }
       .poster{
-        width:60%;
+        width:80%;
+        margin-top: 50px;
       }
     }
   }
