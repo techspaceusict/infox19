@@ -62,7 +62,7 @@
               presenting our <b>16th Grand Tech Event <u>InfoXpression</u> </b>.
             </p>
             <p>
-              InfoX is the annual annual technical festival of
+              InfoX is the annual technical festival of
               <b>Guru Gobind Singh Indraprastha University (GGSIPU)</b>
               organised by
               <b
@@ -72,8 +72,8 @@
             </p>
             <p>
               Events of all genres and levels are held along with workshops for
-              special interest groups. Several technical events are held in the
-              field of electronics, robotics etc as well.
+              special interest groups. Several technical events are hosted in the
+              fields of coding and robotics as well.
             </p>
           </div>
           <!-- <div class="text p-5">
