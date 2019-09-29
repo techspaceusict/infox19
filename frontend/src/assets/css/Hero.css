@@ -84,7 +84,7 @@ canvas {
 }
 
 #logo svg{
-  width: 1500px;
+  width: 100%;
   /* left:50%;
   transform: translateX(-50%); */
 }
@@ -339,7 +339,8 @@ canvas {
   }
   #gx-logo{
     width:1200px !important;
-    
+    left:50%;
+    transform:translate(-50%) !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -360,6 +361,8 @@ canvas {
   }
   #gx-logo{
     width:800px !important;
+    left:50%;
+    transform:translate(-50%) !important;
   }
 }
 @media screen and (max-width: 576px) {
