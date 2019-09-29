@@ -152,6 +152,7 @@ template {
   animation: animate 25s linear infinite;
   bottom: -150px;
   position: fixed;
+  z-index: -1;
 }
 
 .circles li:nth-child(1) {
@@ -318,9 +319,9 @@ template {
   margin-left: auto;
   margin-right: auto;
 
-  .eventsSection * {
-    z-index: 2;
-  }
+  // .eventsSection * {
+  //   z-index: 2;
+  // }
   .eventsSection {
     display: flex;
     flex-wrap: wrap;
@@ -389,8 +390,6 @@ template {
       }
       border-radius: 10px;
       background: #272727a6;
-      width: 350px;
-      height: 500px;
       margin: 30px;
       display: flex;
       flex-direction: column;
@@ -412,21 +411,20 @@ template {
     }
 
     @media screen and (max-width: 1020px) {
-      .d-flex {
-        width: 275px;
-        height: 350px;
-        > div:nth-child(1) {
-          height: 275px;
-          width: 240px;
-        }
-      }
-
       .eventsInfo {
         justify-content: center;
       }
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 768px) {
+      .d-flex {
+        > div:nth-child(1) {
+          width: 80vw;
+          &.full {
+            width: 100vw;
+          }
+        }
+      }
       .eventType {
         font-size: 8vw;
       }
