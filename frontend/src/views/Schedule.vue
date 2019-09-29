@@ -64,7 +64,7 @@
             <p>Osic Meetup</p>
           </div>
           <div class="codester_1">
-            <p>Codester</p>
+            <p>Codocrux</p>
           </div>
           <div class="jigsaw_1">
             <p>Jigsaw</p>
@@ -151,7 +151,7 @@
             <p>UHACK Starts</p>
           </div>
           <div class="spacejam_2">
-            <p>Space Jam</p>
+            <p>Game Jam</p>
           </div>
           <div class="clashonlan_2">
             <p>
