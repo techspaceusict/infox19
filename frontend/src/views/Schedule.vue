@@ -256,8 +256,8 @@
           <div class="getsetgo_3"><p>Get Set Go</p></div>
           <div class="maze_3">
             <p>
-              Maze<br />
-              Runner
+              Meshed<br />
+              Up
             </p>
           </div>
           <div class="bug_3">
@@ -1457,7 +1457,7 @@ export default {
   font-size: 1.6vw !important;
   grid-template-areas:
     "infox_three t1_3 t2_3 t3_3 t4_3 t5_3 t6_3 t7_3"
-    "p1_3  e1_3 e1_3 coc_3 coc_3 coc_3 coc_3 val_3"
+    "p1_3  e1_3 coc_3 coc_3 coc_3 coc_3 coc_3 val_3"
     "p2_3  uh_3 uh_3 uh_3 cw_3 cw_3 cw_3 e2_3"
     "p3_3  e3_3 e3_3 e3_3 gizmo_3 gizmo_3 gizmo_3 e2_3"
     "p4_3  col_3 col_3 col_3 col_3 col_3 col_3 e2_3"

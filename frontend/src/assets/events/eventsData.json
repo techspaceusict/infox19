@@ -3,7 +3,7 @@
         "name":"Clash of Companies",
         "date":"October 13, 2019",
         "time":"1PM - 5PM",
-        "image":"Clash_of_companies.webp",
+        "image":"coc4.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
             "name":"Seerat",
@@ -143,7 +143,7 @@
         "date":"October 13, 2019",
         "time":"2PM - 5PM",
         "image":"codewars3.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"The Final War Is Here!<br><br>Infoxpression 2019<br>Proudly presents,<br>CODEWARS<br>Buckle up people, because the finale event of Infoxpression, Codewars, is here. Only the top 16 teams, acing the net scores of U CODE, CODESTER and BUG-DEBUG will be allowed to be a part of this event. The total number of rounds will be 4. After each round, only the top half teams in the leaderboard will be eligible to move ahead. <br>It is advisiable to carry your own laptops<br>Prizes Worth : 10000 INR",
         "organizers":[{
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
@@ -423,5 +423,92 @@
         }],
         "type":{"name":"cyber security","priority":4},
         "teamSize":"4 members"
+    },
+    {
+        "name":"Robo Wars",
+        "date":"October 11, 2019",
+        "time":"2PM - 5PM",
+        "image":"war-01.webp",
+        "description":"Ever wondered what 2 life-sized robots battling out in an arena look like? The wait for the extravagant robo warfare is over!! Electrotec presenting ROBOWAR - the ultimate battle among the best autobots. Battle with your bot... Screw your enemy line.. Mess your gaming skills... And the best can go home with a cheque to celebrate,<br>Ya guys, the time is up now let's begin the war!!<br>The war without bloodsheds and agony, where intelligence and accuracy get computed.The warfare is ready, let the robots war....!<br>UNIVERSITY SCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY , GGSIPU invites you to the extravaganza tech fest INFOX 2K19 and to the most spectacular and thrilling event Robowar.<br>Don't hesitate for being part of an extraordinary event and win a huge prize worth 25k 💸💸...!!!<br>There is no limit on team members and others rules will be shortly declared.",
+        "organizers":[{
+            "name":"Vijay",
+            "contact":"9818423905"
+        },
+        {
+            "name":"Yogesh",
+            "contact":"8010383350"
+        }],
+        "type":{"name":"electrotech","priority":5},
+        "teamSize":"1-6 members"
+    },
+    {
+        "name":"Get Set Go",
+        "date":"October 13, 2019",
+        "time":"10:30PM - 2PM",
+        "image":"race-01.webp",
+        "description":"Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of (PRIZE HERE) and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.",
+        "organizers":[{
+            "name":"Varun",
+            "contact":"9555053000"
+        },
+        {
+            "name":"Pranav",
+            "contact":"9868176407"
+        }],
+        "type":{"name":"electrotech","priority":5},
+        "teamSize":"1-4 members"
+    },
+    {
+        "name":"Meshed Up",
+        "date":"October 13, 2019",
+        "time":"2PM - 5PM",
+        "image":"meshedup-01.webp",
+        "description":"Remember those childhood mazes on lunch boxes? Yeah they've grown up! and this time your bot is gonna find the route  bcoz, when the human brain gets a little fussy, the bots find the way with ease.<br>Infox provides you the opportunity to test your bot's maze solving capabilities. So bring in your *autonomous* bot and solve the wall maze in least time!!<br><br>At most 4 members per team<br><br>•        Each team has to build an autonomous robot<br> •        The robot has to avoid walls and reach the end of maze in minimum time",
+        "organizers":[{
+            "name":"Yashkant",
+            "contact":"9716734568"
+        },
+        {
+            "name":"Manoj",
+            "contact":"9717304557"
+        }],
+        "type":{"name":"electrotech","priority":5},
+        "teamSize":"1-2 members"
+    },
+    {
+        "name":"Lord Of The Line",
+        "date":"October 13, 2019",
+        "time":"2PM - 5PM",
+        "image":"lordofline.webp",
+        "description":"Passionate about Robotics??🎮🏎 Well , here is your chance to showcase your robotic talent on 13th October at 10:30 AM at D Block Lab.<br><br>Bring your *Line Follower Robot* which can trace a Black coloured path given to it. Path won't be straight↪➡️⤵️🔄 , so design ur Robot🏎 intelligently so that it can trace any type of path. <br><br>There will only be 2 levels and the robot should be autonomous.🤖<br><br>Losing The Line🛸 - Any Robot that loses the line will be given a penalty of some time.<br>The Robot which traces the last level in least time will be declared as winner🏎👑✌.<br><br>Each team can have maximum 4 members",
+        "organizers":[{
+            "name":"Rohan",
+            "contact":"8383977264"
+        },
+        {
+            "name":"Yugank",
+            "contact":"9953264267"
+        }],
+        "type":{"name":"electrotech","priority":5},
+        "teamSize":"1-4 members"
+    },
+    {
+        "name":"Robo Liga",
+        "date":"October 11, 2019",
+        "time":"10:30PM - 2PM",
+        "image":"liga-01.webp",
+        "description":"Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 10k!",
+        "organizers":[{
+            "name":"Shilpi",
+            "contact":"9205024506"
+        },
+        {
+            "name":"Gurvinder",
+            "contact":"7065971345"
+        }],
+        "type":{"name":"electrotech","priority":5},
+        "teamSize":"1-2 members"
     }
+
+
 ]
