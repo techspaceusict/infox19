@@ -1,147 +1,167 @@
 <template>
   <div class="row m-0 justify-content-center">
-    <div class="card border-0" :class="{ 'full': full }">
-      <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
+    <div class="card border-0" :class="{ full: full }">
+      <div
+        class="card-image"
+        :style="{
+          'background-image': 'url(' + getImgUrl(event.image, 'display') + ')'
+        }"
+      ></div>
       <div class="card-body">
-
         <div class="text-white close-btn mx-2" @click="goBack">&#10006;</div>
 
         <div class="eventContainer">
-        <div class="eventBody">
-          <!-- <transition name="slide-left"> -->
+          <div class="eventBody">
+            <!-- <transition name="slide-left"> -->
             <div class="title">{{ event.name.toUpperCase() }}</div>
 
             <div class="info row m-0" v-if="full">
               <div>
-                <p v-html="event.description">{{  }}</p> 
+                <p v-html="event.description">{{}}</p>
               </div>
             </div>
 
             <div class="footer">
-            <!-- <transition name="slide-right"> -->
+              <!-- <transition name="slide-right"> -->
               <div class="extra" v-if="full">
-                <p class="m-0"><img src='../assets/calendar.svg'/>{{ event.date.split(',')[0] }}</p>
-                <p class="m-0"><img src='../assets/team.svg'/> {{ event.teamSize }}</p>
-                <p class="m-0"><img src='../assets/clock.svg'/> {{ event.time }}</p>
+                <p class="m-0">
+                  <img src="../assets/calendar.svg" />{{
+                    event.date.split(",")[0]
+                  }}
+                </p>
+                <p class="m-0">
+                  <img src="../assets/team.svg" /> {{ event.teamSize }}
+                </p>
+                <p class="m-0">
+                  <img src="../assets/clock.svg" /> {{ event.time }}
+                </p>
               </div>
-            <!-- </transition> -->
+              <!-- </transition> -->
 
               <div class="contacts">
                 <!-- <div class="contact-title">For queries, contact -</div> -->
                 <div class="organizers">
-                  <div v-for="(org,i) in event.organizers" :key="i">
-                    <div>{{org.name}}</div>
-                    <div>{{org.contact}}</div>
+                  <div v-for="(org, i) in event.organizers" :key="i">
+                    <div>{{ org.name }}</div>
+                    <div>{{ org.contact }}</div>
                   </div>
                 </div>
               </div>
-              <button><div><a href =" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform ">Register</a></div></button>
+              <button class="register_button">
+                <div>
+                  <a
+                    href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
+                    >Register</a
+                  >
+                </div>
+              </button>
               <!-- <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div> -->
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
               <button class="Fsignin" @click="FsignIn">Facebook</button> -->
               <!-- <button>Register</button> -->
-          </div>
-            
-          <!-- </transition> -->
-          
-        </div>
+            </div>
 
-        <div class="poster ml-auto">
-          <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
+            <!-- </transition> -->
+          </div>
+
+          <div class="poster ml-auto">
+            <img
+              :src="getImgUrl(event.image, 'poster')"
+              :alt="event.name"
+              class="w-100"
+            />
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import events from '../assets/events/eventsData.json';
-
+import events from "../assets/events/eventsData.json";
 
 export default {
   mounted() {
-    gapi.signin2.render('google-signin-button', {
+    gapi.signin2.render("google-signin-button", {
       onsuccess: this.onSuccess,
-      onfailure:this.onFailure
-    })
+      onfailure: this.onFailure
+    });
   },
   data() {
     return {
       full: true
-    }
+    };
   },
   computed: {
     event() {
       let event = events.find(e => e.name == this.$route.params.eventName);
       console.log(event);
-      if(event) {
+      if (event) {
         return event;
       } else {
-        return {}
+        return {};
       }
     }
   },
-    
 
   methods: {
     goBack() {
       console.log(this.event.name);
-      this.$router.push({ path: '/events', query: { from: this.event.name }});
+      this.$router.push({ path: "/events", query: { from: this.event.name } });
     },
     getImgUrl(img, path) {
-      if(path == 'poster') {
-        return require('../assets/events/posters/' + img);
-      } else if(path == 'display') {
-        return require('../assets/events/posters/' + img);
+      if (path == "poster") {
+        return require("../assets/events/posters/" + img);
+      } else if (path == "display") {
+        return require("../assets/events/posters/" + img);
       }
     },
     onSuccess(googleUser) {
-        console.log(googleUser);
- 
-        // This only gets the user information: id, name, imageUrl and email
-        console.log(googleUser.getBasicProfile());
+      console.log(googleUser);
+
+      // This only gets the user information: id, name, imageUrl and email
+      console.log(googleUser.getBasicProfile());
     },
-    onFailure(err){
-      console.log(err)
+    onFailure(err) {
+      console.log(err);
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-
-
-.abcRioButton{
-  background:transparent;
+.abcRioButton {
+  background: transparent;
 }
 
-.abcRioButtonIconImage>svg{
+.abcRioButtonIconImage > svg {
   width: 40px !important;
   height: 40px !important;
 }
-.abcRioButtonContents{
-  display:none;
+.abcRioButtonContents {
+  display: none;
 }
 
-.eventContainer{
+.eventContainer {
   display: flex;
   height: 100vh;
   justify-content: space-between;
   overflow: auto;
-  .eventBody{
-    width:50%;
-    margin-left:50px;
+  .eventBody {
+    width: 50%;
+    margin-left: 50px;
   }
   align-items: center;
-  .row{margin: 0;}
+  .row {
+    margin: 0;
+  }
 }
-.reg-btn{
+.reg-btn {
   background: white;
   color: black;
   width: 120px;
   height: 40px;
-margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .card {
@@ -157,12 +177,12 @@ margin-bottom: 5px;
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background-image: url('../assets/image.jpg');
+  background-image: url("../assets/image.jpg");
   background-position: center;
   background-size: cover;
 }
 .card-image::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -172,12 +192,17 @@ margin-bottom: 5px;
 }
 
 .card-body {
-  padding:0;
+  padding: 0;
   text-align: center;
   z-index: 2;
   display: flex;
   flex-direction: column;
 }
+
+.register_button {
+  background: #0571ff;
+}
+
 .title {
   position: relative;
   font-weight: 500;
@@ -187,7 +212,7 @@ margin-bottom: 5px;
   color: white;
   text-shadow: 0 0 20px #05c5ff;
   border-bottom: 3px solid #05c5ff;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   margin-bottom: 10px;
 }
 // .title::after {
@@ -206,19 +231,19 @@ margin-bottom: 5px;
   bottom: 20px;
   background: transparent;
   text-align: left;
-  color:white;
+  color: white;
 
-  .contacts{
-    margin-top:50px;
-    .contact-title{
-      font-size:24px;
+  .contacts {
+    margin-top: 50px;
+    .contact-title {
+      font-size: 24px;
     }
-    .organizers{
+    .organizers {
       display: flex;
       justify-content: space-between;
 
-      >div>div:nth-child(1){
-        font-size:20px;
+      > div > div:nth-child(1) {
+        font-size: 20px;
         text-transform: uppercase;
       }
     }
@@ -227,27 +252,36 @@ margin-bottom: 5px;
 .extra {
   margin: 20px 0;
   font-size: 1em;
-  p{display: flex;align-items: center;}
-  img{width:30px;margin-right:10px;}
+  p {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 30px;
+    margin-right: 10px;
+  }
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 .date {
   font-size: 1.6em;
   transition: font-size 200ms ease-out;
 }
 
-.slide-right-enter-active, .slide-right-leave-active {
+.slide-right-enter-active,
+.slide-right-leave-active {
   transition: all 300ms ease-out;
 }
-.slide-right-enter, .slide-right-leave-to {
+.slide-right-enter,
+.slide-right-leave-to {
   transform: translateX(-30px);
   opacity: 0;
 }
 .slide-left-enter-active {
   transition: all 300ms ease-out 400ms;
 }
-.slide-left-enter, .slide-left-leave-to {
+.slide-left-enter,
+.slide-left-leave-to {
   transform: translateX(50px);
   opacity: 0;
 }
@@ -264,7 +298,8 @@ margin-bottom: 5px;
   z-index: 10;
   transition: all 500ms ease;
 }
-.card.full .card-image, .card.full .card-image::after {
+.card.full .card-image,
+.card.full .card-image::after {
   border-radius: 0;
 }
 .card.full .card-image::after {
@@ -290,17 +325,17 @@ margin-bottom: 5px;
 
 .info {
   color: white;
-  margin-top:100px;
+  margin-top: 100px;
 }
 .poster {
   width: 400px;
   height: fit-content;
   border: 1px solid white;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.ml-auto{
-  margin-left:0;
+.ml-auto {
+  margin-left: 0;
 }
 
 .close-btn {
@@ -312,26 +347,23 @@ margin-bottom: 5px;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.384);
 }
 
-
-
-@media screen and (max-width:768px){
-  .card-body{
-    .eventContainer{
-      margin-top:20px;
+@media screen and (max-width: 768px) {
+  .card-body {
+    .eventContainer {
+      margin-top: 20px;
       flex-direction: column-reverse;
-      .eventBody{
-        width:90%;
-        margin-left:0;
+      .eventBody {
+        width: 90%;
+        margin-left: 0;
       }
       .extra {
         font-size: 0.8em;
       }
-      .poster{
-        width:80%;
+      .poster {
+        width: 80%;
         margin-top: 50px;
       }
     }
   }
 }
-
 </style>
