@@ -19,31 +19,31 @@
       <div class="formContainer">
         <div>
           <div class="styled-input wide">
-            <input type="text" required class="text-color" />
+            <input class="contact-name text-color" type="text" required />
             <label>Name</label>
           </div>
         </div>
         <div class="emailPhone">
           <div>
             <div class="styled-input">
-              <input type="text" required />
+              <input class="contact-email" type="text" required />
               <label>Email</label>
             </div>
           </div>
           <div>
             <div class="styled-input">
-              <input type="text" required />
+              <input class="contact-phone" type="text" required />
               <label>Phone</label>
             </div>
           </div>
         </div>
         <div>
           <div class="styled-input wide">
-            <textarea required></textarea>
+            <textarea class="contact-message" required></textarea>
             <label>Message</label>
           </div>
         </div>
-        <button type="button" class="btn btn-outline-primary btn-lg">
+        <button type="button"  v-on:click="recordMessage" class="btn btn-outline-primary btn-lg">
           <span class="submit">Leave Message</span>
           <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
         <span class="check"><i class="fa fa-check"></i></span> -->
@@ -54,7 +54,41 @@
 </template>
 
 <script>
-export default {};
+import axios from 'axios';
+let backend='http://157.245.101.11:5000';
+export default {
+
+  methods:{
+    recordMessage:()=>{
+      let email=document.querySelector(".contact-email").value,
+          name=document.querySelector(".contact-name").value,
+          mobile=document.querySelector(".contact-phone").value,
+          message=document.querySelector(".contact-message").value;
+
+
+      console.log(email.length,name.length,mobile.length,message.length); 
+      if(!email.length || !name.length || !mobile.length || !message.length){
+        alert("Please fill all the fields of the form");
+        return;
+      }
+
+      axios.post(backend+'/contact',{email,name,mobile,message})
+      .then(({data})=>{
+        alert(data.message);
+        document.querySelector(".contact-email").value="";
+        document.querySelector(".contact-name").value="";
+        document.querySelector(".contact-phone").value="";
+        document.querySelector(".contact-message").value="";
+      })
+      .catch(err=>{
+        console.log(err);
+        alert("Your information is not saved, please report at infox@ipu.ac.in");
+      })
+        
+    }
+  }
+
+};
 // const button = document.querySelector('.button');
 // const submit = document.querySelector('.submit');
 
