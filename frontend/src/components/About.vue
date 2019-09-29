@@ -281,7 +281,6 @@ h2 {
   /* position: relative; */
   /* top: 30%; */
   position: relative;
-  left: -5%;
   /* width: 50%; */
   height: 70vh;
   border-radius: 10px;
