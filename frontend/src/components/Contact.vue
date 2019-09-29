@@ -55,7 +55,7 @@
 
 <script>
 import axios from 'axios';
-let backend='http://157.245.101.11:5000';
+let backend='https://infoxpression.in/apis/backend';
 export default {
 
   methods:{
@@ -108,6 +108,7 @@ export default {
 <style lang="scss" scoped>
 $theme-color: #0575e6;
 
+#contact{position: relative;z-index: 3;}
 .contactForm {
   width: 95%;
   margin-left: auto;
