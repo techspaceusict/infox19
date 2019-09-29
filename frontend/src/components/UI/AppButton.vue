@@ -63,6 +63,10 @@ export default {
   border: 1px solid blue;
   box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
 }
+.register a  {
+  text-decoration: none;
+  color: white;
+}
 .register:hover {
   border-radius: 5px;
   padding: 15px 50px;

@@ -25,15 +25,18 @@
               <!-- <transition name="slide-right"> -->
               <div class="extra" v-if="full">
                 <p class="m-0">
-                  <img src="../assets/calendar.svg" />{{
-                    event.date.split(",")[0]
+                  <img src="../assets/calendar.svg" />
+                  {{
+                  event.date.split(",")[0]
                   }}
                 </p>
                 <p class="m-0">
-                  <img src="../assets/team.svg" /> {{ event.teamSize }}
+                  <img src="../assets/team.svg" />
+                  {{ event.teamSize }}
                 </p>
                 <p class="m-0">
-                  <img src="../assets/clock.svg" /> {{ event.time }}
+                  <img src="../assets/clock.svg" />
+                  {{ event.time }}
                 </p>
               </div>
               <!-- </transition> -->
@@ -47,17 +50,15 @@
                   </div>
                 </div>
               </div>
-              <button class="register_button">
-                <div>
-                  <a
-                    href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
-                    >Register</a
-                  >
-                </div>
-              </button>
+              <AppButton class="register my-4">
+                <a
+                  href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
+                  target="_blank"
+                >Register</a>
+              </AppButton>
               <!-- <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div> -->
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
-              <button class="Fsignin" @click="FsignIn">Facebook</button> -->
+              <button class="Fsignin" @click="FsignIn">Facebook</button>-->
               <!-- <button>Register</button> -->
             </div>
 
@@ -65,11 +66,7 @@
           </div>
 
           <div class="poster ml-auto">
-            <img
-              :src="getImgUrl(event.image, 'poster')"
-              :alt="event.name"
-              class="w-100"
-            />
+            <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100" />
           </div>
         </div>
       </div>

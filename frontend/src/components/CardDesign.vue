@@ -46,14 +46,12 @@
                       </div>
                     </div>
                   </div>
-                  <button class="register_button">
-                    <div>
-                      <a
-                        href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
-                        >Register</a
-                      >
-                    </div>
-                  </button>
+                  <AppButton class="register my-4">
+                    <a
+                      href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
+                      target="_blank"
+                    >Register</a>
+                  </AppButton>
                 </div>
               </transition>
             </div>
