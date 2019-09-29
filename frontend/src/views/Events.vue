@@ -1,9 +1,7 @@
 <template>
   <div class="context">
-    <!-- <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading> -->
-      <!-- <Heading anchor=".grid_container_2" wrapper=".contact-parent-wrapper" :speed="0" onPage
-      >Events</Heading> -->
-       <h1 class="overlay-section">Events</h1>
+    <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading>
+
     <ul class="circles">
       <div id="events">
         <div class="eventsSection">
@@ -119,14 +117,7 @@ template {
     padding-top: 0;
   }
 }
-.overlay-section {
-  color: white !important;
-  filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
-  font-weight: 800;
-  font-size: 7rem;
-  text-align: center;
-  letter-spacing: 2px;
-}
+
 .eventFilters {
   color: white;
 }
@@ -370,11 +361,11 @@ template {
 
     .d-flex {
       &:nth-child(even) {
-        background: white;
+        background: linear-gradient(to left,#9cecfb,#65c7f7,#0052d4);
         box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.24);
       }
       &:nth-child(odd) {
-        background: linear-gradient(#0575e6, #0a55a1);
+        background: linear-gradient(to left,#9cecfb,#65c7f7,#0052d4);
         box-shadow: 10px 10px 100px #0576e65b;
         .eventName {
           color: white !important;
