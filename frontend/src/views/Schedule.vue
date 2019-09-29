@@ -166,8 +166,8 @@
           </div>
           <div class="clashonlan_2">
             <p>
-              Clash <br />
-              On<br />Lan
+              Play <br />
+              Our<br />Games
             </p>
           </div>
           <div class="treasurehunt_2">
