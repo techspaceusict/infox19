@@ -5,7 +5,7 @@
     style="align-items: center; margin-top:7vh"
   > 
     <div class="title-section">
-      <Heading anchor=".grid_container_2" wrapper=".contact-parent-wrapper" :speed="0" onPage
+      <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage
       >Schedule</Heading>
       
     </div>
