@@ -231,11 +231,7 @@
         "date":"October 13, 2019",
         "time":"2PM - 5PM",
         "image":"dataquest_turingAI.png",
-<<<<<<< HEAD
-        "description":"Ever wondered about how that facial recognition camera in your phone works? How does google folders neatly classifies your photos in the cloud photos drive?<br><br> How do you get such accurate recommendations in your netflix feed? Well, this workshop is here to answer all your questions and get you started to building your own ML/AI systems ! <br><br>Venue: C-Block Auditorium, GGSIP University, Dwarka  <br><br>Love y’all 3000 !,<br><br>Wanna Buzz yourself in ??",
-=======
         "description":"Grab your datasets, Polish your statistics and bring out the data freak within you, for this is the competition for the best data-cated people out there.<br> Participate and get a chance to win cash prizes and exciting goodies upto ₹5000",
->>>>>>> b19aa2596d4b0c2ecdd556096a12d837e952a150
         "organizers":[{
             "name":"Aakash Bindal",
             "contact":"8851028128"
@@ -272,11 +268,7 @@
         "date":"October 11, 2019",
         "time":"2PM - 5PM",
         "image":"OSLCMeetup.png",
-<<<<<<< HEAD
-        "description":"Techspace USICT is organising open Source meet up . The meet up will consist of Networking session , Technical talks , Mentoring sessions by Experts in various technical domains followed by questions and answers session . <br><br>Topics Like GSoC , Web and Android Dev , Currently Trending Technologies will be discussed . Participants will be provided awesome swags and refreshments .<br><br>Event is open for all and is Completely free of cost !",
-=======
         "description":"Techspace USICT is organising <br> open Source meet up . The meet up will consist of Networking session , Technical talks , Mentoring sessions by Experts in various technical domains followed by questions and answers session . Topics Like GSoC , Web and Android Dev , Currently Trending Technologies will be discussed . Participants will be provided awesome swags and refreshments ..Event is open for all and is Completely free of cost !",
->>>>>>> b19aa2596d4b0c2ecdd556096a12d837e952a150
         "organizers":[{
             "name":"Ashish",
             "contact":"9643532230"
