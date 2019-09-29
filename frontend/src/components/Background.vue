@@ -114,7 +114,8 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background: #222222;
+  background: #22222200;
+  z-index: 2;
 }
 
 .background__lights {

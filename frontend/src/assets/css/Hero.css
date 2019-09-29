@@ -9,7 +9,7 @@
 } */
 
 #hero * {
-  z-index: 2;
+  z-index: 3;
 }
 #hero {
   background: black;
