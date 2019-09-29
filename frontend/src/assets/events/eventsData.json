@@ -31,7 +31,7 @@
             "contact":"8742039115"
         }],
         "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
 
     {
@@ -49,7 +49,7 @@
             "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Bug Debug",
@@ -66,7 +66,7 @@
             "contact":"9582306873"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Code-Venture",
@@ -100,7 +100,7 @@
             "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"UCode",
@@ -117,7 +117,7 @@
             "contact":"8010383350"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
    
     {
@@ -135,7 +135,7 @@
             "contact":"8800160101"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
    
     {
@@ -153,7 +153,7 @@
             "contact":"abcdef@gmail.com"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"2 members"
     },
 
     {
@@ -171,7 +171,7 @@
             "contact":"9871332989"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"2 members"
     },
 
     {
@@ -189,7 +189,7 @@
             "contact":"abcdef@gmail.com"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
 
     {
@@ -224,7 +224,7 @@
             "contact":"8076911425"
         }],
         "type":{"name":"development","priority":2},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Data quest",
@@ -259,8 +259,8 @@
             "name":"Keshav Vinayak Jha",
             "contact":"7678442691"
         }],
-        "type":{"name":"ml/ai","priority":3},
-        "teamSize":"3-4 members"
+        "type":{"name":"ml/ai","priority":3}
+        
     },
 
     {
@@ -296,7 +296,7 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
     {
         "name":"Meme War",
@@ -313,7 +313,7 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
 
     {
@@ -331,7 +331,7 @@
             "contact":"9354385487"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
 
     {
@@ -349,7 +349,7 @@
             "contact":"8527458501"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
     
 
@@ -368,7 +368,7 @@
             "contact":"8527121782"
         }],
         "type":{"name":"development","priority":6},
-        "teamSize":"3-4 members",
+        "teamSize":"solo",
         "link":"https://itch.io/jam/spacejam-rs"
     },
     {
@@ -386,7 +386,7 @@
             "contact":"8076911425"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"3 members"
     },
     {
         "name":"Marvel World",
