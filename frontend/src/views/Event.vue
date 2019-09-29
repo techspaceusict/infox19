@@ -13,7 +13,7 @@
 
             <div class="info row m-0" v-if="full">
               <div>
-                <p>{{ event.description }}</p> 
+                <p v-html="event.description">{{  }}</p> 
               </div>
             </div>
 
