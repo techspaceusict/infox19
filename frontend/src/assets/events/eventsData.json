@@ -229,24 +229,6 @@
 
 
     {
-        "name":"Hackerman Exit",
-        "date":"October 11, 2019",
-        "time":"2PM - 5PM",
-        "image":"Hackermanexit.png",
-        "description":"INFO UPDATING SOON",
-        "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
-        },
-        {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
-    },
-
-    {
         "name":"Machine Learning Workshop",
         "date":"October 12, 2019",
         "time":"2PM - 5PM",
