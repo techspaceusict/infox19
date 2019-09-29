@@ -1,5 +1,6 @@
 <template>
   <div ref="hero" id="hero">
+    <Background />
     <!-- <canvas></canvas> -->
 
     <div id="logo">
@@ -56,7 +57,7 @@
         />
       </svg>
 
-      <div id="logo-text"> 
+      <div id="logo-text">
         <span class="flicker-on">I</span>
         <span>n</span>
         <span>f</span>
@@ -81,57 +82,60 @@
 </template>
 
 <script>
+import Background from "@/components/Background.vue";
 export default {
   mounted() {
-    let logoText = document.getElementById('logo-text').childNodes;
-    let indices = [], i;
-    for(i=0; i<logoText.length; i++) {
+    let logoText = document.getElementById("logo-text").childNodes;
+    let indices = [],
+      i;
+    for (i = 0; i < logoText.length; i++) {
       indices.push(i);
     }
     indices = this.shuffle(indices);
 
     i = 0;
     const interval = setInterval(() => {
-      if(i == 13) {
+      if (i == 13) {
         clearInterval(interval);
       }
-      logoText[indices[i]].classList.add('flicker-on');
+      logoText[indices[i]].classList.add("flicker-on");
       i++;
     }, 100);
-    
-    let hero = document.getElementById('hero');
-    let logo = document.getElementById('gx-logo');
-    let text = document.getElementById('logo-text');
+
+    let hero = document.getElementById("hero");
+    let logo = document.getElementById("gx-logo");
+    let text = document.getElementById("logo-text");
 
     let counter = 0;
     let updateRate = 1;
-    hero.addEventListener('mousemove', (event) => {
+    hero.addEventListener("mousemove", event => {
       const isTimeToUpdate = function() {
         return counter++ % updateRate === 0;
-      }
-      if(isTimeToUpdate()) {
+      };
+      if (isTimeToUpdate()) {
         let part = 60;
-        let xLogo = (hero.clientWidth/2 - event.clientX)/(part*2);
-        let yLogo = (hero.clientHeight/2 - event.clientY)/(part*2);
-        let xText = (hero.clientWidth/2 - event.clientX)/part;
-        let yText = (hero.clientHeight/2 - event.clientY)/part;
-        let xDeg = (hero.clientWidth/2 - event.clientX)/(part*50);
-        let yDeg = (hero.clientHeight/2 - event.clientY)/(part*20);
-        if(window.innerWidth > 1120) logo.style.transform = `translate(${xLogo}px, ${yLogo}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
+        let xLogo = (hero.clientWidth / 2 - event.clientX) / (part * 2);
+        let yLogo = (hero.clientHeight / 2 - event.clientY) / (part * 2);
+        let xText = (hero.clientWidth / 2 - event.clientX) / part;
+        let yText = (hero.clientHeight / 2 - event.clientY) / part;
+        let xDeg = (hero.clientWidth / 2 - event.clientX) / (part * 50);
+        let yDeg = (hero.clientHeight / 2 - event.clientY) / (part * 20);
+        if (window.innerWidth > 1120)
+          logo.style.transform = `translate(${xLogo}px, ${yLogo}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
         text.style.transform = `translate(${xText}px, ${yText}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
         // logo.style.transform = `rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
         // text.style.transform = `rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
       }
     });
-
   },
   methods: {
     shuffle(array) {
-      var currentIndex = array.length, temporaryValue, randomIndex;
+      var currentIndex = array.length,
+        temporaryValue,
+        randomIndex;
 
       // While there remain elements to shuffle...
       while (0 !== currentIndex) {
-
         // Pick a remaining element...
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
@@ -144,6 +148,9 @@ export default {
 
       return array;
     }
+  },
+  components: {
+    Background
   }
 };
 </script>
