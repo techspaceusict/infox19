@@ -76,10 +76,19 @@ canvas {
   text-align: center;
   height: 100%;
   perspective: 40px;
+  top:-100px;
   /* margin-top: 50%; */
   /* animation: slideUp 0.8s ease-in-out 3.3s forwards; */
   /* animation: backgroundFlicker 2s ease-out forwards; */
+  overflow: hidden;
 }
+
+#logo svg{
+  width: 1500px;
+  left:50%;
+  transform: translateX(-50%);
+}
+
 @keyframes backgroundFlicker {
   1%, 9.999%, 45%, 54.999%, 60%, 64.999%, 70% {
     background: rgb(17, 0, 255);
@@ -108,6 +117,7 @@ canvas {
   /* animation: showLogoText 0.3s ease-in 3s; */
   animation-fill-mode: forwards;
   transition: transform 200ms;
+  
 }
 
 .flicker-on {
@@ -200,6 +210,7 @@ canvas {
   /* max-width: 600px; */
   filter: drop-shadow(0 0 20px rgba(0, 0, 255, 0.8));
   transition: transform 200ms;
+
 }
 
 #gx-logo polygon {
@@ -210,18 +221,19 @@ canvas {
 
 #eventInfo {
   color: white;
-  font-family: Arial;
-  font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
   margin-top: -135px;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  position: relative;
+  font-size: 28px;
+  font-family: Arial Black;
+  top: -70px;
 }
 
 #eventInfo .date {
-  color: rgb(22, 80, 172);
-  font-weight: bold;
-  font-size: 28px;
+  color: #004dc6;
+  font-size: 40px;
+  font-family: Arial Black;
 }
 
 #eventInfo > div:nth-child(1) {
@@ -322,6 +334,11 @@ canvas {
 @media only screen and (max-width: 1120px) {
   #logo-text {
     font-size: 6em;
+    /* top:-20px !important; */
+  }
+  #gx-logo{
+    width:1200px !important;
+    
   }
 }
 @media screen and (max-width: 768px) {
@@ -330,19 +347,33 @@ canvas {
   }
   #logo-text {
     font-size: 4em;
+    top: 20px;
+  }
+
+  #eventInfo{
+    font-size:20px !important; 
+    top:-100px !important;
+  }
+  #eventInfo .date{
+    font-size:36px !important;
+  }
+  #gx-logo{
+    width:800px !important;
   }
 }
 @media screen and (max-width: 576px) {
   #gx-logo {
     
   }
+
+  #eventInfo .date{
+    font-size: 6vw !important;
+  }
   #logo-text {
     font-size: 10vw;
   }
   #eventInfo {
-    font-size: 4vw;
+    font-size: 5vw !important;
   }
-  body #eventInfo .date {
-    font-size: 5.8vw;
-  }
+  
 }
