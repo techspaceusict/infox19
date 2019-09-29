@@ -369,7 +369,8 @@
             "contact":"abcdef@gmail.com"
         }],
         "type":{"name":"development","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"3-4 members",
+        "link":"https://itch.io/jam/spacejam-rs"
     },
     {
         "name":"Treasure Hunt",
