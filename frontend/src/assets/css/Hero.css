@@ -9,7 +9,7 @@
 } */
 
 #hero * {
-  z-index: 2;
+  z-index: 3;
 }
 #hero {
   background: transparent !important;
@@ -76,24 +76,38 @@ canvas {
   text-align: center;
   height: 100%;
   perspective: 40px;
-  top:-100px;
+  top: -100px;
   /* margin-top: 50%; */
   /* animation: slideUp 0.8s ease-in-out 3.3s forwards; */
   /* animation: backgroundFlicker 2s ease-out forwards; */
   overflow: hidden;
 }
 
-#logo svg{
+#logo svg {
   width: 100%;
   /* left:50%;
   transform: translateX(-50%); */
 }
 
 @keyframes backgroundFlicker {
-  1%, 9.999%, 45%, 54.999%, 60%, 64.999%, 70% {
+  1%,
+  9.999%,
+  45%,
+  54.999%,
+  60%,
+  64.999%,
+  70% {
     background: rgb(17, 0, 255);
-	}
-	0%, 0.999%, 10%, 44.999%, 55%, 59.999%, 65%, 69.999%, 100% {
+  }
+  0%,
+  0.999%,
+  10%,
+  44.999%,
+  55%,
+  59.999%,
+  65%,
+  69.999%,
+  100% {
     background: black;
   }
 }
@@ -117,7 +131,6 @@ canvas {
   /* animation: showLogoText 0.3s ease-in 3s; */
   animation-fill-mode: forwards;
   transition: transform 200ms;
-  
 }
 
 .flicker-on {
@@ -126,11 +139,22 @@ canvas {
   z-index: 1;
 }
 @keyframes flickerOn {
-  20%, 22%, 35.999%, 64%, 65%, 69.999% {
+  20%,
+  22%,
+  35.999%,
+  64%,
+  65%,
+  69.999% {
     color: white;
     text-shadow: 0 0 50px #ffffff50;
-	}
-	0%, 19.999%, 21.999%, 36%, 64.999%, 70%, 99.999% {
+  }
+  0%,
+  19.999%,
+  21.999%,
+  36%,
+  64.999%,
+  70%,
+  99.999% {
     color: black;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.125);
   }
@@ -141,7 +165,7 @@ canvas {
 }
 
 .flicker-on::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -164,10 +188,19 @@ canvas {
   }
 } */
 @keyframes flickerOnShadow {
-  20%, 22%, 35.999%, 64%, 65%, 69.999% {
+  20%,
+  22%,
+  35.999%,
+  64%,
+  65%,
+  69.999% {
     opacity: 0.4;
-	}
-	0%, 19.999%, 21.999%, 36%, 64.999% {
+  }
+  0%,
+  19.999%,
+  21.999%,
+  36%,
+  64.999% {
     opacity: 0;
   }
   100% {
@@ -210,11 +243,11 @@ canvas {
   /* max-width: 600px; */
   filter: drop-shadow(0 0 20px rgba(0, 0, 255, 0.8));
   transition: transform 200ms;
-
 }
 
 #gx-logo polygon {
-  animation: colorFill 0.8s ease-out 5.5s forwards, beating 1.75s ease-in 6s infinite;
+  animation: colorFill 0.8s ease-out 5.5s forwards,
+    beating 1.75s ease-in 6s infinite;
   /* animation-fill-mode: forwards; */
   /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 1)); */
 }
@@ -304,11 +337,16 @@ canvas {
 }
 
 @keyframes beating {
-  0%, 20%, 35%, 60%, 100%{
+  0%,
+  20%,
+  35%,
+  60%,
+  100% {
     fill-opacity: 0.4;
     transform: scale(1);
   }
-  25%, 40% {
+  25%,
+  40% {
     fill-opacity: 1;
     transform: scale(1.005);
   }
@@ -337,10 +375,10 @@ canvas {
     font-size: 6em;
     /* top:-20px !important; */
   }
-  #gx-logo{
-    width:1200px !important;
-    left:50%;
-    transform:translate(-50%) !important;
+  #gx-logo {
+    width: 1200px !important;
+    left: 50%;
+    transform: translate(-50%) !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -352,22 +390,21 @@ canvas {
     top: 20px;
   }
 
-  #eventInfo{
-    font-size:20px !important; 
-    top:-100px !important;
+  #eventInfo {
+    font-size: 20px !important;
+    top: -100px !important;
   }
-  #eventInfo .date{
-    font-size:28px !important;
+  #eventInfo .date {
+    font-size: 28px !important;
   }
-  #gx-logo{
-    width:800px !important;
-    left:50%;
-    transform:translate(-50%) !important;
+  #gx-logo {
+    width: 800px !important;
+    left: 50%;
+    transform: translate(-50%) !important;
   }
 }
 @media screen and (max-width: 576px) {
-  
-  #eventInfo .date{
+  #eventInfo .date {
     font-size: 6vw !important;
   }
   #logo-text {
@@ -376,5 +413,4 @@ canvas {
   #eventInfo {
     font-size: 3.5vw !important;
   }
-  
 }

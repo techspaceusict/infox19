@@ -52,7 +52,7 @@ export default {};
 
 <style lang="scss" scoped>
 #glimpses * {
-  z-index: 2;
+  z-index: 3;
 }
 #glimpses {
   margin-top: 10em;

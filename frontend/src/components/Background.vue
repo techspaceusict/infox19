@@ -121,7 +121,7 @@
   position: fixed;
   height: 100%;
   width: 100vw;
-  z-index: 0;
+  z-index: -1;
   max-width: none;
   opacity: 0;
   animation: fadeInLights 1s forwards 7s;

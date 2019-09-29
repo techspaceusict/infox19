@@ -123,8 +123,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#about {
-  z-index: 2;
+#about *{
+  z-index: 3;
 }
 #about {
   margin-top: -30em;

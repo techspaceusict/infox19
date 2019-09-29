@@ -90,7 +90,7 @@ export default {
 
 <style lang="scss" scoped>
 #sponsors {
-  z-index: 2;
+  z-index: 3;
 }
 #sponsors {
   margin-top: -30em;
