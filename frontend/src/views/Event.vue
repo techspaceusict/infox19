@@ -25,6 +25,16 @@
                 <p class="m-0"><img src='../assets/clock.svg'/> {{ event.time }}</p>
               </div>
             <!-- </transition> -->
+
+              <div class="contacts">
+                <!-- <div class="contact-title">For queries, contact -</div> -->
+                <div class="organizers">
+                  <div v-for="(org,i) in event.organizers" :key="i">
+                    <div>{{org.name}}</div>
+                    <div>{{org.contact}}</div>
+                  </div>
+                </div>
+              </div>
               <button><div><a href =" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform ">Register</a></div></button>
               <!-- <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div> -->
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
@@ -118,6 +128,7 @@ export default {
   display: flex;
   height: 100vh;
   justify-content: space-between;
+  overflow: auto;
   .eventBody{
     width:50%;
     margin-left:50px;
@@ -188,6 +199,22 @@ export default {
   background: transparent;
   text-align: left;
   color:white;
+
+  .contacts{
+    margin-top:50px;
+    .contact-title{
+      font-size:24px;
+    }
+    .organizers{
+      display: flex;
+      justify-content: space-between;
+
+      >div>div:nth-child(1){
+        font-size:20px;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
 .extra {
   margin: 20px 0;
@@ -276,4 +303,23 @@ export default {
   cursor: pointer;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.384);
 }
+
+
+
+@media screen and (max-width:600px){
+  .card-body{
+    .eventContainer{
+      margin-top:20px;
+      flex-direction: column-reverse;
+      .eventBody{
+        width:90%;
+        margin-left:0;
+      }
+      .poster{
+        width:60%;
+      }
+    }
+  }
+}
+
 </style>
