@@ -67,11 +67,11 @@
         <section class="tex-center">
           <p class="font-weight-bold font-sm mb-2">FOLLOW US</p>
           <div class="social-row row m-0 py-2">
-            <a href="https://www.facebook.com/infoxpression/?ref=br_rs" style="color:white;"><i class="fab fa-facebook-square fa-lg"></i></a>
+            <a href="https://www.facebook.com/infoxpression/?ref=br_rs" target="_blank" style="color:white;"><i class="fab fa-facebook-square fa-lg"></i></a>
             <i></i>
-            <a href="https://www.instagram.com/infoxggsipu/" style="color:white;"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="https://www.instagram.com/infoxggsipu/"  target="_blank" style="color:white;"><i class="fab fa-instagram fa-lg"></i></a>
             <i></i>
-            <a href="https://medium.com/techspace-usict" style="color:white;"><i class="fab fa-medium-m fa-lg"></i></a>
+            <a href="https://medium.com/techspace-usict" target="_blank" style="color:white;"><i class="fab fa-medium-m fa-lg"></i></a>
           </div>
         </section>
       </div>
