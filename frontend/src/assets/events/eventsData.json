@@ -41,7 +41,7 @@
         "date":"October 11, 2019",
         "time":"3PM - 4PM",
         "image":"CODEXPRESS.webp",
-        "description":"Is your coding fast as an express, then this event is specifically for you<br><br>Codexpress is designed specifically for students of 1st and 2nd year and this event is all about your coding speed and time management.You will have to solve questions of different difficulty level in small duration of time,testing your skills and their proper execution.So Xpress your coding skills with Xpress speed.<br>You will have to solve 15 questions of increasing difficulty level in a span of 1 hour only.<br>The one who would solve maximum questions in minimum time would become the Xpress king.<br>It is advisiable to carry your own laptops<br><br>Prizes Worth : 8000 INR<br><br>NOTE - Only 1st and 2nd year are eligible for prizes.",
+        "description":"Is your coding fast as an express, then this event is specifically for you<br><br>Codexpress is designed specifically for students of 1st and 2nd year and this event is all about your coding speed and time management.You will have to solve questions of different difficulty level in small duration of time,testing your skills and their proper execution.So Xpress your coding skills with Xpress speed.<br>You will have to solve 15 questions of increasing difficulty level in a span of 1 hour only.<br>The one who would solve maximum questions in minimum time would become the Xpress king.<br>It is advisiable to carry your own laptops<br><br>Prizes Worth : 8000 INR<br><br>NOTE - Only 1st and 2nd year are eligible for prizes.<br><br>Venue : E-Labs",
         "organizers":[{
             "name":"Yogesh",
             "contact":"8010383350"
@@ -77,7 +77,7 @@
         "date":"October 11, 2019",
         "time":"2PM - 5PM",
         "image":"Code-venture.webp",
-        "description":"What's the point of being clever if you can't prove it...?<br><br>Well....NOW YOU CAN!!<br><br>Infoxpression 2019<br>Presents <br>Codeventure 2k19,<br>The first of its name.<br><br> Bring out your inner Sherlock and help your friends to reach the final problem. <br><br>Code-Venture puts your mental skills to test. Join us with your friends in this journey, and decide whether to be a coder or a decoder. Don't forget your laptops and energy.<br><br>Bonus : Not a professional coder? Don't worry. We've got you covered! There are other events for that!!  <br><br>   Prizes Worth : ₹8000.<br><br>Entry fee : ₹25per head",
+        "description":"What's the point of being clever if you can't prove it...?<br><br>Well....NOW YOU CAN!!<br><br>Infoxpression 2019<br>Presents <br>Codeventure 2k19,<br>The first of its name.<br><br> Bring out your inner Sherlock and help your friends to reach the final problem. <br><br>Code-Venture puts your mental skills to test. Join us with your friends in this journey, and decide whether to be a coder or a decoder. Don't forget your laptops and energy.<br><br>Bonus : Not a professional coder? Don't worry. We've got you covered! There are other events for that!!  <br><br>   Prizes Worth : ₹8000.<br><br>Entry fee : ₹25per head<br><br> Venue:Online",
         "organizers":[{
             "name":"Samar",
             "contact":"8800687290"
@@ -95,7 +95,7 @@
         "date":"October 11, 2019",
         "time":"10:30PM - 2PM",
         "image":"CODESTER.webp",
-        "description":"THINK | CODE | EXECUTE<br><br>One code to rule them all, one code to bind them.<br>Truly, we know the rush of encountering a challenge, tackling a problem head on and the camaraderie that comes with working alongside fellow programmers who are just as passionate about writing brilliant code.<br>Codester is a competitive programming contest organised by the Codeschool club of USICT, as a part of the technical fest Infoxpression ’19 of USICT. This will be an ACM ICPC style contest.<br><br>It is advisable to bring your own laptops.<br><br>Prizes worth 8K INR.<br> Team Sizes of upto 2 members are allowed.",
+        "description":"THINK | CODE | EXECUTE<br><br>One code to rule them all, one code to bind them.<br>Truly, we know the rush of encountering a challenge, tackling a problem head on and the camaraderie that comes with working alongside fellow programmers who are just as passionate about writing brilliant code.<br>Codester is a competitive programming contest organised by the Codeschool club of USICT, as a part of the technical fest Infoxpression ’19 of USICT. This will be an ACM ICPC style contest.<br><br>It is advisable to bring your own laptops.<br><br>Prizes worth 8K INR.<br> Team Sizes of upto 2 members are allowed.<br><br>Venue : E-Labs",
         "organizers":[{
             "name":"Lakshay",
             "contact":"8376835525"
@@ -113,7 +113,11 @@
         "date":"October 6, 2019",
         "time":"9PM - 12AM",
         "image":"UCODE.webp",
+<<<<<<< HEAD
         "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 4000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019" ,
+=======
+        "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 4000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
+>>>>>>> 8f9c2cda981868a56033d1455c7bf851209470a9
         "organizers":[{
             "name":"Vijay",
             "contact":"9818423905"
@@ -132,7 +136,7 @@
         "date":"October 11, 2019",
         "time":"2PM - 3PM",
         "image":"JIGSAW.webp",
-        "description":"🏆Sure you can code a bit, but can you reorder it??🏆 <br> <br> Put your coding skills to test in this refreshing take on competitive programming!! Organise the given jumbled code to make it run and do wonders! <br><br>Winner takes home prizes worth 8,000/-🤑(Prizes eligible only for freshers and sophomores)<br><br>So, bring your laptops and show that you've got what it takes!!",
+        "description":"🏆Sure you can code a bit, but can you reorder it??🏆 <br> <br> Put your coding skills to test in this refreshing take on competitive programming!! Organise the given jumbled code to make it run and do wonders! <br><br>Winner takes home prizes worth 8,000/-🤑(Prizes eligible only for freshers and sophomores)<br><br>So, bring your laptops and show that you've got what it takes!!<br><br> Venue : E-labs",
         "organizers":[{
             "name":"Ritika",
             "contact":"9650063971"
@@ -151,7 +155,7 @@
         "date":"October 13, 2019",
         "time":"2PM - 5PM",
         "image":"codewars3.webp",
-        "description":"The Final War Is Here!<br><br>Infoxpression 2019<br>Proudly presents,<br>CODEWARS<br>Buckle up people, because the finale event of Infoxpression, Codewars, is here. Only the top 16 teams, acing the net scores of U CODE, CODESTER and BUG-DEBUG will be allowed to be a part of this event. The total number of rounds will be 4. After each round, only the top half teams in the leaderboard will be eligible to move ahead. <br>It is advisiable to carry your own laptops<br>Prizes Worth : 10000 INR",
+        "description":"The Final War Is Here!<br><br>Infoxpression 2019<br>Proudly presents,<br>CODEWARS<br>Buckle up people, because the finale event of Infoxpression, Codewars, is here. Only the top 16 teams, acing the net scores of U CODE, CODESTER and BUG-DEBUG will be allowed to be a part of this event. The total number of rounds will be 4. After each round, only the top half teams in the leaderboard will be eligible to move ahead. <br>It is advisiable to carry your own laptops<br>Prizes Worth : 10000 INR<br><br>Venue : E-Labs",
         "organizers":[{
             "name":"Vijay",
             "contact":"9818423905"
@@ -170,7 +174,7 @@
         "date":"October 12, 2019",
         "time":"10:30PM - 2PM",
         "image":"we-connect.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"INFO UPDATING SOON <br><br>Venue : E-Labs",
         "organizers":[{
             "name":"Avik",
             "contact":"9910758350"
@@ -189,7 +193,7 @@
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
         "image":"codocrux3.webp",
-        "description":"For all the coding enthusiasts out there , it is an not one event you’d want to miss out on! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test. It is definitely not the event anyone would want to miss out on.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.",
+        "description":"For all the coding enthusiasts out there , it is an not one event you’d want to miss out on! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test. It is definitely not the event anyone would want to miss out on.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : E-Labs",
         "organizers":[{
             "name":"Avik",
             "contact":"9910758350"
@@ -208,7 +212,7 @@
         "date":"October 12, 2019",
         "time":"10:30AM - 2PM",
         "image":"Cogitans-ProtoXperience.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"INFO UPDATING SOON <br><br>Venue : D-Labs",
         "organizers":[{
             "name":"Shorya Jain",
             "contact":"9560580675"
@@ -226,7 +230,7 @@
         "date":"October 10, 2019",
         "time":"11:00AM",
         "image":"appchallenge.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"INFO UPDATING SOON<br><br>Venue : Online",
         "organizers":[{
             "name":"Ankit Jain",
             "contact":"8650605941"
@@ -301,7 +305,7 @@
 
     {
         "name":"Express InfoX",
-        "date":"October 11,12,13, 2019",
+        "date":"October 11-13, 2019",
         "time":"online event",
         "image":"PixelHubEvent_PosterColor.webp",
         "description":"INFO UPDATING SOON<br><br>Venue:Online",
@@ -338,10 +342,15 @@
 
     {
         "name":"Clash On LAN",
-        "date":"October 11,12,13 2019",
+        "date":"October 11-13 2019",
         "time":"10AM-5PM",
+<<<<<<< HEAD
         "image":"rendered_space_2.webp",
         "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- C-Block Auditorium, GGSIP University, Dwarka, Sector-16.<br><br>Venue:E-Auditorium",
+=======
+        "image":"col5.webp",
+        "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- C-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
+>>>>>>> 8f9c2cda981868a56033d1455c7bf851209470a9
         "organizers":[{
             "name":"Sachin",
             "contact":"9717430189"
@@ -472,7 +481,7 @@
         "date":"October 13, 2019",
         "time":"10:30PM - 2PM",
         "image":"race-01.webp",
-        "description":"Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of (PRIZE HERE) and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.",
+        "description":"Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of (PRIZE HERE) and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.<br><br>Venue : Central Arena",
         "organizers":[{
             "name":"Varun",
             "contact":"9555053000"

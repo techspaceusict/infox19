@@ -67,7 +67,7 @@
             </p>
           </div>
           <div class="osic_1">
-            <p>Osic Meetup</p>
+            <p>Oslc Meetup</p>
           </div>
           <div class="codester_1">
             <p>Codester</p>
@@ -166,8 +166,8 @@
           </div>
           <div class="clashonlan_2">
             <p>
-              Play <br />
-              Our<br />Games
+              Clash <br />
+              On<br />Lan
             </p>
           </div>
           <div class="treasurehunt_2">
