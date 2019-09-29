@@ -395,18 +395,15 @@ template {
       flex-direction: column;
       position: relative;
       .eventName {
+        position: absolute;
+        bottom: 0;
+        right: 0;
         color: #249bf3cc;
         font-weight: bold;
-        text-align: right;
-        font-size: 21px;
+        font-size: 1.5em;
         text-shadow: 0 0 2px #9a9a9a;
-        padding: 10px;
-        position: absolute;
-        bottom: 10px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        right: 0;
+        margin: 15px;
+        text-align: right;
       }
     }
 

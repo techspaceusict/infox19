@@ -27,7 +27,7 @@
                       event.date.split(",")[0]
                     }}
                   </p>
-                  <p class="m-0">
+                  <p class="m-0" v-if="event.teamSize">
                     <img src="../assets/team.svg" /> {{ event.teamSize }}
                   </p>
                   <p class="m-0">
@@ -157,7 +157,7 @@ export default {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   margin: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   cursor: pointer;
   transition: all 300ms ease-out;
   transform: rotate(-3deg);

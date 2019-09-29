@@ -30,7 +30,7 @@
                   event.date.split(",")[0]
                   }}
                 </p>
-                <p class="m-0">
+                <p class="m-0" v-if="event.teamSize">
                   <img src="../assets/team.svg" />
                   {{ event.teamSize }}
                 </p>
