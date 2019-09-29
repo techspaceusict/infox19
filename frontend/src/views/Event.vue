@@ -136,6 +136,14 @@ export default {
   align-items: center;
   .row{margin: 0;}
 }
+.reg-btn{
+  background: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+margin-bottom: 5px;
+}
+
 .card {
   position: relative;
   height: 400px;
