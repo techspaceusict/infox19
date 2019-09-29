@@ -190,14 +190,23 @@ export default {
   background: rgba(0, 0, 0, 0.5);
   transition: all 300ms ease-out;
 }
-
 .card-body {
-  padding: 0;
+  color: rgba(252, 253, 253, 0.692);
+  font-weight: bold;
+  padding: 30px;
   text-align: center;
   z-index: 2;
   display: flex;
   flex-direction: column;
+  text-shadow: 0 0 5px rgb(0, 255, 221);
 }
+// .card-body {
+//   padding: 0;
+//   text-align: center;
+//   z-index: 2;
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .register_button {
   background: #0571ff;
@@ -257,8 +266,8 @@ export default {
     align-items: center;
   }
   img {
-    width: 30px;
-    margin-right: 10px;
+    width: 10%;
+    margin: 8px;
   }
   display: flex;
   justify-content: space-between;
@@ -303,7 +312,7 @@ export default {
   border-radius: 0;
 }
 .card.full .card-image::after {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.95);
 }
 .card.full .card-body {
   text-align: left;

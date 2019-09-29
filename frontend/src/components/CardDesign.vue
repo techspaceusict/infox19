@@ -4,28 +4,69 @@
     <div class="card border-0" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
       <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
       <div class="card-body">
-        <!-- <div class="title">{{ event.name.toUpperCase() }}</div> -->
-        <div class="footer">
-          <transition name="slide-right">
-            <div class="extra" v-if="hover || full">
-              <p class="m-0">Team-size: {{ event.teamSize }}</p>
-              <p class="m-0">Time: {{ event.time }}</p>
+        
+        <div class="eventContainer">
+          <div class="eventBody">
+            <transition name="slide-left">
+              <div class="title" v-if="full">{{ event.name.toUpperCase() }}</div>
+            </transition>
+
+            <transition name="slide-left">
+              <div class="info row m-0" v-if="full">
+                <div>
+                  <p v-html="event.description">{{}}</p>
+                </div>
+              </div>
+            </transition>
+
+            <div class="footer">
+              <transition name="slide-right">
+                <div class="extra" v-if="hover || full">
+                  <p class="m-0">
+                    <img src="../assets/calendar.svg" />{{
+                      event.date.split(",")[0]
+                    }}
+                  </p>
+                  <p class="m-0">
+                    <img src="../assets/team.svg" /> {{ event.teamSize }}
+                  </p>
+                  <p class="m-0">
+                    <img src="../assets/clock.svg" /> {{ event.time }}
+                  </p>
+                </div>
+              </transition>
+
+              <transition name="slide-left">
+                <div v-if="full">
+                  <div class="contacts">
+                    <div class="organizers">
+                      <div v-for="(org, i) in event.organizers" :key="i">
+                        <div>{{ org.name }}</div>
+                        <div>{{ org.contact }}</div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="register_button">
+                    <div>
+                      <a
+                        href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
+                        >Register</a
+                      >
+                    </div>
+                  </button>
+                </div>
+              </transition>
             </div>
-          </transition>
-          <p class="date">{{ event.date.split(',')[0] }}</p>
-        </div>
-        <transition name="slide-left">
-          <div class="info row m-0" v-if="full">
-            <div class="col-sm-12 col-md-8 px-0">
-              <h4>Description</h4>
-              <p>{{ event.description }}</p>
-              <AppButton class="register my-4">Register</AppButton>
-            </div>
-            <div class="poster ml-auto">
+
+          </div>
+
+          <transition name="slide-left">
+            <div class="poster ml-auto" v-if="full">
               <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
             </div>
-          </div>
-        </transition>
+          </transition>
+
+        </div>
       </div>
     </div>
 
@@ -78,9 +119,38 @@ export default {
 }
 </script>
 
-<style scoped>
-
-
+<style lang="scss" scoped>
+.eventContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  overflow: auto;
+  .eventBody {
+    width: 50%;
+    margin-left: 50px;
+  }
+  align-items: center;
+  .row {
+    margin: 0;
+  }
+}
+.extra {
+  margin: 20px 0;
+  font-size: 1em;
+  p {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 10%;
+    margin: 8px;
+  }
+}
+.card.full .extra {
+  display: flex;
+  justify-content: space-between;
+}
 
 .card {
   position: relative;
@@ -89,6 +159,7 @@ export default {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
   margin: 20px;
+  margin-bottom: 70px;
   cursor: pointer;
   transition: all 300ms ease-out;
   transform: rotate(-3deg);
@@ -100,12 +171,12 @@ export default {
 .card:hover .card-image::after {
   background: rgba(0, 0, 0, 0.6);
 }
-.card:hover .title {
-  font-size: 1.6em;
-}
-.card:hover .title::after {
-  bottom: -20px;
-}
+// .card:hover .title {
+//   font-size: 1.6em;
+// }
+// .card:hover .title::after {
+//   bottom: -20px;
+// }
 .card:hover .date {
   font-size: 1.6em;
   opacity: 1;
@@ -134,8 +205,10 @@ export default {
   font-weight: bold;
   padding: 30px;
   text-align: center;
-  text-shadow: 0 0 5px rgb(0, 255, 221);
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 0 5px rgb(0, 255, 221);
 }
 .title {
   position: relative;
@@ -145,28 +218,47 @@ export default {
   transition: all 100ms ease-out;
   color: white;
   text-shadow: 0 0 20px #05c5ff;
+  border-bottom: 3px solid #05c5ff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
-.title::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -30px;
-  width: 20%;
-  height: 3px;
-  background: #05c5ff;
-  transition: all 100ms ease-out;
-}
+// .title::after {
+//   content: '';
+//   position: absolute;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   bottom: -30px;
+//   width: 20%;
+//   height: 3px;
+//   background: #05c5ff;
+//   transition: all 100ms ease-out;
+// }
 .footer {
   position: absolute;
   bottom: 20px;
   background: transparent;
   text-align: left;
+
+  .contacts {
+    margin-top: 50px;
+    .contact-title {
+      font-size: 24px;
+    }
+    .organizers {
+      display: flex;
+      justify-content: space-between;
+
+      > div > div:nth-child(1) {
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
-.extra {
-  margin: 20px 0;
-  font-size: 1em;
-}
+// .extra {
+//   margin: 20px 0;
+//   font-size: 1em;
+// }
 .date {
   font-size: 1.2em;
   opacity: 0;
@@ -236,7 +328,26 @@ export default {
   width: 400px;
   height: fit-content;
   border: 1px solid white;
-  margin: 0 0px;
-  margin-top: -200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .card-body {
+    .eventContainer {
+      margin-top: 20px;
+      flex-direction: column-reverse;
+      .eventBody {
+        width: 90%;
+        margin-left: 0;
+      }
+      .extra {
+        font-size: 0.8em;
+      }
+      .poster {
+        width: 80%;
+        margin-top: 50px;
+      }
+    }
+  }
 }
 </style>
