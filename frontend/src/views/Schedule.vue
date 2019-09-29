@@ -33,10 +33,11 @@
           <div class="item7_1 normal time_cell">3-4</div>
           <div class="item8_1 normal time_cell">4-5</div>
           <div class="place1_1 normal place_cell"><p>D-Audi</p></div>
-          <div class="place2_1 normal place_cell"><p>E-Labs</p></div>
-          <div class="place3_1 normal place_cell"><p>D-Labs</p></div>
-          <div class="place4_1 normal place_cell"><p>E-Audi</p></div>
-          <div class="place5_1 normal place_cell">
+          <div class="place2_1 normal place_cell"><p>E-109</p></div>
+          <div class="place3_1 normal place_cell"><p>E-Labs</p></div>
+          <div class="place4_1 normal place_cell"><p>D-Labs</p></div>
+          <div class="place5_1 normal place_cell"><p>E-Audi</p></div>
+          <div class="place6_1 normal place_cell">
             <p>
               Central<br />
               Arena
@@ -60,15 +61,15 @@
           <div class="inaug_1"><p>Inaugration</p></div>
           <div class="josh_1">
             <p>
-              Josh <br />
-              Talks
+              Whiz <br />
+              Quiz
             </p>
           </div>
           <div class="osic_1">
             <p>Osic Meetup</p>
           </div>
           <div class="codester_1">
-            <p>Codocrux</p>
+            <p>Codester</p>
           </div>
           <div class="jigsaw_1">
             <p>Jigsaw</p>
@@ -77,7 +78,7 @@
             <p>Codexpress</p>
           </div>
 
-          <div class="lrdline_1"><p>Lord Of the Line</p></div>
+          <div class="lrdline_1"><p>Gizmo Clench</p></div>
           <div class="hackerman_1"><p>Hackerman Exit</p></div>
           <div class="clashonlan_1">Clash On Lan</div>
 
@@ -151,9 +152,8 @@
           </div>
           <div class="infox_women_2">
             <p>
-              Infox <br />
-              Women <br />
-              Special
+              Geek <br />
+              Diva
             </p>
           </div>
 
@@ -161,7 +161,7 @@
             <p>UHACK Starts</p>
           </div>
           <div class="spacejam_2">
-            <p>Game Jam</p>
+            <p>Space Jam</p>
           </div>
           <div class="clashonlan_2">
             <p>
@@ -250,7 +250,7 @@
           <div class="coc_3"><p>Clash Of Companies</p></div>
           <div class="col_3"><p>Clash On Lan</p></div>
           <div class="gizmo_3">
-            <p>Gizmo<br />Clenz</p>
+            <p>Lord of<br />Lines</p>
           </div>
           <div class="getsetgo_3"><p>Get Set Go</p></div>
           <div class="maze_3">
@@ -819,6 +819,15 @@ export default {
   );
   grid-area: roboliga_1;
 }
+.code_express {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(224, 12, 12, 0.85),
+    rgba(117, 6, 6, 0.85)
+  );
+  grid-area: ce_2;
+}
+
 .robowars_1 {
   background-image: linear-gradient(
     to right bottom,
@@ -884,11 +893,12 @@ export default {
   //  height: 90vh;
   grid-template-areas:
     "infox_one t1_1 t2_1 t3_1 t4_1 t5_1 t6_1 t7_1"
-    "p1_1 inaug_1 inaug_1 josh_1 josh_1 osic_1 osic_1 osic_1"
-    "p2_1 e1_1 codester_1 codester_1 codester_1 jigsaw_1 codexpress_1 e2_1"
-    "p3_1 e1_1 lrdline_1 lrdline_1 lrdline_1 hackerman_1 hackerman_1 hackerman_1"
-    "p4_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1"
-    "p5_1 e3_1 roboliga_1 roboliga_1 roboliga_1 robowars_1 robowars_1 robowars_1";
+    "p1_1 inaug_1 inaug_1 josh_1 josh_1 josh_1 e4_1 e4_1"
+    "p2_1 e5_1 e5_1 e5_1 e5_1 osic_1 osic_1 osic_1"
+    "p3_1 e1_1 codester_1 codester_1 codester_1 jigsaw_1 codexpress_1 e2_1"
+    "p4_1 e1_1 lrdline_1 lrdline_1 lrdline_1 hackerman_1 hackerman_1 hackerman_1"
+    "p5_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1"
+    "p6_1 e3_1 roboliga_1 roboliga_1 roboliga_1 robowars_1 robowars_1 robowars_1";
   // "p6_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
   // "p7_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
   // "p8_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
@@ -993,14 +1003,6 @@ export default {
 
 .empty2 {
   grid-area: e_2;
-}
-.code_express {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(224, 12, 12, 0.85),
-    rgba(117, 6, 6, 0.85)
-  );
-  grid-area: ce_2;
 }
 .empty1_2 {
   grid-area: e1_2;
@@ -1168,11 +1170,11 @@ export default {
   //  height: 100vh;
   grid-template-areas:
     "infox_two t1_2 t2_2 t3_2 t4_2 t5_2 t6_2"
-    "p1_2 marvelworld_2 marvelworld_2 marvel_world_2 ml_workshop_2 ml_workshop_2 ml_workshop_2"
+    "p1_2 marvel_world_2 marvel_world_2 marvel_world_2 ml_workshop_2 ml_workshop_2 ml_workshop_2"
     "p2_2 infox_women_2 infox_women_2 infox_women_2 uh_2 uh_2 uh_2"
     "p3_2 spacejam_2 spacejam_2 spacejam_2 spacejam_2 spacejam_2 spacejam_2"
     "p4_2 clashonlan_2 clashonlan_2 clashonlan_2 clashonlan_2 clashonlan_2 clashonlan_2"
-    "p5_2 e1_2 e1_2 e1_2 treasurehunt_2 treasurehunt_2 treasurehunt_2"
+    "p5_2 e1_2 e1_2 e1_2 treasurehunt_2 treasurehunt_2 treasurehunt_2 "
     "p6_2 protoxprience_2 protoxprience_2 protoxprience_2 e2_2 e2_2 e2_2";
 
   /* "menu main main main right right"
