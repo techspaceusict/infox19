@@ -1,8 +1,8 @@
 [
     {
         "name":"Clash of Companies",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 13, 2019",
+        "time":"1PM - 5PM",
         "image":"Clash_of_companies.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -20,8 +20,112 @@
     {
         "name":"Codexpress",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "time":"3PM - 4PM",
         "image":"CODEXPRESS.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"programming","priority":1},
+        "teamSize":"3-4 members"
+    },
+    {
+        "name":"Bug Debug",
+        "date":"October 11, 2019",
+        "time":"3PM - 4PM",
+        "image":"BUGDEBUG.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"programming","priority":1},
+        "teamSize":"3-4 members"
+    },
+    {
+        "name":"Code-Venture",
+        "date":"October 11, 2019",
+        "time":"3PM - 4PM",
+        "image":"Code-venture.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"programming","priority":1},
+        "teamSize":"3-4 members"
+    },
+    {
+        "name":"Codester",
+        "date":"October 11, 2019",
+        "time":"3PM - 4PM",
+        "image":"CODESTER.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"programming","priority":1},
+        "teamSize":"3-4 members"
+    },
+    {
+        "name":"UCode",
+        "date":"October 11, 2019",
+        "time":"3PM - 4PM",
+        "image":"UCODE.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"programming","priority":1},
+        "teamSize":"3-4 members"
+    },
+   
+    {
+        "name":"Jigsaw Codemania",
+        "date":"October 11, 2019",
+        "time":"3PM - 4PM",
+        "image":"JIGSAW.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"programming","priority":1},
+        "teamSize":"3-4 members"
+    },
+   
+    {
+        "name":"Codewars",
+        "date":"October 11, 2019",
+        "time":"3PM - 4PM",
+        "image":"CODEWARS.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -73,8 +177,8 @@
 
     {
         "name":"ProtoXperience",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 12, 2019",
+        "time":"10:30AM - 2PM",
         "image":"Cogitans-ProtoXperience.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -88,11 +192,27 @@
         "type":{"name":"development","priority":2},
         "teamSize":"3-4 members"
     },
-
+    {
+        "name":"App Innovation Challenge",
+        "date":"October 12, 2019",
+        "time":"10:30AM - 2PM",
+        "image":"appchallenge.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"development","priority":2},
+        "teamSize":"3-4 members"
+    },
     {
         "name":"Data quest",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 13, 2019",
+        "time":"2PM - 5PM",
         "image":"dataquest_turingAI.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -111,7 +231,7 @@
     {
         "name":"Hackerman Exit",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "time":"2PM - 5PM",
         "image":"Hackermanexit.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -128,8 +248,8 @@
 
     {
         "name":"Machine Learning Workshop",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 12, 2019",
+        "time":"2PM - 5PM",
         "image":"machinelearningworkshop.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -147,7 +267,7 @@
     {
         "name":"Open Source Meetup",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "time":"2PM - 5PM",
         "image":"OSLCMeetup.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -164,9 +284,26 @@
 
     {
         "name":"Express InfoX",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 11,12,13, 2019",
+        "time":"online event",
         "image":"PixelHubEvent_PosterColor.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"fun & literary","priority":7},
+        "teamSize":"3-4 members"
+    },
+    {
+        "name":"Meme War",
+        "date":"October 11,12,13, 2019",
+        "time":"online event",
+        "image":"MemeWar.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -182,8 +319,8 @@
 
     {
         "name":"Clash On LAN",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 1, 2019",
+        "time":"10:30PM - 5PM",
         "image":"rendered_space_2.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -234,6 +371,40 @@
         "type":{"name":"fun & literary","priority":6},
         "teamSize":"3-4 members"
     },
+    {
+        "name":"Treasure Hunt",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
+        "image":"treasurehunt.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"fun & literary","priority":6},
+        "teamSize":"3-4 members"
+    },
+    {
+        "name":"Marvel World",
+        "date":"October 11, 2019",
+        "time":"1PM - 3PM",
+        "image":"Marvelworld.jpeg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "organizers":[{
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        },
+        {
+            "name":"ABCDEF",
+            "contact":"abcdef@gmail.com"
+        }],
+        "type":{"name":"fun & literary","priority":6},
+        "teamSize":"3-4 members"
+    },
 
     {
         "name":"Capture The Flag",
@@ -255,8 +426,8 @@
 
     {
         "name":"Get Set Go",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 13, 2019",
+        "time":"10:30PM - 2PM",
         "image":"getsetgo.jpg",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -274,7 +445,7 @@
     {
         "name":"Gizmo Clench",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "time":"2PM - 5PM",
         "image":"gizmoclench.jpg",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -292,7 +463,7 @@
     {
         "name":"Lord of the Line",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "time":"10:30PM - 2PM",
         "image":"lordoftheline.jpg",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
@@ -311,7 +482,7 @@
         "name":"Meshed Up",
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
-        "image":"meshedup.jpg",
+        "image":"meshedup.jpeg",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -328,8 +499,8 @@
     {
         "name":"Robo Liga",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
-        "image":"roboliga.jpg",
+        "time":"10:30AM - 2PM",
+        "image":"roboliga.jpeg",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -346,7 +517,7 @@
     {
         "name":"Robo Wars",
         "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "time":"2PM - 5PM",
         "image":"robowars.jpg",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
