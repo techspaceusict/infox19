@@ -133,6 +133,7 @@ template {
 .circles{
   padding: 0;
 }
+
 .contact-parent-wrapper {
   color: white;
   // text-transform: uppercase;
@@ -230,6 +231,7 @@ template {
   height: 150px;
   animation-delay: 0s;
   animation-duration: 11s;
+  color: beige;
 }
 .circles li:nth-child(11) {
   left: 10%;
