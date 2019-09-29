@@ -339,7 +339,7 @@
         "name":"Play our Games",
         "date":"October 11, 2019",
         "time":"1PM - 3PM",
-        "image":"rendered_space_3.png",
+        "image":"playgames.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "organizers":[{
             "name":"ABCDEF",
@@ -368,7 +368,7 @@
             "name":"ABCDEF",
             "contact":"abcdef@gmail.com"
         }],
-        "type":{"name":"fun & literary","priority":6},
+        "type":{"name":"development","priority":6},
         "teamSize":"3-4 members"
     },
     {

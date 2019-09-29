@@ -1,7 +1,9 @@
 <template>
   <div class="context">
-    <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading>
-
+    <!-- <Heading anchor=".images" wrapper="#about" :speed="-2">Events</Heading> -->
+      <!-- <Heading anchor=".grid_container_2" wrapper=".contact-parent-wrapper" :speed="0" onPage
+      >Events</Heading> -->
+       <h1 class="overlay-section">Events</h1>
     <ul class="circles">
       <div id="events">
         <div class="eventsSection">
@@ -117,7 +119,14 @@ template {
     padding-top: 0;
   }
 }
-
+.overlay-section {
+  color: white !important;
+  filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
+  font-weight: 800;
+  font-size: 7rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
 .eventFilters {
   color: white;
 }

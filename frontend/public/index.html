@@ -96,6 +96,20 @@
       integrity="sha256-LBjlnpPrM6Aig8LDFc9PJctPHLGUc6RaUvnmXE4hV5Y="
       crossorigin="anonymous"
     ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-119873956-5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-119873956-5");
+    </script>
   </head>
   <body>
     <noscript>
@@ -104,11 +118,12 @@
         enabled. Please enable it to continue.</strong
       >
     </noscript>
-    
 
-    
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="364571603624-dfbrv9a251ce2ruvsah1fm5j75nuv7qk.apps.googleusercontent.com">
+    <meta
+      name="google-signin-client_id"
+      content="364571603624-dfbrv9a251ce2ruvsah1fm5j75nuv7qk.apps.googleusercontent.com"
+    />
 
     <div id="app"></div>
     <!-- built files will be auto injected -->
@@ -117,7 +132,5 @@
     <script>
       AOS.init();
     </script> -->
-
-
   </body>
 </html>
