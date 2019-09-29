@@ -25,7 +25,9 @@
               data-aos-easing="ease-out"
               data-aos-anchor=".nav-list"
             >
-              <div class="nav-link" @click="navTo(item.link)">{{ item.name }}</div>
+              <div class="nav-link" @click="navTo(item.link)">
+                {{ item.name }}
+              </div>
               <!-- <router-link :to="item.link" v-if="item.link.startsWith('/')" class="nav-link">
               {{ item.name }}
               </router-link>
@@ -77,37 +79,41 @@ export default {
           name: "Events",
           link: "/events"
         },
-        {
-          name: "About Us",
-          link: "#about"
-        },
+        // {
+        //   name: "About Us",
+        //   link: "#about"
+        // },
         {
           name: "Schedule",
           link: "/schedule"
-        },
-        {
-          name: "Sponsors",
-          link: "#sponsors"
-        },
-        {
-          name: "Glimpses",
-          link: "#glimpses"
-        },
-        {
-          name: "Contact Us",
-          link: "#contact"
         }
+        // {
+        //   name: "Team",
+        //   link: "/team"
+        // }
+        // {
+        //   name: "Sponsors",
+        //   link: "#sponsors"
+        // },
+        // {
+        //   name: "Glimpses",
+        //   link: "#glimpses"
+        // },
+        // {
+        //   name: "Contact Us",
+        //   link: "#contact"
+        // }
       ]
     };
   },
   methods: {
     navTo(link) {
-      if(link.startsWith('/')) {
+      if (link.startsWith("/")) {
         this.$router.push(link);
       } else {
-        this.$router.push('/');
+        this.$router.push("/");
         this.$scrollTo(link, 1000, {
-          offset: link == '#hero' ? 0 : 900
+          offset: link == "#hero" ? 0 : 900
         });
       }
     }

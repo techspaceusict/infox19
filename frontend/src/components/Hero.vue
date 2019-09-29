@@ -117,7 +117,7 @@ export default {
         let yText = (hero.clientHeight/2 - event.clientY)/part;
         let xDeg = (hero.clientWidth/2 - event.clientX)/(part*50);
         let yDeg = (hero.clientHeight/2 - event.clientY)/(part*20);
-        //logo.style.transform = `translate(${xLogo}px, ${yLogo}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
+        if(window.innerWidth > 1120) logo.style.transform = `translate(${xLogo}px, ${yLogo}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
         text.style.transform = `translate(${xText}px, ${yText}px) rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
         // logo.style.transform = `rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;
         // text.style.transform = `rotateX(${yDeg}deg) rotateY(${-xDeg}deg)`;

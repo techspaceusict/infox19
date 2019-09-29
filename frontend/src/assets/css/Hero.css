@@ -84,9 +84,9 @@ canvas {
 }
 
 #logo svg{
-  width: 1500px;
-  left:50%;
-  transform: translateX(-50%);
+  width: 100%;
+  /* left:50%;
+  transform: translateX(-50%); */
 }
 
 @keyframes backgroundFlicker {
@@ -225,15 +225,16 @@ canvas {
   text-align: center;
   margin-top: -135px;
   position: relative;
-  font-size: 28px;
-  font-family: Arial Black;
+  font-size: 20px;
+  font-family: Arial;
   top: -70px;
 }
 
 #eventInfo .date {
   color: #004dc6;
-  font-size: 40px;
-  font-family: Arial Black;
+  font-size: 32px;
+  font-family: Arial;
+  font-weight: bold;
 }
 
 #eventInfo > div:nth-child(1) {
@@ -338,7 +339,8 @@ canvas {
   }
   #gx-logo{
     width:1200px !important;
-    
+    left:50%;
+    transform:translate(-50%) !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -355,17 +357,16 @@ canvas {
     top:-100px !important;
   }
   #eventInfo .date{
-    font-size:36px !important;
+    font-size:28px !important;
   }
   #gx-logo{
     width:800px !important;
+    left:50%;
+    transform:translate(-50%) !important;
   }
 }
 @media screen and (max-width: 576px) {
-  #gx-logo {
-    
-  }
-
+  
   #eventInfo .date{
     font-size: 6vw !important;
   }
@@ -373,7 +374,7 @@ canvas {
     font-size: 10vw;
   }
   #eventInfo {
-    font-size: 5vw !important;
+    font-size: 3.5vw !important;
   }
   
 }
