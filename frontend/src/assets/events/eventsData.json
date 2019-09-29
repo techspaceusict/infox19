@@ -14,12 +14,12 @@
             "contact":"905314100"
         }],
         "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"2 members"
     },
     {
         "name":"Whiz-Quiz",
-        "date":"October 13, 2019",
-        "time":"1PM - 5PM",
+        "date":"October 11, 2019",
+        "time":"12PM - 3PM",
         "image":"whizquiz.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -49,12 +49,12 @@
             "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members"
+        "teamSize":"2 members"
     },
     {
         "name":"Bug Debug",
-        "date":"October 11, 2019",
-        "time":"3PM - 4PM",
+        "date":"October 13, 2019",
+        "time":"10:30PM - 1PM",
         "image":"BUGDEBUG.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -71,7 +71,7 @@
     {
         "name":"Code-Venture",
         "date":"October 11, 2019",
-        "time":"3PM - 4PM",
+        "time":"2PM - 3PM",
         "image":"Code-venture.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -88,7 +88,7 @@
     {
         "name":"Codester",
         "date":"October 11, 2019",
-        "time":"3PM - 4PM",
+        "time":"10:30PM - 2PM",
         "image":"CODESTER.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -104,8 +104,8 @@
     },
     {
         "name":"UCode",
-        "date":"October 11, 2019",
-        "time":"3PM - 4PM",
+        "date":"October 6, 2019",
+        "time":"9PM - 12PM",
         "image":"UCODE.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -123,7 +123,7 @@
     {
         "name":"Jigsaw Codemania",
         "date":"October 11, 2019",
-        "time":"3PM - 4PM",
+        "time":"2PM - 3PM",
         "image":"JIGSAW.webp",
         "description":"🏆Sure you can code a bit, but can you reorder it??🏆 <br> <br> Put your coding skills to test in this refreshing take on competitive programming!! Organise the given jumbled code to make it run and do wonders! <br><br>Winner takes home prizes worth 8,000/-🤑(Prizes eligible only for freshers and sophomores)<br><br>So, bring your laptops and show that you've got what it takes!!",
         "organizers":[{
@@ -140,9 +140,9 @@
    
     {
         "name":"Codewars",
-        "date":"October 11, 2019",
-        "time":"3PM - 4PM",
-        "image":"CODEWARS.webp",
+        "date":"October 13, 2019",
+        "time":"2PM - 5PM",
+        "image":"codewars3.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
             "name":"ABCDEF",
@@ -158,8 +158,8 @@
 
     {
         "name":"Geek Diva",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 12, 2019",
+        "time":"10:30PM - 2PM",
         "image":"we-connect.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -211,8 +211,8 @@
     },
     {
         "name":"App Innovation Challenge",
-        "date":"October 12, 2019",
-        "time":"10:30AM - 2PM",
+        "date":"October 10, 2019",
+        "time":"11:00AM",
         "image":"appchallenge.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -241,7 +241,7 @@
             "contact":"7678442691"
         }],
         "type":{"name":"ml/ai","priority":3},
-        "teamSize":"3-4 members"
+        "teamSize":"1-3 members"
     },
 
 
@@ -296,11 +296,11 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"solo"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Meme War",
-        "date":"October 11,12,13, 2019",
+        "date":"Live Now",
         "time":"online event",
         "image":"MemeWar.webp",
         "description":"Ever wanted to make a huge crowd go LOL on your posts? Ever wanted to make meme but didn't have enough motivation?<br>So, here you go!! InfoXpression is announcing Meme War, a Meme Competition . Send us your entries promoting InfoXpression in the funniest way possible.  InfoXpression the official Techfest of GGSIPU. Get along with your instincts and turn normal life scenarios into something that you will always remember, yes A Meme.<br> Last date of submission - 10th October,2019  Theme of Meme - InfoXpression<br> All entries to be submitted on socialinfox@gmail.com .",
@@ -318,8 +318,8 @@
 
     {
         "name":"Clash On LAN",
-        "date":"October 1, 2019",
-        "time":"10:30PM - 5PM",
+        "date":"October 11,12,13 2019",
+        "time":"10AM-5PM",
         "image":"rendered_space_2.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -336,8 +336,8 @@
 
     {
         "name":"Play our Games",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 12, 2019",
+        "time":"11AM - 5PM",
         "image":"playgames.webp",
         "description":"INFO UPDATING SOON",
         "organizers":[{
@@ -354,10 +354,10 @@
     
 
     {
-        "name":"Game Jam",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
-        "image":"rendered_Space.webp",
+        "name":"Space Jam",
+        "date":"October 12, 2019",
+        "time":"10AM - 5PM",
+        "image":"spacejam.webp",
         "description":"Greetings to one and all! RenderedSpace is organizing its debut gamejam at InfoXpression 2K19! This gamejam has a slight twist to it. You submit your games to us on https://itch.io/jam/spacejam-rs till 10th of October. Our panel would review your games and shortlist you for the final round at InfoX! In the event you'll get a chance to meet other game devs and also a chance to test your game in public! Yes, we have a code review round and a public review round where in people on campus would play your game and rate their experience! The winner would literally be the People's Champion! That's not all, we have a cash prize of $150 for the winner and lots of official Unity Swags for all the other finalists! <br><br>Online round: 1-10 October <br><br>On-campus round: 12 October<br><br>Venue: D-Block Auditorium, USICT Campus, Dwarka Sector 16C, New Delhi <br><br>For any queries, feel free to contact",
         "organizers":[{
             "name":"Ayush",
@@ -368,13 +368,13 @@
             "contact":"8527121782"
         }],
         "type":{"name":"development","priority":6},
-        "teamSize":"solo",
+        "teamSize":"1-4",
         "link":"https://itch.io/jam/spacejam-rs"
     },
     {
         "name":"Treasure Hunt",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 12,13, 2019",
+        "time":"2PM",
         "image":"treasurehunt.webp",
         "description":"The box of miracles and secrets is waiting for you. Come and explore a whole new world within. Experience fun, like you have never before. Apply your brain in every technical aspect and hunt for the treasure.<br><br> Team of 3 will be allowed to participate.<br> Participate to win exciting prizes and googies.",
         "organizers":[{
@@ -386,12 +386,12 @@
             "contact":"8076911425"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3 members"
+        "teamSize":"2-3 members"
     },
     {
         "name":"Marvel World",
-        "date":"October 1, 2019",
-        "time":"12PM - 1PM",
+        "date":"October 12, 2019",
+        "time":"10:30PM - 2PM",
         "image":"Marvelworld.webp",
         "description":"THIS IS THE FIGHT OF OUR LIVES. WE ARE GOING TO WIN. WHATEVER IT TAKES. <br> Suit Up , Pick up your Shields , Gather your Ammunition coz its time for the much-awaited  event of InFox 2K19 “ .” <br> Do you think you are worthy to yield the stones .<br>Do you have “Whatever it takes” to be the biggest marvelloholic ?.<br>Prove that you have  “Whatever it takes” to be the biggest marvelloholic .<br>Participate and get a chance to win cash prizes and exciting goodies upto ₹5000 .",
         
@@ -404,13 +404,13 @@
             "contact":"8745910348"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"1-3 members"
     },
 
     {
         "name":"Capture The Flag",
-        "date":"October 13, 2019",
-        "time":"1PM - 3PM",
+        "date":"October 12,13, 2019",
+        "time":"12PM",
         "image":"RootersCTF2019.webp",
         "description":"RCTF will be a worldwide Free-for-all competition dedicated to InfoSec and CyberSec Community. It will be a Jeopardy type capture the flag competition, held online where you will be presented with questions related to Cryptography, Web Hacking, Forensics, Reverse, Steganography and other various fields of cyber and information security.<br>So, are you a one or a zero?<br>It’ll be a Beginner-Intermediate Level CTF.<br><br>Discord Server: https://discord.gg/AMkB8Ft",
         "organizers":[{
@@ -422,6 +422,6 @@
             "contact":"9482058910"
         }],
         "type":{"name":"cyber security","priority":4},
-        "teamSize":"3-4 members"
+        "teamSize":"4 members"
     }
 ]
