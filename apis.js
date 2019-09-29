@@ -7,6 +7,7 @@ module.exports={
         let {eventName,email,name,mobile,teamName}=req.body;
         let previousReg=await registerModel.findOne({eventName,email});
 
+
         if(previousReg!=null){
             res.send({message:'User already registered with this email for this event'});
             return;
@@ -28,6 +29,7 @@ module.exports={
         let {email,name,mobile,message}=req.body;
         let contact=new contactsModel({email,name,mobile,message});
 
+        console.log({email,name,mobile,message});
         contact.save()
         .then(resp=>{
             console.log(resp);
