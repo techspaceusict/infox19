@@ -6,12 +6,12 @@
         "image":"Clash_of_companies.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Seerat",
+            "contact":"7042415886"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Sanyam",
+            "contact":"905314100"
         }],
         "type":{"name":"entrepreneurial","priority":6},
         "teamSize":"3-4 members"
@@ -31,7 +31,7 @@
             "contact":"8742039115"
         }],
         "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
 
     {
@@ -41,15 +41,15 @@
         "image":"CODEXPRESS.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Yoesh",
+            "contact":"8010383350"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Parth",
+            "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Bug Debug",
@@ -58,15 +58,15 @@
         "image":"BUGDEBUG.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Spriha",
+            "contact":"81687766196"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Raghav",
+            "contact":"9582306873"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Code-Venture",
@@ -75,12 +75,12 @@
         "image":"Code-venture.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Samar",
+            "contact":"8800687290"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Varun",
+            "contact":"9811894996"
         }],
         "type":{"name":"programming","priority":1},
         "teamSize":"3-4 members"
@@ -92,15 +92,15 @@
         "image":"CODESTER.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Lakshay",
+            "contact":"8376835525"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Parth",
+            "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"UCode",
@@ -117,7 +117,7 @@
             "contact":"8010383350"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
    
     {
@@ -127,15 +127,15 @@
         "image":"JIGSAW.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Ritika",
+            "contact":"9650063971"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Anushka",
+            "contact":"8800160101"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
    
     {
@@ -153,7 +153,7 @@
             "contact":"abcdef@gmail.com"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"2 members"
     },
 
     {
@@ -163,15 +163,15 @@
         "image":"we-connect.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Avik",
+            "contact":"9910758350"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Bhanuja",
+            "contact":"9871332989"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"2 members"
     },
 
     {
@@ -189,7 +189,7 @@
             "contact":"abcdef@gmail.com"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
 
     {
@@ -199,12 +199,12 @@
         "image":"Cogitans-ProtoXperience.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Shorya Jain",
+            "contact":"9560580675"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Dhruv Mishra",
+            "contact":"7835892893"
         }],
         "type":{"name":"development","priority":2},
         "teamSize":"3-4 members"
@@ -216,15 +216,15 @@
         "image":"appchallenge.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Ankit Jain",
+            "contact":"8650605941"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Sarthak Sadh",
+            "contact":"8076911425"
         }],
         "type":{"name":"development","priority":2},
-        "teamSize":"3-4 members"
+        "teamSize":"1-2 members"
     },
     {
         "name":"Data quest",
@@ -233,12 +233,12 @@
         "image":"dataquest_turingAI.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Aakash Bindal",
+            "contact":"8851028128"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Keshav Vinayak Jha",
+            "contact":"7678442691"
         }],
         "type":{"name":"ml/ai","priority":3},
         "teamSize":"3-4 members"
@@ -252,15 +252,15 @@
         "image":"machinelearningworkshop.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Akash Bindal",
+            "contact":"8851028128"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Keshav Vinayak Jha",
+            "contact":"7678442691"
         }],
-        "type":{"name":"ml/ai","priority":3},
-        "teamSize":"3-4 members"
+        "type":{"name":"ml/ai","priority":3}
+        
     },
 
     {
@@ -296,7 +296,7 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
     {
         "name":"Meme War",
@@ -313,7 +313,7 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
 
     {
@@ -323,15 +323,15 @@
         "image":"rendered_space_2.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Sachin",
+            "contact":"9717430189"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Mridul",
+            "contact":"9354385487"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
 
     {
@@ -341,15 +341,15 @@
         "image":"playgames.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Harshit",
+            "contact":"7011031636"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Umang",
+            "contact":"8527458501"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"solo"
     },
     
 
@@ -360,15 +360,15 @@
         "image":"rendered_Space.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Ayush",
+            "contact":"9953610152"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Manind",
+            "contact":"8527121782"
         }],
         "type":{"name":"development","priority":6},
-        "teamSize":"3-4 members",
+        "teamSize":"solo",
         "link":"https://itch.io/jam/spacejam-rs"
     },
     {
@@ -378,15 +378,15 @@
         "image":"treasurehunt.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Ankit Jain",
+            "contact":"8650605941"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Sarthak Sadh",
+            "contact":"8076911425"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"3-4 members"
+        "teamSize":"3 members"
     },
     {
         "name":"Marvel World",
@@ -396,12 +396,12 @@
         "description":"THIS IS THE FIGHT OF OUR LIVES. WE ARE GOING TO WIN. WHATEVER IT TAKES. Suit Up , Pick up your Shields , Gather your Ammunition coz its time for the much-awaited  event of InFox 2K19 “ .”Do you think you are worthy to yield the stones .Do you have “Whatever it takes” to be the biggest marvelloholic ?.Prove that you have  “Whatever it takes” to be the biggest marvelloholic .Participate and get a chance to win cash prizes and exciting goodies upto ₹5000 .",
         
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Vaibhav",
+            "contact":"7838708087"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Mayank",
+            "contact":"8745910348"
         }],
         "type":{"name":"fun & literary","priority":6},
         "teamSize":"3-4 members"
