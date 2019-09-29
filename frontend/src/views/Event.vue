@@ -25,7 +25,7 @@
                 <p class="m-0"><img src='../assets/clock.svg'/> {{ event.time }}</p>
               </div>
             <!-- </transition> -->
-              <div>Register</div>
+              <button><div><a href =" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform ">Register</a></div></button>
               <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div>
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
               <button class="Fsignin" @click="FsignIn">Facebook</button> -->
