@@ -50,11 +50,8 @@
                   </div>
                 </div>
               </div>
-              <AppButton class="register my-4">
-                <a
-                  href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
-                  target="_blank"
-                >Register</a>
+              <AppButton class="register my-4" @click="openForm(event.link)">
+                Register
               </AppButton>
               <!-- <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div> -->
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
@@ -102,6 +99,9 @@ export default {
   },
 
   methods: {
+    openForm(link){
+      window.open(link,'_blank')
+    },
     goBack() {
       console.log(this.event.name);
       this.$router.push({ path: "/events", query: { from: this.event.name } });
