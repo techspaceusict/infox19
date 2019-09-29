@@ -26,7 +26,7 @@
               </div>
             <!-- </transition> -->
               <button><div><a href =" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform ">Register</a></div></button>
-              <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div>
+              <!-- <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div> -->
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
               <button class="Fsignin" @click="FsignIn">Facebook</button> -->
               <!-- <button>Register</button> -->
