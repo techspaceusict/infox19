@@ -6,13 +6,17 @@
     <div class="title-section">
       <Heading anchor=".grid_container_2" wrapper=".contact-parent-wrapper" :speed="0" onPage
       >Schedule</Heading>
-      <h1 class="subtitle-section" style="margin-top:5vh">
-        Find your events
-      </h1>
+      
     </div>
     <div class="parent_div" style="position: relative; top: -10vh;">
       <div class="day_1 wow bounceInLeft">
-        <h1 class="about-content" style="font-weight: 400; font-size:4rem; ">
+        <h1 class="about-content" style="font-weight: 400; font-size:4rem; color: #dcf2f0;
+      text-transform: uppercase;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      text-shadow: 0 0 20px #00b2ff;
+      text-align: center;">
           Day 1 (Oct 11)
         </h1>
 
@@ -86,7 +90,13 @@
       <div class="day_2 wow bounceInLeft">
         <h1
           class="about-content"
-          style=" font-weight: 400; font-size:4rem; margin-top:5vh"
+          style=" font-weight: 400; font-size:4rem; margin-top:5vh; color: #dcf2f0;
+      text-transform: uppercase;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      text-shadow: 0 0 20px #00b2ff;
+      text-align: center;"
         >
           Day 2  (Oct 12)
         </h1>
@@ -171,7 +181,15 @@
       <div class="day_3 wow bounceInLeft">
         <h1
           class="about-content"
-          style="font-weight: 400; font-size:4rem; margin-top:5vh"
+          style="font-weight: 400; font-size:4rem; margin-top:5vh;
+          color: #dcf2f0;
+      text-transform: uppercase;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      text-shadow: 0 0 20px #00b2ff;
+      text-align: center;"
+   
         >
           Day 3 (Oct 13)
         </h1>
