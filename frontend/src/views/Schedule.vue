@@ -1,4 +1,5 @@
-<template><div class="context">
+<template>
+<div class="context">
   <div
     class="contact-parent-wrapper"
     style="align-items: center; margin-top:7vh"
@@ -271,8 +272,9 @@
         </div>
       </div>
     </div>
-  </div><ul class="circles">
-  <li></li>
+  </div>
+  <ul class="circles">
+      <li></li>
       <li></li>
       <li></li>
       <li></li>
@@ -335,6 +337,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.context *{
+  z-index: 1;
+}
+
 .overlay-section {
   color: white !important;
   filter: drop-shadow(0px 0px 10px rgba(253, 253, 253, 0.6));
@@ -342,6 +349,7 @@ export default {
   font-size: 7rem;
   text-align: center;
   letter-spacing: 2px;
+  z-index: 0;
 }
 
 .contact-parent-wrapper {
@@ -359,7 +367,8 @@ export default {
   font-size: 2rem;
 }
 .circles{
-  padding: 0;
+  z-index: 0;
+  position: relative;
 }
 .circles li {
   position: absolute;
@@ -539,18 +548,24 @@ export default {
   font-weight: 300 !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif !important;
+  background: #141414;
+  width: 86vw;
 }
 .grid_container_2 {
   text-transform: uppercase;
   font-weight: 300 !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif !important;
+  background: #141414;
+  width: 86vw;
 }
 .grid_container_3 {
   text-transform: uppercase;
   font-weight: 300 !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif !important;
+  background: #141414;
+  width: 86vw;
 }
 
 .place_cell {
