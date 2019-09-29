@@ -109,12 +109,12 @@
         "image":"UCODE.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Vijay",
+            "contact":"9818423905"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Yogesh",
+            "contact":"8010383350"
         }],
         "type":{"name":"programming","priority":1},
         "teamSize":"3-4 members"
@@ -270,12 +270,12 @@
         "image":"OSLCMeetup.png",
         "description":"Techspace USICT is organising open Source meet up . The meet up will consist of Networking session , Technical talks , Mentoring sessions by Experts in various technical domains followed by questions and answers session . Topics Like GSoC , Web and Android Dev , Currently Trending Technologies will be discussed . Participants will be provided awesome swags and refreshments ..Event is open for all and is Completely free of cost !",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Ashish",
+            "contact":"9643532230"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Vaidesh",
+            "contact":"7292087347"
         }],
         "type":{"name":"meetups","priority":4}
         
@@ -288,12 +288,12 @@
         "image":"PixelHubEvent_PosterColor.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Jatin Soni",
+            "contact":"9650027654"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Mayank Singh",
+            "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
         "teamSize":"3-4 members"
@@ -414,12 +414,12 @@
         "image":"RootersCTF2019.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Ehsaan Bansal",
+            "contact":"9871270195"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Manorit Chawdhry",
+            "contact":"9482058910"
         }],
         "type":{"name":"cyber security","priority":4},
         "teamSize":"3-4 members"
