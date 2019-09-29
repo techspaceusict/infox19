@@ -25,7 +25,7 @@
                 <p class="m-0"><img src='../assets/clock.svg'/> {{ event.time }}</p>
               </div>
             <!-- </transition> -->
-              <button style="color:black;"><div><a href =" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform " target="_blank">Register</a></div></button>
+              <button class="reg-btn"><div><a href =" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform " target="_blank" style="color:Black;">Register</a></div></button>
               <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div>
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
               <button class="Fsignin" @click="FsignIn">Facebook</button> -->
@@ -125,6 +125,14 @@ export default {
   align-items: center;
   .row{margin: 0;}
 }
+.reg-btn{
+  background: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+margin-bottom: 5px;
+}
+
 .card {
   position: relative;
   height: 400px;
