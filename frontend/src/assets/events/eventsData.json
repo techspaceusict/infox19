@@ -113,11 +113,7 @@
         "date":"October 6, 2019",
         "time":"9PM - 12AM",
         "image":"UCODE.webp",
-<<<<<<< HEAD
-        "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 4000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019" ,
-=======
         "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 4000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
->>>>>>> 8f9c2cda981868a56033d1455c7bf851209470a9
         "organizers":[{
             "name":"Vijay",
             "contact":"9818423905"
@@ -344,13 +340,8 @@
         "name":"Clash On LAN",
         "date":"October 11-13 2019",
         "time":"10AM-5PM",
-<<<<<<< HEAD
-        "image":"rendered_space_2.webp",
-        "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- C-Block Auditorium, GGSIP University, Dwarka, Sector-16.<br><br>Venue:E-Auditorium",
-=======
         "image":"col5.webp",
         "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- C-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
->>>>>>> 8f9c2cda981868a56033d1455c7bf851209470a9
         "organizers":[{
             "name":"Sachin",
             "contact":"9717430189"
