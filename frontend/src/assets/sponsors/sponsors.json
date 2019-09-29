@@ -2,43 +2,42 @@
   "layer-1": {
     "row1": [
       "devfolio.png",
-      "mozillapng.png",
+      "mozilla2.png",
       "codingNinja.svg"
     ],
     "row2": [
-      "aceengineering.png",
-      "domainX.png"
+      
+      "microHost.png",
+      "domainX.png",
+      "casio3.png"
     ],
     "row3": [
-      "tribeone.png"
-     
-    
-
+      "tribeone.png",
+      "ultrahack.png",
+      "ace.png"
     ]
   },
   "layer-2": {
     "row1": [
       "gamex.jpg",
-      "github.jpg",
-      "microHost.png"
+      "git.png",
+      "pubgfoodcity.jpg"
     ],
     "row2": [
-      "dsc.png",
-      "msp.png"
+      "dsc2.png",
+      "msp2.png"
       
     ]
     
   },
   "layer-3": {
     "row1": [
-      "pubgfoodcity.jpg",
-      "Smaash.jpg",
-      "casio.png"
+      "smaash3.jpg"
+      
     ],
     "row2": [
-      "ultrahack.png",
-      "balasmiq.png",
-      "streetHack.jpg"
+      
+      "balasmiq.png"
     ]
   
   }
