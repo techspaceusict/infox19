@@ -4,7 +4,7 @@
         "date":"October 13, 2019",
         "time":"12PM - 5PM",
         "image":"coc4.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"Get ready to be the next Wizard of Ohama or become the next Rothschild or J.P Morgan. This InfoXpression, Zenith, the  E-Cell of GGSIPU presents ”Clash of Companies 3.0.<br><br>It's the game of risk, wits and your negotiation abilities. Be the part of a real-time simulation of Corporate World. Your sole aim throughout the event will be to extract maximum profit from the transactions, auctions, elections and dealings solely on the strength of your gut instincts and your negotiation powers.<br>The entire competition will be between two factions -<br><br>Business Houses(MNC) - The business houses shall sell their stakes to the banks, take loans and buy Industries in auctions which shall reap profits, keeping in mind loan repayments. <br><br>Investment Banks - The investment banks will provide loans, buy stakes and invest in Business houses. Their risks and backing will be boon or bane for the Business Houses.  <br><br>In each faction, the one with maximum valuation in that faction shall be crowned as the Wizard of Investments.<br><br>Experience the thrill of being a part of the Business World on  <br><br>To confirm your participation, pay Rs. 150 to following via Paytm.",
         "organizers":[{
             "name":"Seerat",
             "contact":"7042415886"
@@ -14,7 +14,8 @@
             "contact":"905314100"
         }],
         "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"2 members"
+        "teamSize":"2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSesV3poJ-J1r4kTja_gTz7N-FIhFRPDE0K66R-yKkuxj4CzDw/viewform"
     },
     {
         "name":"Whiz-Quiz",
@@ -31,7 +32,8 @@
             "contact":"8742039115"
         }],
         "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSf9nTAlgz_ycC-2dWoZbDc6HEcNDgnj-NPHtt7ruIFExVeb9g/viewform⁠"
     },
 
     {
@@ -49,14 +51,15 @@
             "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"2 members"
+        "teamSize":"2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSehI4Xcq5RKiaIF77h3AqX9chFlnjQGeGsSxiiINHHneehGfg/viewform?usp=sf_link"
     },
     {
         "name":"Bug Debug",
         "date":"October 13, 2019",
         "time":"10:30PM - 1PM",
         "image":"BUGDEBUG.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"There are two ways to write an error-free code and only the third one works :p.<br> Wanna see if you can figure that out?<br><br>InfoXpression is back this year,<br>presenting,<br>BUG DEBUG 2k19<br><br>Buck up guys and get ready to hammer out your debugging skills by testing them on our quirky codes.<br><br>Prizes worth 8k waiting for the achievers.🏆<br><br>So bring your laptops with you and show us what you have got!!💫 <br><br>Venue: D block labs",
         "organizers":[{
             "name":"Spriha",
             "contact":"81687766196"
@@ -66,7 +69,8 @@
             "contact":"9582306873"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSdVI39LYR1uSzamN_mrD0By83TBXirb8det4zeartf_cZ8nWg/viewform?usp=sf_link"
     },
     {
         "name":"Code-Venture",
@@ -83,7 +87,8 @@
             "contact":"9811894996"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members"
+        "teamSize":"3-4 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSdV6JlW9qYva8oTusKHux-BqNBwKrcuSxqRJE0bu8NU9uta_w/viewform"
     },
     {
         "name":"Codester",
@@ -100,7 +105,8 @@
             "contact":"9582519839"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSeymkp_-knzCpitgNM0OOpXxxg95C5PMc-V_ktXsmN8xKWf9w/viewform"
     },
     {
         "name":"UCode",
@@ -117,7 +123,8 @@
             "contact":"8010383350"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
    
     {
@@ -135,7 +142,8 @@
             "contact":"8800160101"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
    
     {
@@ -145,15 +153,16 @@
         "image":"codewars3.webp",
         "description":"The Final War Is Here!<br><br>Infoxpression 2019<br>Proudly presents,<br>CODEWARS<br>Buckle up people, because the finale event of Infoxpression, Codewars, is here. Only the top 16 teams, acing the net scores of U CODE, CODESTER and BUG-DEBUG will be allowed to be a part of this event. The total number of rounds will be 4. After each round, only the top half teams in the leaderboard will be eligible to move ahead. <br>It is advisiable to carry your own laptops<br>Prizes Worth : 10000 INR",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Vijay",
+            "contact":"9818423905"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Yogesh",
+            "contact":"8010383350"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"2 members"
+        "teamSize":"2 members",
+        "link":" https://docs.google.com/forms/d/e/1FAIpQLSf_U2f8qyHDaURsW_3F0KV9Wqd-tZuzkJZDBf29EFdbqcNufw/viewform?usp=sf_link"
     },
 
     {
@@ -171,7 +180,8 @@
             "contact":"9871332989"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"2 members"
+        "teamSize":"2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
 
     {
@@ -181,15 +191,16 @@
         "image":"codocrux3.webp",
         "description":"For all the coding enthusiasts out there , it is an not one event you’d want to miss out on! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test. It is definitely not the event anyone would want to miss out on.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Avik",
+            "contact":"9910758350"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Bhanuja",
+            "contact":"9871332989"
         }],
         "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
 
     {
@@ -207,7 +218,8 @@
             "contact":"7835892893"
         }],
         "type":{"name":"development","priority":2},
-        "teamSize":"3-4 members"
+        "teamSize":"3-4 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
         "name":"App Innovation Challenge",
@@ -224,10 +236,11 @@
             "contact":"8076911425"
         }],
         "type":{"name":"development","priority":2},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
-        "name":"Data quest",
+        "name":"Data Quest",
         "date":"October 13, 2019",
         "time":"2PM - 5PM",
         "image":"dataquest_turingAI.webp",
@@ -241,7 +254,8 @@
             "contact":"7678442691"
         }],
         "type":{"name":"ml/ai","priority":3},
-        "teamSize":"1-3 members"
+        "teamSize":"1-3 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLScTDejEUZrbLlxrBWhma1DpC6gWIc2ORAt6nXOhD145wWYCgg/viewform?usp=sf_link"
     },
 
 
@@ -252,14 +266,16 @@
         "image":"machinelearningworkshop.webp",
         "description":"Ever wondered about how that facial recognition camera in your phone works? How does google folders neatly classifies your photos in the cloud photos drive?<br>How do you get such accurate recommendations in your netflix feed? Well, this workshop is here to answer all your questions and get you started to building your own ML/AI systems ! ",
         "organizers":[{
-            "name":"Akash Bindal",
+            "name":"Aakash Bindal",
             "contact":"8851028128"
         },
         {
             "name":"Keshav Vinayak Jha",
             "contact":"7678442691"
         }],
-        "type":{"name":"ml/ai","priority":3}
+        "type":{"name":"ml/ai","priority":3},
+        "teamSize":"Individual attendees",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSeHR5Qlx9u6szGbX178Qiz3hjSaztT9rXM1E5ol8avVadh6gA/viewform?usp=sf_link"
         
     },
 
@@ -277,7 +293,9 @@
             "name":"Vaidesh",
             "contact":"7292087347"
         }],
-        "type":{"name":"meetups","priority":4}
+        "type":{"name":"meetups","priority":4},
+        "teamSize":"Individual attendees",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
         
     },
 
@@ -296,7 +314,8 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
         "name":"Meme War",
@@ -313,7 +332,8 @@
             "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
-        "teamSize":"solo"
+        "teamSize":"1 member",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
 
     {
@@ -321,7 +341,7 @@
         "date":"October 11,12,13 2019",
         "time":"10AM-5PM",
         "image":"rendered_space_2.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- C-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
         "organizers":[{
             "name":"Sachin",
             "contact":"9717430189"
@@ -331,7 +351,8 @@
             "contact":"9354385487"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"solo"
+        "teamSize":"1 member",
+        "link":"https://forms.gle/eXHsKUaKkVYjF6a58"
     },
 
     {
@@ -339,7 +360,7 @@
         "date":"October 12, 2019",
         "time":"11AM - 5PM",
         "image":"playgames.webp",
-        "description":"INFO UPDATING SOON",
+        "description":"_Do You call yourself a Gamer?_<br> _Do you have a zest for Gaming?_<br>_Do you wanna immerse yourself in the world of VR?_<br><br>Then Get ready to play games like never before. Experience the world of Virtual Reality and  The game that takes you there.<br><br>Adorn your Life with Games.<br>Experience the Interactive gaming action with us and get a chance to win *PRIZES WORTH   ₹ 5K*<br><br>All at one place in our event  *'''PLAY OUR GAMES'''* <br>One of the most awaited events of InfoXpression 2K19.<br><br><br>*GAMES FOR YOU*:-<br>• VR BASKETBALL<br>• VR BOWLING<br>• VR ARCHERY<br><br>*Main Attraction:- SPIDER HUNT [VR]*<br><br>Charges :-*ABSOLUTELY FREE* <br>(Security deposit of ₹ 100 (Refundable)).<br><br>Venue:- C-Block Auditorium, GGSIP University, Dwarka, Sector-16.<br><br><br>*_ Take Out Your Inner Soul That Is Screaming To Play Games _*",
         "organizers":[{
             "name":"Harshit",
             "contact":"7011031636"
@@ -349,7 +370,8 @@
             "contact":"8527458501"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"solo"
+        "teamSize":"1 member",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     
 
@@ -386,7 +408,8 @@
             "contact":"8076911425"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"2-3 members"
+        "teamSize":"2-3 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
         "name":"Marvel World",
@@ -404,7 +427,8 @@
             "contact":"8745910348"
         }],
         "type":{"name":"fun & literary","priority":6},
-        "teamSize":"1-3 members"
+        "teamSize":"1-3 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
 
     {
@@ -422,7 +446,8 @@
             "contact":"9482058910"
         }],
         "type":{"name":"cyber security","priority":4},
-        "teamSize":"4 members"
+        "teamSize":"4 members",
+        "link":"https://discord.gg/AMkB8Ft"
     },
     {
         "name":"Robo Wars",
@@ -439,7 +464,8 @@
             "contact":"8010383350"
         }],
         "type":{"name":"electrotech","priority":5},
-        "teamSize":"1-6 members"
+        "teamSize":"1-6 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
         "name":"Get Set Go",
@@ -456,7 +482,8 @@
             "contact":"9868176407"
         }],
         "type":{"name":"electrotech","priority":5},
-        "teamSize":"1-4 members"
+        "teamSize":"1-4 members",
+        "link":"https://forms.gle/TmAppV7wBPMm63KdA"
     },
     {
         "name":"Meshed Up",
@@ -473,7 +500,8 @@
             "contact":"9717304557"
         }],
         "type":{"name":"electrotech","priority":5},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
         "name":"Lord Of The Line",
@@ -490,7 +518,8 @@
             "contact":"9953264267"
         }],
         "type":{"name":"electrotech","priority":5},
-        "teamSize":"1-4 members"
+        "teamSize":"1-4 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
     {
         "name":"Robo Liga",
@@ -503,11 +532,12 @@
             "contact":"9205024506"
         },
         {
-            "name":"Gurvinder",
+            "name":"Gurwinder",
             "contact":"7065971345"
         }],
         "type":{"name":"electrotech","priority":5},
-        "teamSize":"1-2 members"
+        "teamSize":"1-2 members",
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     }
 
 
