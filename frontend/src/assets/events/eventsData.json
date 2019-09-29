@@ -16,6 +16,23 @@
         "type":{"name":"entrepreneurial","priority":6},
         "teamSize":"3-4 members"
     },
+    {
+        "name":"Whiz-Quiz",
+        "date":"October 13, 2019",
+        "time":"1PM - 5PM",
+        "image":"whizquiz.png",
+        "description":"INFO UPDATING SOON",
+        "organizers":[{
+            "name":"Deepanshu",
+            "contact":"8700012160"
+        },
+        {
+            "name":"Shivali",
+            "contact":"8742039115"
+        }],
+        "type":{"name":"entrepreneurial","priority":6},
+        "teamSize":"3-4 members"
+    },
 
     {
         "name":"Codexpress",
@@ -306,12 +323,12 @@
         "image":"MemeWar.png",
         "description":"INFO UPDATING SOON",
         "organizers":[{
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Jatin Soni",
+            "contact":"9650027654"
         },
         {
-            "name":"ABCDEF",
-            "contact":"abcdef@gmail.com"
+            "name":"Mayank Singh",
+            "contact":"8755613411"
         }],
         "type":{"name":"fun & literary","priority":7},
         "teamSize":"3-4 members"
