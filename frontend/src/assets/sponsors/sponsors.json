@@ -3,16 +3,15 @@
     "row1": [
       "devfolio.png",
       "hackDelhi.jpeg",
-      "codingNinja.svg"
+      "trademark.png"
     ],
     "row2": [
-      
       "smaash4.png",
       "dsc3.png",
       "casio4.png"
     ],
     "row3": [
-      "trademark.png",
+      "codingNinja.svg",
       "ace.png"
     ]
   },
@@ -24,22 +23,17 @@
     ],
     "row2": [
       "domainX.png",
-      
       "msp3.png",
       "sproots1.webp"
-      
     ]
     
   },
   "layer-3": {
     "row1": [
-      
       "microhost2.png"
-      
     ],
     "row2": [
       "collegeFever.png",
-      
       "mait.jpg",
       "balasmiq.png"
     ]
