@@ -83,7 +83,8 @@ export default {
   },
   data() {
     return {
-      full: true
+      full: true,
+      location: 0
     };
   },
   computed: {
@@ -97,14 +98,20 @@ export default {
       }
     }
   },
-
+  created() {
+    let location = this.$route.params.location;
+    console.log(location);
+    if(location) {
+      this.location = location;
+    }
+  },
   methods: {
     openForm(link){
       window.open(link,'_blank')
     },
     goBack() {
       console.log(this.event.name);
-      this.$router.push({ path: "/events", query: { from: this.event.name } });
+      this.$router.push({ name: "events", hash: "#" + this.event.name, params: { from: this.event.name, location: this.location } });
     },
     getImgUrl(img, path) {
       if (path == "poster") {
@@ -256,10 +263,11 @@ export default {
   }
 }
 .extra {
+  font-size: 1.3em;
   margin: 20px 0;
-  font-size: 1em;
-  p {
+  div {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   img {
@@ -364,13 +372,18 @@ export default {
         margin-left: 0;
       }
       .extra {
-        font-size: 0.8em;
+        font-size: 1.2em;
       }
       .poster {
         width: 80%;
         margin-top: 50px;
       }
     }
+  }
+}
+@media screen and (max-width: 540px) {
+  .extra {
+    flex-direction: column;
   }
 }
 </style>

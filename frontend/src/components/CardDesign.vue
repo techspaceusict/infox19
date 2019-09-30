@@ -1,80 +1,83 @@
 <template >
+  <div
+    class="card border-0"
+    :class="{ 'full': full }"
+    :id="event.name"
+    @mouseover="hover = true"
+    @mouseleave="hover = false"
+    @click="goToEvent"
+  >
+    <div
+      class="card-image"
+      :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"
+    ></div>
+    <div class="card-body">
+      <div class="eventContainer">
+        <div class="eventBody">
+          <transition name="slide-left">
+            <div class="title" v-if="full">{{ event.name.toUpperCase() }}</div>
+          </transition>
 
+          <transition name="slide-left">
+            <div class="info row m-0" v-if="full">
+              <div>
+                <p v-html="event.description">{{}}</p>
+              </div>
+            </div>
+          </transition>
 
-    <div class="card border-0" :class="{ 'full': full }" @mouseover="hover = true" @mouseleave="hover = false" @click="goToEvent">
-      <div class="card-image" :style="{ 'background-image': 'url(' + getImgUrl(event.image, 'display') + ')' }"></div>
-      <div class="card-body">
-        
-        <div class="eventContainer">
-          <div class="eventBody">
-            <transition name="slide-left">
-              <div class="title" v-if="full">{{ event.name.toUpperCase() }}</div>
-            </transition>
-
-            <transition name="slide-left">
-              <div class="info row m-0" v-if="full">
-                <div>
-                  <p v-html="event.description">{{}}</p>
+          <div class="footer">
+            <transition name="slide-right">
+              <div class="extra" v-if="hover || full">
+                <div class="m-0">
+                  <img src="../assets/calendar.svg" />
+                  {{
+                  event.date.split(",")[0]
+                  }}
+                </div>
+                <div class="m-0" v-if="event.teamSize">
+                  <img src="../assets/team.svg" />
+                  {{ event.teamSize }}
+                </div>
+                <div class="m-0">
+                  <img src="../assets/clock.svg" />
+                  {{ event.time }}
                 </div>
               </div>
             </transition>
 
-            <div class="footer">
-              <transition name="slide-right">
-                <div class="extra" v-if="hover || full">
-                  <p class="m-0">
-                    <img src="../assets/calendar.svg" />{{
-                      event.date.split(",")[0]
-                    }}
-                  </p>
-                  <p class="m-0" v-if="event.teamSize">
-                    <img src="../assets/team.svg" /> {{ event.teamSize }}
-                  </p>
-                  <p class="m-0">
-                    <img src="../assets/clock.svg" /> {{ event.time }}
-                  </p>
-                </div>
-              </transition>
-
-              <transition name="slide-left">
-                <div v-if="full">
-                  <div class="contacts">
-                    <div class="organizers">
-                      <div v-for="(org, i) in event.organizers" :key="i">
-                        <div>{{ org.name }}</div>
-                        <div>{{ org.contact }}</div>
-                      </div>
+            <transition name="slide-left">
+              <div v-if="full">
+                <div class="contacts">
+                  <div class="organizers">
+                    <div v-for="(org, i) in event.organizers" :key="i">
+                      <div>{{ org.name }}</div>
+                      <div>{{ org.contact }}</div>
                     </div>
                   </div>
-                  <AppButton class="register my-4">
-                    <a
-                      href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
-                      target="_blank"
-                    >Register</a>
-                  </AppButton>
                 </div>
-              </transition>
-            </div>
-
+                <AppButton class="register my-4">
+                  <a
+                    href=" https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform "
+                    target="_blank"
+                  >Register</a>
+                </AppButton>
+              </div>
+            </transition>
           </div>
-
-          <transition name="slide-left">
-            <div class="poster ml-auto" v-if="full">
-              <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100">
-            </div>
-          </transition>
-
         </div>
+
+        <transition name="slide-left">
+          <div class="poster ml-auto" v-if="full">
+            <img :src="getImgUrl(event.image, 'poster')" :alt="event.name" class="w-100" />
+          </div>
+        </transition>
       </div>
     </div>
-
-            
-    
-
+  </div>
 </template>
 
 <script>
-
 // document.getElementsByClassName("close-btn")[0].addEventListener("click",function(){
 //   history.back();
 // })
@@ -87,35 +90,35 @@ export default {
     return {
       full: false,
       hover: false
-    }
+    };
   },
   created() {
-    if(this.event.name == this.$route.query.from) {
+    if(this.event.name == this.$route.params.from) {
       this.full = true;
       setTimeout(() => {
         this.full = false;
-      }, 10)
+      }, 10);
     }
   },
   methods: {
-    goToEvent(event) {
+    goToEvent() {
       // this.full = !this.full;
       this.full = true;
-      console.log(event); 
+      let location = document.getElementById(this.event.name).getBoundingClientRect().top;
+      location = Math.round(location);
       setTimeout(() => {
-        this.$router.push('/events/' + this.event.name);
+        this.$router.push({ name: "event", params: { eventName: this.event.name, location: location } });
       }, 700);
     },
     getImgUrl(img, path) {
-      if(path == 'poster') {
-        return require('../assets/events/posters/' + img);
-      } else if(path == 'display') {
-        console.log(img);
-        return require('../assets/events/posters/' + img);
+      if (path == "poster") {
+        return require("../assets/events/posters/" + img);
+      } else if (path == "display") {
+        return require("../assets/events/posters/" + img);
       }
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -135,10 +138,10 @@ export default {
   }
 }
 .extra {
-  margin: 20px 0;
-  font-size: 1em;
-  p {
+  font-size: 1.3em;
+  div {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   img {
@@ -153,7 +156,7 @@ export default {
 
 .card {
   position: relative;
-  height: 400px;  
+  height: 400px;
   width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
   border-radius: 20px;
@@ -190,7 +193,7 @@ export default {
   background-size: cover;
 }
 .card-image::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -235,6 +238,7 @@ export default {
 .footer {
   position: absolute;
   bottom: 20px;
+  left: 0;
   background: transparent;
   text-align: left;
 
@@ -254,27 +258,26 @@ export default {
     }
   }
 }
-// .extra {
-//   margin: 20px 0;
-//   font-size: 1em;
-// }
 .date {
   font-size: 1.2em;
   opacity: 0;
   transition: font-size 200ms ease-out;
 }
 
-.slide-right-enter-active, .slide-right-leave-active {
+.slide-right-enter-active,
+.slide-right-leave-active {
   transition: all 300ms ease-out;
 }
-.slide-right-enter, .slide-right-leave-to {
+.slide-right-enter,
+.slide-right-leave-to {
   transform: translateX(-30px);
   opacity: 0;
 }
 .slide-left-enter-active {
   transition: all 300ms ease-out 400ms;
 }
-.slide-left-enter, .slide-left-leave-to {
+.slide-left-enter,
+.slide-left-leave-to {
   transform: translateX(50px);
   opacity: 0;
 }
@@ -296,7 +299,8 @@ export default {
   transform: scale(1);
   box-shadow: 0 0 0 white;
 }
-.card.full .card-image, .card.full .card-image::after {
+.card.full .card-image,
+.card.full .card-image::after {
   border-radius: 0;
 }
 .card.full .card-image::after {
@@ -341,7 +345,7 @@ export default {
         margin-left: 0;
       }
       .extra {
-        font-size: 0.8em;
+        font-size: 1.2em;
       }
       .poster {
         width: 80%;

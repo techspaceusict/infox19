@@ -99,7 +99,14 @@ export default {
         return event.type.name.match(regexPatt);
       });
     }
-  }
+  },
+  // mounted() {
+  //   if(this.$route.params.from) {
+  //     let element = document.getElementById(this.$route.params.from);
+  //     console.log(element);
+  //     element.scrollIntoView();
+  //   }
+  // }
 };
 </script>
 

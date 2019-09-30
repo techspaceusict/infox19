@@ -41,4 +41,7 @@ body {
 .the-navbar {
   z-index: 10;
 }
+.the-footer {
+  z-index: 10;
+}
 </style>
