@@ -7,7 +7,6 @@
     <div class="title-section">
       <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage
       >Schedule</Heading>
-      
     </div>
     <div class="parent_div" style="position: relative; top: -10vh;">
       <div class="day_1 wow bounceInLeft">
@@ -363,9 +362,9 @@ export default {
   color: white;
   // text-transform: uppercase;
   // text-align: center;
-  font-weight: 300 !important;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif !important;
+  //font-weight: 300 !important;
+  //font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    //"Lucida Sans", Arial, sans-serif !important;
 }
 .subtitle-section {
   color: #f10b0b !important;

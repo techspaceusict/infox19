@@ -111,11 +111,7 @@ template {
 
 .context {
   width: 100%;
-  top: 50vh;
   background-attachment: fixed;
-  .title {
-    padding-top: 0;
-  }
 }
 
 .eventFilters {
