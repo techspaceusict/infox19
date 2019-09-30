@@ -164,9 +164,9 @@
             </p>
           </router-link>
 
-          <div class="uh_2 event">
+          <router-link to="/events/UHACK" tag="div" class="uh_2 event">
             <p>UHACK Starts</p>
-          </div>
+          </router-link>
           <router-link to="/events/Space Jam" tag="div" class="spacejam_2 event">
             <p>Space Jam</p>
           </router-link>
@@ -251,9 +251,9 @@
           <router-link to="/events/Codewars" tag="div" class="codewar_3 event">
             <p>CodeWars</p>
           </router-link>
-          <div class="uh_3 event">
+          <router-link to="/events/UHACK" tag="div" class="uh_3 event">
             <p>U-Hack <br />Finishes</p>
-          </div>
+          </router-link>
           <router-link to="/events/Clash of Companies" tag="div" class="coc_3 event"><p>Clash Of Companies</p></router-link>
           <router-link to="/events/Clash On LAN" tag="div" class="col_3 event"><p>Clash On Lan</p></router-link>
           <router-link to="/events/Lord Of The Line" tag="div" class="gizmo_3 event">

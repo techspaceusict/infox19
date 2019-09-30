@@ -8,11 +8,13 @@
     "row2": [
       "smaash4.png",
       "pubgfoodcity.jpg",
-      "casio4.png"
+      "msp3.png"
     ],
     "row3": [
       "codingNinja.svg",
-      "ace.png"
+      "casio4.png",
+      
+      "collegeFever.png"
     ]
   },
   "layer-2": {
@@ -23,20 +25,27 @@
     ],
     "row2": [
       "domainX.png",
-      "msp3.png",
+      "microhost2.png",
+      
       "sproots1.webp"
+    ],
+    "row3":[
+      
+      "ace.png",
+      
+      "mait.jpg",
+      "balasmiq.png"
     ]
     
   },
   "layer-3": {
     "row1": [
-      "microhost2.png"
+
     ],
     "row2": [
-      "collegeFever.png",
-      "mait.jpg",
-      "balasmiq.png"
-    ]
+    ],
+    "row3":[    
+]
   
   }
 }
