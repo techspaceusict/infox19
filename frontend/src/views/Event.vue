@@ -141,7 +141,7 @@ export default {
 
 .eventContainer {
   display: flex;
-  height: 100vh;
+  height: 100%;
   justify-content: space-between;
   overflow: auto;
   .eventBody {
@@ -355,6 +355,7 @@ export default {
 
 @media screen and (max-width: 768px) {
   .card-body {
+    padding: 10px;
     .eventContainer {
       margin-top: 20px;
       flex-direction: column-reverse;
