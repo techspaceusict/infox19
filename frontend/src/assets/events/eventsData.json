@@ -202,7 +202,24 @@
         "teamSize":"1-2 members",
         "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
-
+    {
+        "name":"UHACK",
+        "date":"October 12-13, 2019",
+        "time":"2:00PM",
+        "image":"uhack.webp",
+        "description":"<b>UHack</b> powered by HackDelhi is here again folks!! One of the best hackathons of Delhi-NCR region is here again, waiting for you to participate. Its bigger, better and more fun than ever and surely, prizes that can make you go berserk. So come up, work on your dreams for 24-hours non-stop and make it happen. Make your imaginations take out solutions that nobody has ever thought and get involved in the heat with some of the best coders of the country. <br><br>What do you need? <br>Just a laptop in your hand, and we'll take care of rest.<br><br> What's at stake? <br>Prizes worth ₹1 Lakh & an all-expense-paid<b> trip to the Himalayas</b>.<br>Plus, there are goodies and swags for all, with something new to learn in 24 hours.<br><br><b>For More Details </b>: www.usicthack.com<br><br>Venue : Online",
+        "organizers":[{
+            "name":"Aditya",
+            "contact":"8700018733"
+        },
+        {
+            "name":"Vivek",
+            "contact":"8700467299"
+        }],
+        "type":{"name":"development","priority":2},
+        "teamSize":"1-4 members",
+        "link":"www.usicthack.com"
+    },
     {
         "name":"ProtoXperience",
         "date":"October 12, 2019",
