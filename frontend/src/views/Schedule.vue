@@ -59,32 +59,38 @@
           <div class="empty13_1"></div>
           <div class="empty14_1"></div>
           <div class="empty15_1"></div> -->
-          <div class="inaug_1"><p>Inaugration</p></div>
-          <div class="josh_1">
+          <div class="inaug_1 event"><p>Inaugration</p></div>
+          <router-link to="/events/Whiz-Quiz" tag="div" class="josh_1 event">
             <p>
               Whiz <br />
               Quiz
             </p>
-          </div>
-          <div class="osic_1">
+          </router-link>
+          <!-- <div class="josh_1 event">
+            <p>
+              Whiz <br />
+              Quiz
+            </p>
+          </div> -->
+          <div class="osic_1 event">
             <p>Oslc Meetup</p>
           </div>
-          <div class="codester_1">
+          <div class="codester_1 event">
             <p>Codester</p>
           </div>
-          <div class="jigsaw_1">
+          <div class="jigsaw_1 event">
             <p>Jigsaw</p>
           </div>
-          <div class="codexpress_1">
+          <div class="codexpress_1 event">
             <p>Codexpress</p>
           </div>
 
-          <div class="lrdline_1"><p>Gizmo Clench</p></div>
-          <div class="hackerman_1"><p>Code Venture</p></div>
-          <div class="clashonlan_1">Clash On Lan</div>
+          <div class="lrdline_1 event"><p>Gizmo Clench</p></div>
+          <div class="hackerman_1 event"><p>Code Venture</p></div>
+          <div class="clashonlan_1 event">Clash On Lan</div>
 
-          <div class="roboliga_1"><p>Robo Liga</p></div>
-          <div class="robowars_1"><p>Robo Wars</p></div>
+          <div class="roboliga_1 event"><p>Robo Liga</p></div>
+          <div class="robowars_1 event"><p>Robo Wars</p></div>
         </div>
       </div>
 
@@ -139,41 +145,41 @@
           <div class="empty15_2"></div> -->
           <!-- <div class="empty16_2"></div>
             <div class="empty17_2"></div> -->
-          <div class="marvel_world_2">
+          <div class="marvel_world_2 event">
             <p>
               Marvel <br />
               World
             </p>
           </div>
-          <div class="ml_workshop_2">
+          <div class="ml_workshop_2 event">
             <p>
               ML <br />
               Workshop
             </p>
           </div>
-          <div class="infox_women_2">
+          <div class="infox_women_2 event">
             <p>
               Geek <br />
               Diva
             </p>
           </div>
 
-          <div class="uh_2">
+          <div class="uh_2 event">
             <p>UHACK Starts</p>
           </div>
-          <div class="spacejam_2">
+          <div class="spacejam_2 event">
             <p>Space Jam</p>
           </div>
-          <div class="clashonlan_2">
+          <div class="clashonlan_2 event">
             <p>
               Clash <br />
               On<br />Lan
             </p>
           </div>
-          <div class="treasurehunt_2">
+          <div class="treasurehunt_2 event">
             <p>Treasure <br />Hunt<br />Elimination</p>
           </div>
-          <div class="protoxprience_2">
+          <div class="protoxprience_2 event">
             <p>Protoxprience</p>
           </div>
         </div>
@@ -236,37 +242,37 @@
           <div class="empty10_3"></div>
           <div class="empty11_3"></div>
           <div class="empty12_3"></div>
-          <div class="val_3">
+          <div class="val_3 event">
             <p>
               Validatory <br />
               Ceremony
             </p>
           </div>
-          <div class="codewar_3">
+          <div class="codewar_3 event">
             <p>CodeWars</p>
           </div>
-          <div class="uh_3">
+          <div class="uh_3 event">
             <p>U-Hack <br />Finishes</p>
           </div>
-          <div class="coc_3"><p>Clash Of Companies</p></div>
-          <div class="col_3"><p>Clash On Lan</p></div>
-          <div class="gizmo_3">
+          <div class="coc_3 event"><p>Clash Of Companies</p></div>
+          <div class="col_3 event"><p>Clash On Lan</p></div>
+          <div class="gizmo_3 event">
             <p>Lord of<br />Lines</p>
           </div>
-          <div class="getsetgo_3"><p>Get Set Go</p></div>
-          <div class="maze_3">
+          <div class="getsetgo_3 event"><p>Get Set Go</p></div>
+          <div class="maze_3 event">
             <p>
               Meshed<br />
               Up
             </p>
           </div>
-          <div class="bug_3">
+          <div class="bug_3 event">
             <p>Bug<br />Debug</p>
           </div>
-          <div class="data_3">
+          <div class="data_3 event">
             <p>Data<br />Quest</p>
           </div>
-          <div class="hunt_3">
+          <div class="hunt_3 event">
             <p>Treasure <br />Hunt<br />Finals</p>
           </div>
         </div>
@@ -735,7 +741,7 @@ export default {
 .empty15_1 {
   grid-area: e15_1;
 }
-
+ 
 .inaug_1 {
   grid-area: inaug_1;
   background-image: linear-gradient(
@@ -1540,5 +1546,17 @@ export default {
     grid-gap: 2px;
     /* margin-top: 3vh; */
   }
+}
+.event {
+  transition: transform 200ms ease-out;
+  cursor: pointer;
+  border: 2px solid transparent; 
+  
+}
+.event:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  border: 2px solid white;
+  box-shadow: 0 0 20px black;
 }
 </style>
