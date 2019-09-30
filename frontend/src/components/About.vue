@@ -208,22 +208,22 @@ h2 {
   transform: scale(1) translate(-50%, -50%);
   transition: transform 0.2s ease-in-out;
 }
-.collage1 > div:hover {
+// .collage1 > div:hover {
   
-  outline: 10px solid #0575e6;
-  transform: scale(1.1);
-  outline-offset: 10px;
-  img {
-    transform: scale(1.2) translate(-50%, -50%);
-  }
+//   outline: 10px solid #0575e6;
+//   transform: scale(1.1);
+//   outline-offset: 10px;
+//   img {
+//     transform: scale(1.2) translate(-50%, -50%);
+//   }
 
 
-}
+// }
 
-.collage1>div>img:hover {
-  transform: scale(1.2) translate(-50%, -50%);
-  z-index: 5;
-}
+// .collage1>div>img:hover {
+//   transform: scale(1.2) translate(-50%, -50%);
+//   z-index: 5;
+// }
 
 
 .collage1 .i1 {

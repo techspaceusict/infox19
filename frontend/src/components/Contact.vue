@@ -43,11 +43,16 @@
             <label>Message</label>
           </div>
         </div>
-        <button type="button"  v-on:click="recordMessage" class="btn btn-outline-primary btn-lg">
+        <AppButton type="button"  v-on:click="recordMessage" class="register btn-lg">
           <span class="submit">Leave Message</span>
           <!-- <span class="loading"><i class="fa fa-refresh"></i></span>
         <span class="check"><i class="fa fa-check"></i></span> -->
-        </button>
+        </AppButton>
+        <!-- <button type="button"  v-on:click="recordMessage" class="btn btn-outline-primary btn-lg">
+          <span class="submit">Leave Message</span>
+          <span class="loading"><i class="fa fa-refresh"></i></span>
+          <span class="check"><i class="fa fa-check"></i></span>
+        </button> -->
       </div>
     </div>
   </div>
@@ -185,7 +190,7 @@ h4 {
   font-size: 1.5em;
   position: relative;
   text-shadow: 0 0 10px #6200ff;
-  color: #0018f3;
+  color: #8b97ff;
   top: -10px;
 }
 
