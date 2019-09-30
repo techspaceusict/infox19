@@ -36,6 +36,7 @@
           <div class="place1_1 normal place_cell"><p>D-Audi</p></div>
           <div class="place2_1 normal place_cell"><p>E-109</p></div>
           <div class="place3_1 normal place_cell"><p>E-Labs</p></div>
+          <div class="place7_1 normal place_cell"><p>Electronics-Labs</p></div>
           <div class="place4_1 normal place_cell"><p>D-Labs</p></div>
           <div class="place5_1 normal place_cell"><p>E-Audi</p></div>
           <div class="place6_1 normal place_cell">
@@ -917,7 +918,8 @@ export default {
     "p1_1 inaug_1 inaug_1 josh_1 josh_1 josh_1 e4_1 e4_1"
     "p2_1 e5_1 e5_1 e5_1 e5_1 osic_1 osic_1 osic_1"
     "p3_1 e1_1 codester_1 codester_1 codester_1 jigsaw_1 codexpress_1 e2_1"
-    "p4_1 e1_1 lrdline_1 lrdline_1 lrdline_1 hackerman_1 hackerman_1 hackerman_1"
+    "p4_1 e6_1 e6_1 e6_1 e6_1 hackerman_1 hackerman_1 hackerman_1"
+    "p7_1 e4_4 e4_4 e4_4 e4_4 lrdline_1 lrdline_1 lrdline_1"
     "p5_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1"
     "p6_1 e3_1 roboliga_1 roboliga_1 roboliga_1 robowars_1 robowars_1 robowars_1";
   // "p6_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "
