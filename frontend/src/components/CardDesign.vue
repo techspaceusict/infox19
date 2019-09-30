@@ -98,9 +98,10 @@ export default {
     }
   },
   methods: {
-    goToEvent() {
+    goToEvent(event) {
       // this.full = !this.full;
       this.full = true;
+      console.log(event); 
       setTimeout(() => {
         this.$router.push('/events/' + this.event.name);
       }, 700);
@@ -331,6 +332,7 @@ export default {
 
 @media screen and (max-width: 768px) {
   .card-body {
+    padding: 10px;
     .eventContainer {
       margin-top: 20px;
       flex-direction: column-reverse;
