@@ -73,25 +73,25 @@
               Quiz
             </p>
           </div> -->
-          <div class="osic_1 event">
+          <router-link to="/events/Open Source Meetup" tag="div" class="osic_1 event">
             <p>Oslc Meetup</p>
-          </div>
-          <div class="codester_1 event">
+          </router-link>
+          <router-link to="/events/Codester" tag="div" class="codester_1 event">
             <p>Codester</p>
-          </div>
-          <div class="jigsaw_1 event">
+          </router-link>
+          <router-link to="/events/Jigsaw Codemania" tag="div" class="jigsaw_1 event">
             <p>Jigsaw</p>
-          </div>
-          <div class="codexpress_1 event">
+          </router-link>
+          <router-link to="/events/Codexpress" tag="div" class="codexpress_1 event">
             <p>Codexpress</p>
-          </div>
+          </router-link>
 
-          <div class="lrdline_1 event"><p>Gizmo Clench</p></div>
-          <div class="hackerman_1 event"><p>Code Venture</p></div>
-          <div class="clashonlan_1 event">Clash On Lan</div>
+          <router-link to="/events/Gizmo Clench" tag="div" class="lrdline_1 event"><p>Gizmo Clench</p></router-link>
+          <router-link to="/events/Code-Venture" tag="div" class="hackerman_1 event"><p>Code Venture</p></router-link>
+          <router-link to="/events/Clash On LAN" tag="div" class="clashonlan_1 event">Clash On Lan</router-link>
 
-          <div class="roboliga_1 event"><p>Robo Liga</p></div>
-          <div class="robowars_1 event"><p>Robo Wars</p></div>
+          <router-link to="/events/Robo Liga" tag="div" class="roboliga_1 event"><p>Robo Liga</p></router-link>
+          <router-link to="/events/Robo Wars" tag="div" class="robowars_1 event"><p>Robo Wars</p></router-link>
         </div>
       </div>
 
@@ -146,43 +146,43 @@
           <div class="empty15_2"></div> -->
           <!-- <div class="empty16_2"></div>
             <div class="empty17_2"></div> -->
-          <div class="marvel_world_2 event">
+          <router-link to="/events/Marvel World" tag="div" class="marvel_world_2 event">
             <p>
               Marvel <br />
               World
             </p>
-          </div>
-          <div class="ml_workshop_2 event">
+          </router-link>
+          <router-link to="/events/Machine Learning Workshop" tag="div" class="ml_workshop_2 event">
             <p>
               ML <br />
               Workshop
             </p>
-          </div>
-          <div class="infox_women_2 event">
+          </router-link>
+          <router-link to="/events/Geek Diva" tag="div" class="infox_women_2 event">
             <p>
               Geek <br />
               Diva
             </p>
-          </div>
+          </router-link>
 
           <div class="uh_2 event">
             <p>UHACK Starts</p>
           </div>
-          <div class="spacejam_2 event">
+          <router-link to="/events/Space Jam" tag="div" class="spacejam_2 event">
             <p>Space Jam</p>
-          </div>
-          <div class="clashonlan_2 event">
+          </router-link>
+          <router-link to="/events/Clash On LAN" tag="div" class="clashonlan_2 event">
             <p>
               Clash <br />
               On<br />Lan
             </p>
-          </div>
-          <div class="treasurehunt_2 event">
+          </router-link>
+          <router-link to="/events/Treasure Hunt" tag="div" class="treasurehunt_2 event">
             <p>Treasure <br />Hunt<br />Elimination</p>
-          </div>
-          <div class="protoxprience_2 event">
+          </router-link>
+          <router-link to="/events/ProtoXperience" tag="div" class="protoxprience_2 event">
             <p>Protoxprience</p>
-          </div>
+          </router-link>
         </div>
       </div>
 
@@ -249,33 +249,33 @@
               Ceremony
             </p>
           </div>
-          <div class="codewar_3 event">
+          <router-link to="/events/Codewars" tag="div" class="codewar_3 event">
             <p>CodeWars</p>
-          </div>
+          </router-link>
           <div class="uh_3 event">
             <p>U-Hack <br />Finishes</p>
           </div>
-          <div class="coc_3 event"><p>Clash Of Companies</p></div>
-          <div class="col_3 event"><p>Clash On Lan</p></div>
-          <div class="gizmo_3 event">
+          <router-link to="/events/Clash of Companies" tag="div" class="coc_3 event"><p>Clash Of Companies</p></router-link>
+          <router-link to="/events/Clash On LAN" tag="div" class="col_3 event"><p>Clash On Lan</p></router-link>
+          <router-link to="/events/Lord Of The Line" tag="div" class="gizmo_3 event">
             <p>Lord of<br />Lines</p>
-          </div>
-          <div class="getsetgo_3 event"><p>Get Set Go</p></div>
-          <div class="maze_3 event">
+          </router-link>
+          <router-link to="/events/Get Set Go" tag="div" class="getsetgo_3 event"><p>Get Set Go</p></router-link>
+          <router-link to="/events/Meshed Up" tag="div" class="maze_3 event">
             <p>
               Meshed<br />
               Up
             </p>
-          </div>
-          <div class="bug_3 event">
+          </router-link>
+          <router-link to="/events/Bug Debug" tag="div" class="bug_3 event">
             <p>Bug<br />Debug</p>
-          </div>
-          <div class="data_3 event">
+          </router-link>
+          <router-link to="/events/Data Quest" tag="div" class="data_3 event">
             <p>Data<br />Quest</p>
-          </div>
-          <div class="hunt_3 event">
+          </router-link>
+          <router-link to="/events/Treasure Hunt" tag="div" class="hunt_3 event">
             <p>Treasure <br />Hunt<br />Finals</p>
-          </div>
+          </router-link>
         </div>
       </div>
     </div>
