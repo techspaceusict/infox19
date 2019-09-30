@@ -1513,8 +1513,8 @@ export default {
     background-color: lightgreen;
   } */
   .about-content {
-    font-size: 20px !important;
-    margin-bottom: 3vh;
+    font-size: 6vw !important;
+    // margin-bottom: 3vh;
     /* margin-top: 6vh; */
   }
   .day_1 {
