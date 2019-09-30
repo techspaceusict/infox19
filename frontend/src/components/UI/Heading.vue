@@ -60,7 +60,7 @@ export default {
 h1 {
   /* padding-bottom: 2em; */
   margin-bottom: 0.5em;
-  font-size: 15em;
+  font-size: 10vw;
 }
 [data-aos="title"] {
   opacity: 1;
@@ -70,40 +70,36 @@ h1 {
   opacity: 0.1;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   h1 {
     font-size: 3em;
   }
 }
-/* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 5em;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   h1 {
     font-size: 6em;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 8em;
   }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+*/
+@media only screen and (max-width: 992px) {
   h1 {
-    font-size: 10em;
+    font-size: 15vw;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
 </style>
