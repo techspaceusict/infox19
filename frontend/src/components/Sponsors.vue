@@ -164,7 +164,7 @@ export default {
   background-image: url("../assets/sponsors/josh-logo-square.png");
 }
 .microHost {
-  background-image: url("../assets/sponsors/microHost.png");
+  background-image: url("../assets/sponsors/microHost.png" );
 }
 .Paytm {
   background-image: url("../assets/sponsors/Paytm.png");

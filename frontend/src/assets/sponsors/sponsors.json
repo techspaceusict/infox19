@@ -12,7 +12,8 @@
     ],
     "row3": [
       "codingNinja.svg",
-      "ace.png"
+      "ace.png",
+      "msp3.png"
     ]
   },
   "layer-2": {
@@ -24,6 +25,7 @@
     "row2": [
       "domainX.png",
       "msp3.png",
+      
       "sproots1.webp"
     ]
     
