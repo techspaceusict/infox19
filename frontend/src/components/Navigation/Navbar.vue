@@ -95,7 +95,7 @@ export default {
         // }
         {
           name: "Sponsors",
-          link: "/#sponsors-list"
+          link: "#sponsors"
         },
         // {
         //   name: "Glimpses",
@@ -114,9 +114,13 @@ export default {
         this.$router.push(link);
       } else {
         this.$router.push("/");
-        this.$scrollTo(link, 1000, {
+        console.log("ink : "+link);
+        setTimeout(()=>{
+          this.$scrollTo(link, 1000, {
           offset: link == "#hero" ? 0 : 900
         });
+        },50);
+        
       }
     }
   }

@@ -172,8 +172,8 @@
           </router-link>
           <router-link to="/events/Clash On LAN" tag="div" class="clashonlan_2 event">
             <p>
-              Clash <br />
-              On<br />Lan
+              Clash ON LAN <br />
+              +<br />PLAY OUR GAMES
             </p>
           </router-link>
           <router-link to="/events/Treasure Hunt" tag="div" class="treasurehunt_2 event">
