@@ -243,7 +243,7 @@
         "date":"October 10, 2019",
         "time":"11:00AM",
         "image":"appchallenge.webp",
-        "description":"INFO UPDATING SOON<br><br>Venue : Online",
+        "description":"Are you an app development enthusiast?Are ideas buzzing around you? <br>So assemble your stuffs to forge your ideas and turning them to reality. Infoxpression'19 is presenting a 24 hours online App Innovation Challenge. No matter you are a beginner or pro, join us and compete with your colossal ideas and externalize them!!!<br><br>For further details visit : idroid.infoxpression.in<br><br>Venue : Online",
         "organizers":[{
             "name":"Ankit Jain",
             "contact":"8650605941"
@@ -254,7 +254,7 @@
         }],
         "type":{"name":"development","priority":2},
         "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+        "link":"https://idroid.infoxpression.in"
     },
     {
         "name":"Data Quest",
