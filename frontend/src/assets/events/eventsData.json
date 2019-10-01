@@ -112,7 +112,7 @@
         "name":"UCode",
         "date":"October 6, 2019",
         "time":"9PM - 12AM",
-        "image":"UCODE.webp",
+        "image":"Ucode.webp",
         "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 4000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
         "organizers":[{
             "name":"Vijay",
@@ -216,7 +216,7 @@
             "name":"Vivek",
             "contact":"8700467299"
         }],
-        "type":{"name":"development","priority":2},
+        "type":{"name":"hackathons","priority":0},
         "teamSize":"1-4 members",
         "link":"http://www.usicthack.com"
     },
@@ -407,7 +407,7 @@
             "contact":"8527121782"
         }],
         "type":{"name":"development","priority":6},
-        "teamSize":"1-4",
+        "teamSize":"1-4 members",
         "link":"https://itch.io/jam/spacejam-rs"
     },
     {
