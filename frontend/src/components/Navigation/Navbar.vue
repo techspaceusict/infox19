@@ -89,13 +89,13 @@ export default {
           name: "Schedule",
           link: "/schedule"
         },
-        // {
-        //   name: "Team",
-        //   link: "/team"
-        // }
         {
           name: "Sponsors",
           link: "#sponsors"
+        },
+        {
+          name: "Our Team",
+          link: "/ourTeam"
         },
         // {
         //   name: "Glimpses",

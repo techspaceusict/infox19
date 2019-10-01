@@ -28,6 +28,8 @@
 <script>
 import sponsors from "@/assets/sponsors/sponsors.json";
 
+
+
 export default {
   data() {
     return {
