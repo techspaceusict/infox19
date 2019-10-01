@@ -480,7 +480,7 @@
             "name":"Krishna ",
             "contact":""
         }],
-        "type":{"name":"electrotech","priority":5},
+        "type":{"name":"electronics","priority":5},
         "teamSize":"1-6 members",
         "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
@@ -498,7 +498,7 @@
             "name":"Pranav",
             "contact":"9868176407"
         }],
-        "type":{"name":"electrotech","priority":5},
+        "type":{"name":"electronics","priority":5},
         "teamSize":"1-4 members",
         "link":"https://forms.gle/TmAppV7wBPMm63KdA"
     },
@@ -516,7 +516,7 @@
             "name":"Manoj",
             "contact":"9717304557"
         }],
-        "type":{"name":"electrotech","priority":5},
+        "type":{"name":"electronics","priority":5},
         "teamSize":"1-2 members",
         "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
@@ -534,7 +534,7 @@
             "name":"Yugank",
             "contact":"9953264267"
         }],
-        "type":{"name":"electrotech","priority":5},
+        "type":{"name":"electronics","priority":5},
         "teamSize":"1-4 members",
         "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
@@ -552,7 +552,7 @@
             "name":"Gurwinder",
             "contact":"7065971345"
         }],
-        "type":{"name":"electrotech","priority":5},
+        "type":{"name":"electronics","priority":5},
         "teamSize":"1-2 members",
         "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     },
@@ -570,7 +570,7 @@
             "name":"Devender",
             "contact":"9015860328"
         }],
-        "type":{"name":"electrotech","priority":5},
+        "type":{"name":"electronics","priority":5},
         "teamSize":"1-3 members",
         "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
     }
