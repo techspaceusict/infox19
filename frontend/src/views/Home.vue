@@ -17,6 +17,8 @@ import Glimpses from "@/components/Glimpses.vue";
 import Background from "@/components/Background.vue";
 import Contact from "@/components/Contact.vue";
 
+
+
 export default {
   name: "home",
   components: {

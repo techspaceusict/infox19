@@ -1,7 +1,7 @@
 <template>
   <div ref="sponsors" id="sponsors">
     <Heading :subHeading="'Previous'" anchor=".sponsors" wrapper="#sponsors" :speed="-6">Sponsors</Heading>
-    <div class="sponsors">
+    <div class="sponsors" id="sponsors-list">
       <div
         v-for="(sponsorLayer, i) in sponsors"
         :key="i"

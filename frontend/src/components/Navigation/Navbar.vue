@@ -55,6 +55,8 @@
 <script>
 import SidebarToggle from "./SidebarToggle";
 
+
+
 export default {
   name: "Navbar",
   components: {
@@ -93,7 +95,7 @@ export default {
         // }
         {
           name: "Sponsors",
-          link: "#sponsors"
+          link: "/#sponsors-list"
         },
         // {
         //   name: "Glimpses",
