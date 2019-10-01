@@ -111,7 +111,7 @@ export default {
     },
     goBack() {
       console.log(this.event.name);
-      this.$router.push({ name: "events", hash: "#" + this.event.name, params: { from: this.event.name, location: this.location } });
+      this.$router.push({ name: "events", params: { from: this.event.name, location: this.location } });
     },
     getImgUrl(img, path) {
       if (path == "poster") {
