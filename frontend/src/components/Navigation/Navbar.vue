@@ -93,7 +93,7 @@ export default {
         // }
         {
           name: "Sponsors",
-          link: "#sponsors"
+          link: "/#sponsors"
         },
         // {
         //   name: "Glimpses",

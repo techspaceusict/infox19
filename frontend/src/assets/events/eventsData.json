@@ -93,7 +93,7 @@
     {
         "name":"Codester",
         "date":"October 11, 2019",
-        "time":"10:30PM - 2PM",
+        "time":"10:30AM - 2PM",
         "image":"CODESTER.webp",
         "description":"THINK | CODE | EXECUTE<br><br>One code to rule them all, one code to bind them.<br>Truly, we know the rush of encountering a challenge, tackling a problem head on and the camaraderie that comes with working alongside fellow programmers who are just as passionate about writing brilliant code.<br>Codester is a competitive programming contest organised by the Codeschool club of USICT, as a part of the technical fest Infoxpression ’19 of USICT. This will be an ACM ICPC style contest.<br><br>It is advisable to bring your own laptops.<br><br>Prizes worth 8K INR.<br> Team Sizes of upto 2 members are allowed.<br><br>Venue : E-Labs",
         "organizers":[{
@@ -168,7 +168,7 @@
     {
         "name":"Geek Diva",
         "date":"October 12, 2019",
-        "time":"10:30PM - 2PM",
+        "time":"10:30AM - 2PM",
         "image":"we-connect.webp",
         "description":"INFO UPDATING SOON <br><br>Venue : E-Labs",
         "organizers":[{
@@ -431,7 +431,7 @@
     {
         "name":"Marvel World",
         "date":"October 12, 2019",
-        "time":"10:30PM - 2PM",
+        "time":"10:30AM - 2PM",
         "image":"Marvelworld.webp",
         "description":"THIS IS THE FIGHT OF OUR LIVES. WE ARE GOING TO WIN. WHATEVER IT TAKES. <br> Suit Up , Pick up your Shields , Gather your Ammunition coz its time for the much-awaited  event of InFox 2K19 . <br> Do you think you are worthy to yield the stones .<br>Do you have “Whatever it takes” to be the biggest marvelloholic ?.<br>Prove that you have  “Whatever it takes” to be the biggest marvelloholic .<br>Participate and get a chance to win cash prizes and exciting goodies upto ₹5000 .<br><br>Venue:C-Auditorium",
         
@@ -541,7 +541,7 @@
     {
         "name":"Robo Liga",
         "date":"October 11, 2019",
-        "time":"10:30PM - 2PM",
+        "time":"10:30AM - 2PM",
         "image":"liga-01.webp",
         "description":"Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 10k!<br><br>Venue:Central Arena",
         "organizers":[{
