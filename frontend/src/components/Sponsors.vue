@@ -43,7 +43,7 @@ export default {
         relativeToWrapper: true
       },
       layer3: {
-        speed: -3,
+        speed: 1.2,
         wrapper: "#sponsors",
         relativeToWrapper: true
       }
@@ -64,6 +64,7 @@ export default {
         this.layer1 = false;
         this.layer2 = false;
         this.layer3 = false;
+        this.layer4 = false;
         this.layer1 = {
           speed: 0,
           wrapper: "#sponsors",
@@ -75,6 +76,12 @@ export default {
           relativeToWrapper: true
         };
         this.layer3 = {
+          speed: 0,
+          wrapper: "#sponsors",
+          relativeToWrapper: true
+        };
+
+        this.layer4 = {
           speed: 0,
           wrapper: "#sponsors",
           relativeToWrapper: true
@@ -112,84 +119,84 @@ export default {
   background-repeat: no-repeat;
 }
 
-.barista {
-  background-image: url("../assets/sponsors/barista.jpg");
-}
-.agro {
-  background-image: url("../assets/sponsors/agro.jpg");
-}
-.blogx {
-  background-image: url("../assets/sponsors/blogx.jpg");
-}
-.codeStreet {
-  background-image: url("../assets/sponsors/codeStreet.png");
-}
-.codingBlock {
-  background-image: url("../assets/sponsors/codingNinja.svg");
-}
-.codingNinja {
-  background-image: url("../assets/sponsors/codingNinja.svg");
-}
-.designcut {
-  background-image: url("../assets/sponsors/designcut.png");
-}
-.domainX {
-  background-image: url("../assets/sponsors/domainX.png");
-}
-.earning_labs {
-  background-image: url("../assets/sponsors/earning_labs.png");
-}
-.ED {
-  background-image: url("../assets/sponsors/ED.png");
-}
-.enactus_igdtu {
-  background-image: url("../assets/sponsors/enactus_igdtu.png");
-}
-.gamex {
-  background-image: url("../assets/sponsors/gamex.jpg");
-}
-.gaming {
-  background-image: url("../assets/sponsors/gaming.jpg");
-}
-.Hidden_Hour {
-  background-image: url("../assets/sponsors/Hidden_Hour.png");
-}
-.HouseOfAmigos {
-  background-image: url("../assets/sponsors/HouseOfAmigos.png");
-}
-.incubateind {
-  background-image: url("../assets/sponsors/incubateind.png");
-}
-.josh-logo-square {
-  background-image: url("../assets/sponsors/josh-logo-square.png");
-}
-.microHost {
-  background-image: url("../assets/sponsors/microHost.png" );
-}
-.Paytm {
-  background-image: url("../assets/sponsors/Paytm.png");
-}
-.Podio {
-  background-image: url("../assets/sponsors/Podio.png");
-}
-.reappoint {
-  background-image: url("../assets/sponsors/reappoint.jpg");
-}
-.redbull {
-  background-image: url("../assets/sponsors/redbull.png");
-}
-.redwolf {
-  background-image: url("../assets/sponsors/redwolf.png");
-}
-.reliance {
-  background-image: url("../assets/sponsors/reliance.png");
-}
-.streetHack {
-  background-image: url("../assets/sponsors/streetHack.jpg");
-}
-.wall {
-  background-image: url("../assets/sponsors/wall.png");
-}
+// .barista {
+//   background-image: url("../assets/sponsors/barista.jpg");
+// }
+// .agro {
+//   background-image: url("../assets/sponsors/agro.jpg");
+// }
+// .blogx {
+//   background-image: url("../assets/sponsors/blogx.jpg");
+// }
+// .codeStreet {
+//   background-image: url("../assets/sponsors/codeStreet.png");
+// }
+// .codingBlock {
+//   background-image: url("../assets/sponsors/codingNinja.svg");
+// }
+// .codingNinja {
+//   background-image: url("../assets/sponsors/codingNinja.svg");
+// }
+// .designcut {
+//   background-image: url("../assets/sponsors/designcut.png");
+// }
+// .domainX {
+//   background-image: url("../assets/sponsors/domainX.png");
+// }
+// .earning_labs {
+//   background-image: url("../assets/sponsors/earning_labs.png");
+// }
+// .ED {
+//   background-image: url("../assets/sponsors/ED.png");
+// }
+// .enactus_igdtu {
+//   background-image: url("../assets/sponsors/enactus_igdtu.png");
+// }
+// .gamex {
+//   background-image: url("../assets/sponsors/gamex.jpg");
+// }
+// .gaming {
+//   background-image: url("../assets/sponsors/gaming.jpg");
+// }
+// .Hidden_Hour {
+//   background-image: url("../assets/sponsors/Hidden_Hour.png");
+// }
+// .HouseOfAmigos {
+//   background-image: url("../assets/sponsors/HouseOfAmigos.png");
+// }
+// .incubateind {
+//   background-image: url("../assets/sponsors/incubateind.png");
+// }
+// .josh-logo-square {
+//   background-image: url("../assets/sponsors/josh-logo-square.png");
+// }
+// .microHost {
+//   background-image: url("../assets/sponsors/microHost.png" );
+// }
+// .Paytm {
+//   background-image: url("../assets/sponsors/Paytm.png");
+// }
+// .Podio {
+//   background-image: url("../assets/sponsors/Podio.png");
+// }
+// .reappoint {
+//   background-image: url("../assets/sponsors/reappoint.jpg");
+// }
+// .redbull {
+//   background-image: url("../assets/sponsors/redbull.png");
+// }
+// .redwolf {
+//   background-image: url("../assets/sponsors/redwolf.png");
+// }
+// .reliance {
+//   background-image: url("../assets/sponsors/reliance.png");
+// }
+// .streetHack {
+//   background-image: url("../assets/sponsors/streetHack.jpg");
+// }
+// .wall {
+//   background-image: url("../assets/sponsors/wall.png");
+// }
 
 .layer-1 {
   // margin-top: 10em;
@@ -201,7 +208,8 @@ export default {
 }
 .layer-3 {
   // margin-top: -20em;
-  z-index: 1;
+  z-index: 3;
+  margin-top : 13em;
 }
 
 .layer-1 .sponsor-item {
@@ -220,9 +228,15 @@ export default {
   opacity: 0.8;
 }
 
+
 .layer-1 .row:nth-child(even) {
   transform: translateX(50px);
 }
+
+.layer-1 .row:nth-child(odd) {
+  transform: translateX(-30px);
+}
+
 .layer-2 .row:nth-child(odd) {
   transform: translateX(150px);
 }
@@ -235,6 +249,7 @@ export default {
 .layer-3 .row:nth-child(even) {
   transform: translateX(120px);
 }
+
 
 @media only screen and (max-width: 576px) {
   #sponsors {
@@ -252,6 +267,9 @@ export default {
   .absoulte {
     position: relative;
   }
+
+  .layer-3 {margin-top: auto}
+
   .layer-1 .row:nth-child(even) {
     transform: translateX(0);
   }

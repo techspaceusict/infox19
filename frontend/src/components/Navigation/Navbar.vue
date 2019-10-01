@@ -86,15 +86,15 @@ export default {
         {
           name: "Schedule",
           link: "/schedule"
-        }
+        },
         // {
         //   name: "Team",
         //   link: "/team"
         // }
-        // {
-        //   name: "Sponsors",
-        //   link: "#sponsors"
-        // },
+        {
+          name: "Sponsors",
+          link: "#sponsors"
+        },
         // {
         //   name: "Glimpses",
         //   link: "#glimpses"
