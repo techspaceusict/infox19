@@ -186,10 +186,10 @@
 
     {
         "name":"Codocrux",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
-        "image":"codocrux3.webp",
-        "description":"For all the coding enthusiasts out there , it is an event you’d not want to miss out! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : E-Labs",
+        "date":"October 8, 2019",
+        "time":"9PM - 11:30PM",
+        "image":"codocrux5.webp",
+        "description":"For all the coding enthusiasts out there , it is an event you’d not want to miss out! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : Online event",
         "organizers":[{
             "name":"Avik",
             "contact":"9910758350"
@@ -209,15 +209,15 @@
         "image":"uhack.webp",
         "description":"<b>UHack</b> powered by HackDelhi is here again folks!! One of the best hackathons of Delhi-NCR region is here again, waiting for you to participate. Its bigger, better and more fun than ever and surely, prizes that can make you go berserk. So come up, work on your dreams for 24-hours non-stop and make it happen. Make your imaginations take out solutions that nobody has ever thought and get involved in the heat with some of the best coders of the country. <br><br>What do you need? <br>Just a laptop in your hand, and we'll take care of rest.<br><br> What's at stake? <br>Prizes worth ₹1 Lakh & an all-expense-paid<b> trip to the Himalayas</b>.<br>Plus, there are goodies and swags for all, with something new to learn in 24 hours.<br><br><b>For More Details </b>: www.usicthack.com<br><br>Venue : E-Labs",
         "organizers":[{
-            "name":"Aditya",
-            "contact":"8700018733"
+            "name":"Anurag",
+            "contact":"8860287007"
         },
         {
-            "name":"Vivek",
-            "contact":"8700467299"
+            "name":"shivam",
+            "contact":"8076797518"
         }],
         "type":{"name":"hackathons","priority":0},
-        "teamSize":"1-4 members",
+        "teamSize":"3-4 members",
         "link":"http://www.usicthack.com"
     },
     {
