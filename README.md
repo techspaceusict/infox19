@@ -1,4 +1,27 @@
-# INFOX 2019
+<h1 align="center">Infoxpression 2019</h1>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/made%20by-techspaceusict-blue.svg" >
+
+<img src="https://img.shields.io/badge/vue-2.6.10-green.svg">
+
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
+
+<img src="https://img.shields.io/github/stars/techspaceusict/infox19.svg?style=flat">
+
+<img src="https://img.shields.io/github/languages/top/techspaceusict/infox19.svg">
+
+<img src="https://img.shields.io/github/issues/techspaceusict/infox19.svg">
+
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+</p>
+
+<img src="./readme/heading.png" width="100%">
+
+<h2 align="center"><a  href="https://infoxpression.in">Visit the Site</a></h2>
+
+### [Contributions are Welcome](https://github.com/techspaceusict/infox19/blob/master/CONTRIBUTING.md)
 
 ### The official repository for InfoXpression 2019
 
