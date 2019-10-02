@@ -1,6 +1,8 @@
 <template>
   <div ref="ref" id="about" class="glow">
-    <Heading anchor=".images" wrapper="#about" :speed="-5">Coming soon</Heading>
+    <Heading anchor=".images" wrapper="#about" :speed="-5"
+      >Guess Who's Back</Heading
+    >
     <div class="info container">
       <div class="row">
         <div
@@ -17,7 +19,7 @@
           class="col-md-6 text-center d-flex justify-content-center align-items-center"
         >
           <div class="date">
-            Coming Back in
+            Back in
             <br />{{ days }} Days...
           </div>
         </div>
@@ -72,8 +74,8 @@
             </p>
             <p>
               Events of all genres and levels are held along with workshops for
-              special interest groups. Several technical events are hosted in the
-              fields of coding and robotics as well.
+              special interest groups. Several technical events are hosted in
+              the fields of coding and robotics as well.
             </p>
           </div>
           <!-- <div class="text p-5">
@@ -85,11 +87,12 @@
       </section>
       <section class="videoPlayer">
         <div class="container embed-responsive embed-responsive-16by9">
-          <iframe  
-          src="https://www.youtube.com/embed/LM3CIIz149c" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/LM3CIIz149c"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
         <!-- <iframe
           style="overflow: hidden; height: 80vh;width:auto;"
@@ -110,7 +113,7 @@ export default {
       days: 0
     };
   },
-  
+
   mounted() {
     setInterval(() => {
       var today = new Date().getTime();
@@ -123,7 +126,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#about *{
+#about * {
   z-index: 3;
 }
 #about {
@@ -209,7 +212,7 @@ h2 {
   transition: transform 0.2s ease-in-out;
 }
 // .collage1 > div:hover {
-  
+
 //   outline: 10px solid #0575e6;
 //   transform: scale(1.1);
 //   outline-offset: 10px;
@@ -217,14 +220,12 @@ h2 {
 //     transform: scale(1.2) translate(-50%, -50%);
 //   }
 
-
 // }
 
 // .collage1>div>img:hover {
 //   transform: scale(1.2) translate(-50%, -50%);
 //   z-index: 5;
 // }
-
 
 .collage1 .i1 {
   grid-area: 1/1/3/3;
