@@ -89,7 +89,7 @@
 
 </div>  
 
-<ul class="circles">
+<ul class="circles2">
       <li></li>
       <li></li>
       <li></li>
@@ -430,11 +430,11 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 
 
-.circles{
+.circles2{
   z-index: -999;
   position: relative;
 }
-.circles li {
+.circles2 li {
   position: absolute;
   display: block;
   list-style: none;
@@ -447,7 +447,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   
 }
 
-.circles li:nth-child(1) {
+.circles2 li:nth-child(1) {
   left: 25%;
   width: 60px;
   height: 60px;
@@ -455,7 +455,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 15s;
 }
 
-.circles li:nth-child(2) {
+.circles2 li:nth-child(2) {
   left: 8%;
   width: 170px;
   height: 170px;
@@ -463,7 +463,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 15s;
 }
 
-.circles li:nth-child(3) {
+.circles2 li:nth-child(3) {
   left: 70%;
   width: 40px;
   height: 40px;
@@ -471,7 +471,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 50s;
 }
 
-.circles li:nth-child(4) {
+.circles2 li:nth-child(4) {
   left: 5%;
   width: 60px;
   height: 60px;
@@ -479,21 +479,21 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 18s;
 }
 
-.circles li:nth-child(5) {
+.circles2 li:nth-child(5) {
   left: 65%;
   width: 60px;
   height: 60px;
   animation-delay: 0s;
 }
 
-.circles li:nth-child(6) {
+.circles2 li:nth-child(6) {
   left: 75%;
   width: 90px;
   height: 90px;
   animation-delay: 3s;
 }
 
-.circles li:nth-child(7) {
+.circles2 li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
@@ -501,7 +501,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 10s;
 }
 
-.circles li:nth-child(8) {
+.circles2 li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -509,7 +509,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 45s;
 }
 
-.circles li:nth-child(9) {
+.circles2 li:nth-child(9) {
   left: 20%;
   width: 35px;
   height: 35px;
@@ -517,72 +517,72 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 35s;
 }
 
-.circles li:nth-child(10) {
+.circles2 li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
   animation-delay: 0s;
   animation-duration: 11s;
 }
-.circles li:nth-child(11) {
+.circles2 li:nth-child(11) {
   left: 10%;
   width: 60px;
   height: 60px;
   animation-delay: 4s;
 }
-.circles li:nth-child(12) {
+.circles2 li:nth-child(12) {
   left: 25%;
   width: 80px;
   height: 80px;
   animation-delay: 4s;
 }
-.circles li:nth-child(13) {
+.circles2 li:nth-child(13) {
   left: 25%;
   width: 90px;
   height: 90px;
 }
-.circles li:nth-child(14) {
+.circles2 li:nth-child(14) {
   left: 30%;
   width: 60px;
   height: 60px;
   animation-delay: 8s;
 }
-.circles li:nth-child(15) {
+.circles2 li:nth-child(15) {
   left: 35%;
   width: 100px;
   height: 100px;
   animation-duration: 11s;
 }
 
-.circles li:nth-child(16) {
+.circles2 li:nth-child(16) {
   left: 60%;
   width: 45px;
   height: 45px;
   animation-delay: 15s;
   animation-duration: 45s;
 }
-.circles li:nth-child(17) {
+.circles2 li:nth-child(17) {
   left: 50%;
   width: 45px;
   height: 45px;
   animation-delay: 5s;
   animation-duration: 15s;
 }
-.circles li:nth-child(18) {
+.circles2 li:nth-child(18) {
   left: 30%;
   width: 65px;
   height: 65px;
   animation-delay: 2s;
   animation-duration: 35s;
 }
-.circles li:nth-child(19) {
+.circles2 li:nth-child(19) {
   left: 60%;
   width: 40px;
   height: 40px;
   animation-delay: 15s;
   animation-duration: 25s;
 }
-.circles li:nth-child(20) {
+.circles2 li:nth-child(20) {
   left: 4%;
   width: 55px;
   height: 55px;

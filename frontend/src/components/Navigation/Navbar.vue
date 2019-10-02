@@ -93,10 +93,10 @@ export default {
           name: "Sponsors",
           link: "#sponsors"
         },
-        // {
-        //   name: "Our Team",
-        //   link: "/ourTeam"
-        // },
+        {
+          name: "Our Team",
+          link: "/ourTeam"
+        },
         // {
         //   name: "Glimpses",
         //   link: "#glimpses"
