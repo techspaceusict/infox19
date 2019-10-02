@@ -13,9 +13,9 @@
             <div class="gallery-image" ><img src="../assets/ourTeam/divyansh.jpg" alt="" style="left: 60%;">
                 <h2>Divyansh</h2>
                 <ul>
-                    <li><a href="https://github.com/silent-lad" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-                    <li><a href="https://www.instagram.com/silent_lad_/" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
-                    <li><a href="https://www.facebook.com/silentlad/" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://github.com/silent-lad" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/silent_lad_/" target="_blank" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.facebook.com/silentlad/" target="_blank" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
                 
                 </ul>
             </div>
@@ -25,9 +25,9 @@
         <div class="gallery-image" ><img src="../assets/ourTeam/vaidesh.jpeg" alt="" style="left: 60%;">
         <h2>Vaidesh</h2>
         <ul>
-            <li><a href="https://github.com/vaideshshank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.facebook.com/vaidesh.shankar" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/vaidesh-shankar-603a9614a/" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://github.com/vaideshshank" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/vaidesh.shankar" target="_blank" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vaidesh-shankar-603a9614a/" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
         
         </ul>
     </div></div>
@@ -36,9 +36,9 @@
         <div class="gallery-image"> <img src="../assets/ourTeam/dhruv.jpeg" alt="">
                 <h2>Dhruv</h2>
         <ul>
-            <li><a href="https://github.com/dhruvmisra" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/dhruvmisra" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/dhruv-misra-35a96a170" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://github.com/dhruvmisra" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/dhruvmisra" target="_blank" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/dhruv-misra-35a96a170" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
         
         </ul>
         </div></div>
@@ -49,9 +49,9 @@
         <div class="gallery-image"><img src="../assets/ourTeam/nipul.jpeg" alt="">
                 <h2>Nipul</h2>
         <ul>
-            <li><a href="https://github.com/NipulSingal" class="github"><i class="fab fa-github fa-2x" ></i></a></li>
-            <li><a href="https://www.instagram.com/nipul_singal/" class="insta"><i class="fab fa-instagram fa-2x" ></i></a></li>
-            <li><a href="https://www.linkedin.com/in/nipul-singal-52579416a" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://github.com/NipulSingal" target="_blank" class="github"><i class="fab fa-github fa-2x" ></i></a></li>
+            <li><a href="https://www.instagram.com/nipul_singal/" target="_blank" class="insta"><i class="fab fa-instagram fa-2x" ></i></a></li>
+            <li><a href="https://www.linkedin.com/in/nipul-singal-52579416a" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
         
         </ul>
         </div></div>
@@ -64,9 +64,9 @@
         <div class="gallery-image"><img src="../assets/ourTeam/aakash.jpeg" alt="">
                 <h2>Aakash</h2>
         <ul>
-            <li><a href="https://github.com/Aakash2408" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/theaakashsangwan/" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://github.com/Aakash2408" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/theaakashsangwan/" target="_blank" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
         
         </ul>
         </div></div>
@@ -75,8 +75,8 @@
         <div class="gallery-image"><img src="../assets/ourTeam/sumit.jpeg" alt="">
                 <h2>Sumit</h2>
         <ul>
-            <li><a href="https://github.com/Bsumit43" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.facebook.com/Bsumit43" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://github.com/Bsumit43" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/Bsumit43" target="_blank" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
             <!-- <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li> -->
         
         </ul>
@@ -141,7 +141,7 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
 body {
@@ -184,7 +184,7 @@ body {
 	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
 	margin: 1rem;
 	// box-shadow: 0.7rem 0.7rem 0.7rem rgba(1, 81, 255, 0.445);
-    filter: drop-shadow(0px 0px 15px rgba(16, 119, 236, 0.8));
+  box-shadow: 0px 0px 15px rgba(16, 119, 236, 0.8);
 	overflow: hidden;
 }
 
@@ -220,15 +220,13 @@ Remove or comment-out the code block below to see how the browser will fall-back
 // }
 
 .gallery-image
-{display: flex;
+{
+  display: flex;
 	width: 300px;
-	height: 400px;
+	height: auto;
 	position: relative;
 	overflow: hidden;
-    border :10px solid transparent ;
-    // border-right:10px solid white;
-    
-    
+  border :10px solid transparent;
 }
 
 .gallery-image:before
@@ -314,10 +312,9 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	line-height: 40px;
 	transform: perspective(800px) rotateY(90deg);
 	transition: .5s;
-    transform-origin: left;
-    display: flex;
-    align-content: center;
-  
+  transform-origin: left;
+  // display: flex;
+  // align-content: center;
 }
 
 .gallery-image:hover ul li
@@ -349,25 +346,33 @@ Remove or comment-out the code block below to see how the browser will fall-back
 {
 	color: rgba(8, 111, 245, 0.8);
 	background: black;
-    height: 70px;
-    width: 70px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms;
 }
 .gallery-image ul li .insta{color:#e1306c;}
 .gallery-image ul li .fb{color:#3b5998;}
 .gallery-image ul li .linkedin{color:#0077b5;}
-.gallery-image ul li .github{color:#333;}
+.gallery-image ul li .github{color:rgb(190, 190, 190);}
 
  .gallery-image ul li i
 {
 	color:rgba(0, 0, 255, 0.8);
 	background: black;
-    
 }
 
 .gallery-image ul li i:hover
 {
 	color: #fff;
 	background: black;
+}
+.gallery-image ul li a:hover
+{
+	color: #fff;
+	background: rgb(68, 68, 68) !important;
 }
 
 
