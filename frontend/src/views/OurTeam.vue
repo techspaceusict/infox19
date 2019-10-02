@@ -76,6 +76,7 @@
                 <h2>Sumit</h2>
         <ul>
             <li><a href="https://github.com/Bsumit43" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/bsumit43/" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
             <li><a href="https://www.facebook.com/Bsumit43" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
             <!-- <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li> -->
         
@@ -349,7 +350,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
 {
 	color: rgba(8, 111, 245, 0.8);
 	background: black;
-    height: 70px;
+    height: 66px;
+    padding-top: 16px;
     width: 70px;
 }
 .gallery-image ul li .insta{color:#e1306c;}
