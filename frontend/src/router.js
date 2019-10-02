@@ -42,7 +42,7 @@ export default new Router({
     },
     {
       path: '/ourTeam',
-      name: 'our team',
+      name: 'ourteam',
       component: OurTeam
     }
   ]

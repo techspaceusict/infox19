@@ -35,7 +35,7 @@
           <div class="place1_1 normal place_cell"><p>D-Audi</p></div>
           <div class="place2_1 normal place_cell"><p>E-109</p></div>
           <div class="place3_1 normal place_cell"><p>E-Labs</p></div>
-          <div class="place7_1 normal place_cell"><p>Electronics-Labs</p></div>
+          <!-- <div class="place7_1 normal place_cell"><p>Electronics-Labs</p></div> -->
           <div class="place4_1 normal place_cell"><p>D-Labs</p></div>
           <div class="place5_1 normal place_cell"><p>E-Audi</p></div>
           <div class="place6_1 normal place_cell">
@@ -85,7 +85,7 @@
             <p>Codexpress</p>
           </router-link>
 
-          <router-link to="/events/Gizmo Clench" tag="div" class="lrdline_1 event"><p>Gizmo Clench</p></router-link>
+          <!-- <router-link to="/events/Gizmo Clench" tag="div" class="lrdline_1 event"><p>Gizmo Clench</p></router-link> -->
           <router-link to="/events/Code-Venture" tag="div" class="hackerman_1 event"><p>Code Venture</p></router-link>
           <router-link to="/events/Clash On LAN" tag="div" class="clashonlan_1 event">Clash On Lan</router-link>
 
@@ -570,7 +570,6 @@ export default {
   font-weight: 300 !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif !important;
-  background: #141414;
   width: 86vw;
 }
 
@@ -918,7 +917,7 @@ export default {
     "p2_1 e5_1 e5_1 e5_1 e5_1 osic_1 osic_1 osic_1"
     "p3_1 e1_1 codester_1 codester_1 codester_1 jigsaw_1 codexpress_1 e2_1"
     "p4_1 e6_1 e6_1 e6_1 e6_1 hackerman_1 hackerman_1 hackerman_1"
-    "p7_1 e4_4 e4_4 e4_4 e4_4 lrdline_1 lrdline_1 lrdline_1"
+    // "p7_1 e4_4 e4_4 e4_4 e4_4 lrdline_1 lrdline_1 lrdline_1"
     "p5_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1 clashonlan_1"
     "p6_1 e3_1 roboliga_1 roboliga_1 roboliga_1 robowars_1 robowars_1 robowars_1";
   // "p6_1 e1_1 e1_1 e3_1 e3_1 uhck_1 uhck_1 uhck_1 uhck_1 uhck_1 "

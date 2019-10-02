@@ -113,7 +113,7 @@
         "date":"October 6, 2019",
         "time":"9PM - 12AM",
         "image":"UCODE.webp",
-        "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 4000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
+        "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 5000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
         "organizers":[{
             "name":"Vijay",
             "contact":"9818423905"
@@ -124,7 +124,7 @@
         }],
         "type":{"name":"programming","priority":1},
         "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSd2xRg-n4ngqk40AUoqp7zEJpEj3FCJDnksEvmYqnecU2VgNw/viewform?usp=sf_link"
     },
    
     {
@@ -186,10 +186,10 @@
 
     {
         "name":"Codocrux",
-        "date":"October 11, 2019",
-        "time":"1PM - 3PM",
-        "image":"codocrux3.webp",
-        "description":"For all the coding enthusiasts out there , it is an event you’d not want to miss out! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : E-Labs",
+        "date":"October 8, 2019",
+        "time":"9PM - 11:30PM",
+        "image":"codocrux5.webp",
+        "description":"For all the coding enthusiasts out there , it is an event you’d not want to miss out! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : Online event",
         "organizers":[{
             "name":"Avik",
             "contact":"9910758350"
@@ -209,15 +209,15 @@
         "image":"uhack.webp",
         "description":"<b>UHack</b> powered by HackDelhi is here again folks!! One of the best hackathons of Delhi-NCR region is here again, waiting for you to participate. Its bigger, better and more fun than ever and surely, prizes that can make you go berserk. So come up, work on your dreams for 24-hours non-stop and make it happen. Make your imaginations take out solutions that nobody has ever thought and get involved in the heat with some of the best coders of the country. <br><br>What do you need? <br>Just a laptop in your hand, and we'll take care of rest.<br><br> What's at stake? <br>Prizes worth ₹1 Lakh & an all-expense-paid<b> trip to the Himalayas</b>.<br>Plus, there are goodies and swags for all, with something new to learn in 24 hours.<br><br><b>For More Details </b>: www.usicthack.com<br><br>Venue : E-Labs",
         "organizers":[{
-            "name":"Aditya",
-            "contact":"8700018733"
+            "name":"Anurag",
+            "contact":"8860287007"
         },
         {
-            "name":"Vivek",
-            "contact":"8700467299"
+            "name":"shivam",
+            "contact":"8076797518"
         }],
         "type":{"name":"hackathons","priority":0},
-        "teamSize":"1-4 members",
+        "teamSize":"3-4 members",
         "link":"http://www.usicthack.com"
     },
     {
@@ -357,7 +357,7 @@
         "name":"Clash On LAN",
         "date":"October 11-13 2019",
         "time":"10AM-5PM",
-        "image":"col5.webp",
+        "image":"ClashOnLan.webp",
         "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- E-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
         "organizers":[{
             "name":"Sachin",
@@ -376,7 +376,7 @@
         "name":"Play our Games",
         "date":"October 12, 2019",
         "time":"11AM - 5PM",
-        "image":"playgames.webp",
+        "image":"POG.webp",
         "description":"_Do You call yourself a Gamer?_<br> _Do you have a zest for Gaming?_<br>_Do you wanna immerse yourself in the world of VR?_<br><br>Then Get ready to play games like never before. Experience the world of Virtual Reality and  The game that takes you there.<br><br>Adorn your Life with Games.<br>Experience the Interactive gaming action with us and Enjoy your day here at Infoxpression with many other exciting events.<br><br>All at one place in our event  *PLAY OUR GAMES* <br>One of the most awaited events of InfoXpression 2K19.<br><br><br>*GAMES FOR YOU*:-<br>• VR BASKETBALL<br>• VR BOWLING<br>• VR ARCHERY<br><br>*Main Attraction:- SPIDER HUNT [VR]*<br><br>Charges :-*ABSOLUTELY FREE* <br>(Security deposit of ₹ 100 (Refundable)).<br><br>*_ Take Out Your Inner Soul That Is Screaming To Play Games _* <br><br>Venue : Venue:- E-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
         "organizers":[{
             "name":"Harshit",
@@ -489,7 +489,7 @@
         "date":"October 13, 2019",
         "time":"10:30AM - 2PM",
         "image":"race-01.webp",
-        "description":"Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of (PRIZE HERE) and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.<br><br>Venue : Central Arena",
+        "description":"Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of 18k and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.<br><br>Venue : Central Arena",
         "organizers":[{
             "name":"Varun",
             "contact":"9555053000"
@@ -543,7 +543,7 @@
         "date":"October 11, 2019",
         "time":"10:30AM - 2PM",
         "image":"liga-01.webp",
-        "description":"Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 10k!<br><br>Venue:Central Arena",
+        "description":"Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 15k!<br><br>Venue:Central Arena",
         "organizers":[{
             "name":"Shilpi",
             "contact":"9205024506"
