@@ -19,6 +19,28 @@ npm run serve
 - [**Rellax.js**](https://dixonandmoe.com/rellax/) for the content Parrallax.
 - [**Card Design**](https://github.com/dhruvmisra/card-design-prototype) for the event card animation.
 
+## Glimpses
+
+### Hero Section
+
+<img src="./readme/hero.png">
+
+### Heading Effects
+
+<img src="./readme/heading.png">
+
+### Navigation
+
+<img src="./readme/navigation.png">
+
+### Schedule
+
+<img src="./readme/schedule.png">
+
+### Sponsors Display
+
+<img src="./readme/sponsors.png">
+
 ## Deploy Instructions.
 
 ```
