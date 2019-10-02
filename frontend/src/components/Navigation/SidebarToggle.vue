@@ -11,9 +11,10 @@
 .drawer-toggle {
   display: flex;
   flex-direction: column;
-  height: 50%;
-  width: 35px;
-  margin: 10px 5px;
+  
+  width: 45px;
+  
+  margin: 15px 10px;
   cursor: pointer;
 }
 
