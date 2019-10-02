@@ -482,7 +482,7 @@
         }],
         "type":{"name":"electronics","priority":5},
         "teamSize":"1-6 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSewrv1lOtjTTp3VkStKqTJoa9V-Ppn04mHws2AJnYheQUnJ4w/viewform"
     },
     {
         "name":"Get Set Go",
@@ -518,7 +518,7 @@
         }],
         "type":{"name":"electronics","priority":5},
         "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSe97Z0og-KckUMe_QCAw7qh-7pkjZF8tkSxP6z0B9S7UtBP3g/viewform"
     },
     {
         "name":"Lord Of The Line",
@@ -536,7 +536,7 @@
         }],
         "type":{"name":"electronics","priority":5},
         "teamSize":"1-4 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+        "link":"https://docs.google.com/forms/d/e/1FAIpQLSeFrVFj4T36qJFRARsqpyI8rg9Yr5hcqDLUOnzcYXwECdfIVw/viewform"
     },
     {
         "name":"Robo Liga",
@@ -554,28 +554,7 @@
         }],
         "type":{"name":"electronics","priority":5},
         "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-    },
-    {
-        "name":"Gizmo Clench",
-        "date":"October 11, 2019",
-        "time":"2PM - 5PM",
-        "image":"gizmo.webp",
-        "description":"*DESIGN IS NOT WHAT IT LOOKS LIKE AND FEELS LIKE. DESIGN IS HOW IT WORKS.*<br><br>INFOXPRESSION presents *Gizmo Clench*.<br><br>Gizmo Clench is the competition which includes the designing and analysis of the circuits. It is an event which will test a participants' knowledge on the basics of electronics. It includes the building and implementation of design from basic logic circuits to hardcore electronic circuits<br><br>*Preliminary round*: It has MCQ questions, limited time will be given.<br><br>*Final round*: It has some problem statements, the corresponding circuit has to be designed and implemented.<br><br> Prize ₹ 10K at stake !!!<br><br>Want to try a brainstorming circuit in electronics. Be a part of this event on:<br><br>Venue : Electronics-Labs",
-        "organizers":[{
-            "name":"Himanshi",
-            "contact":"9911884300"
-        },
-        {
-            "name":"Devender",
-            "contact":"9015860328"
-        }],
-        "type":{"name":"electronics","priority":5},
-        "teamSize":"1-3 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+        "link":"https://forms.gle/vU4FWDH22TW8TLag9"
     }
-
-
-
 
 ]
