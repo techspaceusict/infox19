@@ -1,102 +1,95 @@
 <template>
 <div class="context">
     <!-- <h1 style="align-content: center; text-align: center; color: white; font-size: 120px; margin-top: 20px;"> OUR TEAM</h1> -->
-    <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage
-      >Our Team</Heading>
-	        
-        
-        
-        
-        
-        
-
-
-        
-        
+    <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage>Our Team</Heading>
+	             
 	
  <div class="container">
 
 	
 
 	<div class="gallery">
-        	<div class="gallery-item">
-			<div class="gallery-image" ><img src="../assets/ourTeam/divyansh.jpg" alt="" style="left: 60%;">
-            <h2>Divyansh</h2>
-			<ul>
-				<li><a href="https://github.com/silent-lad"><i class="fab fa-github fa-2x"></i></a></li>
-				<li><a href="https://www.instagram.com/silent_lad_/"><i class="fab fa-instagram fa-2x"></i></a></li>
-				<li><a href="https://www.facebook.com/silentlad/"><i class="fab fa-facebook fa-2x"></i></a></li>
-			
-			</ul>
+        <div class="gallery-item">
+            <div class="gallery-image" ><img src="../assets/ourTeam/divyansh.jpg" alt="" style="left: 60%;">
+                <h2>Divyansh</h2>
+                <ul>
+                    <li><a href="https://github.com/silent-lad" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/silent_lad_/" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.facebook.com/silentlad/" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
+                
+                </ul>
+            </div>
+        </div>
+
+    <div class="gallery-item">
+        <div class="gallery-image" ><img src="../assets/ourTeam/vaidesh.jpeg" alt="" style="left: 60%;">
+        <h2>Vaidesh</h2>
+        <ul>
+            <li><a href="https://github.com/vaideshshank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/vaidesh.shankar" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vaidesh-shankar-603a9614a/" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        
+        </ul>
+    </div></div>
+
+    <div class="gallery-item">
+        <div class="gallery-image"> <img src="../assets/ourTeam/dhruv.jpeg" alt="">
+                <h2>Dhruv</h2>
+        <ul>
+            <li><a href="https://github.com/dhruvmisra" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/dhruvmisra" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/dhruv-misra-35a96a170" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        
+        </ul>
+        </div></div>
+    
+        <div class="break"></div>
+
+    <div class="gallery-item">
+        <div class="gallery-image"><img src="../assets/ourTeam/nipul.jpeg" alt="">
+                <h2>Nipul</h2>
+        <ul>
+            <li><a href="https://github.com/NipulSingal" class="github"><i class="fab fa-github fa-2x" ></i></a></li>
+            <li><a href="https://www.instagram.com/nipul_singal/" class="insta"><i class="fab fa-instagram fa-2x" ></i></a></li>
+            <li><a href="https://www.linkedin.com/in/nipul-singal-52579416a" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        
+        </ul>
+        </div></div>
+    
+    
+    
+    
+
+    <div class="gallery-item">
+        <div class="gallery-image"><img src="../assets/ourTeam/aakash.jpeg" alt="">
+                <h2>Aakash</h2>
+        <ul>
+            <li><a href="https://github.com/Aakash2408" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/theaakashsangwan/" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        
+        </ul>
         </div></div>
 
-		<div class="gallery-item">
-			<div class="gallery-image" ><img src="../assets/ourTeam/vaidesh.jpeg" alt="" style="left: 60%;">
-            <h2>Vaidesh</h2>
-			<ul>
-				<!-- <li><a href="https://github.com/Aakash2408"><i class="fab fa-github fa-2x"></i></a></li> -->
-				<li><a href="https://www.facebook.com/vaidesh.shankar"><i class="fab fa-facebook fa-2x"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/vaidesh-shankar-603a9614a/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-			
-			</ul>
+    <div class="gallery-item">
+        <div class="gallery-image"><img src="../assets/ourTeam/sumit.jpeg" alt="">
+                <h2>Sumit</h2>
+        <ul>
+            <li><a href="https://github.com/Bsumit43" class="github"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/Bsumit43" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <!-- <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li> -->
+        
+        </ul>
         </div></div>
-
-		<div class="gallery-item">
-			<div class="gallery-image"> <img src="../assets/ourTeam/dhruv.jpeg" alt="">
-                 <h2>Dhruv</h2>
-			<ul>
-				<li><a href="https://github.com/dhruvmisra"><i class="fab fa-github fa-2x"></i></a></li>
-				<li><a href="https://www.instagram.com/dhruvmisra"><i class="fab fa-instagram fa-2x"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/dhruv-misra-35a96a170"><i class="fab fa-linkedin fa-2x"></i></a></li>
-			
-			</ul>
-            </div></div>
-        
-          <div class="break"></div>
-
-		<div class="gallery-item">
-			<div class="gallery-image"><img src="../assets/ourTeam/nipul.jpeg" alt="">
-                 <h2>Nipul</h2>
-			<ul>
-				<li><a href="https://github.com/NipulSingal"><i class="fab fa-github fa-2x" ></i></a></li>
-				<li><a href="https://www.instagram.com/nipul_singal/"><i class="fab fa-instagram fa-2x" ></i></a></li>
-				<li><a href="https://www.linkedin.com/in/nipul-singal-52579416a"><i class="fab fa-linkedin fa-2x"></i></a></li>
-			
-			</ul>
-            </div></div>
-        
-        
-        
-        
-
-		<div class="gallery-item">
-			<div class="gallery-image"><img src="../assets/ourTeam/aakash.jpeg" alt="">
-                 <h2>Aakash</h2>
-			<ul>
-				<li><a href="https://github.com/Aakash2408"><i class="fab fa-github fa-2x"></i></a></li>
-				<li><a href="https://www.instagram.com/theaakashsangwan/"><i class="fab fa-instagram fa-2x"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-			
-			</ul>
-            </div></div>
-
-		<div class="gallery-item">
-			<div class="gallery-image"><img src="../assets/ourTeam/sumit.jpeg" alt="">
-                 <h2>Sumit</h2>
-			<ul>
-				<li><a href="https://github.com/Bsumit43"><i class="fab fa-github fa-2x"></i></a></li>
-				<li><a href="https://www.facebook.com/Bsumit43"><i class="fab fa-facebook fa-2x"></i></a></li>
-				<!-- <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li> -->
-			
-			</ul>
-            </div></div>
 
 		
 
 	</div>
 
 
-</div>  <ul class="circles">
+</div>  
+
+<ul class="circles">
       <li></li>
       <li></li>
       <li></li>
@@ -151,12 +144,6 @@ export default {
 <style lang="scss">
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
-:root {
-	/* Base font size */
-	font-size: 10px;
-}
-
-
 body {
 	min-height: 100vh;
 	background-color: black;
@@ -184,7 +171,8 @@ body {
 
 .gallery {
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
     // flex-direction: row;
 	/* Compensate for excess margin on outer gallery flex items */
 	margin: -1rem .25rem;
@@ -196,7 +184,7 @@ body {
 	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
 	margin: 1rem;
 	// box-shadow: 0.7rem 0.7rem 0.7rem rgba(1, 81, 255, 0.445);
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 255, 0.8));
+    filter: drop-shadow(0px 0px 15px rgba(16, 119, 236, 0.8));
 	overflow: hidden;
 }
 
@@ -265,8 +253,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 .gallery-image img
 {
-	height: 400px;
-	width: 300px;
+    width: 100%;
+    height: auto;
 	filter: grayscale(0%);
 	transition: 1.2s;
 }
@@ -280,7 +268,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
 .gallery-image h2
 {
 	background: black;
-	font-family: Poppins;
+    font-family: Arial;
+    letter-spacing: 1.5px;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
@@ -291,10 +280,11 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	bottom: 0;
 	width: 100%;
 	transform: perspective(100px) rotateY() ;
-  opacity:0.8;
+    opacity:0.8;
 	transform-origin: left;
 	transition: 1s;
     margin-right: 15px;
+
 }
 
 .gallery-image:hover h2
@@ -324,7 +314,9 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	line-height: 40px;
 	transform: perspective(800px) rotateY(90deg);
 	transition: .5s;
-	transform-origin: left;
+    transform-origin: left;
+    display: flex;
+    align-content: center;
   
 }
 
@@ -355,30 +347,28 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 .gallery-image ul li a
 {
-	color: rgba(0, 0, 255, 0.8);
-	background: rgba(255,255,255,0);
+	color: rgba(8, 111, 245, 0.8);
+	background: black;
     height: 70px;
     width: 70px;
-  
-    
 }
+.gallery-image ul li .insta{color:#e1306c;}
+.gallery-image ul li .fb{color:#3b5998;}
+.gallery-image ul li .linkedin{color:#0077b5;}
+.gallery-image ul li .github{color:#333;}
 
  .gallery-image ul li i
 {
 	color:rgba(0, 0, 255, 0.8);
-	background: rgba(255,255,255,0);
+	background: black;
     
 }
 
 .gallery-image ul li i:hover
 {
 	color: #fff;
-	background: rgba(255,255,255,0);
+	background: black;
 }
-
-
-
-
 
 
 .break {

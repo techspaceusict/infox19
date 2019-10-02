@@ -4,7 +4,7 @@ import Home from './views/Home.vue'
 import Events from './views/Events.vue'
 import Event from './views/Event.vue'
 import Schedule from './views/Schedule.vue'
-import OurTeam from './views/OurTeam.vue'
+// import OurTeam from './views/OurTeam.vue'
 
 Vue.use(Router)
 
@@ -40,10 +40,10 @@ export default new Router({
       name: 'schedule',
       component: Schedule
     },
-    {
-      path: '/ourTeam',
-      name: 'our team',
-      component: OurTeam
-    }
+    // {
+    //   path: '/ourTeam',
+    //   name: 'ourteam',
+    //   component: OurTeam
+    // }
   ]
 })
