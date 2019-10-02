@@ -570,7 +570,6 @@ export default {
   font-weight: 300 !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif !important;
-  background: #141414;
   width: 86vw;
 }
 
