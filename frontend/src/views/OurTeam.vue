@@ -1,95 +1,224 @@
 <template>
-<div class="context">
+  <div class="context">
     <!-- <h1 style="align-content: center; text-align: center; color: white; font-size: 120px; margin-top: 20px;"> OUR TEAM</h1> -->
-    <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage>Our Team</Heading>
-	             
-	
- <div class="container">
+    <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage
+      >Our Team</Heading
+    >
 
-	
-
-	<div class="gallery">
+    <div class="container">
+      <div class="gallery">
         <div class="gallery-item">
-            <div class="gallery-image" ><img src="../assets/ourTeam/divyansh.jpg" alt="" style="left: 60%;">
-                <h2>Divyansh</h2>
-                <ul>
-                    <li><a href="https://github.com/silent-lad" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-                    <li><a href="https://www.instagram.com/silent_lad_/" target="_blank" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
-                    <li><a href="https://www.facebook.com/silentlad/" target="_blank" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
-                
-                </ul>
-            </div>
+          <div class="gallery-image">
+            <img
+              src="../assets/ourTeam/divyansh.jpg"
+              alt=""
+              style="left: 60%;"
+            />
+            <h2>Divyansh</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/silent-lad"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/silentlad/"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/silent_lad_/"
+                  target="_blank"
+                  class="insta"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/silentlad/"
+                  target="_blank"
+                  class="fb"
+                  ><i class="fab fa-facebook fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-    <div class="gallery-item">
-        <div class="gallery-image" ><img src="../assets/ourTeam/vaidesh.jpeg" alt="" style="left: 60%;">
-        <h2>Vaidesh</h2>
-        <ul>
-            <li><a href="https://github.com/vaideshshank" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.facebook.com/vaidesh.shankar" target="_blank" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/vaidesh-shankar-603a9614a/" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
-        
-        </ul>
-    </div></div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img
+              src="../assets/ourTeam/vaidesh.jpeg"
+              alt=""
+              style="left: 60%;"
+            />
+            <h2>Vaidesh</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/vaideshshank"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/vaidesh.shankar"
+                  target="_blank"
+                  class="fb"
+                  ><i class="fab fa-facebook fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/vaidesh-shankar-603a9614a/"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-    <div class="gallery-item">
-        <div class="gallery-image"> <img src="../assets/ourTeam/dhruv.jpeg" alt="">
-                <h2>Dhruv</h2>
-        <ul>
-            <li><a href="https://github.com/dhruvmisra" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/dhruvmisra" target="_blank" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/dhruv-misra-35a96a170" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
-        
-        </ul>
-        </div></div>
-    
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="../assets/ourTeam/dhruv.jpeg" alt="" />
+            <h2>Dhruv</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/dhruvmisra"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/dhruvmisra"
+                  target="_blank"
+                  class="insta"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/dhruv-misra-35a96a170"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div class="break"></div>
 
-    <div class="gallery-item">
-        <div class="gallery-image"><img src="../assets/ourTeam/nipul.jpeg" alt="">
-                <h2>Nipul</h2>
-        <ul>
-            <li><a href="https://github.com/NipulSingal" target="_blank" class="github"><i class="fab fa-github fa-2x" ></i></a></li>
-            <li><a href="https://www.instagram.com/nipul_singal/" target="_blank" class="insta"><i class="fab fa-instagram fa-2x" ></i></a></li>
-            <li><a href="https://www.linkedin.com/in/nipul-singal-52579416a" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
-        
-        </ul>
-        </div></div>
-    
-    
-    
-    
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="../assets/ourTeam/nipul.jpeg" alt="" />
+            <h2>Nipul</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/NipulSingal"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/nipul_singal/"
+                  target="_blank"
+                  class="insta"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/nipul-singal-52579416a"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-    <div class="gallery-item">
-        <div class="gallery-image"><img src="../assets/ourTeam/aakash.jpeg" alt="">
-                <h2>Aakash</h2>
-        <ul>
-            <li><a href="https://github.com/Aakash2408" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/theaakashsangwan/" target="_blank" class="insta"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/" target="_blank" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
-        
-        </ul>
-        </div></div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="../assets/ourTeam/aakash.jpeg" alt="" />
+            <h2>Aakash</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/Aakash2408"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/theaakashsangwan/"
+                  target="_blank"
+                  class="insta"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-    <div class="gallery-item">
-        <div class="gallery-image"><img src="../assets/ourTeam/sumit.jpeg" alt="">
-                <h2>Sumit</h2>
-        <ul>
-            <li><a href="https://github.com/Bsumit43" target="_blank" class="github"><i class="fab fa-github fa-2x"></i></a></li>
-            <li><a href="https://www.facebook.com/Bsumit43" target="_blank" class="fb"><i class="fab fa-facebook fa-2x"></i></a></li>
-            <!-- <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li> -->
-        
-        </ul>
-        </div></div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="../assets/ourTeam/sumit.jpeg" alt="" />
+            <h2>Sumit</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/Bsumit43"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/Bsumit43"
+                  target="_blank"
+                  class="fb"
+                  ><i class="fab fa-facebook fa-2x"></i
+                ></a>
+              </li>
+              <!-- <li><a href="https://www.linkedin.com/in/aakash-sangwan-0790aa172/"><i class="fab fa-linkedin fa-2x"></i></a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		
-
-	</div>
-
-
-</div>  
-
-<ul class="circles2">
+    <ul class="circles2">
       <li></li>
       <li></li>
       <li></li>
@@ -112,32 +241,21 @@
       <li></li>
     </ul>
   </div>
-
 </template>
 
 
 <script>
 export default {
-    data(){
-        return{
+  data() {
+    return {};
+  },
 
-        }
-    },
+  methods: {},
 
-    methods:{
+  mounted() {},
 
-    },
-
-    mounted(){
-
-    },
-
-    destroyed(){
-
-    },
-
-
-}
+  destroyed() {}
+};
 </script>
 
 
@@ -145,8 +263,8 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
 body {
-	min-height: 100vh;
-	background-color: black;
+  min-height: 100vh;
+  background-color: black;
 }
 
 // .container {
@@ -156,36 +274,36 @@ body {
 // }
 
 .heading {
-	font-family:  Arial ;
-	font-size: 4rem;
-	font-weight: 500;
-	line-height: 1.5;
-	text-align: center;
-	padding: 3.5rem 0;
-	color: #1a1a1a;
+  font-family: Arial;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: #1a1a1a;
 }
 
 .heading span {
-	display: block;
+  display: block;
 }
 
 .gallery {
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    // flex-direction: row;
-	/* Compensate for excess margin on outer gallery flex items */
-	margin: -1rem .25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // flex-direction: row;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem 0.25rem;
 }
 
 .gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
-	flex: 24rem 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
-	// box-shadow: 0.7rem 0.7rem 0.7rem rgba(1, 81, 255, 0.445);
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 24rem 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  // box-shadow: 0.7rem 0.7rem 0.7rem rgba(1, 81, 255, 0.445);
   box-shadow: 0px 0px 15px rgba(16, 119, 236, 0.8);
-	overflow: hidden;
+  overflow: hidden;
 }
 
 // .gallery-item2 {
@@ -196,7 +314,6 @@ body {
 // 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 // 	overflow: hidden;
 // }
-
 
 /*
 
@@ -219,133 +336,115 @@ Remove or comment-out the code block below to see how the browser will fall-back
 // 	}
 // }
 
-.gallery-image
-{
+.gallery-image {
   display: flex;
-	width: 300px;
-	height: auto;
-	position: relative;
-	overflow: hidden;
-  border :10px solid transparent;
+  width: 300px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid transparent;
 }
 
-.gallery-image:before
-{
-    
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 180%;
-	height: 100%;
-	width: 100%;
-	background: rgba(255,255,255,.3);
-	z-index: 1;
-	transform: skew(45deg);
-	transition: .5s;
+.gallery-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 180%;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 1;
+  transform: skew(45deg);
+  transition: 0.5s;
 }
 
-.gallery-image:hover:before
-{
-	left: -180%;
+.gallery-image:hover:before {
+  left: -180%;
 }
 
-.gallery-image img
-{
-	width: 100%;	
-  height: auto;	
-	filter: grayscale(0%);
-	transition: 1.2s;
+.gallery-image img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(0%);
+  transition: 1.2s;
 }
-.gallery-image:hover img
-{
-	filter: grayscale(100%);
-	transform: scale(1.1);
-    border-radius: 25px;
+.gallery-image:hover img {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+  border-radius: 25px;
 }
 
-.gallery-image h2
-{
-	background: black;
-    font-family: Arial;
-    letter-spacing: 1.5px;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0;
-	padding: 10px 0;
-    font-size: 30px;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	transform: perspective(100px) rotateY() ;
-    opacity:0.8;
-	transform-origin: left;
-	transition: 1s;
-    margin-right: 15px;
-
+.gallery-image h2 {
+  background: black;
+  font-family: Arial;
+  letter-spacing: 1.5px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: perspective(100px) rotateY();
+  opacity: 0.8;
+  transform-origin: left;
+  transition: 1s;
+  margin-right: 15px;
 }
 
-.gallery-image:hover h2
-{
-	transform: perspective(100px) rotateY(0deg);
-  opacity:1;
-    
+.gallery-image:hover h2 {
+  transform: perspective(100px) rotateY(0deg);
+  opacity: 1;
 }
 
-.gallery-image ul
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	background: transparent;
+.gallery-image ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: transparent;
 }
 
-.gallery-image ul li
-{
-	background: #333;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	line-height: 40px;
-	transform: perspective(800px) rotateY(90deg);
-	transition: .5s;
+.gallery-image ul li {
+  background: #333;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 40px;
+  transform: perspective(800px) rotateY(90deg);
+  transition: 0.5s;
   transform-origin: left;
   // display: flex;
   // align-content: center;
 }
 
-.gallery-image:hover ul li
-{
-	transform: perspective(800px) rotateY(0deg);
+.gallery-image:hover ul li {
+  transform: perspective(800px) rotateY(0deg);
 }
 
-.gallery-image:hover ul li:nth-child(1)
-{
-	transition-delay: .2s;
+.gallery-image:hover ul li:nth-child(1) {
+  transition-delay: 0.2s;
 }
 
-.gallery-image:hover ul li:nth-child(2)
-{
-	transition-delay: .6s;
+.gallery-image:hover ul li:nth-child(2) {
+  transition-delay: 0.6s;
 }
 
-.gallery-image:hover ul li:nth-child(3)
-{
-	transition-delay: .8s;
+.gallery-image:hover ul li:nth-child(3) {
+  transition-delay: 0.8s;
 }
 
-.gallery-image:hover ul li:nth-child(4)
-{
-	transition-delay: 1s;
+.gallery-image:hover ul li:nth-child(4) {
+  transition-delay: 1s;
 }
 
-.gallery-image ul li a
-{
-	color: rgba(8, 111, 245, 0.8);
-	background: black;
+.gallery-image ul li a {
+  color: rgba(8, 111, 245, 0.8);
+  background: black;
   height: 50px;
   width: 50px;
   display: flex;
@@ -353,50 +452,37 @@ Remove or comment-out the code block below to see how the browser will fall-back
   justify-content: center;
   transition: 300ms;
 }
-.gallery-image ul li .insta{color:#e1306c;}
-.gallery-image ul li .fb{color:#3b5998;}
-.gallery-image ul li .linkedin{color:#0077b5;}
-.gallery-image ul li .github{color:rgb(190, 190, 190);}
-
- .gallery-image ul li i
-{
-	color:rgba(0, 0, 255, 0.8);
-	background: black;
+.gallery-image ul li .insta {
+  color: #e1306c;
+}
+.gallery-image ul li .fb {
+  color: #3b5998;
+}
+.gallery-image ul li .linkedin {
+  color: #0077b5;
+}
+.gallery-image ul li .github {
+  color: rgb(190, 190, 190);
 }
 
-.gallery-image ul li i:hover
-{
-	color: #fff;
-	background: black;
-}
-.gallery-image ul li a:hover
-{
-	color: #fff;
-	background: rgb(68, 68, 68) !important;
+.gallery-image ul li i {
+  color: rgba(0, 0, 255, 0.8);
+  background: black;
 }
 
+.gallery-image ul li i:hover {
+  color: #fff;
+  background: black;
+}
+.gallery-image ul li a:hover {
+  color: #fff;
+  background: rgb(68, 68, 68) !important;
+}
 
 .break {
   flex-basis: 100%;
   height: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*.image-area2
 {
@@ -430,12 +516,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 */
 
-
-
-
-
-
-.circles2{
+.circles2 {
   z-index: -999;
   position: relative;
 }
@@ -449,7 +530,6 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation: animate 25s linear infinite;
   bottom: -150px;
   position: fixed;
-  
 }
 
 .circles2 li:nth-child(1) {
@@ -595,8 +675,6 @@ Remove or comment-out the code block below to see how the browser will fall-back
   animation-duration: 15s;
 }
 
-
-
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);
@@ -610,7 +688,4 @@ Remove or comment-out the code block below to see how the browser will fall-back
     border-radius: 50%;
   }
 }
-
-
-
 </style>
