@@ -251,18 +251,15 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 .gallery-image img
 {
+	width: 100%;	
+  height: auto;	
 	filter: grayscale(0%);
-    transition: 1.2s;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	transition: 1.2s;
 }
 .gallery-image:hover img
 {
 	filter: grayscale(100%);
-	transform: translate(-50%, -50%) scale(1.1);
+	transform: scale(1.1);
     border-radius: 25px;
 }
 
