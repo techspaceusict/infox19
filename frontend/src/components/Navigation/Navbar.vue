@@ -25,12 +25,13 @@
               data-aos-easing="ease-out"
               data-aos-anchor=".nav-list"
             >
-              <div class="nav-link" @click="navTo(item.link)">
+              <router-link :to="item.link" v-if="item.link.startsWith('/')" class="nav-link">
+                {{ item.name }}
+              </router-link>
+              <div class="nav-link" v-else @click="navTo(item.link)">
                 {{ item.name }}
               </div>
-              <!-- <router-link :to="item.link" v-if="item.link.startsWith('/')" class="nav-link">
-              {{ item.name }}
-              </router-link>
+              <!--
               <a href="./" 
                   v-else
                   v-scroll-to="{
@@ -61,13 +62,6 @@ export default {
   name: "Navbar",
   components: {
     SidebarToggle
-  },
-  methods: {
-    scrollMeTo(refName) {
-      var element = document.getElementById(refName);
-      var top = element.offsetTop;
-      window.scrollTo(0, top);
-    }
   },
   data() {
     return {
@@ -120,7 +114,6 @@ export default {
           offset: link == "#hero" ? 0 : 900
         });
         },50);
-        
       }
     }
   }
@@ -147,7 +140,7 @@ nav * {
 }
 
 .navbar {
-  background: black;
+  background: transparent;
   width: fit-content;
   /* height: 100vh; */
   position: fixed;

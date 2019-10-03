@@ -20,8 +20,9 @@
 
 .drawer-toggle .bar {
   width: 90%;
-  height: 2px;
+  height: 4px;
   background-color: white;
-  margin: 3px 0;
+  box-shadow: 0 0 10px 2px #7678ffa9;
+  margin: 4px 0;
 }
 </style>

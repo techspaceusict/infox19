@@ -76,7 +76,7 @@ canvas {
   text-align: center;
   height: 100%;
   perspective: 40px;
-  top: -100px;
+  top: -12vh;
   /* margin-top: 50%; */
   /* animation: slideUp 0.8s ease-in-out 3.3s forwards; */
   /* animation: backgroundFlicker 2s ease-out forwards; */
@@ -260,7 +260,7 @@ canvas {
   position: relative;
   font-size: 20px;
   font-family: Arial;
-  top: -70px;
+  top: -6vh;
 }
 
 #eventInfo .date {
