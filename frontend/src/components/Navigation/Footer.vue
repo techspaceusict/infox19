@@ -86,6 +86,8 @@ export default {};
 <style scoped>
 .footer {
   z-index: 10;
+  z-index: 3;
+  position: relative;
 }
 .footer {
   height: fit-content;
