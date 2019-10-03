@@ -249,7 +249,7 @@ export default {
   transform: translateX(-120px);
 }
 .layer-3 .row:nth-child(even) {
-  transform: translateX(120px);
+  transform: translateX(-270px);
 }
 
 
