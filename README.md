@@ -47,7 +47,7 @@ npm run serve
 - [Dhruv Misra](https://github.com/dhruvmisra) :sunglasses:
 - [Vaidesh Shankar](https://github.com/vaideshshank) :cowboy_hat_face:
 - [Aakash Sangwan](https://github.com/Aakash2408) 🕵
-- [Nipul Singhal](https://github.com/NipulSingal) :man_firefighter:
+- [Nipul Singal](https://github.com/NipulSingal) :man_firefighter:
 - [Sumit Bhagat](https://github.com/Bsumit43) :construction_worker_man:
 
 ## Glimpses
