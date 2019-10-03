@@ -38,11 +38,13 @@
   "layer-3": {
     "row1": [
       "rees52.jpeg",
-      "getitembedded.jpeg"
+      "getitembedded.jpeg",
+      "logo_Manhattan.webp"
     ],
     "row2": [
+      
     ],
-    "row3":[    
+    "row3":[ "cloudfare.webp"   
 ]
   
   }
