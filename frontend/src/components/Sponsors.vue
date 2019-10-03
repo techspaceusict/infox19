@@ -202,11 +202,11 @@ export default {
 
 .layer-1 {
   // margin-top: 10em;
-  z-index: 3;
+  z-index: 5;
 }
 .layer-2 {
   // margin-top: 0em;
-  z-index: 2;
+  z-index: 4;
 }
 .layer-3 {
   // margin-top: -20em;
@@ -272,6 +272,9 @@ export default {
 
   .layer-3 {margin-top: auto}
 
+  .layer-1 .row:nth-child(odd) {
+    transform: translateX(0);
+  }
   .layer-1 .row:nth-child(even) {
     transform: translateX(0);
   }

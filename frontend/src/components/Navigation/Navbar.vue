@@ -25,12 +25,13 @@
               data-aos-easing="ease-out"
               data-aos-anchor=".nav-list"
             >
-              <div class="nav-link" @click="navTo(item.link)">
+              <router-link :to="item.link" v-if="item.link.startsWith('/')" class="nav-link">
+                {{ item.name }}
+              </router-link>
+              <div class="nav-link" v-else @click="navTo(item.link)">
                 {{ item.name }}
               </div>
-              <!-- <router-link :to="item.link" v-if="item.link.startsWith('/')" class="nav-link">
-              {{ item.name }}
-              </router-link>
+              <!--
               <a href="./" 
                   v-else
                   v-scroll-to="{
@@ -61,13 +62,6 @@ export default {
   name: "Navbar",
   components: {
     SidebarToggle
-  },
-  methods: {
-    scrollMeTo(refName) {
-      var element = document.getElementById(refName);
-      var top = element.offsetTop;
-      window.scrollTo(0, top);
-    }
   },
   data() {
     return {
@@ -120,7 +114,6 @@ export default {
           offset: link == "#hero" ? 0 : 900
         });
         },50);
-        
       }
     }
   }
@@ -147,7 +140,7 @@ nav * {
 }
 
 .navbar {
-  background: black;
+  background: transparent;
   width: fit-content;
   /* height: 100vh; */
   position: fixed;
@@ -158,7 +151,7 @@ nav * {
   text-align: left;
 }
 .nav-list {
-  width: 50%;
+  width: 70%;
   text-decoration: none;
   list-style-type: none;
 }
@@ -167,7 +160,7 @@ nav * {
   padding: 0;
 }
 .nav-link {
-  font-size: 6em;
+  font-size: 6.5vw;
   color: rgb(145, 145, 145);
   cursor: pointer;
   transition: transform 200ms ease-out, color 200ms ease-out;
@@ -177,7 +170,7 @@ nav * {
   transform: scale(1.02);
 }
 .nav-link:hover::before {
-  background: linear-gradient(90deg, #0575e6 0%, rgba(2, 28, 121, 0) 100%);
+  background: linear-gradient(90deg, rgba(5, 118, 230, 0.50) 0%, rgba(2, 28, 121, 0) 100%);
   z-index: -1;
   content: "";
   width: 100%;
@@ -284,34 +277,34 @@ nav * {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .nav-link {
-    font-size: 2em;
+    font-size: 12vw;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .nav-link {
-    font-size: 3em;
-  }
-}
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {
+//   .nav-link {
+//     font-size: 3em;
+//   }
+// }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .nav-link {
-    font-size: 4em;
-  }
-}
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {
+//   .nav-link {
+//     font-size: 4em;
+//   }
+// }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .nav-link {
-    font-size: 6em;
-  }
-}
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//   .nav-link {
+//     font-size: 6em;
+//   }
+// }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+// }
 </style>

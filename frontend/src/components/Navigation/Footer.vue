@@ -84,8 +84,8 @@ export default {};
 </script>
 
 <style scoped>
-.footer * {
-  z-index: 2;
+.footer {
+  z-index: 10;
 }
 .footer {
   height: fit-content;
