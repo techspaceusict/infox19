@@ -1,560 +1,615 @@
 [
-    {
-        "name":"Clash of Companies",
-        "date":"October 13, 2019",
-        "time":"12PM - 5PM",
-        "image":"coc4.webp",
-        "description":"Get ready to be the next Wizard of Ohama or become the next Rothschild or J.P Morgan. This InfoXpression, Zenith, the  E-Cell of GGSIPU presents ”Clash of Companies 3.0.<br><br>It's the game of risk, wits and your negotiation abilities. Be the part of a real-time simulation of Corporate World. Your sole aim throughout the event will be to extract maximum profit from the transactions, auctions, elections and dealings solely on the strength of your gut instincts and your negotiation powers.<br>The entire competition will be between two factions -<br><br>Business Houses(MNC) - The business houses shall sell their stakes to the banks, take loans and buy Industries in auctions which shall reap profits, keeping in mind loan repayments. <br><br>Investment Banks - The investment banks will provide loans, buy stakes and invest in Business houses. Their risks and backing will be boon or bane for the Business Houses.  <br><br>In each faction, the one with maximum valuation in that faction shall be crowned as the Wizard of Investments.<br><br>Experience the thrill of being a part of the Business World on  <br><br>To confirm your participation, pay Rs. 150 to following via Paytm.<br><br>Venue:D-Auditorium",
-        "organizers":[{
-            "name":"Seerat",
-            "contact":"7042415886"
-        },
-        {
-            "name":"Sanyam",
-            "contact":"905314100"
-        }],
-        "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSesV3poJ-J1r4kTja_gTz7N-FIhFRPDE0K66R-yKkuxj4CzDw/viewform"
-    },
-    {
-        "name":"Whiz-Quiz",
-        "date":"October 11, 2019",
-        "time":"12PM - 3PM",
-        "image":"whizquiz.webp",
-        "description":"Are you guys up for a challenge?!<br><br><br>Zenith, the E Cell of GGSIPU brings to you the 3rd edition of WhizQuiz, the ultimate test of knowledge, retention and analytical bend of mind. In today's fast paced corporate world, where technologies and laws change with the blink of an eye, this quiz will challenge each and every aspect of the participating individuals' skills and wisdom in the business world. <br><br><br>A team of maximum two is allowed. Lone wolves are welcome too!<br><br>Venue: D-Block Audi, GGSIPU",
-        "organizers":[{
-            "name":"Deepanshu",
-            "contact":"8700012160"
-        },
-        {
-            "name":"Shivali",
-            "contact":"8742039115"
-        }],
-        "type":{"name":"entrepreneurial","priority":6},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSf9nTAlgz_ycC-2dWoZbDc6HEcNDgnj-NPHtt7ruIFExVeb9g/viewform"
-    },
+  {
+    "name": "Clash of Companies",
+    "date": "October 13, 2019",
+    "time": "12PM - 5PM",
+    "image": "coc4.webp",
+    "description": "Get ready to be the next Wizard of Ohama or become the next Rothschild or J.P Morgan. This InfoXpression, Zenith, the  E-Cell of GGSIPU presents ”Clash of Companies 3.0.<br><br>It's the game of risk, wits and your negotiation abilities. Be the part of a real-time simulation of Corporate World. Your sole aim throughout the event will be to extract maximum profit from the transactions, auctions, elections and dealings solely on the strength of your gut instincts and your negotiation powers.<br>The entire competition will be between two factions -<br><br>Business Houses(MNC) - The business houses shall sell their stakes to the banks, take loans and buy Industries in auctions which shall reap profits, keeping in mind loan repayments. <br><br>Investment Banks - The investment banks will provide loans, buy stakes and invest in Business houses. Their risks and backing will be boon or bane for the Business Houses.  <br><br>In each faction, the one with maximum valuation in that faction shall be crowned as the Wizard of Investments.<br><br>Experience the thrill of being a part of the Business World on  <br><br>To confirm your participation, pay Rs. 150 to following via Paytm.<br><br>Venue:D-Auditorium",
+    "organizers": [
+      {
+        "name": "Seerat",
+        "contact": "7042415886"
+      },
+      {
+        "name": "Sanyam",
+        "contact": "905314100"
+      }
+    ],
+    "type": { "name": "entrepreneurial", "priority": 6 },
+    "teamSize": "2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSesV3poJ-J1r4kTja_gTz7N-FIhFRPDE0K66R-yKkuxj4CzDw/viewform"
+  },
+  {
+    "name": "Whiz-Quiz",
+    "date": "October 11, 2019",
+    "time": "12PM - 3PM",
+    "image": "whizquiz.webp",
+    "description": "Are you guys up for a challenge?!<br><br><br>Zenith, the E Cell of GGSIPU brings to you the 3rd edition of WhizQuiz, the ultimate test of knowledge, retention and analytical bend of mind. In today's fast paced corporate world, where technologies and laws change with the blink of an eye, this quiz will challenge each and every aspect of the participating individuals' skills and wisdom in the business world. <br><br><br>A team of maximum two is allowed. Lone wolves are welcome too!<br><br>Venue: D-Block Audi, GGSIPU",
+    "organizers": [
+      {
+        "name": "Deepanshu",
+        "contact": "8700012160"
+      },
+      {
+        "name": "Shivali",
+        "contact": "8742039115"
+      }
+    ],
+    "type": { "name": "entrepreneurial", "priority": 6 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSf9nTAlgz_ycC-2dWoZbDc6HEcNDgnj-NPHtt7ruIFExVeb9g/viewform"
+  },
 
-    {
-        "name":"Codexpress",
-        "date":"October 11, 2019",
-        "time":"3PM - 4PM",
-        "image":"CODEXPRESS.webp",
-        "description":"Is your coding fast as an express, then this event is specifically for you<br><br>Codexpress is designed specifically for students of 1st and 2nd year and this event is all about your coding speed and time management.You will have to solve questions of different difficulty level in small duration of time,testing your skills and their proper execution.So Xpress your coding skills with Xpress speed.<br>You will have to solve 15 questions of increasing difficulty level in a span of 1 hour only.<br>The one who would solve maximum questions in minimum time would become the Xpress king.<br>It is advisable to carry your own laptops<br><br>Prizes Worth : 8000 INR<br><br>NOTE - Only 1st and 2nd year are eligible for prizes.<br><br>Venue : E-Labs",
-        "organizers":[{
-            "name":"Yogesh",
-            "contact":"8010383350"
-        },
-        {
-            "name":"Parth",
-            "contact":"9582519839"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSehI4Xcq5RKiaIF77h3AqX9chFlnjQGeGsSxiiINHHneehGfg/viewform?usp=sf_link"
-    },
-    {
-        "name":"Bug Debug",
-        "date":"October 13, 2019",
-        "time":"10:30AM - 1PM",
-        "image":"BUGDEBUG.webp",
-        "description":"There are two ways to write an error-free code and only the third one works :p.<br> Wanna see if you can figure that out?<br><br>InfoXpression is back this year,<br>presenting,<br>BUG DEBUG 2k19<br><br>Buck up guys and get ready to hammer out your debugging skills by testing them on our quirky codes.<br><br>Prizes worth 8k waiting for the achievers.🏆<br><br>So bring your laptops with you and show us what you have got!!💫 <br><br>Venue: D block labs",
-        "organizers":[{
-            "name":"Spriha",
-            "contact":"81687766196"
-        },
-        {
-            "name":"Raghav",
-            "contact":"9582306873"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSdVI39LYR1uSzamN_mrD0By83TBXirb8det4zeartf_cZ8nWg/viewform?usp=sf_link"
-    },
-    {
-        "name":"Code-Venture",
-        "date":"October 11, 2019",
-        "time":"2PM - 5PM",
-        "image":"Code-venture.webp",
-        "description":"What's the point of being clever if you can't prove it...?<br><br>Well....NOW YOU CAN!!<br><br>Infoxpression 2019<br>Presents <br>Codeventure 2k19,<br>The first of its name.<br><br> Bring out your inner Sherlock and help your friends to reach the final problem. <br><br>Code-Venture puts your mental skills to test. Join us with your friends in this journey, and decide whether to be a coder or a decoder. Don't forget your laptops and energy.<br><br>Bonus : Not a professional coder? Don't worry. We've got you covered! There are other events for that!!  <br><br>   Prizes Worth : ₹8000.<br><br> Venue: D-Block Lab",
-        "organizers":[{
-            "name":"Samar",
-            "contact":"8800687290"
-        },
-        {
-            "name":"Varun",
-            "contact":"9811894996"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"3-4 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSdV6JlW9qYva8oTusKHux-BqNBwKrcuSxqRJE0bu8NU9uta_w/viewform"
-    },
-    {
-        "name":"Codester",
-        "date":"October 11, 2019",
-        "time":"10:30AM - 2PM",
-        "image":"CODESTER.webp",
-        "description":"THINK | CODE | EXECUTE<br><br>One code to rule them all, one code to bind them.<br>Truly, we know the rush of encountering a challenge, tackling a problem head on and the camaraderie that comes with working alongside fellow programmers who are just as passionate about writing brilliant code.<br>Codester is a competitive programming contest organised by the Codeschool club of USICT, as a part of the technical fest Infoxpression ’19 of USICT. This will be an ACM ICPC style contest.<br><br>It is advisable to bring your own laptops.<br><br>Prizes worth 8K INR.<br> Team Sizes of upto 2 members are allowed.<br><br>Venue : E-Labs",
-        "organizers":[{
-            "name":"Lakshay",
-            "contact":"8376835525"
-        },
-        {
-            "name":"Parth",
-            "contact":"9582519839"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSeymkp_-knzCpitgNM0OOpXxxg95C5PMc-V_ktXsmN8xKWf9w/viewform"
-    },
-    {
-        "name":"UCode",
-        "date":"October 6, 2019",
-        "time":"9PM - 12AM",
-        "image":"UCODE.webp",
-        "description":"USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 5000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
-        "organizers":[{
-            "name":"Vijay",
-            "contact":"9818423905"
-        },
-        {
-            "name":"Yogesh",
-            "contact":"8010383350"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSd2xRg-n4ngqk40AUoqp7zEJpEj3FCJDnksEvmYqnecU2VgNw/viewform?usp=sf_link"
-    },
-   
-    {
-        "name":"Jigsaw Codemania",
-        "date":"October 11, 2019",
-        "time":"2PM - 3PM",
-        "image":"JIGSAW.webp",
-        "description":"🏆Sure you can code a bit, but can you reorder it??🏆 <br> <br> Put your coding skills to test in this refreshing take on competitive programming!! Organise the given jumbled code to make it run and do wonders! <br><br>Winner takes home prizes worth 8,000/-🤑(Prizes eligible only for freshers and sophomores)<br><br>So, bring your laptops and show that you've got what it takes!!<br><br> Venue : E-labs",
-        "organizers":[{
-            "name":"Ritika",
-            "contact":"9650063971"
-        },
-        {
-            "name":"Anushka",
-            "contact":"8800160101"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-    },
-   
-    {
-        "name":"Codewars",
-        "date":"October 13, 2019",
-        "time":"2PM - 5PM",
-        "image":"codewars3.webp",
-        "description":"The Final War Is Here!<br><br>Infoxpression 2019<br>Proudly presents,<br>CODEWARS<br>Buckle up people, because the finale event of Infoxpression, Codewars, is here. Only the top 16 teams, acing the net scores of U CODE, CODESTER and BUG-DEBUG will be allowed to be a part of this event. The total number of rounds will be 4. After each round, only the top half teams in the leaderboard will be eligible to move ahead. <br>It is advisiable to carry your own laptops<br>Prizes Worth : 10000 INR<br><br>Venue : E-Labs",
-        "organizers":[{
-            "name":"Vijay",
-            "contact":"9818423905"
-        },
-        {
-            "name":"Yogesh",
-            "contact":"8010383350"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"2 members",
-        "link":" https://docs.google.com/forms/d/e/1FAIpQLSf_U2f8qyHDaURsW_3F0KV9Wqd-tZuzkJZDBf29EFdbqcNufw/viewform?usp=sf_link"
-    },
+  {
+    "name": "Codexpress",
+    "date": "October 11, 2019",
+    "time": "3PM - 4PM",
+    "image": "CODEXPRESS.webp",
+    "description": "Is your coding fast as an express, then this event is specifically for you<br><br>Codexpress is designed specifically for students of 1st and 2nd year and this event is all about your coding speed and time management.You will have to solve questions of different difficulty level in small duration of time,testing your skills and their proper execution.So Xpress your coding skills with Xpress speed.<br>You will have to solve 15 questions of increasing difficulty level in a span of 1 hour only.<br>The one who would solve maximum questions in minimum time would become the Xpress king.<br>It is advisable to carry your own laptops<br><br>Prizes Worth : 8000 INR<br><br>NOTE - Only 1st and 2nd year are eligible for prizes.<br><br>Venue : E-Labs",
+    "organizers": [
+      {
+        "name": "Yogesh",
+        "contact": "8010383350"
+      },
+      {
+        "name": "Parth",
+        "contact": "9582519839"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSehI4Xcq5RKiaIF77h3AqX9chFlnjQGeGsSxiiINHHneehGfg/viewform?usp=sf_link"
+  },
+  {
+    "name": "Bug Debug",
+    "date": "October 13, 2019",
+    "time": "10:30AM - 1PM",
+    "image": "BUGDEBUG.webp",
+    "description": "There are two ways to write an error-free code and only the third one works :p.<br> Wanna see if you can figure that out?<br><br>InfoXpression is back this year,<br>presenting,<br>BUG DEBUG 2k19<br><br>Buck up guys and get ready to hammer out your debugging skills by testing them on our quirky codes.<br><br>Prizes worth 8k waiting for the achievers.🏆<br><br>So bring your laptops with you and show us what you have got!!💫 <br><br>Venue: D block labs",
+    "organizers": [
+      {
+        "name": "Spriha",
+        "contact": "81687766196"
+      },
+      {
+        "name": "Raghav",
+        "contact": "9582306873"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdVI39LYR1uSzamN_mrD0By83TBXirb8det4zeartf_cZ8nWg/viewform?usp=sf_link"
+  },
+  {
+    "name": "Code-Venture",
+    "date": "October 11, 2019",
+    "time": "2PM - 5PM",
+    "image": "Code-venture.webp",
+    "description": "What's the point of being clever if you can't prove it...?<br><br>Well....NOW YOU CAN!!<br><br>Infoxpression 2019<br>Presents <br>Codeventure 2k19,<br>The first of its name.<br><br> Bring out your inner Sherlock and help your friends to reach the final problem. <br><br>Code-Venture puts your mental skills to test. Join us with your friends in this journey, and decide whether to be a coder or a decoder. Don't forget your laptops and energy.<br><br>Bonus : Not a professional coder? Don't worry. We've got you covered! There are other events for that!!  <br><br>   Prizes Worth : ₹8000.<br><br> Venue: D-Block Lab",
+    "organizers": [
+      {
+        "name": "Samar",
+        "contact": "8800687290"
+      },
+      {
+        "name": "Varun",
+        "contact": "9811894996"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "3-4 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdV6JlW9qYva8oTusKHux-BqNBwKrcuSxqRJE0bu8NU9uta_w/viewform"
+  },
+  {
+    "name": "Codester",
+    "date": "October 11, 2019",
+    "time": "10:30AM - 2PM",
+    "image": "CODESTER.webp",
+    "description": "THINK | CODE | EXECUTE<br><br>One code to rule them all, one code to bind them.<br>Truly, we know the rush of encountering a challenge, tackling a problem head on and the camaraderie that comes with working alongside fellow programmers who are just as passionate about writing brilliant code.<br>Codester is a competitive programming contest organised by the Codeschool club of USICT, as a part of the technical fest Infoxpression ’19 of USICT. This will be an ACM ICPC style contest.<br><br>It is advisable to bring your own laptops.<br><br>Prizes worth 8K INR.<br> Team Sizes of upto 2 members are allowed.<br><br>Venue : E-Labs",
+    "organizers": [
+      {
+        "name": "Lakshay",
+        "contact": "8376835525"
+      },
+      {
+        "name": "Parth",
+        "contact": "9582519839"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeymkp_-knzCpitgNM0OOpXxxg95C5PMc-V_ktXsmN8xKWf9w/viewform"
+  },
+  {
+    "name": "UCode",
+    "date": "October 6, 2019",
+    "time": "9PM - 12AM",
+    "image": "UCODE.webp",
+    "description": "USICT is back with another coding clash,  powered by Coding Ninjas on 6th October, 2019. <br>Be a part of the U Code Coding Challenge!<br>An online Coding Challenge consisting of five programming questions.<br>Prizes Worth: 5000 INR <br><br>Talk is cheap,  show me the code!<br><br>Registration and Event Link : http://hck.re/uI2019<br><br> Venue : Online",
+    "organizers": [
+      {
+        "name": "Vijay",
+        "contact": "9818423905"
+      },
+      {
+        "name": "Yogesh",
+        "contact": "8010383350"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSd2xRg-n4ngqk40AUoqp7zEJpEj3FCJDnksEvmYqnecU2VgNw/viewform?usp=sf_link"
+  },
 
-    {
-        "name":"Geek Diva",
-        "date":"October 12, 2019",
-        "time":"10:30AM - 2PM",
-        "image":"we-connect.webp",
-        "description":"INFO UPDATING SOON <br><br>Venue : E-Labs",
-        "organizers":[{
-            "name":"Avik",
-            "contact":"9910758350"
-        },
-        {
-            "name":"Bhanuja",
-            "contact":"9871332989"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-    },
+  {
+    "name": "Jigsaw Codemania",
+    "date": "October 11, 2019",
+    "time": "2PM - 3PM",
+    "image": "JIGSAW.webp",
+    "description": "🏆Sure you can code a bit, but can you reorder it??🏆 <br> <br> Put your coding skills to test in this refreshing take on competitive programming!! Organise the given jumbled code to make it run and do wonders! <br><br>Winner takes home prizes worth 8,000/-🤑(Prizes eligible only for freshers and sophomores)<br><br>So, bring your laptops and show that you've got what it takes!!<br><br> Venue : E-labs",
+    "organizers": [
+      {
+        "name": "Ritika",
+        "contact": "9650063971"
+      },
+      {
+        "name": "Anushka",
+        "contact": "8800160101"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+  },
 
-    {
-        "name":"Codocrux",
-        "date":"October 8, 2019",
-        "time":"9PM - 11:30PM",
-        "image":"codocrux5.webp",
-        "description":"For all the coding enthusiasts out there , it is an event you’d not want to miss out! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : Online event",
-        "organizers":[{
-            "name":"Avik",
-            "contact":"9910758350"
-        },
-        {
-            "name":"Bhanuja",
-            "contact":"9871332989"
-        }],
-        "type":{"name":"programming","priority":1},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-    },
-    {
-        "name":"UHACK",
-        "date":"October 12-13, 2019",
-        "time":"2:00PM",
-        "image":"uhack.webp",
-        "description":"<b>UHack</b> powered by HackDelhi is here again folks!! One of the best hackathons of Delhi-NCR region is here again, waiting for you to participate. Its bigger, better and more fun than ever and surely, prizes that can make you go berserk. So come up, work on your dreams for 24-hours non-stop and make it happen. Make your imaginations take out solutions that nobody has ever thought and get involved in the heat with some of the best coders of the country. <br><br>What do you need? <br>Just a laptop in your hand, and we'll take care of rest.<br><br> What's at stake? <br>Prizes worth ₹1 Lakh & an all-expense-paid<b> trip to the Himalayas</b>.<br>Plus, there are goodies and swags for all, with something new to learn in 24 hours.<br><br><b>For More Details </b>: www.usicthack.com<br><br>Venue : E-Labs",
-        "organizers":[{
-            "name":"Anurag",
-            "contact":"8860287007"
-        },
-        {
-            "name":"shivam",
-            "contact":"8076797518"
-        }],
-        "type":{"name":"hackathons","priority":0},
-        "teamSize":"3-4 members",
-        "link":"http://www.usicthack.com"
-    },
-    {
-        "name":"ProtoXperience",
-        "date":"October 12, 2019",
-        "time":"10:30AM - 2PM",
-        "image":"Cogitans-ProtoXperience.webp",
-        "description":"<i>Are you a developer? Do you like designing websites?</i> <br><br> Showcase your skills of web development and compete against developers from the length of NCR, at a one it's kind event, Protoexperience, being organised by Cogitans under the aegis of Techspace. <br><br> Design an innovative UI/UX along with frontend for given workflow using any framework and given dummy APIs and win prizes worth ₹8K. Prototype your way to victory at Delhi's most awaited technical festival, InfoXpression 2019. <br><br> Charges: ABSOLUTELY FREE <br> (Security deposit of ₹100 (Refundable)) <br><br> Venue : D-Labs",
-        "organizers":[{
-            "name":"Shorya",
-            "contact":"9560580675"
-        },
-        {
-            "name":"Dhruv",
-            "contact":"7835892893"
-        }],
-        "type":{"name":"development","priority":2},
-        "teamSize":"2-3 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfuU1h312uDDnPcqKnSDhdmzPKM2K3Q2x9e7wLL5xhtDml4FQ/formResponse"
-    },
-    {
-        "name":"App Innovation Challenge",
-        "date":"October 10, 2019",
-        "time":"11:00AM",
-        "image":"appchallenge.webp",
-        "description":"Are you an app development enthusiast?Are ideas buzzing around you? <br>So assemble your stuffs to forge your ideas and turning them to reality. Infoxpression'19 is presenting a 24 hours online App Innovation Challenge. No matter you are a beginner or pro, join us and compete with your colossal ideas and externalize them!!!<br><br>For further details visit : idroid.infoxpression.in<br><br>Venue : Online",
-        "organizers":[{
-            "name":"Ankit Jain",
-            "contact":"8650605941"
-        },
-        {
-            "name":"Sarthak Sadh",
-            "contact":"8076911425"
-        }],
-        "type":{"name":"development","priority":2},
-        "teamSize":"1-2 members",
-        "link":"https://idroid.infoxpression.in"
-    },
-    {
-        "name":"Data Quest",
-        "date":"October 13, 2019",
-        "time":"2PM - 5PM",
-        "image":"dataquest_turingAI.webp",
-        "description":"Grab your datasets, Polish your statistics and bring out the data freak within you, for this is the competition for the best data-cated people out there.<br> Participate and get a chance to win cash prizes and exciting goodies upto ₹5000.<br><br>Venue:D-labs",
-        "organizers":[{
-            "name":"Aakash Bindal",
-            "contact":"8851028128"
-        },
-        {
-            "name":"Keshav Vinayak Jha",
-            "contact":"7678442691"
-        }],
-        "type":{"name":"ml/ai","priority":3},
-        "teamSize":"1-3 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLScTDejEUZrbLlxrBWhma1DpC6gWIc2ORAt6nXOhD145wWYCgg/viewform?usp=sf_link"
-    },
+  {
+    "name": "Codewars",
+    "date": "October 13, 2019",
+    "time": "2PM - 5PM",
+    "image": "codewars3.webp",
+    "description": "The Final War Is Here!<br><br>Infoxpression 2019<br>Proudly presents,<br>CODEWARS<br>Buckle up people, because the finale event of Infoxpression, Codewars, is here. Only the top 16 teams, acing the net scores of U CODE, CODESTER and BUG-DEBUG will be allowed to be a part of this event. The total number of rounds will be 4. After each round, only the top half teams in the leaderboard will be eligible to move ahead. <br>It is advisiable to carry your own laptops<br>Prizes Worth : 10000 INR<br><br>Venue : E-Labs",
+    "organizers": [
+      {
+        "name": "Vijay",
+        "contact": "9818423905"
+      },
+      {
+        "name": "Yogesh",
+        "contact": "8010383350"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "2 members",
+    "link": " https://docs.google.com/forms/d/e/1FAIpQLSf_U2f8qyHDaURsW_3F0KV9Wqd-tZuzkJZDBf29EFdbqcNufw/viewform?usp=sf_link"
+  },
 
+  {
+    "name": "Geek Diva",
+    "date": "October 12, 2019",
+    "time": "10:30AM - 2PM",
+    "image": "we-connect.webp",
+    "description": "INFO UPDATING SOON <br><br>Venue : E-Labs",
+    "organizers": [
+      {
+        "name": "Avik",
+        "contact": "9910758350"
+      },
+      {
+        "name": "Bhanuja",
+        "contact": "9871332989"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+  },
 
-    {
-        "name":"Machine Learning Workshop",
-        "date":"October 12, 2019",
-        "time":"2PM - 5PM",
-        "image":"machinelearningworkshop.webp",
-        "description":"Ever wondered about how that facial recognition camera in your phone works? How does google folders neatly classifies your photos in the cloud photos drive?<br>How do you get such accurate recommendations in your netflix feed? Well, this workshop is here to answer all your questions and get you started to building your own ML/AI systems !<br><Br>Venue:C-Auditorium ",
-        "organizers":[{
-            "name":"Aakash Bindal",
-            "contact":"8851028128"
-        },
-        {
-            "name":"Keshav Vinayak Jha",
-            "contact":"7678442691"
-        }],
-        "type":{"name":"ml/ai","priority":3},
-        "teamSize":"Individual attendees",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSeHR5Qlx9u6szGbX178Qiz3hjSaztT9rXM1E5ol8avVadh6gA/viewform?usp=sf_link"
-        
-    },
+  {
+    "name": "Codocrux",
+    "date": "October 8, 2019",
+    "time": "9PM - 11:30PM",
+    "image": "codocrux5.webp",
+    "description": "For all the coding enthusiasts out there , it is an event you’d not want to miss out! Bring to light your logical and technical skills.The event includes a crossword,quiz and programming skills.Come join us in this exciting contest.It is a challenge designed to inspire the dynamic millennials to put their logical and technical skills to test.There will be four stages which will unlock one after the other.The event will begin with a crossword followed by coding and quiz rounds.Come join us in this mystifying experience.<br><br>Venue : Online event",
+    "organizers": [
+      {
+        "name": "Avik",
+        "contact": "9910758350"
+      },
+      {
+        "name": "Bhanuja",
+        "contact": "9871332989"
+      }
+    ],
+    "type": { "name": "programming", "priority": 1 },
+    "teamSize": "1 member",
+    "link": "https://codocrux.infoxpression.in"
+  },
+  {
+    "name": "UHACK",
+    "date": "October 12-13, 2019",
+    "time": "2:00PM",
+    "image": "uhack.webp",
+    "description": "<b>UHack</b> powered by HackDelhi is here again folks!! One of the best hackathons of Delhi-NCR region is here again, waiting for you to participate. Its bigger, better and more fun than ever and surely, prizes that can make you go berserk. So come up, work on your dreams for 24-hours non-stop and make it happen. Make your imaginations take out solutions that nobody has ever thought and get involved in the heat with some of the best coders of the country. <br><br>What do you need? <br>Just a laptop in your hand, and we'll take care of rest.<br><br> What's at stake? <br>Prizes worth ₹1 Lakh & an all-expense-paid<b> trip to the Himalayas</b>.<br>Plus, there are goodies and swags for all, with something new to learn in 24 hours.<br><br><b>For More Details </b>: www.usicthack.com<br><br>Venue : E-Labs",
+    "organizers": [
+      {
+        "name": "Anurag",
+        "contact": "8860287007"
+      },
+      {
+        "name": "shivam",
+        "contact": "8076797518"
+      }
+    ],
+    "type": { "name": "hackathons", "priority": 0 },
+    "teamSize": "3-4 members",
+    "link": "http://www.usicthack.com"
+  },
+  {
+    "name": "ProtoXperience",
+    "date": "October 12, 2019",
+    "time": "10:30AM - 2PM",
+    "image": "Cogitans-ProtoXperience.webp",
+    "description": "<i>Are you a developer? Do you like designing websites?</i> <br><br> Showcase your skills of web development and compete against developers from the length of NCR, at a one it's kind event, Protoexperience, being organised by Cogitans under the aegis of Techspace. <br><br> Design an innovative UI/UX along with frontend for given workflow using any framework and given dummy APIs and win prizes worth ₹8K. Prototype your way to victory at Delhi's most awaited technical festival, InfoXpression 2019. <br><br> Charges: ABSOLUTELY FREE <br> (Security deposit of ₹100 (Refundable)) <br><br> Venue : D-Labs",
+    "organizers": [
+      {
+        "name": "Shorya",
+        "contact": "9560580675"
+      },
+      {
+        "name": "Dhruv",
+        "contact": "7835892893"
+      }
+    ],
+    "type": { "name": "development", "priority": 2 },
+    "teamSize": "2-3 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfuU1h312uDDnPcqKnSDhdmzPKM2K3Q2x9e7wLL5xhtDml4FQ/formResponse"
+  },
+  {
+    "name": "App Innovation Challenge",
+    "date": "October 10, 2019",
+    "time": "11:00AM",
+    "image": "appchallenge.webp",
+    "description": "Are you an app development enthusiast?Are ideas buzzing around you? <br>So assemble your stuffs to forge your ideas and turning them to reality. Infoxpression'19 is presenting a 24 hours online App Innovation Challenge. No matter you are a beginner or pro, join us and compete with your colossal ideas and externalize them!!!<br><br>For further details visit : idroid.infoxpression.in<br><br>Venue : Online",
+    "organizers": [
+      {
+        "name": "Ankit Jain",
+        "contact": "8650605941"
+      },
+      {
+        "name": "Sarthak Sadh",
+        "contact": "8076911425"
+      }
+    ],
+    "type": { "name": "development", "priority": 2 },
+    "teamSize": "1-2 members",
+    "link": "https://idroid.infoxpression.in"
+  },
+  {
+    "name": "Data Quest",
+    "date": "October 13, 2019",
+    "time": "2PM - 5PM",
+    "image": "dataquest_turingAI.webp",
+    "description": "Grab your datasets, Polish your statistics and bring out the data freak within you, for this is the competition for the best data-cated people out there.<br> Participate and get a chance to win cash prizes and exciting goodies upto ₹5000.<br><br>Venue:D-labs",
+    "organizers": [
+      {
+        "name": "Aakash Bindal",
+        "contact": "8851028128"
+      },
+      {
+        "name": "Keshav Vinayak Jha",
+        "contact": "7678442691"
+      }
+    ],
+    "type": { "name": "ml/ai", "priority": 3 },
+    "teamSize": "1-3 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScTDejEUZrbLlxrBWhma1DpC6gWIc2ORAt6nXOhD145wWYCgg/viewform?usp=sf_link"
+  },
 
-    {
-        "name":"Open Source Meetup",
-        "date":"October 11, 2019",
-        "time":"2PM - 5PM",
-        "image":"OSLC2.webp",
-        "description":"Techspace USICT is organising <br> open Source meet up . The meet up will consist of Networking session , Technical talks , Mentoring sessions by Experts in various technical domains followed by questions and answers session . Topics Like GSoC , Web and Android Dev , Currently Trending Technologies will be discussed . Participants will be provided awesome swags and refreshments ..Event is open for all and is Completely free of cost !<br><br>Venue:E-109",
-        "organizers":[{
-            "name":"Ashish",
-            "contact":"9643532230"
-        },
-        {
-            "name":"Vaidesh",
-            "contact":"7292087347"
-        }],
-        "type":{"name":"meetups","priority":4},
-        "teamSize":"Individual attendees",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-        
-    },
+  {
+    "name": "Machine Learning Workshop",
+    "date": "October 12, 2019",
+    "time": "2PM - 5PM",
+    "image": "machinelearningworkshop.webp",
+    "description": "Ever wondered about how that facial recognition camera in your phone works? How does google folders neatly classifies your photos in the cloud photos drive?<br>How do you get such accurate recommendations in your netflix feed? Well, this workshop is here to answer all your questions and get you started to building your own ML/AI systems !<br><Br>Venue:C-Auditorium ",
+    "organizers": [
+      {
+        "name": "Aakash Bindal",
+        "contact": "8851028128"
+      },
+      {
+        "name": "Keshav Vinayak Jha",
+        "contact": "7678442691"
+      }
+    ],
+    "type": { "name": "ml/ai", "priority": 3 },
+    "teamSize": "Individual attendees",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeHR5Qlx9u6szGbX178Qiz3hjSaztT9rXM1E5ol8avVadh6gA/viewform?usp=sf_link"
+  },
 
-    {
-        "name":"Express InfoX",
-        "date":"October 11-13, 2019",
-        "time":"online event",
-        "image":"PixelHubEvent_PosterColor.webp",
-        "description":"INFO UPDATING SOON<br><br>Venue:Online",
-        "organizers":[{
-            "name":"Jatin Soni",
-            "contact":"9650027654"
-        },
-        {
-            "name":"Mayank Singh",
-            "contact":"8755613411"
-        }],
-        "type":{"name":"fun & literary","priority":7},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-    },
-    {
-        "name":"Meme War",
-        "date":"Live Now",
-        "time":"online event",
-        "image":"MemeWar.webp",
-        "description":"Ever wanted to make a huge crowd go LOL on your posts? Ever wanted to make meme but didn't have enough motivation?<br>So, here you go!! InfoXpression is announcing Meme War, a Meme Competition . Send us your entries promoting InfoXpression in the funniest way possible.  InfoXpression the official Techfest of GGSIPU. Get along with your instincts and turn normal life scenarios into something that you will always remember, yes A Meme.<br> Last date of submission - 10th October,2019  Theme of Meme - InfoXpression<br> All entries to be submitted on socialinfox@gmail.com .<br><br>Venue:Online",
-        "organizers":[{
-            "name":"Jatin Soni",
-            "contact":"9650027654"
-        },
-        {
-            "name":"Mayank Singh",
-            "contact":"8755613411"
-        }],
-        "type":{"name":"fun & literary","priority":7},
-        "teamSize":"1 member",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
-    },
+  {
+    "name": "Open Source Meetup",
+    "date": "October 11, 2019",
+    "time": "2PM - 5PM",
+    "image": "OSLC2.webp",
+    "description": "Techspace USICT is organising <br> open Source meet up . The meet up will consist of Networking session , Technical talks , Mentoring sessions by Experts in various technical domains followed by questions and answers session . Topics Like GSoC , Web and Android Dev , Currently Trending Technologies will be discussed . Participants will be provided awesome swags and refreshments ..Event is open for all and is Completely free of cost !<br><br>Venue:E-109",
+    "organizers": [
+      {
+        "name": "Ashish",
+        "contact": "9643532230"
+      },
+      {
+        "name": "Vaidesh",
+        "contact": "7292087347"
+      }
+    ],
+    "type": { "name": "meetups", "priority": 4 },
+    "teamSize": "Individual attendees",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+  },
 
-    {
-        "name":"Clash On LAN",
-        "date":"October 11-13 2019",
-        "time":"10AM-5PM",
-        "image":"ClashOnLan.webp",
-        "description":"If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- E-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
-        "organizers":[{
-            "name":"Sachin",
-            "contact":"9717430189"
-        },
-        {
-            "name":"Mridul",
-            "contact":"9354385487"
-        }],
-        "type":{"name":"fun & literary","priority":6},
-        "teamSize":"1 member",
-        "link":"https://forms.gle/eXHsKUaKkVYjF6a58"
-    },
+  {
+    "name": "Express InfoX",
+    "date": "October 11-13, 2019",
+    "time": "online event",
+    "image": "PixelHubEvent_PosterColor.webp",
+    "description": "INFO UPDATING SOON<br><br>Venue:Online",
+    "organizers": [
+      {
+        "name": "Jatin Soni",
+        "contact": "9650027654"
+      },
+      {
+        "name": "Mayank Singh",
+        "contact": "8755613411"
+      }
+    ],
+    "type": { "name": "fun & literary", "priority": 7 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+  },
+  {
+    "name": "Meme War",
+    "date": "Live Now",
+    "time": "online event",
+    "image": "MemeWar.webp",
+    "description": "Ever wanted to make a huge crowd go LOL on your posts? Ever wanted to make meme but didn't have enough motivation?<br>So, here you go!! InfoXpression is announcing Meme War, a Meme Competition . Send us your entries promoting InfoXpression in the funniest way possible.  InfoXpression the official Techfest of GGSIPU. Get along with your instincts and turn normal life scenarios into something that you will always remember, yes A Meme.<br> Last date of submission - 10th October,2019  Theme of Meme - InfoXpression<br> All entries to be submitted on socialinfox@gmail.com .<br><br>Venue:Online",
+    "organizers": [
+      {
+        "name": "Jatin Soni",
+        "contact": "9650027654"
+      },
+      {
+        "name": "Mayank Singh",
+        "contact": "8755613411"
+      }
+    ],
+    "type": { "name": "fun & literary", "priority": 7 },
+    "teamSize": "1 member",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+  },
 
-    {
-        "name":"Play our Games",
-        "date":"October 12, 2019",
-        "time":"11AM - 5PM",
-        "image":"POG.webp",
-        "description":"_Do You call yourself a Gamer?_<br> _Do you have a zest for Gaming?_<br>_Do you wanna immerse yourself in the world of VR?_<br><br>Then Get ready to play games like never before. Experience the world of Virtual Reality and  The game that takes you there.<br><br>Adorn your Life with Games.<br>Experience the Interactive gaming action with us and Enjoy your day here at Infoxpression with many other exciting events.<br><br>All at one place in our event  *PLAY OUR GAMES* <br>One of the most awaited events of InfoXpression 2K19.<br><br><br>*GAMES FOR YOU*:-<br>• VR BASKETBALL<br>• VR BOWLING<br>• VR ARCHERY<br><br>*Main Attraction:- SPIDER HUNT [VR]*<br><br>Charges :-*ABSOLUTELY FREE* <br>(Security deposit of ₹ 100 (Refundable)).<br><br>*_ Take Out Your Inner Soul That Is Screaming To Play Games _* <br><br>Venue : Venue:- E-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
-        "organizers":[{
-            "name":"Harshit",
-            "contact":"7011031636"
-        },
-        {
-            "name":"Umang",
-            "contact":"8527458501"
-        }],
-        "type":{"name":"fun & literary","priority":6},
-        "teamSize":"1 member",
-        "link":"https://forms.gle/hAP1m7Qdinec9MRj7"
-    },
-    
+  {
+    "name": "Clash On LAN",
+    "date": "October 11-13 2019",
+    "time": "10AM-5PM",
+    "image": "ClashOnLan.webp",
+    "description": "If you have a Heart of Gamer then this event is only for you!<br><br>Time to show your skills. Show how good you are!<br>Prove that you have. “Whatever it takes” to call yourself a gamer !<br><br>*INFOXPRESSION* is proud to present:  *_CLASH ON LAN_*the most awaited  event of INFOX 2K19.<br><br>Compete with others till the end  and get a chance to win *PRIZES WORTH   ₹ 8K*<br><br>Are you up to the challenge?<br><br>Charges:- ₹ 100/day  or  ₹ 200 for 3 days.<br><br>Venue:- E-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
+    "organizers": [
+      {
+        "name": "Sachin",
+        "contact": "9717430189"
+      },
+      {
+        "name": "Mridul",
+        "contact": "9354385487"
+      }
+    ],
+    "type": { "name": "fun & literary", "priority": 6 },
+    "teamSize": "1 member",
+    "link": "https://forms.gle/eXHsKUaKkVYjF6a58"
+  },
 
-    {
-        "name":"Space Jam",
-        "date":"October 12, 2019",
-        "time":"10AM - 5PM",
-        "image":"spacejam.webp",
-        "description":"Greetings to one and all! RenderedSpace is organizing its debut gamejam at InfoXpression 2K19! This gamejam has a slight twist to it. You submit your games to us on https://itch.io/jam/spacejam-rs till 10th of October. Our panel would review your games and shortlist you for the final round at InfoX! In the event you'll get a chance to meet other game devs and also a chance to test your game in public! Yes, we have a code review round and a public review round where in people on campus would play your game and rate their experience! The winner would literally be the People's Champion! That's not all, we have a cash prize of $150 for the winner and lots of official Unity Swags for all the other finalists! <br><br>Online round: 1-10 October <br><br>On-campus round: 12 October<br><br>Venue: D-Block Auditorium, USICT Campus, Dwarka Sector 16C, New Delhi <br><br>For any queries, feel free to contact",
-        "organizers":[{
-            "name":"Aayush",
-            "contact":"9953610152"
-        },
-        {
-            "name":"Manind",
-            "contact":"8527121782"
-        }],
-        "type":{"name":"development","priority":6},
-        "teamSize":"1-4 members",
-        "link":"https://itch.io/jam/spacejam-rs"
-    },
-    {
-        "name":"Treasure Hunt",
-        "date":"October 12-13, 2019",
-        "time":"2PM",
-        "image":"treasurehunt.webp",
-        "description":"The box of miracles and secrets is waiting for you. Come and explore a whole new world within. Experience fun, like you have never before. Apply your brain in every technical aspect and hunt for the treasure.<br><br> Team of 3 will be allowed to participate.<br> Participate to win exciting prizes and goodies.<br><br>Venue:Central Arena",
-        "organizers":[{
-            "name":"Ankit Jain",
-            "contact":"8650605941"
-        },
-        {
-            "name":"Sarthak Sadh",
-            "contact":"8076911425"
-        }],
-        "type":{"name":"fun & literary","priority":6},
-        "teamSize":"2-3 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLScF6PKpMpzSpSthYBoem79ZERYwtjPxThCc737fKNrrqddQ3g/viewform"
-    },
-    {
-        "name":"Marvel World",
-        "date":"October 12, 2019",
-        "time":"10:30AM - 2PM",
-        "image":"Marvelworld.webp",
-        "description":"*THIS IS THE FIGHT OF OUR LIVES. WE ARE GOING TO WIN. WHATEVER IT TAKES.* <br>Suit Up , Pick up your Shields , Gather your Ammunition coz its time for the much-awaited  event of InFox 2K19 <br>“ MCU MANIA ”<br>Do you think you are worthy to yield the stones ?<br>Do you have “Whatever it takes” to be the biggest marvelloholic ?<br>Prove that you have  “Whatever it takes” to be the biggest marvelloholic !<br>Participate and get a chance to win cash prizes and exciting goodies upto ₹5000<br><br> Members per team: 1-3<br><br>Participation Fees: 50/- per team<br><br> Wanna Buzz yourself in ?? Coz its not Just a 3-Round Quiz.<br><br>Venue:C-Auditorium",
-        
-        "organizers":[{
-            "name":"Vaibhav",
-            "contact":"7838708087"
-        },
-        {
-            "name":"Mayank",
-            "contact":"8745910348"
-        }],
-        "type":{"name":"fun & literary","priority":6},
-        "teamSize":"1-3 members",
-        "link":"https://forms.gle/BvNnPkGaEfwGXA6s6"
-    },
+  {
+    "name": "Play our Games",
+    "date": "October 12, 2019",
+    "time": "11AM - 5PM",
+    "image": "POG.webp",
+    "description": "_Do You call yourself a Gamer?_<br> _Do you have a zest for Gaming?_<br>_Do you wanna immerse yourself in the world of VR?_<br><br>Then Get ready to play games like never before. Experience the world of Virtual Reality and  The game that takes you there.<br><br>Adorn your Life with Games.<br>Experience the Interactive gaming action with us and Enjoy your day here at Infoxpression with many other exciting events.<br><br>All at one place in our event  *PLAY OUR GAMES* <br>One of the most awaited events of InfoXpression 2K19.<br><br><br>*GAMES FOR YOU*:-<br>• VR BASKETBALL<br>• VR BOWLING<br>• VR ARCHERY<br><br>*Main Attraction:- SPIDER HUNT [VR]*<br><br>Charges :-*ABSOLUTELY FREE* <br>(Security deposit of ₹ 100 (Refundable)).<br><br>*_ Take Out Your Inner Soul That Is Screaming To Play Games _* <br><br>Venue : Venue:- E-Block Auditorium, GGSIP University, Dwarka, Sector-16.",
+    "organizers": [
+      {
+        "name": "Harshit",
+        "contact": "7011031636"
+      },
+      {
+        "name": "Umang",
+        "contact": "8527458501"
+      }
+    ],
+    "type": { "name": "fun & literary", "priority": 6 },
+    "teamSize": "1 member",
+    "link": "https://forms.gle/hAP1m7Qdinec9MRj7"
+  },
 
-    {
-        "name":"Capture The Flag",
-        "date":"October 12,13, 2019",
-        "time":"12PM",
-        "image":"RootersCTF2019.webp",
-        "description":"RCTF will be a worldwide Free-for-all competition dedicated to InfoSec and CyberSec Community. It will be a Jeopardy type capture the flag competition, held online where you will be presented with questions related to Cryptography, Web Hacking, Forensics, Reverse, Steganography and other various fields of cyber and information security.<br>So, are you a one or a zero?<br>It’ll be a Beginner-Intermediate Level CTF.<br><br>Discord Server: https://discord.gg/AMkB8Ft<br><br>Venue:Online event",
-        "organizers":[{
-            "name":"Ehsaan Bansal",
-            "contact":"9871270195"
-        },
-        {
-            "name":"Manorit Chawdhry",
-            "contact":"9482058910"
-        }],
-        "type":{"name":"cyber security","priority":4},
-        "teamSize":"4 members",
-        "link":"https://discord.gg/AMkB8Ft"
-    },
-    {
-        "name":"Robo Wars",
-        "date":"October 11, 2019",
-        "time":"2PM - 5PM",
-        "image":"war-01.webp",
-        "description":"Ever wondered what 2 life-sized robots battling out in an arena look like? The wait for the extravagant robo warfare is over!! Electrotech presenting ROBOWAR - the ultimate battle among the best autobots. Battle with your bot... Screw your enemy line.. Mess your gaming skills... And the best can go home with a cheque to celebrate,<br>Ya guys, the time is up now let's begin the war!!<br>The war without bloodsheds and agony, where intelligence and accuracy get computed.The warfare is ready, let the robots war....!<br>UNIVERSITY SCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY , GGSIPU invites you to the extravaganza tech fest INFOX 2K19 and to the most spectacular and thrilling event Robowar.<br>Don't hesitate for being part of an extraordinary event and win a huge prize worth 25k 💸💸...!!!<br>There is no limit on team members and others rules will be shortly declared.<br><br>Venue:Central Arena",
-        "organizers":[{
-            "name":"Satyam ",
-            "contact":"8448228963"
-        },
-        {
-            "name":"Krishna ",
-            "contact":""
-        }],
-        "type":{"name":"electronics","priority":5},
-        "teamSize":"1-6 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSewrv1lOtjTTp3VkStKqTJoa9V-Ppn04mHws2AJnYheQUnJ4w/viewform"
-    },
-    {
-        "name":"Get Set Go",
-        "date":"October 13, 2019",
-        "time":"10:30AM - 2PM",
-        "image":"race-01.webp",
-        "description":"Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of 18k and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.<br><br>Venue : Central Arena",
-        "organizers":[{
-            "name":"Varun",
-            "contact":"9555053000"
-        },
-        {
-            "name":"Pranav",
-            "contact":"9868176407"
-        }],
-        "type":{"name":"electronics","priority":5},
-        "teamSize":"1-4 members",
-        "link":"https://forms.gle/TmAppV7wBPMm63KdA"
-    },
-    {
-        "name":"Meshed Up",
-        "date":"October 13, 2019",
-        "time":"2PM - 5PM",
-        "image":"meshedup-01.webp",
-        "description":"Remember those childhood mazes on lunch boxes? Yeah they've grown up! and this time your bot is gonna find the route  bcoz, when the human brain gets a little fussy, the bots find the way with ease.<br>Infox provides you the opportunity to test your bot's maze solving capabilities. So bring in your *autonomous* bot and solve the wall maze in least time!!<br><br>At most 4 members per team<br><br>•        Each team has to build an autonomous robot<br> •        The robot has to avoid walls and reach the end of maze in minimum time <br><br>Venue:Central Arena",
-        "organizers":[{
-            "name":"Yashkant",
-            "contact":"9716734568"
-        },
-        {
-            "name":"Manoj",
-            "contact":"9717304557"
-        }],
-        "type":{"name":"electronics","priority":5},
-        "teamSize":"1-2 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSe97Z0og-KckUMe_QCAw7qh-7pkjZF8tkSxP6z0B9S7UtBP3g/viewform"
-    },
-    {
-        "name":"Lord Of The Line",
-        "date":"October 13, 2019",
-        "time":"2PM - 5PM",
-        "image":"lordofline.webp",
-        "description":"Passionate about Robotics??🎮🏎 Well , here is your chance to showcase your robotic talent on 13th October at 10:30 AM at D Block Lab.<br><br>Bring your *Line Follower Robot* which can trace a Black coloured path given to it. Path won't be straight↪➡️⤵️🔄 , so design ur Robot🏎 intelligently so that it can trace any type of path. <br><br>There will only be 2 levels and the robot should be autonomous.🤖<br><br>Losing The Line🛸 - Any Robot that loses the line will be given a penalty of some time.<br>The Robot which traces the last level in least time will be declared as winner🏎👑✌.<br><br>Each team can have maximum 4 members<br><Br>Venue:Electronics-Lab",
-        "organizers":[{
-            "name":"Rohan",
-            "contact":"8383977264"
-        },
-        {
-            "name":"Yugank",
-            "contact":"9953264267"
-        }],
-        "type":{"name":"electronics","priority":5},
-        "teamSize":"1-4 members",
-        "link":"https://docs.google.com/forms/d/e/1FAIpQLSeFrVFj4T36qJFRARsqpyI8rg9Yr5hcqDLUOnzcYXwECdfIVw/viewform"
-    },
-    {
-        "name":"Robo Liga",
-        "date":"October 11, 2019",
-        "time":"10:30AM - 2PM",
-        "image":"liga-01.webp",
-        "description":"Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 15k!<br><br>Venue:Central Arena",
-        "organizers":[{
-            "name":"Shilpi",
-            "contact":"9205024506"
-        },
-        {
-            "name":"Gurwinder",
-            "contact":"7065971345"
-        }],
-        "type":{"name":"electronics","priority":5},
-        "teamSize":"1-2 members",
-        "link":"https://forms.gle/vU4FWDH22TW8TLag9"
-    }
+  {
+    "name": "Space Jam",
+    "date": "October 12, 2019",
+    "time": "10AM - 5PM",
+    "image": "spacejam.webp",
+    "description": "Greetings to one and all! RenderedSpace is organizing its debut gamejam at InfoXpression 2K19! This gamejam has a slight twist to it. You submit your games to us on https://itch.io/jam/spacejam-rs till 10th of October. Our panel would review your games and shortlist you for the final round at InfoX! In the event you'll get a chance to meet other game devs and also a chance to test your game in public! Yes, we have a code review round and a public review round where in people on campus would play your game and rate their experience! The winner would literally be the People's Champion! That's not all, we have a cash prize of $150 for the winner and lots of official Unity Swags for all the other finalists! <br><br>Online round: 1-10 October <br><br>On-campus round: 12 October<br><br>Venue: D-Block Auditorium, USICT Campus, Dwarka Sector 16C, New Delhi <br><br>For any queries, feel free to contact",
+    "organizers": [
+      {
+        "name": "Aayush",
+        "contact": "9953610152"
+      },
+      {
+        "name": "Manind",
+        "contact": "8527121782"
+      }
+    ],
+    "type": { "name": "development", "priority": 6 },
+    "teamSize": "1-4 members",
+    "link": "https://itch.io/jam/spacejam-rs"
+  },
+  {
+    "name": "Treasure Hunt",
+    "date": "October 12-13, 2019",
+    "time": "2PM",
+    "image": "treasurehunt.webp",
+    "description": "The box of miracles and secrets is waiting for you. Come and explore a whole new world within. Experience fun, like you have never before. Apply your brain in every technical aspect and hunt for the treasure.<br><br> Team of 3 will be allowed to participate.<br> Participate to win exciting prizes and goodies.<br><br>Venue:Central Arena",
+    "organizers": [
+      {
+        "name": "Ankit Jain",
+        "contact": "8650605941"
+      },
+      {
+        "name": "Sarthak Sadh",
+        "contact": "8076911425"
+      }
+    ],
+    "type": { "name": "fun & literary", "priority": 6 },
+    "teamSize": "2-3 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScF6PKpMpzSpSthYBoem79ZERYwtjPxThCc737fKNrrqddQ3g/viewform"
+  },
+  {
+    "name": "Marvel World",
+    "date": "October 12, 2019",
+    "time": "10:30AM - 2PM",
+    "image": "Marvelworld.webp",
+    "description": "*THIS IS THE FIGHT OF OUR LIVES. WE ARE GOING TO WIN. WHATEVER IT TAKES.* <br>Suit Up , Pick up your Shields , Gather your Ammunition coz its time for the much-awaited  event of InFox 2K19 <br>“ MCU MANIA ”<br>Do you think you are worthy to yield the stones ?<br>Do you have “Whatever it takes” to be the biggest marvelloholic ?<br>Prove that you have  “Whatever it takes” to be the biggest marvelloholic !<br>Participate and get a chance to win cash prizes and exciting goodies upto ₹5000<br><br> Members per team: 1-3<br><br>Participation Fees: 50/- per team<br><br> Wanna Buzz yourself in ?? Coz its not Just a 3-Round Quiz.<br><br>Venue:C-Auditorium",
 
+    "organizers": [
+      {
+        "name": "Vaibhav",
+        "contact": "7838708087"
+      },
+      {
+        "name": "Mayank",
+        "contact": "8745910348"
+      }
+    ],
+    "type": { "name": "fun & literary", "priority": 6 },
+    "teamSize": "1-3 members",
+    "link": "https://forms.gle/BvNnPkGaEfwGXA6s6"
+  },
+
+  {
+    "name": "Capture The Flag",
+    "date": "October 12,13, 2019",
+    "time": "12PM",
+    "image": "RootersCTF2019.webp",
+    "description": "RCTF will be a worldwide Free-for-all competition dedicated to InfoSec and CyberSec Community. It will be a Jeopardy type capture the flag competition, held online where you will be presented with questions related to Cryptography, Web Hacking, Forensics, Reverse, Steganography and other various fields of cyber and information security.<br>So, are you a one or a zero?<br>It’ll be a Beginner-Intermediate Level CTF.<br><br>Discord Server: https://discord.gg/AMkB8Ft<br><br>Venue:Online event",
+    "organizers": [
+      {
+        "name": "Ehsaan Bansal",
+        "contact": "9871270195"
+      },
+      {
+        "name": "Manorit Chawdhry",
+        "contact": "9482058910"
+      }
+    ],
+    "type": { "name": "cyber security", "priority": 4 },
+    "teamSize": "4 members",
+    "link": "https://discord.gg/AMkB8Ft"
+  },
+  {
+    "name": "Robo Wars",
+    "date": "October 11, 2019",
+    "time": "2PM - 5PM",
+    "image": "war-01.webp",
+    "description": "Ever wondered what 2 life-sized robots battling out in an arena look like? The wait for the extravagant robo warfare is over!! Electrotech presenting ROBOWAR - the ultimate battle among the best autobots. Battle with your bot... Screw your enemy line.. Mess your gaming skills... And the best can go home with a cheque to celebrate,<br>Ya guys, the time is up now let's begin the war!!<br>The war without bloodsheds and agony, where intelligence and accuracy get computed.The warfare is ready, let the robots war....!<br>UNIVERSITY SCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY , GGSIPU invites you to the extravaganza tech fest INFOX 2K19 and to the most spectacular and thrilling event Robowar.<br>Don't hesitate for being part of an extraordinary event and win a huge prize worth 25k 💸💸...!!!<br>There is no limit on team members and others rules will be shortly declared.<br><br>Venue:Central Arena",
+    "organizers": [
+      {
+        "name": "Satyam ",
+        "contact": "8448228963"
+      },
+      {
+        "name": "Krishna ",
+        "contact": ""
+      }
+    ],
+    "type": { "name": "electronics", "priority": 5 },
+    "teamSize": "1-6 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSewrv1lOtjTTp3VkStKqTJoa9V-Ppn04mHws2AJnYheQUnJ4w/viewform"
+  },
+  {
+    "name": "Get Set Go",
+    "date": "October 13, 2019",
+    "time": "10:30AM - 2PM",
+    "image": "race-01.webp",
+    "description": "Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of 18k and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.<br><br>Venue : Central Arena",
+    "organizers": [
+      {
+        "name": "Varun",
+        "contact": "9555053000"
+      },
+      {
+        "name": "Pranav",
+        "contact": "9868176407"
+      }
+    ],
+    "type": { "name": "electronics", "priority": 5 },
+    "teamSize": "1-4 members",
+    "link": "https://forms.gle/TmAppV7wBPMm63KdA"
+  },
+  {
+    "name": "Meshed Up",
+    "date": "October 13, 2019",
+    "time": "2PM - 5PM",
+    "image": "meshedup-01.webp",
+    "description": "Remember those childhood mazes on lunch boxes? Yeah they've grown up! and this time your bot is gonna find the route  bcoz, when the human brain gets a little fussy, the bots find the way with ease.<br>Infox provides you the opportunity to test your bot's maze solving capabilities. So bring in your *autonomous* bot and solve the wall maze in least time!!<br><br>At most 4 members per team<br><br>•        Each team has to build an autonomous robot<br> •        The robot has to avoid walls and reach the end of maze in minimum time <br><br>Venue:Central Arena",
+    "organizers": [
+      {
+        "name": "Yashkant",
+        "contact": "9716734568"
+      },
+      {
+        "name": "Manoj",
+        "contact": "9717304557"
+      }
+    ],
+    "type": { "name": "electronics", "priority": 5 },
+    "teamSize": "1-2 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSe97Z0og-KckUMe_QCAw7qh-7pkjZF8tkSxP6z0B9S7UtBP3g/viewform"
+  },
+  {
+    "name": "Lord Of The Line",
+    "date": "October 13, 2019",
+    "time": "2PM - 5PM",
+    "image": "lordofline.webp",
+    "description": "Passionate about Robotics??🎮🏎 Well , here is your chance to showcase your robotic talent on 13th October at 10:30 AM at D Block Lab.<br><br>Bring your *Line Follower Robot* which can trace a Black coloured path given to it. Path won't be straight↪➡️⤵️🔄 , so design ur Robot🏎 intelligently so that it can trace any type of path. <br><br>There will only be 2 levels and the robot should be autonomous.🤖<br><br>Losing The Line🛸 - Any Robot that loses the line will be given a penalty of some time.<br>The Robot which traces the last level in least time will be declared as winner🏎👑✌.<br><br>Each team can have maximum 4 members<br><Br>Venue:Electronics-Lab",
+    "organizers": [
+      {
+        "name": "Rohan",
+        "contact": "8383977264"
+      },
+      {
+        "name": "Yugank",
+        "contact": "9953264267"
+      }
+    ],
+    "type": { "name": "electronics", "priority": 5 },
+    "teamSize": "1-4 members",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeFrVFj4T36qJFRARsqpyI8rg9Yr5hcqDLUOnzcYXwECdfIVw/viewform"
+  },
+  {
+    "name": "Robo Liga",
+    "date": "October 11, 2019",
+    "time": "10:30AM - 2PM",
+    "image": "liga-01.webp",
+    "description": "Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 15k!<br><br>Venue:Central Arena",
+    "organizers": [
+      {
+        "name": "Shilpi",
+        "contact": "9205024506"
+      },
+      {
+        "name": "Gurwinder",
+        "contact": "7065971345"
+      }
+    ],
+    "type": { "name": "electronics", "priority": 5 },
+    "teamSize": "1-2 members",
+    "link": "https://forms.gle/vU4FWDH22TW8TLag9"
+  }
 ]
