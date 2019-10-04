@@ -244,7 +244,7 @@
           <div class="empty12_3"></div>
           <div class="val_3 event">
             <p>
-              Validatory <br />
+              Valedictory <br />
               Ceremony
             </p>
           </div>
