@@ -24,15 +24,7 @@
                   ><i class="fab fa-github fa-2x"></i
                 ></a>
               </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/silentlad/"
-                  target="_blank"
-                  class="linkedin"
-                  ><i class="fab fa-linkedin fa-2x"></i
-                ></a>
-              </li>
-              <li>
+               <li>
                 <a
                   href="https://www.instagram.com/silent_lad_/"
                   target="_blank"
@@ -42,10 +34,10 @@
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/silentlad/"
+                  href="https://www.linkedin.com/in/silentlad/"
                   target="_blank"
-                  class="fb"
-                  ><i class="fab fa-facebook fa-2x"></i
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
                 ></a>
               </li>
             </ul>
