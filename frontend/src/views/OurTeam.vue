@@ -2,7 +2,7 @@
   <div class="context">
     <!-- <h1 style="align-content: center; text-align: center; color: white; font-size: 120px; margin-top: 20px;"> OUR TEAM</h1> -->
     <Heading anchor="" wrapper=".contact-parent-wrapper" :speed="0" onPage
-      >Our Team</Heading
+     style="color:red;" >Our Team</Heading
     >
 
     <div class="container">
@@ -286,6 +286,7 @@ body {
   // flex-direction: row;
   /* Compensate for excess margin on outer gallery flex items */
   margin: -1rem 0.25rem;
+  background-color: -webkit-linear-gradient(to right,#24D5DC,#5A81E8);
 }
 
 .gallery-item {
@@ -334,7 +335,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
   height: auto;
   position: relative;
   overflow: hidden;
-  border: 10px solid transparent;
+  border: 10px solid black;
+  
 }
 
 .gallery-image:before {

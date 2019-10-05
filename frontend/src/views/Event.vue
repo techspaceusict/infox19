@@ -182,6 +182,7 @@ export default {
   height: 100%;
   border-radius: 20px;
   background-image: url("../assets/image.jpg");
+  
   background-position: center;
   background-size: cover;
 }
