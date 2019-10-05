@@ -135,6 +135,7 @@ template {
 
 .circles {
   padding: 0;
+  
 }
 
 .contact-parent-wrapper {
@@ -156,6 +157,7 @@ template {
   bottom: -150px;
   position: fixed;
   z-index: -1;
+
 }
 
 .circles li:nth-child(1) {
@@ -378,14 +380,16 @@ template {
 
     .d-flex {
       &:nth-child(even) {
-        background: linear-gradient(to left, #9cecfb, #65c7f7, #0052d4);
+        background: linear-gradient(to left,#2980b9,#2c3e50);
+       
+        
         box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.24);
         .eventName {
           color: white !important;
         }
       }
       &:nth-child(odd) {
-        background: linear-gradient(to left, #9cecfb, #65c7f7, #0052d4);
+        background: linear-gradient(to left, #3a7bd5, #3a6073);
         box-shadow: 10px 10px 100px #0576e65b;
         .eventName {
           color: white !important;
