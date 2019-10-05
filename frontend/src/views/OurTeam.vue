@@ -46,40 +46,6 @@
 
         <div class="gallery-item">
           <div class="gallery-image">
-            <img src="../assets/ourTeam/dhruv.jpeg" alt="" />
-            <h2>Dhruv</h2>
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/dhruvmisra"
-                  target="_blank"
-                  class="github"
-                  ><i class="fab fa-github fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/dhruvmisra"
-                  target="_blank"
-                  class="insta"
-                  ><i class="fab fa-instagram fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/dhruv-misra-35a96a170"
-                  target="_blank"
-                  class="linkedin"
-                  ><i class="fab fa-linkedin fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-
-        <div class="gallery-item">
-          <div class="gallery-image">
             <img
               src="../assets/ourTeam/vaidesh.jpeg"
               alt=""
@@ -115,6 +81,38 @@
           </div>
         </div>
 
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="../assets/ourTeam/dhruv.jpeg" alt="" />
+            <h2>Dhruv</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/dhruvmisra"
+                  target="_blank"
+                  class="github"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/dhruvmisra"
+                  target="_blank"
+                  class="insta"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/dhruv-misra-35a96a170"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         <div class="break"></div>
 
