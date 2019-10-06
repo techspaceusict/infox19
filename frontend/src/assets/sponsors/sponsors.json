@@ -42,29 +42,33 @@
       {"image":"git.png",
         "url":"https://github.com/"
       },
-      {"image":"dsc3.png",
-        "url":""
+      {"image":"tutorialsDuniya.jpeg",
+        "url":"https://edtimes.in/"
       }
+
     ],
     "row2": [
-      {"image":"domainX.png",
+      {"image":"sproots1.webp",
         "url":""
       },
       {"image":"microhost2.png",
         "url":"https://www.microhost.com/"
       },
-      {"image":"sproots1.webp",
+      {"image":"domainX.png",
         "url":""
       }
+
     ],
     "row3":[
       
       {"image":"sheores.png",
         "url":""
       },
-      {"image":"mait.jpg",
+      {
+        "image":"creativetim2.png",
         "url":""
       },
+
       {"image":"balasmiq.png",
         "url":"https://balsamiq.com/?gclid=EAIaIQobChMIs6Og0aWH5QIV2ARyCh2tegGSEAAYAiAAEgK16vD_BwE"
       }
@@ -91,17 +95,18 @@
     
     ],
     "row3":[  
-      {"image":"tutorialsDuniya.jpeg",
-        "url":"https://edtimes.in/"
-      },
       {
         "image":"ach.jpeg",
         "url":""
       },
-      {
-        "image":"creativetim2.png",
+      {"image":"mait.jpg",
+        "url":""
+      },
+      {"image":"dsc3.png",
         "url":""
       }
+
+
     ]
   
   }

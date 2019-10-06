@@ -16,12 +16,14 @@
               v-for="(sponsor, k) in sponsorRow"
               :key="k"
               :style="{ 'background-image': 'url(' + getImgUrl(sponsor.image) + ')' }"
+              
             ></div>
           </div>
         </div>
       </div>
     </div>
     <!-- <p class="text-white" v-for="(sponsor,i) in sponsors" :key="i">{{ sponsor }}</p> -->
+    <!-- <div class"sponsor-item" @click="getImgUrl(sponsor.url)"></div> -->
   </div>
 </template>
 
