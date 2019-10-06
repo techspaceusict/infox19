@@ -15,8 +15,8 @@
               class="sponsor-item"
               v-for="(sponsor, k) in sponsorRow"
               :key="k"
-              :style="{ 'background-image': 'url(' + getImgUrl(sponsor.image) + ')' }"
-            ></div>
+              :style="{ 'background-image': 'url(' + getImgUrl(sponsor.image) + ')','cursor':'pointer'}"
+              v-on:click="openLink(sponsor.url)"></div>
           </div>
         </div>
       </div>
@@ -59,6 +59,11 @@ export default {
     window.removeEventListener("resize", this.resizeHandler);
   },
   methods: {
+    openLink(link){
+      if(link==undefined || link=="") return;
+      console.log("LINK : "+link);
+      window.open(link,'_blank');
+    },
     resizeHandler(e) {
       console.log("event");
       let width = document.body.clientWidth;
@@ -119,6 +124,12 @@ export default {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  transition: all 0.2s;
+}
+
+.sponsor-item:hover{
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 255, 0.8));
+  transform: scale(1.1)
 }
 
 // .barista {
