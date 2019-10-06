@@ -518,6 +518,7 @@
     "time": "2PM - 5PM",
     "image": "war-01.webp",
     "description": "Ever wondered what 2 life-sized robots battling out in an arena look like? The wait for the extravagant robo warfare is over!! Electrotech presenting ROBOWAR - the ultimate battle among the best autobots. Battle with your bot... Screw your enemy line.. Mess your gaming skills... And the best can go home with a cheque to celebrate,<br>Ya guys, the time is up now let's begin the war!!<br>The war without bloodsheds and agony, where intelligence and accuracy get computed.The warfare is ready, let the robots war....!<br>UNIVERSITY SCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY , GGSIPU invites you to the extravaganza tech fest INFOX 2K19 and to the most spectacular and thrilling event Robowar.<br>Don't hesitate for being part of an extraordinary event and win a huge prize worth 25k 💸💸...!!!<br>There is no limit on team members and others rules will be shortly declared.<br><br>Participation fee: Rs. 50/- per team on the spot <br><br>Venue:Central Arena",
+    "ruleBook":"https://docs.google.com/document/d/1xGb1qQr69OADkM9-ERx4jWFHzfa6uKLzuQyPjb4DpbY/edit?usp=drivesdk",
     "organizers": [
       {
         "name": "Satyam ",
@@ -557,7 +558,8 @@
     "date": "October 13, 2019",
     "time": "2PM - 5PM",
     "image": "meshedup-01.webp",
-    "description": "Remember those childhood mazes on lunch boxes? Yeah they've grown up! and this time your bot is gonna find the route  bcoz, when the human brain gets a little fussy, the bots find the way with ease.<br>Infox provides you the opportunity to test your bot's maze solving capabilities. So bring in your *autonomous* bot and solve the wall maze in least time!!<br><br>At most 4 members per team<br><br>•        Each team has to build an autonomous robot<br> •        The robot has to avoid walls and reach the end of maze in minimum time <br><br>Venue:Central Arena",
+    "description": "Remember those childhood mazes on lunch boxes? Yeah they've grown up! and this time your bot is gonna find the route  bcoz, when the human brain gets a little fussy, the bots find the way with ease.<br>Infox provides you the opportunity to test your bot's maze solving capabilities. So bring in your autonomous bot and solve the maze in least time!!<br>At most 4 members per team<br><br>Each team has to build an autonomous robot <br>The robot has to avoid walls or follow black lines and reach the end of maze in minimum time.<br><br>Venue : Central Arena",
+    "ruleBook":"https://drive.google.com/file/d/15GJzYIhgcbS9CIxRnWC0NEKtc9XRjiUl/view?usp=drivesdk",
     "organizers": [
       {
         "name": "Yashkant",

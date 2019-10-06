@@ -20,6 +20,9 @@
                 <p v-html="event.description">{{}}</p>
               </div>
             </div>
+              <AppButton class="register my-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)">
+                Rule Book
+              </AppButton>
 
             <div class="footer">
               <!-- <transition name="slide-right"> -->
