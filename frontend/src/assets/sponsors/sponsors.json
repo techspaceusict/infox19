@@ -42,10 +42,10 @@
       {"image":"git.png",
         "url":"https://github.com/"
       },
-      {"image":"tutorialsDuniya.jpeg",
+      {"image":"dainik.png",
         "url":"https://edtimes.in/"
       }
-
+  
     ],
     "row2": [
       {"image":"sproots1.webp",
@@ -94,10 +94,10 @@
      {"image":"ED.jpeg",
       "url":"https://edtimes.in/"
     },
-    {"image":"dainik.png",
+    {"image":"tutorialsDuniya.jpeg",
       "url":"https://edtimes.in/"
     }
-    
+
     ],
     "row3":[  
       {
