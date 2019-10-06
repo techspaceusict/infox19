@@ -84,9 +84,11 @@
       }
     ],
     "row2": [
+      
      {"image":"ED.jpeg",
       "url":"https://edtimes.in/"
     }
+    
     ],
     "row3":[  
       {"image":"tutorialsDuniya.jpeg",
@@ -94,6 +96,10 @@
       },
       {
         "image":"ach.jpeg",
+        "url":""
+      },
+      {
+        "image":"creativetim2.png",
         "url":""
       }
     ]
