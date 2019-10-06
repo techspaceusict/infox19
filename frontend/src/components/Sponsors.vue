@@ -15,13 +15,14 @@
               class="sponsor-item"
               v-for="(sponsor, k) in sponsorRow"
               :key="k"
-              :style="{ 'background-image': 'url(' + getImgUrl(sponsor.image) + ')','cursor':'pointer'}"
-              v-on:click="openLink(sponsor.url)"></div>
+              :style="{ 'background-image': 'url(' + getImgUrl(sponsor.image) + ')'}"
+              v-on:click="/*openLink(sponsor.url)*/"></div>
           </div>
         </div>
       </div>
     </div>
     <!-- <p class="text-white" v-for="(sponsor,i) in sponsors" :key="i">{{ sponsor }}</p> -->
+    <!-- <div class"sponsor-item" @click="getImgUrl(sponsor.url)"></div> -->
   </div>
 </template>
 
@@ -125,12 +126,15 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.2s;
+  // cursor:pointer;
 }
 
-.sponsor-item:hover{
-  filter: drop-shadow(0px 0px 15px rgba(0, 0, 255, 0.8));
-  transform: scale(1.1)
-}
+// to be uncommented later
+
+// .sponsor-item:hover{
+//   filter: drop-shadow(0px 0px 15px rgba(0, 0, 255, 0.8));
+//   transform: scale(1.1)
+// }
 
 // .barista {
 //   background-image: url("../assets/sponsors/barista.jpg");
