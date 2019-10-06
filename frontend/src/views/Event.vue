@@ -20,10 +20,6 @@
                 <p v-html="event.description">{{}}</p>
               </div>
             </div>
-              <AppButton class="register my-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)">
-                Rule Book
-              </AppButton>
-
             <div class="footer">
               <!-- <transition name="slide-right"> -->
               <div class="extra" v-if="full">
@@ -56,6 +52,10 @@
               <AppButton class="register my-4" @click="openForm(event.link)">
                 Register
               </AppButton>
+              <AppButton class="register my-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)" :style="{marginLeft:'20px'}">
+                Rule Book
+              </AppButton>
+
               <!-- <div class="g-signin2" id="google-signin-button" data-onsuccess="onSignIn"></div> -->
               <!-- <button class="Gsignin" @click="GsignIn">Google</button>
               <button class="Fsignin" @click="FsignIn">Facebook</button>-->
