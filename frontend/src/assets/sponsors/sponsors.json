@@ -1,50 +1,92 @@
 {
   "layer-1": {
     "row1": [
-      "devfolio.png",
-      "hackDelhi.png",
-      "trademark.png"
+      {"image":"devfolio.png",
+       "url":"https://devfolio.co/"
+      },
+      {"image":"hackDelhi.png",
+        "url":""
+      },
+      {"image":"trademark.png",
+        "url":"https://tribeonexpedition.com/"
+      }
     ],
     "row2": [
-      "smaash4.png",
-      "pubgfoodcity.jpg",
-      
-      "msp3.png"
+      {"image":"smaash4.png",
+        "url":"https://smaaash.in/"
+      },
+      {"image":"pubgfoodcity.jpg",
+        "url":""
+      },
+      {"image":"msp3.png",
+        "url":""
+      }
     ],
     "row3": [
-      "codingNinja.svg",
-      "casio4.png",
-      "collegeFever.png"
+      {"image":"codingNinja.svg",
+        "url":"https://www.codingninjas.in/"
+      },
+      {"image":"casio4.png",
+        "url":"https://www.casio-intl.com/in/en/"
+      },
+      {"image":"collegeFever.png",
+        "url":"https://www.thecollegefever.com/"
+      }
     ]
   },
   "layer-2": {
     "row1": [
-      "acemain.jpg",
-      
-      "git.png",
-      "dsc3.png"
+      {"image":"acemain.jpg",
+        "url":"https://www.aceenggacademy.com/"
+      },
+      {"image":"git.png",
+        "url":"https://github.com/"
+      },
+      {"image":"dsc3.png",
+        "url":""
+      }
     ],
     "row2": [
-      "domainX.png",
-      "microhost2.png",
-      "sproots1.webp"
+      {"image":"domainX.png",
+        "url":""
+      },
+      {"image":"microhost2.png",
+        "url":"https://www.microhost.com/"
+      },
+      {"image":"sproots1.webp",
+        "url":""
+      }
     ],
     "row3":[
       
-      "sheores.png",
-      "mait.jpg",
-      "balasmiq.png"
+      {"image":"sheores.png",
+        "url":""
+      },
+      {"image":"mait.jpg",
+        "url":""
+      },
+      {"image":"balasmiq.png",
+        "url":"https://balsamiq.com/?gclid=EAIaIQobChMIs6Og0aWH5QIV2ARyCh2tegGSEAAYAiAAEgK16vD_BwE"
+      }
     ]
     
   },
   "layer-3": {
     "row1": [
-      "rees52.jpeg",
-      "getitembedded.jpeg",
-      "logo_Manhattan.webp"
+      {"image":"rees52.jpeg",
+        "url":"https://rees52.com/"
+      },
+      {"image":"getitembedded.jpeg",
+        "url":"http://getitembedded.com/"
+      },
+      {"image":"logo_Manhattan.webp",
+        "url":""
+      }
     ],
     "row2": [
-     "ED.jpeg"
+     {"image":"ED.jpeg",
+      "url":"https://edtimes.in/"
+    }
     ],
     "row3":[  
 ]

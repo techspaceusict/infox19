@@ -15,8 +15,15 @@
               class="sponsor-item"
               v-for="(sponsor, k) in sponsorRow"
               :key="k"
-              :style="{ 'background-image': 'url(' + getImgUrl(sponsor) + ')' }"
+              :style="{ 'background-image': 'url(' + getImgUrl(sponsor.image) + ')' }"
             ></div>
+            <!-- <div
+              class="sponsor-item"
+              v-for="(sponsor, k) in sponsorRow"
+              :key="k"
+              @click=="openForm(sponsor.url)"
+            ></div> -->
+
           </div>
         </div>
       </div>
