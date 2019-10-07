@@ -40,7 +40,7 @@ npm run serve
 - [**Vue.js**](https://vuejs.org) for dividing the project into components for a larger team to contribute without git restrictions.
 - [**AOS**](https://michalsnik.github.io/aos) for the scrolling fade animations.
 - [**Rellax.js**](https://dixonandmoe.com/rellax/) for the content Parrallax.
-- [**Card Design**](https://github.com/dhruvmisra/card-design-prototype) for the event card animation.
+- [**Vue Event Card**](https://github.com/dhruvmisra/vue-event-card) for the event card animation.
 
 ## Team -
 
