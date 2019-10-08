@@ -88,9 +88,7 @@
       }
     ],
     "row2": [
-      {
-        "image":"dainikjagran.png"
-      },
+     
      {"image":"ED.jpeg",
       "url":"https://edtimes.in/"
     },
