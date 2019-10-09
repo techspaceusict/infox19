@@ -6,7 +6,7 @@
     <div class="info container">
       <div class="row">
         <div
-          class="col-md-6 text-center d-flex justify-content-center align-items-center"
+          class="col-md-12 text-center d-flex justify-content-center align-items-center"
         >
           <div class="temp">
             <span>#</span>
@@ -15,14 +15,14 @@
             <span>16</span>
           </div>
         </div>
-        <div
+        <!-- <div
           class="col-md-6 text-center d-flex justify-content-center align-items-center"
         >
           <div class="date">
             Back in
             <br />{{ days }} Days...
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
