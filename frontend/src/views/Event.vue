@@ -52,7 +52,7 @@
               <AppButton class="register my-4" @click="openForm(event.link)">
                 Register
               </AppButton>
-              <AppButton class="register my-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)" :style="{marginLeft:'20px'}">
+              <AppButton class="register my-4 ml-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)">
                 Rule Book
               </AppButton>
 
@@ -215,10 +215,6 @@ export default {
 //   display: flex;
 //   flex-direction: column;
 // }
-
-.register_button {
-  background: #0571ff;
-}
 
 .title {
   position: relative;
@@ -388,6 +384,12 @@ export default {
 @media screen and (max-width: 540px) {
   .extra {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 415px) {
+  .register {
+    display: block;
+    margin: 30px auto !important;
   }
 }
 </style>
