@@ -159,7 +159,7 @@
     ],
     "type": { "name": "programming", "priority": 1 },
     "teamSize": "1-2 members",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfBkD8TaxQO26GLqeWHKb0zuyOhwC1W_2ssUiYVhI9FRk78EA/viewform"
+    "link": "https://bit.ly/2p9IteT"
   },
 
   {
@@ -539,6 +539,7 @@
     "time": "10:30AM - 2PM",
     "image": "race-01.webp",
     "description": "Are your wheels ready to beat the heat ? Because if they are, then InfoXpression, the tech-fest of GGSIPU invites you to participate in the High-adrenaline, GET-SET-GO! , our very own Robot racing competition.<br>When it comes to GET-SET-GO, it’s not just about how fast you are, but also about how tough you are .Here you pit your sturdy bots against not just other bots, but also some really Challenging hurdles.<br>At most 4 members per team are allowed for this competition and it would be preferable if the robots are wireless.<br>What’s at stake you might ask? A prize of 18k and some huge respect in the robotics circles.<br>DO YOU HAVE WHAT IT TAKES TO WIN THIS ? If yes, then we would love to see you bring out your cheetahs to GGSIPU, Dwarka on the 13th of October.<br><br>Participation fee: Rs. 50/- per team on the spot <br><br>Venue : Central Arena",
+    "ruleBook":"https://docs.google.com/document/d/162jYJacP5PLw9yab7_-FpfzV5N0pwZ-kAlGgV-pK3-A/edit?usp=sharing",
     "organizers": [
       {
         "name": "Varun",
@@ -580,6 +581,7 @@
     "time": "2PM - 5PM",
     "image": "lordofline.webp",
     "description": "Passionate about Robotics??🎮🏎 Well , here is your chance to showcase your robotic talent on 13th October at 10:30 AM at D Block Lab.<br><br>Bring your *Line Follower Robot* which can trace a Black coloured path given to it. Path won't be straight↪➡️⤵️🔄 , so design ur Robot🏎 intelligently so that it can trace any type of path. <br><br>There will only be 2 levels and the robot should be autonomous.🤖<br><br>Losing The Line🛸 - Any Robot that loses the line will be given a penalty of some time.<br>The Robot which traces the last level in least time will be declared as winner🏎👑✌.<br><br>Each team can have maximum 4 members<br><br>Participation fee: Rs. 50/- per team on the spot <br><br>Venue:Electronics-Lab",
+    "ruleBook":"https://docs.google.com/document/d/1_zKt9TO3ElUwFH_fyVNCQ5D5oIWccr0dvy5DORxJHGA/edit?usp=sharing",
     "organizers": [
       {
         "name": "Rohan",
@@ -600,6 +602,7 @@
     "time": "10:30AM - 2PM",
     "image": "liga-01.webp",
     "description": "Fusing technology with sports seems to be an inherent quality among us engineers. Hence this InfoXpression , we at Electrotech, USICT present you Robo Liga, the perfect place to be if you have a zeal for robotics and are a soccer lover.<br><br>This is an event where we aim to find the perfect soccer master in robots. Build a manually controlled robot capable of competing one on one  in the game of soccer. Robots can be wired or wireless( Extra points for wireless! ).<br><br>Train your bots to make goals which can change the game!<br>Prizes worth 15k!<br><br>Participation fee: Rs. 50/- per team on the spot <br><br>Venue:Central Arena",
+    "ruleBook":"https://docs.google.com/document/d/1o0TTOV-RA7Q_N4BYs80RhUgpL-ljib9fdwXwOfun-FA/edit?usp=drivesdk",
     "organizers": [
       {
         "name": "Shilpi",
