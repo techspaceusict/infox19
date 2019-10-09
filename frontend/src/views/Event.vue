@@ -45,14 +45,14 @@
                 <div class="organizers">
                   <div v-for="(org, i) in event.organizers" :key="i">
                     <div>{{ org.name }}</div>
-                    <div>{{ org.contact }}</div>
+                    <div> <a :href="'tel:' + org.contact">{{ org.contact }}</a></div>
                   </div>
                 </div>
               </div>
               <AppButton class="register my-4" @click="openForm(event.link)">
                 Register
               </AppButton>
-              <AppButton class="register my-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)" :style="{marginLeft:'20px'}">
+              <AppButton class="register my-4 ml-4" v-if="event.ruleBook" @click="openForm(event.ruleBook)">
                 Rule Book
               </AppButton>
 
@@ -216,10 +216,6 @@ export default {
 //   flex-direction: column;
 // }
 
-.register_button {
-  background: #0571ff;
-}
-
 .title {
   position: relative;
   font-weight: 500;
@@ -262,6 +258,11 @@ export default {
       > div > div:nth-child(1) {
         font-size: 20px;
         text-transform: uppercase;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
       }
     }
   }
@@ -388,6 +389,12 @@ export default {
 @media screen and (max-width: 540px) {
   .extra {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 415px) {
+  .register {
+    display: block;
+    margin: 30px auto !important;
   }
 }
 </style>

@@ -61,9 +61,9 @@ export default {
   },
   methods: {
     openLink(link){
-      if(link==undefined || link=="") return;
-      console.log("LINK : "+link);
-      window.open(link,'_blank');
+      if(link == undefined || link == "") return;
+      console.log("LINK : " + link);
+      window.open(link, '_blank');
     },
     resizeHandler(e) {
       console.log("event");
