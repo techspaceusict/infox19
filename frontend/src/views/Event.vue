@@ -45,7 +45,7 @@
                 <div class="organizers">
                   <div v-for="(org, i) in event.organizers" :key="i">
                     <div>{{ org.name }}</div>
-                    <div>{{ org.contact }}</div>
+                    <div> <a :href="'tel:' + org.contact">{{ org.contact }}</a></div>
                   </div>
                 </div>
               </div>
@@ -258,6 +258,11 @@ export default {
       > div > div:nth-child(1) {
         font-size: 20px;
         text-transform: uppercase;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
       }
     }
   }
