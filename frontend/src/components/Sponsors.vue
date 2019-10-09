@@ -41,7 +41,7 @@ export default {
         relativeToWrapper: true
       },
       layer2: {
-        speed: -1,
+        speed: -0.7,
         wrapper: "#sponsors",
         relativeToWrapper: true
       },
@@ -227,6 +227,15 @@ export default {
   // margin-top: -20em;
   z-index: 3;
   margin-top : 13em;
+  >div>div:nth-child(2){
+    >div:nth-child(1){
+      transform: translate(300px, 100px);
+    }
+
+    >div:nth-child(2){
+      transform: translate(100px, 50px);
+    }
+  }
 }
 
 .layer-1 .sponsor-item {
@@ -272,9 +281,17 @@ export default {
   #sponsors {
     margin-top: -40em;
   }
+  
+  .absoulte >div>div>div{
+    transform: translate(0,0) !important;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+
+  .absoulte >div>div>div{
+    transform: translate(0,0) !important;
+  }
   .sponsor-item {
     width: 6em !important;
     height: 6em !important;

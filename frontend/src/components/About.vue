@@ -20,7 +20,7 @@
         >
           <div class="date">
             Back in
-            <br />{{ days }} Days...
+            <br />{{ days }} Day...
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ export default {
       var today = new Date().getTime();
       var date = new Date("Oct 11, 2019 00:00:00").getTime();
       var dist = date - today;
-      this.days = Math.floor(dist / (1000 * 60 * 60 * 24));
+      this.days = Math.ceil(dist / (1000 * 60 * 60 * 24));
     }, 1000);
   }
 };
